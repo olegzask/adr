@@ -30,7 +30,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI= npm run build",
+    "build": "CI=false build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
