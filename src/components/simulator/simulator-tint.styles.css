@@ -89,12 +89,12 @@
 
 .number-inactive:hover {
   transition: 0.2s;
-  background-color: rgb(133, 255, 62);
+  background-color: rgb(55, 199, 252);
 }
 
 .shade-clicked {
   transition: 0.5s;
-  background-color: rgb(133, 255, 62);
+  background-color: rgb(64, 204, 255);
   color: black;
 }
 
@@ -140,7 +140,7 @@
 }
 
 .price-total {
-  background-color: rgb(133, 255, 62);
+  background-color: rgb(0, 161, 219);
   border-radius: 0.3rem;
   width: 50%;
   text-align: center;

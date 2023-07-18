@@ -4,10 +4,10 @@ import { scrollToTop } from "../../components/helperFunctions/helpers";
 import { BsArrowRight } from "react-icons/bs";
 
 const LinkComponent = ({ opts }) => {
-  const { name, linkTo, clName } = opts;
+  const { name, linkTo, clName, func } = opts;
 
   return (
-    <Link onClick={scrollToTop} className="button-link" to={`/${linkTo}`}>
+    <Link onClick={func} className="button-link" to={`/${linkTo}`}>
       <div className={`button-link-container ${clName}`}>
         {name}
         <BsArrowRight className={`link-arrow ${clName}`} />

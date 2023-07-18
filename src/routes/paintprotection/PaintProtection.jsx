@@ -11,7 +11,7 @@ export default function PaintProtection() {
       <div className="autotint-container">
         <div className="tint-topper">
           <h2 className="service-container-header tint-header ppf-header">
-            PAINT <span className="our-services">PROTECTION</span>
+            PAINT <span className="our-services">PROTECTION FILM</span>
           </h2>
 
           <span className="tint-description">
@@ -21,9 +21,9 @@ export default function PaintProtection() {
           </span>
           <br />
 
-          <span className="tint-description-lower">
+          {/* <span className="tint-description-lower">
             NOT SURE WHAT KIND OF FILM YOU NEED? EXPLORE OUR OPTIONS!
-          </span>
+          </span> */}
         </div>
 
         {ppfOptions.map((opt, id) => {

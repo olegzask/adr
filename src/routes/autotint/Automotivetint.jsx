@@ -9,18 +9,13 @@ const Automotivetint = () => {
     <div className="autotint-main-container">
       <div className="autotint-container">
         <div className="tint-topper">
-          <h2 className="service-container-header tint-header">
+          <h2 className="service-container-header ppf-header">
             WINDOW <span className="our-services">TINT</span>
           </h2>
 
           <span className="tint-description">
-            With so many window tint films available, making the perfect choice
-            for your vehicle has never been easier. From the latest, top of the
-            line nano-ceramic, high performance metallic hybrid, and even
-            traditional dyed window tint options, there's a PRIME ™ film for
-            every application. It outperforms other types of tint to keep you
-            comfortable and protected. All PRIME Window Tint is backed by
-            lifetime transferable warranty.
+           Select your custom level of protection with SunTek® automotive tint. Available in shades and hues ranging from rich black to optically clear, SunTek tint improves the look and performance of your vehicle’s window glass.
+           From ceramic nanoparticle technology to dyed charcoal construction, SunTek tint can visually enhance your vehicle’s appearance while helping to deliver the solar protection that counts.
           </span>
           <br />
 

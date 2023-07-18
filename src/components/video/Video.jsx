@@ -6,7 +6,7 @@ export default function Video() {
     <div className="video-container">
       <video
         className="main-video"
-        src="videos/vid2.mp4"
+        src="videos/car-25.mp4"
         autoPlay="autoplay"
         muted={true}
         playsInline

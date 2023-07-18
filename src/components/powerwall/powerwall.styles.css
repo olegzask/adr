@@ -78,7 +78,7 @@
 @keyframes glowing {
   0% {
     opacity: 0.3;
-    color: rgb(133, 255, 62);
+    color: rgb(0, 161, 219);
   }
   9% {
     color: rgb(182, 182, 182);
@@ -113,7 +113,7 @@
   }
 
   50% {
-    color: rgb(133, 255, 62);
+    color: rgb(0, 161, 219);
   }
   55% {
     color: rgb(184, 184, 184);
@@ -137,11 +137,11 @@
     color: rgb(61, 61, 61);
   }
   50% {
-    color: rgb(142, 253, 77);
+    color: rgb(41, 198, 255);
   }
 
   100% {
-    color: rgb(133, 255, 62);
+    color: rgb(0, 161, 219);
   }
 }
 

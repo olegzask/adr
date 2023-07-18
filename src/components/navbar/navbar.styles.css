@@ -6,7 +6,6 @@
 .navbar {
   margin: 0;
   width: 100%;
-  height: 3rem;
   display: flex;
   justify-content: center;
   background-color: rgb(0, 0, 0, 0.6);
@@ -34,23 +33,24 @@
 
 .nav-link:hover {
   transition: 0.3s;
-  color: rgb(133, 255, 62);
+  color: rgb(0, 161, 219);
 }
 
 .navbar-logo {
   color: white;
   cursor: pointer;
   margin: 0;
-  font-size: 3.2rem;
+  /* font-size: 3.2rem; */
+  height:4rem;
 }
 
 .border {
-  border: 0.15rem solid rgb(133, 255, 62);
+  border: 0.15rem solid rgb(0, 161, 219);
 }
 
 .navbar-logo:hover {
   transition: 0.2s ease-in;
-  color: rgb(133, 255, 62);
+  color: rgb(0, 161, 219);
 }
 
 .navbar-logo:active {
@@ -66,7 +66,7 @@
 
 #hamb-menu-icon:hover {
   transition: 0.2s ease-in;
-  color: rgb(133, 255, 62);
+  color: rgb(0, 161, 219);
 }
 
 @media (max-width: 500px) {

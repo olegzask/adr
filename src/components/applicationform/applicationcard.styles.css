@@ -18,7 +18,7 @@ input:focus {
 
 .application-input:focus {
   outline: rgb(133, 255, 62);
-  border: 0.1rem solid rgb(133, 255, 62);
+  border: 0.1rem solid rgb(0, 161, 219);
 }
 
 .job-form-container {
@@ -78,7 +78,7 @@ input:focus {
 
 .user-notes:focus {
   outline: rgb(133, 255, 62);
-  border: 0.1rem solid rgb(133, 255, 62);
+  border: 0.1rem solid rgb(0, 161, 219);
 }
 
 .job-submit-btn {
@@ -98,18 +98,18 @@ input:focus {
 .job-submit-btn:hover {
   transition: 0.3s;
   border: none;
-  background-color: rgb(133, 255, 62);
+  background-color: rgb(0, 161, 219);
 }
 
 .job-submit-btn:focus {
   transition: 0.1s;
-  background-color: rgb(133, 255, 62);
+  background-color: rgb(0, 161, 219);
   outline: none;
 }
 
 .job-submit-btn:active {
   transition: 0.1s;
-  background-color: rgb(97, 180, 49);
+  background-color: rgb(0, 161, 219);
   border: none;
 }
 

@@ -336,13 +336,13 @@ export const SimulatorPpf = () => {
             <span className="price">{`Estimated Price: $${totalPrice.toFixed(
               2
             )}`}</span>
-            <LinkComponent
+            {/* <LinkComponent
               opts={{
                 name: "CONTACT US",
                 linkTo: "contact",
                 clName: "btn-sim",
               }}
-            />
+            /> */}
           </div>
         </div>
       </div>

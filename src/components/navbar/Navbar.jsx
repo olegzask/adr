@@ -31,7 +31,7 @@ export const Navbar = () => {
   const goToServices = (e) => {
     setTimeout(
       () => {
-        const servicesEl = document.getElementById("huevo");
+        const servicesEl = document.getElementById("ankor");
         servicesEl.scrollIntoView({
           behavior: "smooth",
           block: "start",
@@ -41,29 +41,86 @@ export const Navbar = () => {
 
       100
     );
+
   };
+  const goToAbout = (e) => {
+    setTimeout(
+      () => {
+        const servicesEl = document.getElementById("ankor-3");
+        servicesEl.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "center",
+        });
+      },
+
+      100
+    );
+
+  };
+
+  const goToContact = (e) => {
+    setTimeout(
+      () => {
+        const servicesEl = document.getElementById("ankor-2");
+        servicesEl.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "center",
+        });
+      },
+
+      100
+    );
+
+  };
+
+  const goToDealer = (e) => {
+    setTimeout(
+      () => {
+        const servicesEl = document.getElementById("dp");
+        servicesEl.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "center",
+        });
+      },
+
+      100
+    );
+
+  };
+
 
   return (
     <div className="navbar-container">
-      {path === "/" ? <PowerWall /> : null}
+      {/* {path === "/" ? <PowerWall /> : null} */}
       <div className={`navbar ${offset > 50 && "scrolled"}`}>
         <div className="navlinks-cont">
           <Link onClick={scrollToTop} to="/">
-            <FaPowerOff className="navbar-logo" />
+            {/* <FaPowerOff className="navbar-logo" /> */}
+            <img className="navbar-logo"  src="/logos/edm_3.png" alt="logo" />
+
           </Link>
-          <Link onClick={scrollToTop} className="nav-link" to="/about">
+          <Link onClick={goToAbout} className="nav-link" to="/">
             About
           </Link>
           <Link onClick={goToServices} className="nav-link" to="/">
             Services
           </Link>
+          <Link onClick={goToDealer} className="nav-link" to="/">
+            Dealer Program
+          </Link>
+          <Link onClick={scrollToTop} className="nav-link" to="/simulator">
+            Simulator
+          </Link>
           {/* <Link onClick={scrollToTop} className="nav-link" to="/news">
             News
           </Link> */}
-          <Link onClick={scrollToTop} className="nav-link" to="/careers">
+          {/* <Link onClick={scrollToTop} className="nav-link" to="/careers">
             Careers
-          </Link>
-          <Link onClick={scrollToTop} className="nav-link" to="/contact">
+          </Link> */}
+          <Link onClick={goToContact} className="nav-link" to="/">
             Contact
           </Link>
         </div>

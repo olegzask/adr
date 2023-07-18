@@ -12,30 +12,25 @@ import "./home.styles.css";
 export const Home = () => {
   const { clickedOn, path } = useContext(BooleanContext);
 
+
+
   return (
     <div
       id="home"
-      className={`home-page-container ${
-        clickedOn || path != "/" ? "visible" : "hidden"
-      }`}
+      className={`home-page-container `}
     >
       <Video />
       <TextVideo />
-      <div className="about-section">
+      <div className="about-section" >
         <About />
-        <LinkComponent
-          opts={{
-            name: "SEE WHO WE ARE",
-            linkTo: "about",
-            clName: "about-btn",
-          }}
-        />
+       
       </div>
-      <div className="services-section">
+      <div className="services-section" id="ankor">
         <Services />
       </div>
       {/* <Brands /> */}
-      <ContactForm />
+      <ContactForm  />
+
     </div>
   );
 };

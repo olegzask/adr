@@ -78,10 +78,10 @@ export const ContactForm = () => {
   };
 
   return (
-    <div className="contactform-container">
-      <h2 className="contactform-header">Let's chat over a brew.</h2>
+    <div className="contactform-container" id="ankor-2" >
+      <h2 className="contactform-header" >Let's get the conversation rolling!</h2>
       <h3 className="contactform-header-two">
-        Coffee, tea, or something stronger...
+      Don't hesitate to reach out... we're eager to provide the help you need.
       </h3>
       {error ? (
         <ErrorWindow fields={{ handler: setError, info: missing }} />

@@ -7,6 +7,10 @@
   left: 1rem;
 }
 
+.text-main {
+  color: white;
+}
+
 .text-top {
   display: flex;
   flex-direction: column;
@@ -27,7 +31,11 @@
 .button-link {
   font-size: 1.3rem;
   text-decoration: none;
-  color: rgb(97, 255, 35);
+  color: rgb(0, 161, 219);
+}
+
+.done-right {
+  color: rgb(0, 161, 219);;
 }
 
 .link-arrow {
@@ -44,7 +52,7 @@
 
 .button-link:hover {
   transition: 0.3s ease-in-out;
-  color: rgb(96, 197, 37);
+  color: rgb(0, 161, 219);
 }
 
 .text-main {

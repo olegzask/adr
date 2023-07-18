@@ -21,7 +21,7 @@
 
 .model-name {
   font-size: 1rem;
-  color: rgb(133, 255, 62);
+  color: rgb(0, 161, 219);
 }
 
 .info-nav {
@@ -91,7 +91,7 @@
 .clipboard {
   margin: 0 auto;
   font-size: 5rem;
-  color: rgb(133, 255, 62);
+  color: rgb(0, 161, 219);
 }
 
 .prd-feature {
@@ -167,7 +167,7 @@
   font-size: 1.2rem;
   border: none;
   background-color: white;
-  color: rgb(133, 255, 62);
+  color: rgb(0, 161, 219);
 }
 
 .store-img {
@@ -188,7 +188,7 @@
 .active-info {
   transition: 0.2s;
   color: black;
-  background-color: rgb(133, 255, 62);
+  background-color: rgb(0, 161, 219);
   border: none;
   border-radius: 0.2rem;
 }

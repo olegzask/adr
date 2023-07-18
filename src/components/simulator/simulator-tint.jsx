@@ -260,13 +260,13 @@ export const SimulatorTint = () => {
           </div>
           <div className="price-tint">
             <span className="price-total">{`Estimated Price: $${totalPrice}`}</span>
-            <LinkComponent
+            {/* <LinkComponent
               opts={{
                 name: "CONTACT US",
                 linkTo: "contact",
                 clName: "btn-sim",
               }}
-            />
+            /> */}
           </div>
         </div>
       </div>

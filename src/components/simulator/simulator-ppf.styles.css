@@ -39,7 +39,7 @@
 }
 
 .fp-button:hover {
-  background-color: rgb(133, 255, 62);
+  background-color: rgb(0, 161, 219);
   color: black;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .button-selected {
-  background-color: rgb(133, 255, 62);
+  background-color: rgb(0, 161, 219);
   color: black;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .price {
-  background-color: rgb(133, 255, 62);
+  background-color: rgb(0, 161, 219);
   color: black;
   border-radius: 0.3rem;
   width: 60%;
