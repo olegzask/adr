@@ -154,7 +154,7 @@ export const SimulatorPpf = () => {
 
       if (el.checked && el.id === "hoodfenders" && coverage === "full") {
         showImgPart(`${el.id}full`, true);
-        setPrice({ ...price, [el.id]: prices.car[el.id] + 800 });
+        setPrice({ ...price, [el.id]: prices.car[el.id] + 600});
       }
       if (!el.checked && el.id === "hoodfenders" && coverage === "full") {
         showImgPart(`${el.id}full`, false);
@@ -200,7 +200,7 @@ export const SimulatorPpf = () => {
 
       if (el.checked && el.id === "hoodfenders" && coverage === "full") {
         showImgPart(`${el.id}full`, true);
-        setPrice({ ...price, [el.id]: prices.suv[el.id] + 800 });
+        setPrice({ ...price, [el.id]: prices.suv[el.id] + 600 });
       }
       if (!el.checked && el.id === "hoodfenders" && coverage === "full") {
         showImgPart(`${el.id}full`, false);
@@ -230,7 +230,7 @@ export const SimulatorPpf = () => {
 
       if (el.checked && el.id === "hoodfenders" && coverage === "full") {
         showImgPart(`${el.id}full`, true);
-        setPrice({ ...price, [el.id]: prices.truck[el.id] + 800 });
+        setPrice({ ...price, [el.id]: prices.truck[el.id] + 600 });
       }
       if (!el.checked && el.id === "hoodfenders" && coverage === "full") {
         showImgPart(`${el.id}full`, false);
