@@ -15,9 +15,89 @@ export default function MobileMenu() {
     } else {
       menu.classList.remove("hide");
     }
-    scrollToTop();
+  };
+  
+
+  const goToServices = (e) => {
+    setTimeout(
+      () => {
+        const servicesEl = document.getElementById("ankor");
+        servicesEl.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "center",
+        });
+  
+hideMenu();
+      },
+
+      100
+    );
   };
 
+
+  const goToAbout = (e) => {
+    setTimeout(
+      () => {
+        const servicesEl = document.getElementById("ankor-3");
+        servicesEl.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "center",
+        });
+hideMenu();
+
+      },
+
+      100
+    );
+
+  };
+
+  const goToContact = (e) => {
+    setTimeout(
+      () => {
+        const servicesEl = document.getElementById("ankor-2");
+        servicesEl.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "center",
+        });
+hideMenu();
+
+      },
+
+      100
+    );
+
+  };
+
+  const goToSimulator = (e) => {
+   scrollToTop();
+   hideMenu();
+
+  };
+
+  const goToDealer = (e) => {
+    setTimeout(
+      () => {
+        const servicesEl = document.getElementById("dp");
+        servicesEl.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "center",
+        });
+hideMenu();
+
+      },
+
+      100
+    );
+
+  };
+
+
+  
   return (
     <div id="mobile" className="mobile-menu-container">
       <MdClose
@@ -27,22 +107,22 @@ export default function MobileMenu() {
       />
 
       <div className="mobile-link-container">
-        <Link onClick={hideMenu} className="mobile-link" to="/about">
+        <Link onClick={goToAbout} className="mobile-link" to="/">
           About
         </Link>
-        <Link onClick={hideMenu} className="mobile-link" to="/services">
+        <Link onClick={goToServices} className="mobile-link" to="/">
           Services
         </Link>
-        <Link onClick={hideMenu} className="mobile-link" to="/simulator">
+        <Link onClick={goToSimulator} className="mobile-link" to="/simulator">
           Simulator
         </Link>
-        <Link onClick={hideMenu} className="mobile-link" to="/sales">
+        {/* <Link onClick={hideMenu} className="mobile-link" to="/sales">
           Sales
+        </Link> */}
+        <Link onClick={goToDealer} className="mobile-link" to="/">
+          Dealer Program
         </Link>
-        <Link onClick={hideMenu} className="mobile-link" to="/careers">
-          Careers
-        </Link>
-        <Link onClick={hideMenu} className="mobile-link" to="/contact">
+        <Link onClick={goToContact} className="mobile-link" to="/">
           Contact
         </Link>
       </div>

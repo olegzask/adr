@@ -3,7 +3,7 @@
   width: 90%;
   height: auto;
   position: absolute;
-  top: 6em;
+  top: 9em;
   left: 1rem;
 }
 
@@ -35,7 +35,15 @@
 }
 
 .done-right {
-  color: rgb(0, 161, 219);;
+  color: rgb(0, 161, 219);
+  font-size: 2rem;
+}
+
+.hdr-ppf {
+  font-size: 2rem;
+}
+.hdr-tint {
+  font-size: 2rem;
 }
 
 .link-arrow {
@@ -72,5 +80,20 @@
 
   .text-main {
     font-size: 2rem;
+  }
+
+  .hdr-ppf {
+    font-size: 4rem;
+  }
+  .hdr-tint {
+    font-size: 4rem;
+  }
+
+  .done-right {
+    font-size: 4rem;
+  }
+
+  .text-on-video {
+    top: 8rem;
   }
 }
