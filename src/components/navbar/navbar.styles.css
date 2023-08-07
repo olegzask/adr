@@ -76,12 +76,25 @@
 
   #hamb-menu-icon {
     display: block;
+    right: 3rem;
+  }
+
+  .hamb-menu-container {
+    position: relative;
+    right: 10rem;
   }
 
   .navbar {
     gap: 14rem;
     height: 4.5rem;
+    justify-content: space-around;
   }
+  .navbar-logo {
+    height: 3.2rem;
+    margin-left: 4rem;
+  }
+
+  
 }
 
 @media (min-width: 1000px) {
