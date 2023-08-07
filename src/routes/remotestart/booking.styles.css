@@ -66,3 +66,9 @@
 .remote-btn {
   color: pink;
 }
+
+@media (max-width: 500px)  {
+  #bookingForm {
+left: -0.5rem;
+  }
+}

@@ -8,9 +8,9 @@ import { tintPartsSedan, tintPartsTruck, tintPartsSuv } from "./tintParts";
 import "./simulator-tint.styles.css";
 
 const tintPrices = {
-  car: { fronts: 130, rears: 180, rearws: 120, wsbrow: 80 },
-  suv: { fronts: 130, rears: 180, rearws: 100, wsbrow: 80 },
-  truck: { fronts: 130, rears: 100, rearws: 100, wsbrow: 80 },
+  car: { fronts: 100, rears: 150, rearws: 100, wsbrow: 80 },
+  suv: { fronts: 100, rears: 180, rearws: 100, wsbrow: 80 },
+  truck: { fronts: 100, rears: 100, rearws: 100, wsbrow: 80 },
 };
 
 export const SimulatorTint = () => {

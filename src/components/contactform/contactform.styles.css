@@ -81,3 +81,14 @@
   transition: 0.1s;
   background-color: rgb(0, 161, 219);
 }
+
+
+@media (max-width: 500px)  {
+  .contactform-header {
+    font-size: 1.5rem;
+  }
+
+  .contactform-header-two {
+    font-size: 0.7rem;
+  }
+}
