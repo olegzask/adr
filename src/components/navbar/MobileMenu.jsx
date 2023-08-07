@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { MdClose } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
+import { FaSms} from "react-icons/fa"
 import { scrollToTop } from "../helperFunctions/helpers";
 import "./mobileMenu.styles.css";
 
@@ -127,11 +128,11 @@ hideMenu();
         </Link>
       </div>
       <div className="lower-nav">
-        <a href="tel:17804409438" className="calus">
-          <FiPhoneCall className="phone-icon" /> Call Us
+        <a href="sms:13069309738" className="calus">
+          <FaSms className="phone-icon" /> Text Us
         </a>
         <a
-          href="https://www.google.com/maps/place/Adrenalin+Audio+%2F+Remote+Starters,+Window+Tint+and+Film+Protection/@53.4961639,-113.4827581,15z/data=!4m5!3m4!1s0x0:0x47bceeee593e223!8m2!3d53.4961639!4d-113.4827581?hl=en"
+          href="https://www.google.com/maps/place/2784+Maple+Way+NW,+Edmonton,+AB+T6T+1J2/data=!4m2!3m1!1s0x53a019d005d78d55:0xcc6bb6266c301108?sa=X&ved=2ahUKEwj5tcjCnpeAAxW_AzQIHbICArgQ8gF6BAgPEAA&ved=2ahUKEwj5tcjCnpeAAxW_AzQIHbICArgQ8gF6BAgSEAI"
           className="calus"
           target="_blank"
         >

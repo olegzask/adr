@@ -110,9 +110,9 @@ export const Footer = () => {
         <a className="direct-link" href="sms:1000000000">
           <FaSms className="phone-icon-footer" />1.760.333.3333 - Text Only
         </a>
-        <a className="direct-link" href="mailto:info@edmtintstudio.ca">
+        <a className="direct-link" href="mailto:edmtintstudio@gmail.com">
           <HiOutlineMail className="phone-icon-footer" />{" "}
-          info@edmtintstudio.ca
+          edmtintstudio@gmail.com
         </a>
         <a
           href="https://www.google.com/maps/place/2784+Maple+Way+NW,+Edmonton,+AB+T6T+1J2/data=!4m2!3m1!1s0x53a019d005d78d55:0xcc6bb6266c301108?sa=X&ved=2ahUKEwj5tcjCnpeAAxW_AzQIHbICArgQ8gF6BAgPEAA&ved=2ahUKEwj5tcjCnpeAAxW_AzQIHbICArgQ8gF6BAgSEAI"
