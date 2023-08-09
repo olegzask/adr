@@ -158,11 +158,11 @@ export const Footer = () => {
           </a> */}
         </div>
         <div className="social-media-icons">
-          <a href="https://www.facebook.com/adrenalinaudio/" target="_blank">
+          <a href="" target="_blank">
             <ImFacebook className="social-icon" />
           </a>
           <a
-            href="https://instagram.com/adrenalin_audio?igshid=YmMyMTA2M2Y="
+            href=""
             target="_blank"
           >
             <BsInstagram className="social-icon" />

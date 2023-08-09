@@ -282,9 +282,13 @@ export const SimulatorPpf = () => {
             );
           })}
         </div>
-        <span className="note">
-          *Please note, real-life result may look slightly different
-        </span>
+        <p className="note">
+          *Please note, real-life result may look slightly different. 
+        </p>
+        <p className="note">
+          Prices may vary, please contact us with your vehicle details for personal quote.
+        </p>
+        
       </div>
       <div className="opts-container">
         <div className="radio-buttons-container">

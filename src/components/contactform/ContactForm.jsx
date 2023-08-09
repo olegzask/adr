@@ -81,7 +81,7 @@ export const ContactForm = () => {
     <div className="contactform-container" id="ankor-2" >
       <h2 className="contactform-header" >Let's get the conversation rolling!</h2>
       <h3 className="contactform-header-two">
-      Don't hesitate to reach out... we're eager to provide the help you need.
+      Don't hesitate to reach out... i'm eager to provide the help you need.
       </h3>
       {error ? (
         <ErrorWindow fields={{ handler: setError, info: missing }} />

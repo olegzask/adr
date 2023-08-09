@@ -19,8 +19,6 @@
 }
 
 
-
-
 .service-link-container {
   margin: 0;
   margin-top: 1rem;
@@ -86,15 +84,17 @@
   }
 
   .service-name {
-    font-size: 2.2rem;
+    font-size: 2.7rem;
   }
   .service-description {
     font-size: 1.4em;
     font-weight: 300;
+    text-align:left;
   }
 
   .servicecard-left-side {
     display: flex;
-    gap: 2rem;
+    gap: 0.5rem;
+    
   }
 }

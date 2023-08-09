@@ -27,16 +27,20 @@ export default function ServiceCard({ opts }) {
   return (
     <div className="servicecard-container" id={id}>
       <div className="servicecard-left-side">
+
         <h2 className="service-name srv-name">{name}</h2>
-        <span className="service-description">{description}</span>
-      {name === "Dealer Program" ? <span className="service-description">Wholesale Pricing. Best quality materials & work.</span> : null}  
+        {description.map((el, id) => (
+                <span className="service-description">- {el}</span>
+
+      ))}
+        {/* <span className="service-description">{description}</span> */}
         <div className="service-link-container">
           <LinkComponent
             opts={{
-              name: lolec === "Dealer Program" ? "PARTNER WITH US" : "MORE INFO",
-              linkTo: lolec === "Dealer Program" ?  "": link,
+              name: "MORE INFO",
+              linkTo: link,
               clName: "service-btn",
-              func: lolec === "Dealer Program" ? goToContact : scrollToTop
+              func:  scrollToTop
             }}
           />
           {/* <LinkComponent
