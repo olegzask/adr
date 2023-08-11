@@ -36,6 +36,8 @@
   padding-bottom: 2rem;
 }
 
+
+
 @media screen and (max-width: 500px) {
   .autotint-main-container {
     width: 100%;

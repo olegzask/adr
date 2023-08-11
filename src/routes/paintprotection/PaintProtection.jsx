@@ -14,11 +14,16 @@ export default function PaintProtection() {
             PAINT <span className="our-services">PROTECTION FILM</span>
           </h2>
 
-          <span className="tint-description">
-            Don't let your paint, exterior & interior surfaces take a beating.
-            Explore a variety of protective films perfect for any application
-            available for your vehicle. Protect your investment!
-          </span>
+          <p className="tint-description">
+          Discover the ultimate safeguard for your vehicle's pristine finish with our Paint Protection Film (PPF) solutions. 
+          Engineered to shield your car from the rigors of the road, our state-of-the-art PPF offers an invisible armor against rock chips, scratches, and environmental contaminants.
+          Our skilled technicians meticulously apply this virtually undetectable layer, ensuring your vehicle's factory paint remains flawless and unblemished. Uncompromising in both form and function, our PPF not only provides unparalleled protection but also enhances your vehicle's aesthetic appeal by preserving its original shine. Whether you're navigating urban streets or embarking on off-road adventures, our premium PPF empowers you to drive with confidence, knowing that your investment is shielded by the pinnacle of automotive defense. Elevate your driving experience and uphold your vehicle's value with our unrivaled Paint Protection Film expertise.
+          </p>
+
+          
+
+          
+          
           <br />
 
           {/* <span className="tint-description-lower">
