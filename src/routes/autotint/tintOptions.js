@@ -9,7 +9,9 @@ export const tintOptions = [
     office: false,
     img: "/images/services-images/suntek-tint.jpg",
     description:
-      "Ceramic nanoparticles give SunTek® CIR™ its upgrade in tint protection. This advanced ceramic technology helps enhance heat and infrared rejection while its non-metal construction minimizes signal interference for clear communications. Performance and appearance are a priority with CIR. Comfortable cabin temperatures are maintained while 99% of damaging UV rays are blocked. Available in a range of shade levels, this non-reflective tint is backed by a manufacturer’s lifetime limited warranty1 with protection against change in color.",
+  ["Ceramic nanoparticles give SunTek® CIR™ its upgrade in tint protection. This advanced ceramic technology helps enhance heat and infrared rejection while its non-metal construction minimizes signal interference for clear communications.", 
+  "Performance and appearance are a priority with CIR. Comfortable cabin temperatures are maintained while 99% of damaging UV rays are blocked.", 
+  "Available in a range of shade levels, this non-reflective tint is backed by a manufacturer’s lifetime limited warranty1 with protection against change in color."],
     brands: "Suntek",
     shades: [5, 20, 35, 50],
     features: [
@@ -49,7 +51,11 @@ export const tintOptions = [
     tintType: "Carbon Film",
     img: "/images/services-images/suntek-tint.jpg",
     description:
-      "SunTek® Carbon Series and CXP™ tint Series are engineered to meet today’s performance demands. Carbon construction gives our original Carbon Series and the upgraded CXP™ (Carbon Extra Performance) Series a non-reflective appearance in impressive shades of black to help deliver your desired level of solar protection. A manufacturer’s lifetime limited warranty1 protects this duo against color changes. Carbon Series is constructed with innovative carbon technology for good heat rejection, glare reduction, and U.V. protection. CXP™ features non-metal nano-hybrid carbon composition with outstanding infrared rejection for additional interior cooling.",
+      ["SunTek® Carbon Series and CXP™ tint Series are engineered to meet today’s performance demands.", 
+      "Carbon construction gives our original Carbon Series and the upgraded CXP™ (Carbon Extra Performance) Series a non-reflective appearance in impressive shades of black to help deliver your desired level of solar protection.", 
+      "A manufacturer’s lifetime limited warranty1 protects this duo against color changes.", 
+      "Carbon Series is constructed with innovative carbon technology for good heat rejection, glare reduction, and U.V. protection.", 
+      "CXP™ features non-metal nano-hybrid carbon composition with outstanding infrared rejection for additional interior cooling."],
     brands: "Suntek",
     shades: [5, 20, 35, 50],
     features: [

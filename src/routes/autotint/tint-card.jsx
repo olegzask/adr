@@ -18,7 +18,11 @@ export const TintCard = ({ options }) => {
       <div className="tint-card-left">
         <h2 className="card-header">{tintType}</h2>
         <img className="card-img" src={img} alt="" />
-        <span className="card-description">{description}</span>
+
+        {description.map((el, id) => (
+                <span className="card-description">- {el}</span>
+
+      ))}
         <div className="shades-ctn">
           {shades ? (
             <header className="shade-header">SHADES AVAILABLE:</header>
