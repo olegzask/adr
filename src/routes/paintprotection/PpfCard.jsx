@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Booking from "../remotestart/Booking";
 import LinkComponent from "../../components/link/LinkComponent";
 import "../autotint/tint-card.styles.css";
+import { scrollToTop } from "../../components/helperFunctions/helpers";
 
 export const PpfCard = ({ options }) => {
   const { tintType, description, shades, features, img } = options;
@@ -10,6 +11,7 @@ export const PpfCard = ({ options }) => {
   const showModal = (e) => {
     setModal(true);
   };
+
 
   return (
     <div className="card-container">
@@ -42,6 +44,7 @@ export const PpfCard = ({ options }) => {
               name: "SIMULATOR",
               linkTo: "simulator",
               clName: "tint-btn",
+              func:  scrollToTop
             }}
           />
           {!modal ? null : (

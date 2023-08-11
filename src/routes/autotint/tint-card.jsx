@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Booking from "../remotestart/Booking";
 import LinkComponent from "../../components/link/LinkComponent";
+import { scrollToTop } from "../../components/helperFunctions/helpers";
+
 import "./tint-card.styles.css";
 
 export const TintCard = ({ options }) => {
@@ -37,6 +39,7 @@ export const TintCard = ({ options }) => {
               name: "SIMULATOR",
               linkTo: "simulator",
               clName: "tint-btn",
+              func: scrollToTop
             }}
           />
           {!modal ? null : (
