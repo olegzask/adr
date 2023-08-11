@@ -49,7 +49,7 @@ export const ppfOptions = [
   },
   {
     tintType: "SUNTEK REACTION",
-    img: "/images/logos/reaction.jpg",
+    img: "/logos/reaction.png",
     description:
       "Premium protection designed to last. SunTek Paint Protection Film Ultra is scientifically formulated to help maintain the beauty and integrity of vehicle finishes for many years, in all kinds of weather. It’s a combination of innovative film technologies that we stand behind with a 10-year limited warranty.",
     brands: "Suntek",
