@@ -158,11 +158,11 @@ export const Footer = () => {
           </a> */}
         </div>
         <div className="social-media-icons">
-          <a href="" target="_blank">
+          <a href="acebook.com/profile.php?id=61550545973424" target="_blank">
             <ImFacebook className="social-icon" />
           </a>
           <a
-            href=""
+            href="https://instagram.com/edmtintstudio?igshid=MzRlODBiNWFlZA=="
             target="_blank"
           >
             <BsInstagram className="social-icon" />
