@@ -163,7 +163,7 @@ export const carAudioProducts = [
     app: false,
     model: "platinum",
     brand: "EDM",
-    brandLogo: "/logos/rockford.png",
+    brandLogo: "/logos/ultra.png",
     imgBW: "",
     imgColor: "/logos/platinum.png",
     images: [
