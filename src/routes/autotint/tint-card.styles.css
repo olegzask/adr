@@ -150,6 +150,7 @@
   .btns-container {
     width: 100%;
     justify-content: center;
+   
     gap: 3rem;
     margin-top: 2rem;
     padding-bottom: 1.5rem;
