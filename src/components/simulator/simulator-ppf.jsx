@@ -2,6 +2,7 @@ import React, { useEffect, useState, forceUpdate } from "react";
 import { partsPpfSedan, partsPpfSuv, partsPpfTruck } from "./parts";
 import { ppfPartsSedan, ppfPartsSuv, ppfPartsTruck } from "./ppf-parts-list";
 import { RadioButtons } from "./radio-buttons";
+import { scrollToTop } from "../helperFunctions/helpers";
 import LinkComponent from "../link/LinkComponent";
 import { Button } from "../button-component/button";
 import "./simulator-ppf.styles.css";
@@ -340,13 +341,14 @@ export const SimulatorPpf = () => {
             <span className="price">{`Estimated Price: $${totalPrice.toFixed(
               2
             )}`}</span>
-            {/* <LinkComponent
-              opts={{
-                name: "CONTACT US",
-                linkTo: "contact",
-                clName: "btn-sim",
-              }}
-            /> */}
+           <LinkComponent
+            opts={{
+              name: "BROWSE PACKAGES",
+              linkTo: "services/paint-protection-film/packages",
+              clName: "tint-btn",
+              func:  scrollToTop
+            }}
+          />
           </div>
         </div>
       </div>

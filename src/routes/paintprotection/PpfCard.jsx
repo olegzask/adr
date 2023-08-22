@@ -53,7 +53,16 @@ export const PpfCard = ({ options }) => {
           <button onClick={showModal} className="remote-btn">
             BOOK NOW
           </button>
+          <LinkComponent
+            opts={{
+              name: "PACKAGES",
+              linkTo: "services/paint-protection-film/packages",
+              clName: "tint-btn",
+              func:  scrollToTop
+            }}
+          />
         </div>
+        
       </div>
 
       <div className="tint-card-right">

@@ -2,30 +2,24 @@ import React from "react";
 import CarAudioCard from "./CarAudioCard";
 import { carAudioProducts } from "./caraudioproducts";
 
-export default function CarAudio() {
+export default function PpfPacks() {
   return (
     <div className="accessories-container">
       <div className="rs-main-container dashcams-main-container">
         <div className="rs-container">
           <div className="rs-topper">
             <h2 className="service-container-header tint-header rs-serv-header">
-              AUDIO <span className="our-services">/ VIDEO</span>
+              EDMONTON PAINT PROTECTION FILM <span className="our-services"> PACKAGES</span>
             </h2>
 
             <span className="rs-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              sequi perspiciatis ad tempora quidem ipsum, ratione aut in harum
-              molestias voluptate. Sint rerum corporis possimus laudantium
-              aliquam commodi quis ex laboriosam vel dolor quibusdam, placeat
-              alias necessitatibus perspiciatis impedit delectus tenetur. Illo
-              velit quisquam mollitia, reiciendis unde similique non. Tempora.
+            Welcome to Edmonton Tint Studio, your destination for top-tier automotive care. Discover our exclusive Edmonton Paint Protection Film packages, meticulously designed to shield your vehicle's exterior from the elements. Our selection offers a variety of coverage options, from full-body protection to targeted high-impact areas. With our cutting-edge technology and expert installation, your vehicle will be equipped to brave Edmonton's diverse conditions while maintaining its flawless appearance. Explore our Paint Protection Film packages today to elevate your driving experience and ensure your vehicle's long-lasting allure.
             </span>
             <br />
 
-            <h2 className="rs-description-lower">
-              NOT SURE WHAT KIND OF CAR AUDIO / VIDEO PRODUCT YOU NEED? EXPLORE
-              OUR OPTIONS!
-            </h2>
+            {/* <h2 className="rs-description-lower">
+             WANT TO CUSTOMIZE YOUR COVERAGE? PLEASE CONTACT US FOR PERSONAL QUOTE!
+            </h2> */}
           </div>
           {carAudioProducts.map((remote, id) => (
             <CarAudioCard key={id} options={remote} />

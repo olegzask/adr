@@ -16,7 +16,7 @@ import InfoCard from "./components/moreinfo/InfoCard";
 import { Simulator } from "./components/simulator/simulator";
 import Accessories from "./routes/12voltaccessories/Accessories";
 import Marine from "./routes/marine/Marine";
-import CarAudio from "./routes/car audio-video/CarAudio";
+import PpfPacks from "./routes/car audio-video/CarAudio";
 
 const App = () => {
   return (
@@ -39,7 +39,7 @@ const App = () => {
         <Route path="services/dash-cams" element={<Dashcams />} />
         <Route path="services/12-volt-accessories" element={<Accessories />} />
         <Route path="services/marine-audio" element={<Marine />} />
-        <Route path="services/car-audio-video" element={<CarAudio />} />
+        <Route path="services/paint-protection-film/packages" element={<PpfPacks/>} />
 
         <Route path="services/:service/:id" element={<InfoCard />} />
       </Route>
