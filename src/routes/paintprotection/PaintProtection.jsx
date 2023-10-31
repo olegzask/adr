@@ -12,9 +12,9 @@ export default function PaintProtection() {
     <div className="autotint-main-container">
       <div className="autotint-container">
         <div className="tint-topper">
-          <h2 className="service-container-header tint-header ppf-header">
-            PAINT <span className="our-services">PROTECTION FILM</span>
-          </h2>
+          <h1 className="service-container-header tint-header ppf-header">
+           EDMONTON PAINT <span className="our-services">PROTECTION FILM</span>
+          </h1>
           <p className="tint-description">
           Discover the ultimate safeguard for your vehicle's pristine finish with our Paint Protection Film (PPF) solutions. 
           Engineered to shield your car from the rigors of the road, our state-of-the-art PPF offers an invisible armor against rock chips, scratches, and environmental contaminants.

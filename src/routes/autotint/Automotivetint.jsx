@@ -9,9 +9,9 @@ const Automotivetint = () => {
     <div className="autotint-main-container">
       <div className="autotint-container">
         <div className="tint-topper">
-          <h2 className="service-container-header ppf-header">
-            WINDOW <span className="our-services">TINT</span>
-          </h2>
+          <h1 className="service-container-header ppf-header">
+            EDMONTON WINDOW <span className="our-services">TINT</span>
+          </h1>
 
           <span className="tint-description">
            Select your custom level of protection with SunTek® automotive tint. Available in shades and hues ranging from rich black to optically clear, SunTek tint improves the look and performance of your vehicle’s window glass.
