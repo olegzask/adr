@@ -168,7 +168,7 @@ export const Footer = () => {
             <BsInstagram className="social-icon" />
           </a>
         </div>
-        <h3 className="oleg">Edmonton Tint Studio © 2023 All Rights Reserved.</h3>
+        <h3 className="oleg">Edmonton Tint Studio Ltd. © 2023 All Rights Reserved.</h3>
       </div>
     </div>
   );

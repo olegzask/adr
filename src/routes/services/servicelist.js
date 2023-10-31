@@ -23,9 +23,9 @@ export const services = [
     name: "Dealer Program",
     id: "dp",
     description:
-      ["Offering premium automotive window tint and paint protection services, Edmonton Tint Studio is your trusted partner in enhancing and protecting the vehicles in your dealership inventory.", 
+      ["Offering premium automotive window tint and paint protection services, Edmonton Tint Studio Ltd. is your trusted partner in enhancing and protecting the vehicles in your dealership inventory.", 
       "With over 10 years of experience, I provide tailored solutions to car dealers, ensuring exceptional results, increased vehicle aesthetics, and improved resale value.",
-       "Partner with Edmonton Tint Studio for top-quality services and a competitive edge in the market.",
+       "Partner with Edmonton Tint Studio Ltd. for top-quality services and a competitive edge in the market.",
       "Wholesale pricing... Best materials... Awesome Service."],
     image: "images/services-images/dealer.jpg",
     link: "services/dealer-program",

@@ -11,13 +11,13 @@ export default function About() {
      
       <div className="about-bottom-text">
         <p className="about-paragraph">
-        Edmonton Tint Studio, operated by a sole professional with over 10 years of experience, offers exceptional automotive window tint and paint protection film services in Edmonton.
+        Edmonton Tint Studio Ltd. is operated by a sole professional with over 10 years of experience, offers exceptional automotive window tint and paint protection film services in Edmonton.
         </p>
         <p className="about-paragraph">
        With a focus on quality and customer satisfaction, I personally handle all aspects of the business, from consultations to installations. Using the latest techniques and technology, I provide customized solutions for privacy, UV protection, heat reduction, and exterior preservation.
         </p>
          <p className="about-paragraph">
-        Trust Edmonton Tint Studio for personalized service and outstanding results. Contact me today to enhance your vehicle's aesthetics and protection.
+        Trust Edmonton Tint Studio Ltd. for personalized service and outstanding results. Contact me today to enhance your vehicle's aesthetics and protection.
         </p>
 {/* 
         <p className="about-paragraph">
