@@ -5,7 +5,7 @@ import { ImFacebook } from "react-icons/im";
 import { BsInstagram } from "react-icons/bs";
 import { GoLocation } from "react-icons/go";
 import { FiPhoneCall } from "react-icons/fi";
-import { FaSms} from "react-icons/fa"
+import { FaSms, FaTiktok} from "react-icons/fa"
 import { HiOutlineMail } from "react-icons/hi";
 import { scrollToTop } from "../helperFunctions/helpers";
 
@@ -166,6 +166,12 @@ export const Footer = () => {
             target="_blank"
           >
             <BsInstagram className="social-icon" />
+          </a>
+          <a
+            href="https://www.tiktok.com/@edmontontintstudio"
+            target="_blank"
+          >
+            <FaTiktok className="social-icon" />
           </a>
         </div>
         <h3 className="oleg">Edmonton Tint Studio Ltd. © 2023 All Rights Reserved.</h3>
