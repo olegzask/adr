@@ -13,7 +13,7 @@ export const Dealer = () => {
     const ghl = document.getElementById("pwinput").value;
     console.log(ghl);
     console.log(isDealer);
-    if (ghl + "" === password) {
+    if (ghl.toLowerCase() + "" === password) {
       document.getElementById("pwinput").value = "";
       document.getElementById("mdealer").classList.add("visible");
       document.getElementById("mdealer").style.height = "auto";
@@ -22,7 +22,7 @@ export const Dealer = () => {
       document.getElementById("logout_btn").style.display = "block";
     }
 
-    if (ghl + "" !== password) {
+    if (ghl.toLowerCase()  + "" !== password) {
       alert("Wrong Password!");
       document.getElementById("pwinput").value = "";
     }
