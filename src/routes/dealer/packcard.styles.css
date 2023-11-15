@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content:space-between;
   width: 14rem;
+
   
 }
 
@@ -48,6 +49,11 @@
   }
 
   .pack-info {
-    min-height: 5rem;
+    height: auto;
   }
+
+  .pack-container {
+    width: 100%;
+  }
+ 
 }
