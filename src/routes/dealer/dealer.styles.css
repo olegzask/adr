@@ -1,0 +1,93 @@
+.main-dealer-container {
+  width: 90vw;
+  margin: 1rem auto;
+  color: white;
+  gap: 5rem;
+  justify-content: center;
+  display: none;
+  opacity: 0;
+  
+}
+#dealer-ctn {
+  position: relative;
+  top: 2rem;
+  margin-top: 5rem;
+}
+
+.btn-book {
+  background-color: black;
+  width: 30%;
+  justify-content: center;
+  display: none;
+  opacity: 0;
+  margin: 2rem auto;
+}
+
+.dealer-login {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.btn-submitpw {
+  width: 10%;
+  background-color: black;
+  margin: 0;
+  margin-left: 0.3rem;
+}
+
+#logout_btn {
+  display: none;
+}
+
+.input-pw {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes fadeIn {
+  50% {
+    opacity: 30;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+.visible {
+  animation: 2s fadeIn;
+  animation-fill-mode: forwards;
+  display: flex;
+}
+
+@media screen and (max-width: 720px) {
+  #dealer-ctn {
+    margin: 0 auto;
+    width: 90vw;
+  }
+
+  .dealer-login {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .input-pw {
+    width: 40%;
+  }
+
+  .btn-submitpw {
+    width: 40%;
+    font-size: 1rem;
+  }
+
+  .main-dealer-container {
+    width: 85%;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .btn-book {
+    width: 70%;
+  }
+}

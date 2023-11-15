@@ -17,6 +17,7 @@ import { Simulator } from "./components/simulator/simulator";
 import Accessories from "./routes/12voltaccessories/Accessories";
 import Marine from "./routes/marine/Marine";
 import PpfPacks from "./routes/car audio-video/CarAudio";
+import { Dealer } from "./routes/dealer/Dealer";
 
 const App = () => {
   return (
@@ -28,6 +29,8 @@ const App = () => {
         <Route path="services" element={<Services />} />
         <Route path="services/window-tint" element={<Automotivetint />} />
         <Route path="services/dealer-program" element={<Dealerprogram />} />
+        <Route path="services/dealer-program/pricelist" element={<Dealer />} />
+
         <Route path="careers" element={<Careers />} />
         <Route path="contact" element={<ContactUs />} />
         <Route path="simulator" element={<Simulator />} />
