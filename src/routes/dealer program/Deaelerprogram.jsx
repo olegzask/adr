@@ -1,6 +1,8 @@
 import React from "react";
+import LinkComponent from "../../components/link/LinkComponent";
 import { tintOptions } from "./tintOptions";
 import { TintCard } from "./tint-card";
+import { scrollToTop } from "../../components/helperFunctions/helpers";
 
 import "./autotint.styles.css";
 
@@ -25,6 +27,17 @@ const Automotivetint = () => {
           <span className="tint-description-lower">
             LET'S EXPLORE BENEFITS OF OUR DEALERSHIP PROGRAM!
           </span>
+          
+          <LinkComponent
+            opts={{
+              name: "BROWSE DEALER PRICING",
+              linkTo: "services/dealer-program/pricelist",
+              clName: "tint-btn",
+              func: scrollToTop
+            }}
+          />
+         
+        
         </div>
 
         {tintOptions.map((opt, id) => {
