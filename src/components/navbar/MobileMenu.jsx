@@ -128,8 +128,8 @@ hideMenu();
         </Link>
       </div>
       <div className="lower-nav">
-        <a href="sms:16395330882" className="calus">
-          <FaSms className="phone-icon" /> Text Us
+        <a href="sms:17802351114" className="calus">
+          <FaSms className="phone-icon" /> Contact Us
         </a>
         <a
           href="https://www.google.com/maps/place/2784+Maple+Way+NW,+Edmonton,+AB+T6T+1J2/data=!4m2!3m1!1s0x53a019d005d78d55:0xcc6bb6266c301108?sa=X&ved=2ahUKEwj5tcjCnpeAAxW_AzQIHbICArgQ8gF6BAgPEAA&ved=2ahUKEwj5tcjCnpeAAxW_AzQIHbICArgQ8gF6BAgSEAI"
