@@ -50,6 +50,7 @@
 .booking-close {
   margin: 0;
   font-size: 2rem;
+  color: black;
 }
 
 .booking-close:hover {

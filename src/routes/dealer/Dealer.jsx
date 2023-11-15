@@ -6,6 +6,8 @@ import ".//dealer.styles.css";
 export const Dealer = () => {
   const [isDealer, setIsDealer] = useState(false);
   const [password, setPassword] = useState("edmtintdealer");
+ 
+
 
   const showPrice = () => {
     const ghl = document.getElementById("pwinput").value;
@@ -33,6 +35,7 @@ export const Dealer = () => {
     document.getElementById("logout_btn").style.display = "none";
   };
 
+
   return (
     <div id="dealer-ctn">
       <div className="dealer-login">
@@ -59,11 +62,13 @@ export const Dealer = () => {
           <PackCard opts={el} />
         ))}
       </div>
-      <a className="book" href="/contact">
+    
+      {/* <a className="book" href="/contact">
         <button id="bookbutn" className="btn btn-book">
           Book A Vehicle
         </button>
-      </a>
+      </a> */}
+    
     </div>
   );
 };

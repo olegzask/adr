@@ -15,12 +15,11 @@
 }
 
 .btn-book {
-  background-color: black;
-  width: 30%;
+  width: 70%;
   justify-content: center;
-  display: none;
-  opacity: 0;
-  margin: 2rem auto;
+  /* display: none;
+  opacity: 0; */
+  margin: 1rem auto;
 }
 
 .dealer-login {

@@ -5,8 +5,19 @@
   padding-left: 1rem;
 }
 
+.pack-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  
+}
+
+.price-cont {
+  margin: auto;
+}
+
 .pack-info {
-  min-height: 12rem;
+  height: 26rem;
 }
 .pack-img {
   width: 90%;
