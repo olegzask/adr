@@ -128,7 +128,7 @@ hideMenu();
         </Link>
       </div>
       <div className="lower-nav">
-        <a href="sms:17802351114" className="calus">
+        <a href="tel:17802351114" className="calus">
           <FaSms className="phone-icon" /> Contact Us
         </a>
         <a
