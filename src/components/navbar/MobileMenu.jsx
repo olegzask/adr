@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { MdClose } from "react-icons/md";
+import { MdClose, MdCall } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
 import { FaSms} from "react-icons/fa"
@@ -129,7 +129,7 @@ hideMenu();
       </div>
       <div className="lower-nav">
         <a href="tel:17802351114" className="calus">
-          <FaSms className="phone-icon" /> Contact Us
+          <MdCall className="phone-icon" /> Contact Us
         </a>
         <a
           href="https://www.google.com/maps/place/2784+Maple+Way+NW,+Edmonton,+AB+T6T+1J2/data=!4m2!3m1!1s0x53a019d005d78d55:0xcc6bb6266c301108?sa=X&ved=2ahUKEwj5tcjCnpeAAxW_AzQIHbICArgQ8gF6BAgPEAA&ved=2ahUKEwj5tcjCnpeAAxW_AzQIHbICArgQ8gF6BAgSEAI"
