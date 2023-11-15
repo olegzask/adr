@@ -7,6 +7,7 @@ import { GoLocation } from "react-icons/go";
 import { FiPhoneCall } from "react-icons/fi";
 import { FaSms, FaTiktok} from "react-icons/fa"
 import { HiOutlineMail } from "react-icons/hi";
+import {MdCall} from "react-icons/md"
 import { scrollToTop } from "../helperFunctions/helpers";
 
 import "./footer.styles.css";
@@ -108,7 +109,7 @@ export const Footer = () => {
           <span className="ask-us-anything">We are here to help.</span>
         </span>
         <a className="direct-link" href="tel:17802351114">
-          <FaSms className="phone-icon-footer" />1.780.235.1114
+          <MdCall className="phone-icon-footer" />1.780.235.1114
         </a>
         <a className="direct-link" href="mailto:edmtintstudio@gmail.com">
           <HiOutlineMail className="phone-icon-footer" />{" "}
