@@ -2,10 +2,9 @@
   width: 90vw;
   margin: 1rem auto;
   color: white;
-  gap: 5rem;
-  justify-content: center;
   display: none;
   opacity: 0;
+  justify-content: space-between;
   
 }
 #dealer-ctn {
@@ -15,7 +14,7 @@
 }
 
 .btn-book {
-  width: 70%;
+  width: 100%;
   justify-content: center;
   /* display: none;
   opacity: 0; */

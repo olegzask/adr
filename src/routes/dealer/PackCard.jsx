@@ -14,7 +14,7 @@ export const PackCard = ({ opts }) => {
   return (
     <div className="pack-container">
       <div className="pack-info">
-        <h3 className="pack-name">{name}:</h3>
+        <h3 className="pack-name">{name.toUpperCase()}</h3>
         <img className="pack-img" src={image} alt="package-img" />
         <ul>
           {includes.map((el) => (
@@ -23,12 +23,12 @@ export const PackCard = ({ opts }) => {
         </ul>
       </div>
 <div className="price-cont">
-<h4 className="price-dealer">Dealer Price: {dealerPrice}</h4>
-      <h4 className="price-retail">Suggested Retail Price: {retailPrice}</h4>
+<h4 className="price-dealer">Dealer Price: ${dealerPrice}</h4>
+      <h4 className="price-retail">MSRP: ${retailPrice}</h4>
 </div>
       
       {!modal ? null : (
-            <Booking opts={{ rem: `PPF - ${name}`, txt: "Service", reset: setModal }} />
+            <Booking opts={{ rem: `PPF Dealer - ${name}`, txt: "Service", reset: setModal }} />
           )}
           <button id="bookbutn"  onClick={showModal} className="btn-book remote-btn">
             BOOK NOW

@@ -56,7 +56,6 @@ export const Dealer = () => {
           LOG OUT
         </button>
       </div>
-
       <div className="main-dealer-container" id="mdealer">
         {packages.map((el) => (
           <PackCard opts={el} />
