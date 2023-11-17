@@ -5,7 +5,7 @@ import { Home } from "./routes/home/Home";
 import Sales from "./routes/sales/Sales";
 import Automotivetint from "./routes/autotint/Automotivetint";
 import Dealerprogram from "./routes/dealer program/Deaelerprogram"
-import AboutUs from "./routes/about/AboutUs";
+// import AboutUs from "./routes/about/AboutUs";
 import Careers from "./routes/careers/Careers";
 import ContactUs from "./routes/contact/ContactUs";
 import Services from "./routes/services/Services";
@@ -25,7 +25,7 @@ const App = () => {
       <Route path="/" element={<Navbar />}>
         <Route index element={<Home />} />
         <Route path="sales" element={<Sales />} />
-        <Route path="about" element={<AboutUs />} />
+        {/* <Route path="about" element={<AboutUs />} /> */}
         <Route path="services" element={<Services />} />
         <Route path="services/window-tint" element={<Automotivetint />} />
         <Route path="services/dealer-program" element={<Dealerprogram />} />

@@ -125,7 +125,7 @@ export const Footer = () => {
       </div>
 
       <div className="footer-links-container">
-        <Link onClick={goToAbout} className="footer-link" to="/about">
+        <Link onClick={goToAbout} className="footer-link" to="/">
           About
         </Link>
         <Link onClick={goToServices} className="footer-link" to="/">
