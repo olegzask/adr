@@ -163,7 +163,7 @@ export const Footer = () => {
             <ImFacebook className="social-icon" />
           </a>
           <a
-            href="https://instagram.com/edmtintstudio?igshid=MzRlODBiNWFlZA=="
+            href="https://www.instagram.com/edmontontintstudio/"
             target="_blank"
           >
             <BsInstagram className="social-icon" />
