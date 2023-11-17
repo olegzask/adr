@@ -8,7 +8,7 @@
   width: 95%;
   left: 2%;
   height: 60%;
-  top: 12%;
+  top: 15%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -26,18 +26,21 @@
 .error-header {
   margin: 0;
   border: none;
-  width: 100.5%;
+  width: 100%;
   font-size: 1.7rem;
   background-color: rgb(0, 161, 219);
+  color: black;
 }
 
 .error-header-check {
   font-size: 1.5rem;
+  color: black;
 }
 .errors-container {
   margin: 0;
   position: relative;
   bottom: 5%;
+  color: black;
 }
 
 .field {
@@ -45,6 +48,7 @@
 }
 
 .close-error {
+  cursor: pointer;
   margin: 0 auto;
   margin-bottom: 1rem;
   width: 50%;
@@ -55,7 +59,13 @@
   color: black;
 }
 
+.close-error:hover {
+  transition: 0.3s;
+  background-color: rgb(0, 161, 219);
+}
+
 .close-succ {
+  cursor: pointer;
   margin: 0 auto;
   position: relative;
   bottom: 5%;
@@ -66,6 +76,14 @@
   font-size: 1rem;
   color: black;
 }
+
+.close-succ:hover {
+  transition: 0.3s;
+  background-color: rgb(0, 161, 219);
+  border: 0.1rem solid rgb(0, 161, 219);
+
+}
+
 
 .close-error:hover {
   border: 0.1rem solid rgb(0, 161, 219);
@@ -78,4 +96,5 @@
 
 .success-msg {
   font-size: 1.2rem;
+  color: black;
 }

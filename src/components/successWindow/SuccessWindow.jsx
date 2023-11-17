@@ -1,4 +1,5 @@
 import React from "react";
+import "../errorWindow/error.styles.css"
 
 export default function SuccessWindow({ fields }) {
   const { handler, errHandler } = fields;
