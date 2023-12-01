@@ -22,14 +22,14 @@ export default function TextVideo() {
   return (
     <div className="text-on-video">
       <div className="text-top">
-        <span className="text-header hdr-tint">EDMONTON WINDOW TINT &</span>
-        <span className="text-header hdr-ppf">PAINT PROTECTION</span>
+        <span className="text-header hdr-tint">REMOTE START & 12V ACCESSORIES</span>
+        <span className="text-header hdr-ppf">WINDOW TINT & PAINT PROTECTION</span>
         <span className="text-header done-right">SERVICES DONE RIGHT.</span>
       </div>
 
       <div className="text-bottom">
         <p className="text-main">
-          Over 10 Years of Experience. Let us take care of
+          Over 20 Years of Experience. Let us take care of
           your vehicle.
         </p>
       </div>

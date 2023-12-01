@@ -39,7 +39,7 @@
 }
 
 .fp-button:hover {
-  background-color: rgb(0, 161, 219);
+  background-color: rgb(113, 255, 25);
   color: black;
 }
 
@@ -48,14 +48,14 @@
 }
 
 .button-selected {
-  background-color: rgb(0, 161, 219);
+  background-color: rgb(113, 255, 25);
   color: black;
 }
 
 .btn-ppf-simulator {
   width: 100%;
   background-color: white;
-  color: rgb(65, 30, 78);
+  color: rgb(113, 255, 25);
 }
 
 .btn-ppf-simulator:hover {
@@ -94,7 +94,7 @@
 }
 
 .price {
-  background-color: rgb(0, 161, 219);
+  background-color: rgb(113, 255, 25);
   color: black;
   border-radius: 0.3rem;
   width: 60%;

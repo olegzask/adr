@@ -109,18 +109,25 @@ export const Footer = () => {
           <span className="ask-us-anything">We are here to help.</span>
         </span>
         <a className="direct-link" href="tel:17802351114">
-          <MdCall className="phone-icon-footer" />1.780.235.1114
+          <MdCall className="phone-icon-footer" />1.780.440.9438
         </a>
-        <a className="direct-link" href="mailto:edmtintstudio@gmail.com">
+        <a className="direct-link" href="mailto:info@adrenalinaudio.com">
           <HiOutlineMail className="phone-icon-footer" />{" "}
-          edmtintstudio@gmail.com
+          info@adrenalinaudio.com
         </a>
         <a
-          href="https://www.google.com/maps/place/2784+Maple+Way+NW,+Edmonton,+AB+T6T+1J2/data=!4m2!3m1!1s0x53a019d005d78d55:0xcc6bb6266c301108?sa=X&ved=2ahUKEwj5tcjCnpeAAxW_AzQIHbICArgQ8gF6BAgPEAA&ved=2ahUKEwj5tcjCnpeAAxW_AzQIHbICArgQ8gF6BAgSEAI"
+          href="https://www.google.ca/maps/uv?pb=!1s0x53a01f4d33973b7b%3A0x47bceeee593e223!3m1!7e115!4s%2Fmaps%2Fplace%2FAdrenalin%2Baudio%2F%4053.4957924%2C-113.4829247%2C3a%2C75y%2C14.79h%2C90t%2Fdata%3D*213m4*211e1*213m2*211smBMUl4B1fUBBpU6bWgae-w*212e0*214m2*213m1*211s0x53a01f4d33973b7b%3A0x47bceeee593e223%3Fsa%3DX%26ved%3D2ahUKEwitm5zrie-CAxWDFjQIHbOQAqIQpx96BAg6EAA!5sAdrenalin%20audio%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e2!2smBMUl4B1fUBBpU6bWgae-w&hl=en&sa=X&ved=2ahUKEwitm5zrie-CAxWDFjQIHbOQAqIQpx96BAhQEA0"
           className="direct-link"
           target="_blank"
         >
-          <GoLocation className="phone-icon-footer" />  Get Directions
+          <GoLocation className="phone-icon-footer" />  Edmonton
+        </a>
+        <a
+          href="https://www.google.ca/maps/uv?pb=!1s0x53a01f4d33973b7b%3A0x47bceeee593e223!3m1!7e115!4s%2Fmaps%2Fplace%2FAdrenalin%2Baudio%2F%4053.4957924%2C-113.4829247%2C3a%2C75y%2C14.79h%2C90t%2Fdata%3D*213m4*211e1*213m2*211smBMUl4B1fUBBpU6bWgae-w*212e0*214m2*213m1*211s0x53a01f4d33973b7b%3A0x47bceeee593e223%3Fsa%3DX%26ved%3D2ahUKEwitm5zrie-CAxWDFjQIHbOQAqIQpx96BAg6EAA!5sAdrenalin%20audio%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e2!2smBMUl4B1fUBBpU6bWgae-w&hl=en&sa=X&ved=2ahUKEwitm5zrie-CAxWDFjQIHbOQAqIQpx96BAhQEA0"
+          className="direct-link"
+          target="_blank"
+        >
+          <GoLocation className="phone-icon-footer" />  Spruce Grove / Stony Plain
         </a>
       </div>
 
@@ -139,10 +146,10 @@ export const Footer = () => {
         </Link>
         {/* <Link onClick={scrollToTop} className="footer-link" to="/sales">
           Sales
-        </Link>
+        </Link> */}
         <Link onClick={scrollToTop} className="footer-link" to="/careers">
           Careers
-        </Link> */}
+        </Link>
         <Link onClick={goToContact} className="footer-link" to="/">
           Contact
         </Link>
@@ -159,23 +166,23 @@ export const Footer = () => {
           </a> */}
         </div>
         <div className="social-media-icons">
-          <a href="https://facebook.com/profile.php?id=61550545973424" target="_blank">
+          <a href="https://www.facebook.com/adrenalinaudio/" target="_blank">
             <ImFacebook className="social-icon" />
           </a>
           <a
-            href="https://www.instagram.com/edmontontintstudio/"
+            href="https://www.instagram.com/adrenalin_audio/"
             target="_blank"
           >
             <BsInstagram className="social-icon" />
           </a>
           <a
-            href="https://www.tiktok.com/@edmontontintstudio"
+            href="https://www.instagram.com/adrenalin_audio/"
             target="_blank"
           >
             <FaTiktok className="social-icon" />
           </a>
         </div>
-        <h3 className="oleg">Edmonton Tint Studio Ltd. © 2023 All Rights Reserved.</h3>
+        <h3 className="oleg">Adrenalin Audio Inc. © 2023 All Rights Reserved.</h3>
       </div>
     </div>
   );

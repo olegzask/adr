@@ -14,11 +14,16 @@ const Automotivetint = () => {
           </h1>
 
           <span className="tint-description">
-           Select your custom level of protection with SunTek® automotive tint. Available in shades and hues ranging from rich black to optically clear, SunTek tint improves the look and performance of your vehicle’s window glass.
-           From ceramic nanoparticle technology to dyed charcoal construction, SunTek tint can visually enhance your vehicle’s appearance while helping to deliver the solar protection that counts.
-           Engineered to reduce glare and protect against harmful UV rays, our high-quality window tints ensure a comfortable driving experience, safeguarding you and your passengers from sun's harsh elements. With a wide range of tinting options, from subtle shades to bold expressions, we guarantee a perfect fit for your car's unique character. Elevate your ride's aesthetics, privacy, and interior preservation with our premium automotive window tinting solutions. Drive cooler, look cooler, and stay protected with us.
+          
+Explore our premium automotive window tint services in Edmonton, Spruce Grove, and Stony Plain, where we cater to your preferences by offering both carbon and ceramic films. These high-quality films are designed to meet diverse needs while enhancing your driving experience. Our selection ensures that whether you prioritize heat reduction, UV protection, or maintaining your vehicle's aesthetics, we have the perfect tint for you.
           </span>
           <br />
+          <span className="tint-description">
+          
+          Automotive window tint isn't just about style, it's a smart choice for various reasons. Our films provide crucial UV protection, safeguarding you and your vehicle's interior from harmful rays that can cause fading and damage. Moreover, they significantly reduce heat, creating a more comfortable driving environment, especially during hot summers. The added privacy and glare reduction also contribute to a safer and more enjoyable ride. With our commitment to quality and tailored options, our window tint services offer not just style, but also protection and comfort for your vehicle.
+                    </span>
+          <br />
+
 
           <span className="tint-description-lower">
             NOT SURE WHAT KIND OF WINDOW FILM YOU NEED? EXPLORE OUR OPTIONS!

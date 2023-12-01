@@ -40,18 +40,18 @@
 
 .simulator-tint-header:hover {
   cursor: pointer;
-  background-color: rgb(0, 161, 219);
+  background-color: rgb(113, 255, 25);
   color: black;
 }
 
 .header-clicked {
-  background-color: rgb(0, 161, 219);
+  background-color: rgb(113, 255, 25);
   color: black;
 }
 
 .simulator-ppf-header:hover {
   cursor: pointer;
-  background-color: rgb(0, 161, 219);
+  background-color: rgb(113, 255, 25);
 }
 
 .simulator-ppf-header {

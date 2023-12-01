@@ -99,7 +99,7 @@ export const Navbar = () => {
         <div className="navlinks-cont">
           <Link onClick={scrollToTop} to="/">
             {/* <FaPowerOff className="navbar-logo" /> */}
-            <img className="navbar-logo"  src="/logos/edm_3.png" alt="logo" />
+            <img className="navbar-logo"  src="/logos/adrenalin_hor.png" alt="logo" />
 
           </Link>
           <Link onClick={goToAbout} className="nav-link" to="/">
@@ -117,9 +117,9 @@ export const Navbar = () => {
           {/* <Link onClick={scrollToTop} className="nav-link" to="/news">
             News
           </Link> */}
-          {/* <Link onClick={scrollToTop} className="nav-link" to="/careers">
+          <Link onClick={scrollToTop} className="nav-link" to="/careers">
             Careers
-          </Link> */}
+          </Link>
           <Link onClick={goToContact} className="nav-link" to="/">
             Contact
           </Link>

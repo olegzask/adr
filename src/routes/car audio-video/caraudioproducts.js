@@ -30,27 +30,27 @@ export const carAudioProducts = [
     features: [
       {
         name: "Partial Hood",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Partial Fenders",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Mirrors",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Door Cups",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
     
     ],
-    range: "From $249",
+    range: "From $299",
   },
   {
     app: false,
@@ -75,32 +75,32 @@ export const carAudioProducts = [
     features: [
       {
         name: "Partial Hood",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Partial Fenders",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Front Bumper",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Mirrors",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Door Cups",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
     
     ],
-    range: "From $549",
+    range: "From $699",
   },
 
   {
@@ -126,37 +126,37 @@ export const carAudioProducts = [
     features: [
       {
         name: "Partial Hood",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Partial Fenders",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Front Bumper",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Grille",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Mirrors",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Door Cups",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
     
     ],
-    range: "From $749",
+    range: "From $899",
   },
 
   {
@@ -182,37 +182,37 @@ export const carAudioProducts = [
     features: [
       {
         name: "Full Hood",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Full Fenders",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Front Bumper",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Grille",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Mirrors",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Door Cups",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
     
     ],
-    range: "From $1199",
+    range: "From $1499",
   },
   {
     app: false,
@@ -237,47 +237,47 @@ export const carAudioProducts = [
     features: [
       {
         name: "Full Hood",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Full Fenders",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Front Bumper",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Grille",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Mirrors",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Door Cups",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "A-Pillars & Roof",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
         name: "Rockers",
-        symbol: <FaShieldAlt color="rgb(0, 161, 219)" />,
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
     
     ],
-    range: "From $1899",
+    range: "From $1999",
   },
  
 ];

@@ -11,13 +11,13 @@ export default function About() {
      
       <div className="about-bottom-text">
         <p className="about-paragraph">
-        Edmonton Tint Studio Ltd. is operated by a sole professional with over 10 years of experience, offers exceptional automotive window tint and paint protection film services in Edmonton.
+        We've proudly serviced Edmonton for over 20 years and have recently extended our expertise to include Spruce Grove and Stony Plain. Specializing in top-tier automotive solutions, our focus remains on seamless integration and reliability. Whether it's remote start systems, premium 12-volt accessories like heated seats, or our meticulous automotive window tint and paint protection film services, our installations are crafted to elevate your driving experience.
         </p>
         <p className="about-paragraph">
-       With a focus on quality and customer satisfaction, I personally handle all aspects of the business, from consultations to installations. Using the latest techniques and technology, I provide customized solutions for privacy, UV protection, heat reduction, and exterior preservation.
+        Additionally, our commitment to 100% customer satisfaction extends to our top-tier automotive window tint and paint protection film services. With meticulous care, we safeguard your vehicle's appearance, providing UV protection and shielding against scratches and environmental elements. Trust us to enhance your vehicle while prioritizing your satisfaction above all else.
         </p>
          <p className="about-paragraph">
-        Trust Edmonton Tint Studio Ltd. for personalized service and outstanding results. Contact me today to enhance your vehicle's aesthetics and protection.
+         If you choose to partner with us, you're not just a client but part of our growing family-like customer community. We value each relationship and strive to build lasting connections, ensuring your trust and satisfaction in our services for years to come.
         </p>
 {/* 
         <p className="about-paragraph">

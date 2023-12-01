@@ -29,12 +29,12 @@ export default function RemoteCard({ options }) {
   return (
     <div id={model} className="remote-card-container">
       <div className="top-logos-container">
-        <img
+        {/* <img
           className="brand-logo"
           src="/logos/adrenalin_logo.png"
           alt="adrenalin-logo"
-        />
-        <img className="brand-logo" src={brandLogo} alt="brand-logo" />
+        /> */}
+        {/* <img className="brand-logo" src={brandLogo} alt="brand-logo" /> */}
       </div>
 
       <div className="model-range-container">

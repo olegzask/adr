@@ -31,20 +31,14 @@ export default function RemoteStart() {
           </h2>
 
           <span className="rs-description">
-            With so many window tint films available, making the perfect choice
-            for your vehicle has never been easier. From the latest, top of the
-            line nano-ceramic, high performance metallic hybrid, and even
-            traditional dyed window tint options, there's a PRIME ™ film for
-            every application. It outperforms other types of tint to keep you
-            comfortable and protected. All PRIME Window Tint is backed by
-            lifetime transferable warranty.
+          Discover top-tier remote start installation services in Edmonton that offer unparalleled expertise in seamlessly integrating advanced technology into your vehicle. At our facility, we specialize in precision installations tailored to your vehicle's specific requirements, ensuring optimal performance. Elevate your driving experience with our comprehensive approach, which includes the integration of DRONE, an advanced mobile app that offers cutting-edge remote start functionality. With a focus on convenience, security, and innovation, our Edmonton-based service guarantees the luxury of starting your car remotely, all backed by our commitment to user-friendly solutions and superior craftsmanship.
           </span>
           <br />
           <div className="quick-links">
             <h2 className="ql-hdr">Quick Links</h2>
             <div className="ql">
               <button className="quick-link" onClick={scrollToRemote}>
-                X1R
+                DRONE
               </button>
               <button className="quick-link" onClick={scrollToRemote}>
                 T12SS

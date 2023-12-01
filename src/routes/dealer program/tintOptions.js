@@ -24,7 +24,7 @@ export const tintOptions = [
         name: "Expert Installation",
         symbol: <FaUserCheck />,
         description:
-          "Partner with our skilled technician who excels in precise and flawless window tint and paint protection film installations.",
+          "Partner with our skilled technicians who excels in precise and flawless window tint and paint protection film installations.",
       },
       {
         name: "Premium Products",
@@ -38,12 +38,7 @@ export const tintOptions = [
         description:
           "Tailor our services to your dealership's unique requirements, offering a personalized touch that resonates with your customer base.",
       },
-      {
-        name: "Convenient On-Site Installation",
-        symbol: <FaWarehouse/>,
-        description:
-          "We bring the service directly to your dealership – no need to drive vehicles around. Our on-site service ensures a seamless and hassle-free experience for both you and your customers, with the added benefit of zero chance of vehicles getting damaged during transport.",
-      },
+    
       {
         name: "Increased Customer Satisfaction",
         symbol: <MdSentimentSatisfiedAlt/>,

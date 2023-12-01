@@ -21,7 +21,7 @@
 
 .mobile-link:hover {
   transition: 0.3s;
-  color: rgb(0, 161, 219);
+  color: rgb(113, 255, 25);
 }
 
 .mobile-link-container {
@@ -33,11 +33,11 @@
   flex-direction: column;
   justify-content: center;
   gap: 1.2rem;
-  width: 60%;
+  width: 80%;
   height: 40%;
   align-items: center;
-  border-bottom: 0.1rem solid rgb(0, 161, 219);
-  border-top: 0.1rem solid rgb(0, 161, 219);
+  border-bottom: 0.1rem solid rgb(113, 255, 25);
+  border-top: 0.1rem solid rgb(113, 255, 25);
 }
 
 .mobile-close-button {
@@ -54,7 +54,7 @@
 
 .mobile-close-button:hover {
   transition: 0.3s;
-  color: rgb(0, 161, 219);
+  color: rgb(113, 255, 25);
 }
 
 .hide {
@@ -64,23 +64,26 @@
 }
 
 .lower-nav {
+  width: 80%;
   margin: 0 auto;
   color: white;
   display: flex;
-  gap: 3rem;
-  font-size: 0.8rem;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 1rem;
+  font-size: 1.5rem;
   margin-top: 5.5rem;
+
 }
 
 .calus {
   text-decoration: none;
-  font-size: 1.5rem;
   font-weight: 400;
-  color: rgb(0, 161, 219);
+  color: rgb(113, 255, 25);
 }
 
 .calus:hover {
-  color: rgb(116, 189, 216);
+  color: rgb(113, 255, 25);
 }
 
 .calus:hover .phone-icon {

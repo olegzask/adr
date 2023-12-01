@@ -9,7 +9,7 @@ import "./applicationcard.styles.css";
 export default function ApplicationCard({ opts }) {
   const { name, jobs } = opts;
   const [heh] = jobs;
-  const { jobBen, jobReq, jobResp } = heh;
+  const { jobBen, jobReq, jobResp, jobName } = heh;
   const [missing, setMissing] = useState();
   const [userInfo, setUserInfo] = useState({
     name: "",

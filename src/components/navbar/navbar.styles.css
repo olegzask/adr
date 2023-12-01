@@ -13,6 +13,7 @@
   /* border-bottom: 0.1rem solid rgb(133, 255, 62); */
   position: fixed;
   z-index: 2;
+
 }
 
 .scrolled {
@@ -33,7 +34,7 @@
 
 .nav-link:hover {
   transition: 0.3s;
-  color: rgb(0, 161, 219);
+  color: rgb(113, 255, 25);
 }
 
 .navbar-logo {
@@ -41,16 +42,16 @@
   cursor: pointer;
   margin: 0;
   /* font-size: 3.2rem; */
-  height:4rem;
+  height:2rem;
 }
 
 .border {
-  border: 0.15rem solid rgb(0, 161, 219);
+  border: 0.15rem solid rgb(113, 255, 25);
 }
 
 .navbar-logo:hover {
   transition: 0.2s ease-in;
-  color: rgb(0, 161, 219);
+  color: rgb(113, 255, 25);
 }
 
 .navbar-logo:active {
@@ -66,7 +67,7 @@
 
 #hamb-menu-icon:hover {
   transition: 0.2s ease-in;
-  color: rgb(0, 161, 219);
+  color: rgb(113, 255, 25);
 }
 
 @media (max-width: 500px) {
@@ -82,15 +83,16 @@
   .hamb-menu-container {
     position: relative;
     right: 5rem;
+
   }
 
   .navbar {
-    gap: 14rem;
+    gap: 7rem;
     height: 4.5rem;
     justify-content: space-around;
   }
   .navbar-logo {
-    height: 3.2rem;
+    height: 2rem;
     margin-left: 5rem;
   }
 

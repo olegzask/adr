@@ -12,7 +12,7 @@ export const remotes = [
     appleLink: "https://apps.apple.com/us/app/dronemobile/id380549030",
     googleLink:
       "https://play.google.com/store/apps/details?id=com.whiz.droneapp&hl=en_CA&gl=US",
-    model: "X1R",
+    model: "DRONE",
     type: ["Smart Control"],
     brand: "Drone",
     brandLogo: "/logos/1200x300-drone-logo-white.png",

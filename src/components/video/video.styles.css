@@ -3,7 +3,6 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  margin-bottom: 3rem;
 }
 
 .main-video {
@@ -13,6 +12,6 @@
 @media (max-width: 500px) {
   .main-video {
     width: auto;
-    height: 78vh;
+    height: 65vh;
   }
 }
