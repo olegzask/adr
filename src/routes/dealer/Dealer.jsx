@@ -20,7 +20,7 @@ export const Dealer = () => {
       if(ghl.toLowerCase() + "" === "derrick780") {
         setDealerName("Derrick Dodge")
       }
-      if(ghl.toLowerCase() + "" === "inifniti780") {
+      if(ghl.toLowerCase() + "" === "infiniti780") {
         setDealerName("Infiniti South")
       }
 

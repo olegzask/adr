@@ -86,13 +86,13 @@
   .dealer-login {
     margin: 0 auto;
     width: 95%;
-    justify-content: space-between;
+    justify-content: space-around;
 
   }
 
   #dealer-name {
     font-size: 1rem;
-    width: 65%;
+    width: 50%;
   }
 
   .input-pw {
