@@ -62,6 +62,7 @@ export const Dealer = () => {
     document.getElementById("logout_btn").style.display = "none";
     document.getElementById("pwinput").style.display = "block";
     document.getElementById("dealer-name").style.display = "none";
+    setDealerName("")
 
 
   };
