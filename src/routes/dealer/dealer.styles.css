@@ -92,6 +92,7 @@
 
   #dealer-name {
     font-size: 1rem;
+    width: 65%;
   }
 
   .input-pw {
@@ -99,7 +100,7 @@
   }
 
   .btn-submitpw {
-    width: 40%;
+    width: 30%;
     font-size: 1rem;
   }
 
