@@ -108,7 +108,7 @@ export const Footer = () => {
           <span className="have-question">Got a Question? </span>
           <span className="ask-us-anything">We are here to help.</span>
         </span>
-        <a className="direct-link" href="tel:17802351114">
+        <a className="direct-link" href="tel:17804409438">
           <MdCall className="phone-icon-footer" />1.780.440.9438
         </a>
         <a className="direct-link" href="mailto:info@adrenalinaudio.com">
