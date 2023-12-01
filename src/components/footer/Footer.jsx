@@ -116,14 +116,14 @@ export const Footer = () => {
           info@adrenalinaudio.com
         </a>
         <a
-          href="https://www.google.ca/maps/uv?pb=!1s0x53a01f4d33973b7b%3A0x47bceeee593e223!3m1!7e115!4s%2Fmaps%2Fplace%2FAdrenalin%2Baudio%2F%4053.4957924%2C-113.4829247%2C3a%2C75y%2C14.79h%2C90t%2Fdata%3D*213m4*211e1*213m2*211smBMUl4B1fUBBpU6bWgae-w*212e0*214m2*213m1*211s0x53a01f4d33973b7b%3A0x47bceeee593e223%3Fsa%3DX%26ved%3D2ahUKEwitm5zrie-CAxWDFjQIHbOQAqIQpx96BAg6EAA!5sAdrenalin%20audio%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e2!2smBMUl4B1fUBBpU6bWgae-w&hl=en&sa=X&ved=2ahUKEwitm5zrie-CAxWDFjQIHbOQAqIQpx96BAhQEA0"
+          href="https://www.google.ca/maps/dir/53.4970368,-113.4821376/adrenalin+audio/@53.4964131,-113.4850236,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x53a01f4d33973b7b:0x47bceeee593e223!2m2!1d-113.4827597!2d53.4961641?entry=ttu"
           className="direct-link"
           target="_blank"
         >
           <GoLocation className="phone-icon-footer" />  Edmonton
         </a>
         <a
-          href="https://www.google.ca/maps/uv?pb=!1s0x53a01f4d33973b7b%3A0x47bceeee593e223!3m1!7e115!4s%2Fmaps%2Fplace%2FAdrenalin%2Baudio%2F%4053.4957924%2C-113.4829247%2C3a%2C75y%2C14.79h%2C90t%2Fdata%3D*213m4*211e1*213m2*211smBMUl4B1fUBBpU6bWgae-w*212e0*214m2*213m1*211s0x53a01f4d33973b7b%3A0x47bceeee593e223%3Fsa%3DX%26ved%3D2ahUKEwitm5zrie-CAxWDFjQIHbOQAqIQpx96BAg6EAA!5sAdrenalin%20audio%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e2!2smBMUl4B1fUBBpU6bWgae-w&hl=en&sa=X&ved=2ahUKEwitm5zrie-CAxWDFjQIHbOQAqIQpx96BAhQEA0"
+          href="https://www.google.ca/maps/dir/53.4970368,-113.4821376/adrenalin+audio/@53.4964131,-113.4850236,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x53a01f4d33973b7b:0x47bceeee593e223!2m2!1d-113.4827597!2d53.4961641?entry=ttu"
           className="direct-link"
           target="_blank"
         >
