@@ -23,7 +23,7 @@ export const services = [
     link: "services/window-tint",
   },
   {
-    name: "Paint Protection Film",
+    name: "Paint Protection",
     id: "ppf",
     description: ["Our Automotive Paint Protection film service offers premium protection for your vehicle's paint.","With a comprehensive consultation, precise installation, and high-quality films, we safeguard your vehicle from scratches, chips, UV rays, and chemicals.","Our durable and virtually invisible films provide long-lasting protection and can even self-heal minor scratches.", "Trust our professional service to keep your vehicle looking pristine and protected."],
     image: "images/services-images/ppf-color.jpg",
