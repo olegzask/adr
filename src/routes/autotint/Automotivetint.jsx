@@ -9,7 +9,7 @@ const Automotivetint = () => {
     <div className="autotint-main-container">
       <div className="autotint-container">
         <div className="tint-topper">
-          <h1 className="service-container-header ppf-header">
+          <h1 className="service-container-header ppf-header tnt">
             EDMONTON WINDOW <span className="our-services">TINT</span>
           </h1>
 

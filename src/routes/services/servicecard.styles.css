@@ -1,7 +1,7 @@
 .servicecard-container {
   margin: 0 auto;
   padding: 1rem 0;
-  padding-top: 5rem;
+  padding-top: 2rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -13,9 +13,10 @@
 
 .servicecard-left-side {
   margin: 0;
-  width: 60%;
+  width: 58%;
   display: flex;
   flex-direction: column;
+
 
   
 }
@@ -49,25 +50,26 @@
   }
 
   .servicecard-container {
-    flex-direction: column;
+  }
+
+  .service-description {
+    font-size: 0.7rem;
+    font-weight: 300;
+    text-align:left;
   }
 
   
 
   .servicecard-right-side {
-    width: 80%;
+    width: 40%;
     margin-top: 1rem;
+    margin: 0;
   }
 
-  .servicecard-left-side {
-    width: 90%;
-    position: relative;
-    top: -3rem;
-    
-  }
+
 
   .service-name {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   .service-img {
@@ -92,7 +94,7 @@
     font-size: 2.7rem;
   }
   .service-description {
-    font-size: 1.4em;
+    font-size: 1.4rem;
     font-weight: 300;
     text-align:left;
   }
