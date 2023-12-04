@@ -23,8 +23,11 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
+  gap: 0.5rem;
   width: 100%;
 }
+
+
 
 #rs-model {
   width: 32%;
@@ -34,6 +37,10 @@
 
 #vehicle {
   width: 57%;
+  text-align: center;
+}
+#dealerName {
+  width: auto;
   text-align: center;
 }
 

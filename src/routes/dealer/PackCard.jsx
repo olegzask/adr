@@ -1,9 +1,10 @@
 import React, {useState} from "react";
 import Booking from "../remotestart/Booking";
+import BookingDealer from "../remotestart/BookingDealer";
 import ".//packcard.styles.css";
 
 export const PackCard = ({ opts }) => {
-  const { name, includes, dealerPrice, retailPrice, image } = opts;
+  const { name, includes, dealerPrice, retailPrice, image, dlr } = opts;
   const [modal, setModal] = useState(false);
 
 
@@ -28,7 +29,7 @@ export const PackCard = ({ opts }) => {
 </div>
       
       {!modal ? null : (
-            <Booking opts={{ rem: `PPF Dealer - ${name}`, txt: "Service", reset: setModal }} />
+            <BookingDealer opts={{ rem: `PPF Dealer - ${name}`, txt: "Service", reset: setModal, dName: dlr }} />
           )}
           <button id="bookbutn"  onClick={showModal} className="btn-book remote-btn">
             BOOK NOW

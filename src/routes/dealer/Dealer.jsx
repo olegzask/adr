@@ -91,7 +91,7 @@ export const Dealer = () => {
       </div>
       <div className="main-dealer-container" id="mdealer">
         {packages.map((el) => (
-          <PackCard opts={el} />
+          <PackCard opts={{...el, dlr: dealerName}} />
         ))}
       </div>
     
