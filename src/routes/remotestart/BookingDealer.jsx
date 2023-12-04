@@ -69,14 +69,14 @@ export default function BookingDealer({ opts }) {
     const poInput = document.getElementById("poNumber");
 
 
-    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "" });
+    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "", poNumber: "" });
 
     nameInput.value = "";
     emailInput.value = "";
     phoneInput.value = "";
     commentsInput.value = "";
     vehicleInput.value = "";
-    poInput.value="";
+    poInput.value = "";
   };
 
   const handleChange = (e) => {
@@ -163,6 +163,7 @@ export default function BookingDealer({ opts }) {
           <input
             disabled={false}
           id="poNumber"
+          onChange={handleChange}
           className="form-input"
           type="text"
           name="poNumber"
