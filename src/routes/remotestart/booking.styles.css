@@ -33,6 +33,8 @@
   width: 32%;
   font-size: 0.9rem;
   text-align: center;
+  background-color: lightgrey;
+
 }
 
 #vehicle {
@@ -42,6 +44,7 @@
 #dealerName {
   width: auto;
   text-align: center;
+  background-color: lightgrey;
 }
 
 .booking-header {
@@ -78,5 +81,36 @@
 @media (max-width: 500px)  {
   #bookingForm {
 left: -0.5rem;
+  }
+
+  .vehicle-info {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  #rs-model {
+    width: auto;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  #vehicle {
+    width: auto;
+    text-align: center;
+  }
+  #dealerName {
+    width: auto;
+    text-align: center;
+  }
+  #poNumber {
+    width: auto;
+    text-align: center;
+  }
+
+  .booking-header {
+    font-size: 1.5rem;
   }
 }

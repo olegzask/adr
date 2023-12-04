@@ -101,13 +101,13 @@ export default function BookingDealer({ opts }) {
       ) : null}
       <div className="close-hdr">
         <h2 className="contactform-header booking-header">
-          Send us your request
+          Send us your work request!
         </h2>
         <MdClose onClick={closeForm} className="booking-close" />
       </div>
 
       <h3 className="contactform-header-two booking-two">
-        Fill out some info & we will get back to you!
+        Fill out some info for a service to be done...
       </h3>
       <form className="contact-form-main" ref={form} onSubmit={sendEmail}>
         <input
@@ -153,8 +153,16 @@ export default function BookingDealer({ opts }) {
           id="dealerName"
           className="form-input"
           type="text"
-          name="name"
+          name="dealerName"
           value={dName}
+        />
+          <input
+            disabled={false}
+          id="poNumber"
+          className="form-input"
+          type="text"
+          name="poNumber"
+          placeholder="PO#"
         />
           <input
             autoComplete="off"
@@ -173,7 +181,7 @@ export default function BookingDealer({ opts }) {
           onChange={handleChange}
           className="form-comment"
           name="comments"
-          placeholder="Any specific questions? Desired date for install?"
+          placeholder="Any special requests? Date for install? Comments?"
         ></textarea>
         <button className="submit-request" onClick={submitRequest}>
           SUBMIT REQUEST
