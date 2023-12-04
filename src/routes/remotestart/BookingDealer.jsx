@@ -13,6 +13,7 @@ export default function BookingDealer({ opts }) {
     phone: "",
     comments: "",
     vehicle: "",
+    poNumber: ""
     
 
   });
@@ -65,6 +66,8 @@ export default function BookingDealer({ opts }) {
     const phoneInput = document.getElementById("phone");
     const commentsInput = document.getElementById("comments");
     const vehicleInput = document.getElementById("vehicle");
+    const poInput = document.getElementById("poNumber");
+
 
     setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "" });
 
@@ -72,7 +75,8 @@ export default function BookingDealer({ opts }) {
     emailInput.value = "";
     phoneInput.value = "";
     commentsInput.value = "";
-    vehicleInput.valie = "";
+    vehicleInput.value = "";
+    poInput.value="";
   };
 
   const handleChange = (e) => {
