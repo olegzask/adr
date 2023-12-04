@@ -41,5 +41,20 @@ export const services = [
     image: "images/services-images/dealer.jpg",
     link: "services/dealer-program",
   },
+  {
+    name: "Dash Cams",
+    description:
+      ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada dignissim velit a tincidunt. Fusce vel mi eget diam viverra laoreet sed sit amet dolor."],
+    image: "images/services-images/dashcam.jpg",
+    link: "services/dash-cams",
+  },
+
+  {
+    name: "12V Accessories",
+    description:
+      ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada dignissim velit a tincidunt. Fusce vel mi eget diam viverra laoreet sed sit amet dolor."],
+    image: "images/services-images/12volt-color.jpg",
+    link: "services/12-volt-accessories",
+  },
  
 ];

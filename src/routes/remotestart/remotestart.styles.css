@@ -14,12 +14,14 @@
   font-size: 2.5rem;
 }
 
+
 .rs-description-lower {
   margin: 0;
   font-size: 1rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
   width: 100%;
+  text-align: center;
 }
 
 .remote-card-container {
@@ -31,12 +33,17 @@
   border-top: 0.4rem solid rgb(113, 255, 25);
 }
 
+
+
 .rs-topper {
   margin: 0;
   margin-bottom: 1.2rem;
   width: 100%;
-  text-align: center;
+  text-align: left;
+  font-size: 0.6rem;
 }
+
+
 
 .quick-links {
   margin: 0 auto;

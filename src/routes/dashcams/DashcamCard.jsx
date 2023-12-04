@@ -38,18 +38,18 @@ export default function DashcamCard({ options }) {
 
   return (
     <div id={model} className="remote-card-container">
-      <div className="top-logos-container">
+      {/* <div className="top-logos-container">
         <img
           className="brand-logo"
           src="/logos/adrenalin_logo.png"
           alt="adrenalin-logo"
         />
         <img className="brand-logo" src={brandLogo} alt="brand-logo" />
-      </div>
+      </div> */}
 
       <div className="model-range-container">
         <h2 className="remote-model">
-          Model: <span className="model">{model}</span>
+          <span className="model">{model}</span>
         </h2>
         <h2 className="remote-range">{range}</h2>
       </div>
