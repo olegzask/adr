@@ -30,6 +30,27 @@ export const services = [
     link: "services/paint-protection-film",
   },
 
+ 
+  {
+    name: "Dash Cams",
+    description:
+      ["At Adrenalin Audio, we specialize in dash camera installations, providing a crucial layer of safety and security for your vehicle.",
+    "Our expert team ensures seamless integration of dash cameras into your vehicle, offering clear and reliable footage for accidents, theft deterrence, and surveillance.",
+  "Safeguard your journeys with Adrenalin Audio's professional dash camera installations. Contact us for a safer and more secure driving experience."],
+    image: "images/services-images/dashcam.jpg",
+    link: "services/dash-cams",
+  },
+
+  {
+    name: "12V Accessories",
+    description:
+      ["At Adrenalin Audio, our 12-volt accessories, including heated seats, HD cameras, and premium DVD players, redefine comfort, safety, and entertainment in your vehicle.",
+    "Our skilled technicians seamlessly integrate these upgrades into your vehicle, ensuring optimal functionality and sleek installations that enhance both convenience and style.",
+  "Enhance your vehicle with Adrenalin Audio's premium 12-volt accessories. Contact us for a driving experience that's safer, more comfortable, and more entertaining."],
+    image: "images/services-images/12volt-color.jpg",
+    link: "services/12-volt-accessories",
+  },
+
   {
     name: "Dealer Program",
     id: "dp",
@@ -40,21 +61,6 @@ export const services = [
       "Wholesale pricing... Best materials... Awesome Service."],
     image: "images/services-images/dealer.jpg",
     link: "services/dealer-program",
-  },
-  {
-    name: "Dash Cams",
-    description:
-      ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada dignissim velit a tincidunt. Fusce vel mi eget diam viverra laoreet sed sit amet dolor."],
-    image: "images/services-images/dashcam.jpg",
-    link: "services/dash-cams",
-  },
-
-  {
-    name: "12V Accessories",
-    description:
-      ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada dignissim velit a tincidunt. Fusce vel mi eget diam viverra laoreet sed sit amet dolor."],
-    image: "images/services-images/12volt-color.jpg",
-    link: "services/12-volt-accessories",
   },
  
 ];

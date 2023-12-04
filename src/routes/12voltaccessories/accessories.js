@@ -5,7 +5,7 @@ import { AiOutlineEyeInvisible } from "react-icons/ai";
 export const allAccessories = [
   {
     app: false,
-    model: "HS1",
+    model: "HEATED SEAT-HS1",
     brand: "AA",
     brandLogo: "/logos/adrenalin_logo.png",
     price: 0,

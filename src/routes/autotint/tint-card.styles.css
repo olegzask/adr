@@ -30,6 +30,7 @@
 
 .tint-card-right {
   width: 60%;
+  padding-bottom: 2rem;
 }
 
 .card-header {
@@ -113,6 +114,8 @@
     border-bottom: 0.1rem solid white;
   }
 
+
+
   .card-header {
     width: 92%;
     font-size: 1.9rem;
@@ -124,6 +127,7 @@
     align-items: center;
     margin: 0 auto;
     text-align: center;
+    
   }
 
   .shades-ctn {
@@ -181,6 +185,7 @@
 
   .feat-description {
     font-size: 1rem;
+    
   }
 
   .tint-btn {

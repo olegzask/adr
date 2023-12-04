@@ -5,32 +5,36 @@ import AccessoryCard from "./AccessoryCard";
 
 export default function Accessories() {
   return (
-    <div className="accessories-container">
-      <div className="rs-main-container dashcams-main-container">
-        <div className="rs-container">
-          <div className="rs-topper">
-            <h2 className="service-container-header tint-header rs-serv-header">
-              12 VOLT <span className="our-services">ACCESSORIES</span>
-            </h2>
+    <div className="rs-main-container dashcams-main-container">
+      <div className="rs-container">
+      <div className="rs-topper">
+          <h1 className="service-container-header rs-serv-header">
+            12V <span className="our-services">ACCESSORIES</span>
+          </h1>
 
-            <span className="rs-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              sequi perspiciatis ad tempora quidem ipsum, ratione aut in harum
-              molestias voluptate. Sint rerum corporis possimus laudantium
-              aliquam commodi quis ex laboriosam vel dolor quibusdam, placeat
-              alias necessitatibus perspiciatis impedit delectus tenetur. Illo
-              velit quisquam mollitia, reiciendis unde similique non. Tempora.
-            </span>
-            <br />
+          <span className="rs-description">
+          
+          At Adrenalin Audio, we specialize in enhancing your driving experience with top-notch 12-volt accessories. From luxurious heated seats for comfort to high-definition backup cameras and immersive DVD players, our range of premium accessories transforms your vehicle into a haven of convenience and entertainment.
+          </span>
+          <br />
+          <br/>
+          <span className="rs-description">
+          
+          With expert installation and quality products, trust Adrenalin Audio to elevate your ride. Upgrade your vehicle today for a more comfortable and enjoyable journey.
+                    </span>
+          <br />
 
-            <h2 className="rs-description-lower">
-              NOT SURE WHAT KIND OF ACCESSORY YOU NEED? EXPLORE OUR OPTIONS!
-            </h2>
-          </div>
+
+          <span className="rs-description-lower">
+            NOT SURE WHAT KIND OF ACCESSORIES YOU NEED? EXPLORE OUR OPTIONS!
+          </span>
+        </div>
+        
+      
           {allAccessories.map((remote, id) => (
             <AccessoryCard key={id} options={remote} />
           ))}
-        </div>
+        
       </div>
     </div>
   );

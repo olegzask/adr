@@ -16,6 +16,10 @@
 
 }
 
+.serv-link {
+  cursor: pointer;
+}
+
 .scrolled {
   transition: 0.2s ease-in;
   background-color: rgba(0, 0, 0, 100%);

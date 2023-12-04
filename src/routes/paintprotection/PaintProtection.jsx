@@ -9,19 +9,19 @@ import "./ppf.styles.css";
 
 export default function PaintProtection() {
   return (
-    <div className="autotint-main-container">
-      <div className="autotint-container">
-        <div className="tint-topper">
-          <h1 className="service-container-header tint-header ppf-header">
-           EDMONTON PAINT <span className="our-services">PROTECTION FILM</span>
+    <div className="rs-main-container dashcams-main-container">
+      <div className="rs-container">
+        <div className="rs-topper">
+          <h1 className="service-container-header  rs-serv-header">
+           PAINT <span className="our-services">PROTECTION FILM</span>
           </h1>
-          <p className="tint-description">
+          <p className="rs-description">
           Discover the ultimate safeguard for your vehicle's pristine finish with our Paint Protection Film (PPF) solutions, now available in Edmonton, Spruce Grove, and Stony Plain. Engineered to shield your car from the rigors of the road, our state-of-the-art PPF offers an invisible armor against rock chips, scratches, and environmental contaminants. Our skilled technicians meticulously apply this virtually undetectable layer, ensuring your vehicle's factory paint remains flawless and unblemished. 
           </p>
 
           <br/>
 
-          <p className="tint-description">
+          <p className="rs-description">
           Uncompromising in both form and function, our PPF not only provides unparalleled protection but also enhances your vehicle's aesthetic appeal by preserving its original shine. Whether you're navigating urban streets or embarking on off-road adventures, our premium PPF empowers you to drive with confidence, knowing that your investment is shielded by the pinnacle of automotive defense. Elevate your driving experience and uphold your vehicle's value with our unrivaled Paint Protection Film expertise.
           </p>
 
@@ -29,9 +29,10 @@ export default function PaintProtection() {
           
           <br />
 
-          <span className="tint-description-lower">
+          <span className="rs-description-lower">
             NOT SURE WHAT COVERAGE YOU WANT? EXPLORE OUR OPTIONS!
           </span>
+          <div className="linkec-cont">
           <LinkComponent
             opts={{
               name: "BROWSE PACKAGES",
@@ -40,6 +41,8 @@ export default function PaintProtection() {
               func:  scrollToTop
             }}
           />
+          </div>
+         
         </div>
 
         {ppfOptions.map((opt, id) => {

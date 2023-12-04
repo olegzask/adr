@@ -1,6 +1,6 @@
 .rs-main-container {
   width: 100%;
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
 }
 
 .rs-container {
@@ -11,21 +11,15 @@
 }
 
 .rs-serv-header {
-  font-size: 1.8rem;
-  text-align: center;
-}
-
-.rs-description {
-  margin: 0;
-
+  font-size: 1.6rem;
 }
 
 
 .rs-description-lower {
+  display: flex;
   margin: 0;
   font-size: 1rem;
   margin-bottom: 2rem;
-  margin-top: 2rem;
   width: 100%;
   text-align: center;
 }
@@ -49,11 +43,6 @@
   font-size: 0.8rem;
 }
 
-.linkec-cont  {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
 
 
 .quick-links {
@@ -206,10 +195,6 @@
 }
 
 @media (min-width: 1000px) {
-  .rs-main-container {
-    padding-bottom: 2rem;
-  }
-
   .rs-serv-header {
     margin-top: 2rem;
     font-size: 3rem;
@@ -237,16 +222,6 @@
 
   .remote-img {
     width: 40%;
-  }
-
-  .rs-description {
-    font-size: 1.3rem;
-    font-weight: 300;
-  }
-
-  .rs-description-lower {
-    display: flex;
-    justify-content: center;
   }
 
   .brand-logo {

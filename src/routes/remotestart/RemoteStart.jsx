@@ -26,12 +26,18 @@ export default function RemoteStart() {
     <div className="rs-main-container">
       <div className="rs-container">
         <div className="rs-topper">
-          <h2 className="service-container-header tint-header rs-serv-header">
+          <h2 className="service-container-header rs-serv-header">
             REMOTE <span className="our-services">START</span>
           </h2>
 
           <span className="rs-description">
-          Discover top-tier remote start installation services in Edmonton that offer unparalleled expertise in seamlessly integrating advanced technology into your vehicle. At our facility, we specialize in precision installations tailored to your vehicle's specific requirements, ensuring optimal performance. Elevate your driving experience with our comprehensive approach, which includes the integration of DRONE, an advanced mobile app that offers cutting-edge remote start functionality. With a focus on convenience, security, and innovation, our Edmonton-based service guarantees the luxury of starting your car remotely, all backed by our commitment to user-friendly solutions and superior craftsmanship.
+          Discover top-tier remote start installation services in Edmonton that offer unparalleled expertise in seamlessly integrating advanced technology into your vehicle. At our facility, we specialize in precision installations tailored to your vehicle's specific requirements, ensuring optimal performance.          </span>
+          <br/>
+          <br/>
+
+          
+          <span className="rs-description">
+          Elevate your driving experience with our comprehensive approach, which includes the integration of DRONE, an advanced mobile app that offers cutting-edge remote start functionality. With a focus on convenience, security, and innovation, our Edmonton-based service guarantees the luxury of starting your car remotely, all backed by our commitment to user-friendly solutions and superior craftsmanship.
           </span>
           <br />
           <div className="quick-links">

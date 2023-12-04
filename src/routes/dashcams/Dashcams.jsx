@@ -18,11 +18,16 @@ export default function Dashcams() {
     <div className="rs-main-container dashcams-main-container">
       <div className="rs-container">
         <div className="rs-topper">
-          <h2 className="service-container-header tint-header rs-serv-header">
+          <h2 className="service-container-header rs-serv-header">
             DASH <span className="our-services">CAMERAS</span>
           </h2>
           <span className="rs-description">
-          Dash cameras from Adrenalin Audio provide an essential layer of protection for your vehicle. Offering real-time evidence in accidents, theft deterrence, and surveillance capabilities, our expertly installed dash cameras enhance safety and accountability on the road. With seamless integration and premium features, trust Adrenalin Audio for reliable dash camera installations that safeguard your journeys. Contact us today for a safer driving experience.
+          Dash cameras from Adrenalin Audio provide an essential layer of protection for your vehicle. Offering real-time evidence in accidents, theft deterrence, and surveillance capabilities, our expertly installed dash cameras enhance safety and accountability on the road.
+          </span>
+          <br/>
+          <br/>
+          <span className="rs-description">
+          With seamless integration and premium features, trust Adrenalin Audio for reliable dash camera installations that safeguard your journeys. Contact us today for a safer driving experience.
           </span>
           <br/>
 

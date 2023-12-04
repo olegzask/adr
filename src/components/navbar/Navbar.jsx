@@ -5,6 +5,7 @@ import { FaPowerOff } from "react-icons/fa";
 import { Footer } from "../footer/Footer";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { Outlet } from "react-router";
+import { Dropdown } from "../dropdownmenu/DropDown";
 import { PowerWall } from "../powerwall/PowerWall";
 import MobileMenu from "./MobileMenu";
 import { scrollToTop } from "../helperFunctions/helpers";
@@ -26,7 +27,19 @@ export const Navbar = () => {
     if (!menu.classList.contains("hide")) {
       menu.classList.add("hide");
     } else menu.classList.remove("hide");
+
   };
+
+
+  const servicesHover = () => {
+    const [dropMenu] = document.getElementsByClassName("services-dropdown-container");
+
+    !dropMenu.classList.contains("dropdown-active")
+      ? dropMenu.classList.add("dropdown-active")
+      : dropMenu.classList.remove("dropdown-active");
+
+  };
+
 
   const goToServices = (e) => {
     setTimeout(
@@ -44,6 +57,9 @@ export const Navbar = () => {
 
   };
   const goToAbout = (e) => {
+    const [dropMenu] = document.getElementsByClassName("services-dropdown-container");
+dropMenu.classList.remove("dropdown-active");
+
     setTimeout(
       () => {
         const servicesEl = document.getElementById("ankor-3");
@@ -60,6 +76,9 @@ export const Navbar = () => {
   };
 
   const goToContact = (e) => {
+    const [dropMenu] = document.getElementsByClassName("services-dropdown-container");
+    dropMenu.classList.remove("dropdown-active");
+
     setTimeout(
       () => {
         const servicesEl = document.getElementById("ankor-2");
@@ -76,6 +95,7 @@ export const Navbar = () => {
   };
 
   const goToDealer = (e) => {
+    servicesHover();
     setTimeout(
       () => {
         const servicesEl = document.getElementById("dp");
@@ -105,12 +125,12 @@ export const Navbar = () => {
           <Link onClick={goToAbout} className="nav-link" to="/">
             About
           </Link>
-          <Link onClick={goToServices} className="nav-link" to="/">
+          <span onClick={servicesHover} className="nav-link serv-link" to="/">
             Services
-          </Link>
-          <Link onClick={goToDealer} className="nav-link" to="/">
+          </span>
+          {/* <Link onClick={goToDealer} className="nav-link" to="/">
             Dealer Program
-          </Link>
+          </Link> */}
           <Link onClick={scrollToTop} className="nav-link" to="/simulator">
             Simulator
           </Link>
@@ -129,6 +149,7 @@ export const Navbar = () => {
           <HiMenuAlt3 onClick={hideMenu} id="hamb-menu-icon" />
         </div>
         <MobileMenu />
+        <Dropdown />
       </div>
       <Outlet />
       <Footer />

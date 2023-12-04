@@ -8,26 +8,30 @@ import "./autotint.styles.css";
 
 const Automotivetint = () => {
   return (
-    <div className="autotint-main-container">
-      <div className="autotint-container">
-        <div className="tint-topper">
-          <h2 className="service-container-header ppf-header">
+    <div className="rs-main-container dashcams-main-container">
+      <div className="rs-container">
+        <div className="rs-topper">
+          <h2 className="service-container-header  rs-serv-header">
             DEALER <span className="our-services">PROGRAM</span>
           </h2>
 
-          <span className="tint-description dealer-descr">
+          <span className="rs-description">
           Introducing our dealership program tailored exclusively for automotive dealerships seeking premium window tint and paint protection film installation services.
           </span>
-          <span className="tint-description dealer-descr">
+          <br/>
+          <br/>
+
+          <span className="rs-description">
           As an authorized partner, you'll gain access to our specialized expertise and industry-leading solutions, allowing you to offer enhanced vehicle aesthetics and protection to your valued customers.
           </span>
           
           <br />
 
-          <span className="tint-description-lower">
+          <span className="rs-description-lower">
             LET'S EXPLORE BENEFITS OF OUR DEALERSHIP PROGRAM!
           </span>
-          
+
+          <div className="linkec-cont">
           <LinkComponent
             opts={{
               name: "BROWSE DEALER PRICING",
@@ -36,6 +40,9 @@ const Automotivetint = () => {
               func: scrollToTop
             }}
           />
+            </div>
+          
+          
          
         
         </div>
