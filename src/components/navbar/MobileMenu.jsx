@@ -87,20 +87,9 @@ hideMenu();
  
 
   const goToDealer = (e) => {
-    setTimeout(
-      () => {
-        const servicesEl = document.getElementById("dp");
-        servicesEl.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-          inline: "center",
-        });
+  
 hideMenu();
 
-      },
-
-      100
-    );
 
   };
 
@@ -127,7 +116,7 @@ hideMenu();
         {/* <Link onClick={hideMenu} className="mobile-link" to="/sales">
           Sales
         </Link> */}
-        <Link onClick={goToDealer} className="mobile-link" to="/">
+        <Link onClick={goToDealer} className="mobile-link" to="/services/dealer-program">
           Dealer Program
         </Link>
         <Link onClick={goToCareers} className="mobile-link" to="/careers">
