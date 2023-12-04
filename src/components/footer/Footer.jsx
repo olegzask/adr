@@ -123,7 +123,7 @@ export const Footer = () => {
           <GoLocation className="phone-icon-footer" />  Edmonton
         </a>
         <a
-          href="https://www.google.ca/maps/dir/53.4970368,-113.4821376/adrenalin+audio/@53.4964131,-113.4850236,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x53a01f4d33973b7b:0x47bceeee593e223!2m2!1d-113.4827597!2d53.4961641?entry=ttu"
+          href="https://www.google.ca/maps/place/951+Boulder+Blvd+%23201,+Stony+Plain,+AB+T7Z+0E7/@53.550748,-113.988526,17z/data=!3m1!4b1!4m5!3m4!1s0x539f8fd1b2926fd9:0xafa166e10faf7045!8m2!3d53.550748!4d-113.988526?entry=ttu"
           className="direct-link"
           target="_blank"
         >
