@@ -99,6 +99,7 @@
 
 @media (max-width: 500px)  {
   #bookingForm {
+    top: 2rem;
 left: -0.5rem;
 height: 100%;
   }
