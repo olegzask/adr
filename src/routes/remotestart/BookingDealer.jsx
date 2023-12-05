@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 import "./booking.styles.css";
 
 export default function BookingDealer({ opts }) {
-  const { rem, reset, txt, dName, filmType, dPrice, vehType} = opts;
+  const { rem, reset, txt, dName, filmType, dPrice, vehType, vBrow} = opts;
   const [formInfo, setFormInfo] = useState({
     name: "",
     email: "",
@@ -150,7 +150,7 @@ export default function BookingDealer({ opts }) {
             className="form-input"
             type="text"
             name="rs-model"
-            value={`${txt}: ${rem} ${filmType}`}
+            value={`${rem} ${filmType} ${vBrow}`}
           />
           <input
             disabled={true}
@@ -170,6 +170,17 @@ export default function BookingDealer({ opts }) {
           name="price"
           value={`$${dPrice} +GST`}
         />
+
+            <input
+            disabled={true}
+          autoComplete="off"
+          id="cartype"
+          className="form-input"
+          type="text"
+          name="cartype"
+          value={`Vehicle Type: ${vehType.toUpperCase()}`}
+        />
+
           <input
             disabled={false}
           id="poNumber"

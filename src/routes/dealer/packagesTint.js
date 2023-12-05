@@ -1,7 +1,12 @@
 export const packagesTint = [
     {
       name: "Full Rears",
-      image: "/logos/bronze.png",
+      image: {
+        car:"/logos/carRears.jpg",
+        suv:"/logos/suvRears.jpg",
+        truck:"/logos/truckRears.jpg",
+  
+      },
       includes: [
         "2 Rear Roll Downs",
         "Rear Windshield",
@@ -19,7 +24,12 @@ export const packagesTint = [
 
     {
         name: "Fronts Only",
-        image: "/logos/bronze.png",
+        image: {
+          car:"/logos/carFronts.jpg",
+          suv:"/logos/suvFronts.png",
+          truck:"/logos/truckFronts.jpg",
+    
+        },
         includes: [
           "2 Fronts Roll Downs",
           "2 Quarters Glass (If Applicable)"
@@ -36,7 +46,12 @@ export const packagesTint = [
 
       {
         name: "Full Tint",
-        image: "/logos/bronze.png",
+        image: {
+          car:"/logos/carFull.jpg",
+          suv:"/logos/suvFull.png",
+          truck:"/logos/truckFull.jpg",
+    
+        },
         includes: [
           "2 Fronts Roll Downs",
           "2 Rear Roll Downs",

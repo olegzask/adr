@@ -10,22 +10,81 @@ export const PackCard = ({ opts }) => {
   const [modal, setModal] = useState(false);
   const [quarts, setQuarters] = useState(false)
   const [vehic, setVehic]= useState('car');
-  const [ceramic, setCeramic] = useState(false)
+  const [ceramic, setCeramic] = useState(false);
+  const [ultimate, setUltimate] = useState(false);
+  const [brow, setBrow] = useState(false);
 
+
+
+
+  const ppfPic =(e)=> {
+    if(vehic === "car") return image.car;
+    if(vehic === "suv") return image.suv;
+    if(vehic === "truck") return image.truck;
+
+
+  }
+
+
+
+  const checkPoint = (e)=> {
+    if(quarters === true) return <div className="quarters-check"> 
+    <div className="inpt-cont">
+    <input onClick={useCer} type="checkbox" name="quarters"  id="quart" /><span id="checkid">USE CERAMIC FILM</span>
+    </div>
+
+    <div className="inpt-cont">
+    <input onClick={useCer} type="checkbox" name="quarters"  id="brow" /><span id="nah">ADD WINDSHIELD BROW</span>
+
+    </div>
+
+    </div>;
+    if(!quarters) return <div className="quarters-check"> <input onClick={useCer} type="checkbox" name="quarters" id="ulti" /><span>USE ULTIMATE FILM</span></div>;
+  }
+
+  const serviceDecider =()=> {
+    if(quarters === true) return `Tint ${name}`;
+    if(!quarters) return `PPF ${name}`
+  }
 
   const getPrice = (e)=> {
-    if(vehic==="car" && !ceramic) return dealerPriceCar;
-    if(vehic==="suv" && !ceramic) return dealerPriceSuv;
-    if(vehic==="truck" && !ceramic) return dealerPriceTruck;
+    if(vehic==="car" && !ceramic && !brow) return dealerPriceCar;
+    if(vehic==="suv" && !ceramic && !brow) return dealerPriceSuv;
+    if(vehic==="truck" && !ceramic && !brow) return dealerPriceTruck;
 
-    if(vehic==="car" && ceramic) return Math.round(dealerPriceCar * 1.5).toFixed(2);
-    if(vehic==="suv" && ceramic) return Math.round(dealerPriceSuv * 1.5).toFixed(2);
-    if(vehic==="truck" && ceramic) return Math.round(dealerPriceTruck * 1.5).toFixed(2);
+    if(vehic==="car" && !ceramic && brow) return dealerPriceCar +80;
+    if(vehic==="suv" && !ceramic && brow) return dealerPriceSuv +80;
+    if(vehic==="truck" && !ceramic && brow) return dealerPriceTruck +80;
+
+    if(vehic==="car" && ceramic && !brow) return Math.round(dealerPriceCar * 1.5).toFixed(2);
+    if(vehic==="suv" && ceramic && !brow) return Math.round(dealerPriceSuv * 1.5).toFixed(2);
+    if(vehic==="truck" && ceramic && !brow) return Math.round(dealerPriceTruck * 1.5).toFixed(2);
+
+
+    if(vehic==="car" && ceramic && brow) return Math.round(dealerPriceCar  * 1.5 +80).toFixed(2);
+    if(vehic==="suv" && ceramic && brow) return Math.round(dealerPriceSuv * 1.5 +80 ).toFixed(2);
+    if(vehic==="truck" && ceramic && brow) return Math.round(dealerPriceTruck * 1.5 +80).toFixed(2);
   }
 
   const useCer = (e)=> {
-    const checkBox =  e.target.checked;
-    checkBox ? setCeramic(true) : setCeramic(false)
+    const checkBox =  e.target;
+    if(checkBox.id +"" ==="quart") {
+     ceramic ? setCeramic(false) : setCeramic(true);
+    } 
+
+    if(checkBox.id === 'ulti')
+    {
+      ultimate ? setUltimate(false) : setUltimate(true);
+
+    }
+    if(checkBox.id === "brow" )
+    {
+     brow ? setBrow(false) : setBrow(true);
+    }
+    
+
+    console.log(checkBox.id)
+    
   }
 
 
@@ -80,7 +139,7 @@ export const PackCard = ({ opts }) => {
     <div className="pack-container">
       <div className="pack-info">
         <h3 className="pack-name">{name.toUpperCase()}</h3>
-        <img className="pack-img" src={image} alt="package-img" />
+        <img className="pack-img" src={ppfPic()} alt="package-img" />
         <ul className="pack-list">
           {includes.map((el) => (
             <li className="pack-el">{el}</li>
@@ -90,14 +149,14 @@ export const PackCard = ({ opts }) => {
       </div>
       {DropMenu()}
       {/* {quarters ? DropMenu() : null} */}
-       {quarters === true ? <div className="quarters-check"> <input onClick={useCer} type="checkbox" name="quarters" id="quart" /><span>USE CERAMIC FILM</span></div>  : null}
+       {checkPoint()}
 <div className="price-cont">
-<h4 className="price-dealer">Dealer Price: $ <span id={`dp-${idNum}`}>{quarters ? getPrice() : dealerPrice}</span> </h4>
-      <h4 className="price-retail">MSRP: ${quarters ? getPriceRetail() : retailPrice}</h4>
+<h4 className="price-dealer">Price: $ <span id={`dp-${idNum}`}>{quarters ? getPrice() : getPrice()}</span> </h4>
+      <h4 className="price-retail">MSRP: ${quarters ? getPriceRetail() : getPriceRetail()}</h4>
 </div>
       
       {!modal ? null : (
-            <BookingDealer opts={{ rem: `PPF Dealer - ${name}`, txt: "Service", reset: setModal, dName: dlr, filmType: ceramic ? "Ceramic" : "Regular", dPrice: document.getElementById(`dp-${idNum}`).innerHTML, vehType: document.getElementById(`vehicles-select${idNum}`).value }} />
+            <BookingDealer opts={{ rem: serviceDecider(), txt: "", reset: setModal, dName: dlr, filmType: ceramic ? "Ceramic" : "Regular", dPrice: document.getElementById(`dp-${idNum}`).innerHTML, vehType: document.getElementById(`vehicles-select${idNum}`).value, vBrow: brow ? "/ Add Brow" : "" }} />
           )}
           <button id="bookbutn"  onClick={showModal} className="btn-book remote-btn">
             BOOK NOW

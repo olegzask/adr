@@ -64,6 +64,25 @@
   margin-bottom: 1rem;
 }
 
+.inpt-cont {
+  padding: 0;
+  margin: 0;
+height: 1.5rem;
+width: 100%;
+text-align: start;
+
+}
+
+#checkid {
+  width: 100%;
+font-size: 0.8rem;
+}
+
+#nah {
+  width: 100%;
+font-size: 0.8rem;
+}
+
 .price-cont {
   margin: auto;
 }
@@ -119,6 +138,16 @@
  
   #vehicles-select {
     width: 100%;
+  }
+
+  #checkid {
+    width: 100%;
+  font-size: 1rem;
+  }
+  
+  #nah {
+    width: 100%;
+  font-size: 1rem;
   }
 
   

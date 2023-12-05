@@ -53,6 +53,13 @@
   background-color: lightgrey;
 
 }
+#cartype {
+  width: 30%;
+  text-align: center;
+  background-color: lightgrey;
+
+}
+
 
 #poNumber {
   width: 25%;
@@ -122,6 +129,10 @@ left: -0.5rem;
     text-align: center;
   }
   #dPrice {
+    width: auto;
+    text-align: center;
+  }
+  #cartype {
     width: auto;
     text-align: center;
   }
