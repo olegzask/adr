@@ -14,6 +14,10 @@ export const packages = [
     ],
     dealerPriceCar: 229.95,
     retailPriceCar: 499.95,
+    dealerPriceSuv: 229.95,
+    retailPriceSuv: 499.95,
+    dealerPriceTruck: 229.95,
+    retailPriceTruck: 499.95,
   },
   {
     name: "Silver",
@@ -30,6 +34,10 @@ export const packages = [
     ],
     dealerPriceCar: 449.95,
     retailPriceCar: 1449.95,
+    dealerPriceSuv: 449.95,
+    retailPriceSuv: 1449.95,
+    dealerPriceTruck: 449.95,
+    retailPriceTruck: 1449.95,
   },
   {
     name: "Gold",
@@ -47,6 +55,10 @@ export const packages = [
     ],
     dealerPriceCar: 699.95,
     retailPriceCar: 1849.95,
+    dealerPriceSuv: 699.95,
+    retailPriceSuv: 1849.95,
+    dealerPriceTuck: 699.95,
+    retailPriceTruck: 1849.95,
   },
   {
     name: "Platinum",
@@ -63,6 +75,10 @@ export const packages = [
     ],
     dealerPriceCar: 1099.95,
     retailPriceCar: 2499.95,
+    dealerPriceSuv: 1099.95,
+    retailPriceSuv: 2499.95,
+    dealerPriceTruck: 1099.95,
+    retailPriceTruck: 2499.95,
   },
   {
     name: "Diamond",
@@ -83,5 +99,9 @@ export const packages = [
     ],
     dealerPriceCar: 1499.95,
     retailPriceCar: 2999.95,
+    dealerPriceSuv: 1499.95,
+    retailPriceSuv: 2999.95,
+    dealerPriceTruck: 1499.95,
+    retailPriceTruck: 2999.95,
   },
 ];
