@@ -16,6 +16,13 @@ export const PackCard = ({ opts }) => {
 
 
 
+  const filmec =()=> {
+    if(ceramic) return "Ceramic";
+    if(ultimate) return "Ultimate"
+    if(!ceramic && !ultimate) return "Regular"
+
+  }
+
 
   const ppfPic =(e)=> {
     if(vehic === "car") return image.car;
@@ -83,7 +90,6 @@ export const PackCard = ({ opts }) => {
     }
     
 
-    console.log(checkBox.id)
     
   }
 
@@ -156,7 +162,7 @@ export const PackCard = ({ opts }) => {
 </div>
       
       {!modal ? null : (
-            <BookingDealer opts={{ rem: serviceDecider(), txt: "", reset: setModal, dName: dlr, filmType: ceramic ? "Ceramic" : "Regular", dPrice: document.getElementById(`dp-${idNum}`).innerHTML, vehType: document.getElementById(`vehicles-select${idNum}`).value, vBrow: brow ? "/ Add Brow" : "" }} />
+            <BookingDealer opts={{ rem: serviceDecider(), txt: "", reset: setModal, dName: dlr, filmType: filmec(), dPrice: document.getElementById(`dp-${idNum}`).innerHTML, vehType: document.getElementById(`vehicles-select${idNum}`).value, vBrow: brow ? "/ Add Brow" : "" }} />
           )}
           <button id="bookbutn"  onClick={showModal} className="btn-book remote-btn">
             BOOK NOW
