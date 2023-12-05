@@ -14,7 +14,9 @@ export default function BookingDealer({ opts }) {
     comments: "",
     vehicle: "",
     poNumber: "",
-    price: ""
+    dealerName: dName,
+    price: dPrice,
+    // vin: "",
     
 
   });
@@ -41,7 +43,7 @@ export default function BookingDealer({ opts }) {
       emailjs
         .sendForm(
           "service_52hwkbv",
-          "template_6qijcwj",
+          "template_b3ku85r",
           form.current,
           "EdFYBsAAe4ETIUbxP"
         )
@@ -68,9 +70,13 @@ export default function BookingDealer({ opts }) {
     const commentsInput = document.getElementById("comments");
     const vehicleInput = document.getElementById("vehicle");
     const poInput = document.getElementById("poNumber");
+    const vinNumber = document.getElementById("vin");
+    
 
 
-    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "", poNumber: "" });
+
+
+    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "", poNumber: "", dealerName: dName, price: dPrice, vin: "" });
 
     nameInput.value = "";
     emailInput.value = "";
@@ -78,6 +84,7 @@ export default function BookingDealer({ opts }) {
     commentsInput.value = "";
     vehicleInput.value = "";
     poInput.value = "";
+    vinNumber.value = "";
   };
 
   const handleChange = (e) => {
@@ -144,7 +151,7 @@ export default function BookingDealer({ opts }) {
         />
         <div className="vehicle-info">
           <input
-            disabled={true}
+            disabled={false}
             autoComplete="off"
             id="rs-model"
             className="form-input"
@@ -153,7 +160,7 @@ export default function BookingDealer({ opts }) {
             value={`${rem} ${filmType} ${vBrow}`}
           />
           <input
-            disabled={true}
+            disabled={false}
           autoComplete="off"
           id="dealerName"
           className="form-input"
@@ -162,23 +169,35 @@ export default function BookingDealer({ opts }) {
           value={dName}
         />
             <input
-            disabled={true}
+            disabled={false}
           autoComplete="off"
           id="dPrice"
           className="form-input"
           type="text"
-          name="price"
+          name="dPrice"
           value={`$${dPrice} +GST`}
         />
 
             <input
-            disabled={true}
+            disabled={false}
           autoComplete="off"
           id="cartype"
           className="form-input"
           type="text"
           name="cartype"
-          value={`Vehicle Type: ${vehType.toUpperCase()}`}
+          value={`${vehType.toUpperCase()}`}
+        />
+
+          <input
+            disabled={false}
+          autoComplete="off"
+          onChange={handleChange}
+          id="vin"
+          className="form-input"
+          type="text"
+          name="vin"
+          placeholder="VIN# (Optional)"
+
         />
 
           <input
