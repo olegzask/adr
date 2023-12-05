@@ -55,9 +55,13 @@ export const PackCard = ({ opts }) => {
   }
 
   const getPrice = (e)=> {
-    if(vehic==="car" && !ceramic && !brow) return dealerPriceCar;
-    if(vehic==="suv" && !ceramic && !brow) return dealerPriceSuv;
-    if(vehic==="truck" && !ceramic && !brow) return dealerPriceTruck;
+    if(vehic==="car" && !ceramic && !brow && !ultimate) return dealerPriceCar;
+    if(vehic==="suv" && !ceramic && !brow && !ultimate) return dealerPriceSuv;
+    if(vehic==="truck" && !ceramic && !brow && !ultimate) return dealerPriceTruck;
+
+    if(vehic==="car" && ultimate) return Math.round(dealerPriceCar * 1.5).toFixed(2);
+    if(vehic==="suv" && ultimate) return Math.round(dealerPriceSuv * 1.5).toFixed(2);
+    if(vehic==="truck" && ultimate ) return Math.round(dealerPriceTruck * 1.5).toFixed(2);
 
     if(vehic==="car" && !ceramic && brow) return dealerPriceCar +80;
     if(vehic==="suv" && !ceramic && brow) return dealerPriceSuv +80;
