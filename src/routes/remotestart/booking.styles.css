@@ -38,13 +38,25 @@
 }
 
 #vehicle {
-  width: 57%;
+  width: 35%;
   text-align: center;
 }
 #dealerName {
-  width: auto;
+  width: 30%;
   text-align: center;
   background-color: lightgrey;
+}
+
+#dPrice {
+  width: 25%;
+  text-align: center;
+  background-color: lightgrey;
+
+}
+
+#poNumber {
+  width: 25%;
+  align-items: center;
 }
 
 .booking-header {
@@ -106,6 +118,10 @@ left: -0.5rem;
     text-align: center;
   }
   #poNumber {
+    width: auto;
+    text-align: center;
+  }
+  #dPrice {
     width: auto;
     text-align: center;
   }

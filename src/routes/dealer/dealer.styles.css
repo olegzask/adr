@@ -3,10 +3,34 @@
   margin: 1rem auto;
   color: white;
   display: none;
+  flex-direction: column;
   opacity: 0;
-  justify-content: space-between;
   
 }
+
+.packs-header {
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+  color: black;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.ppf-packs {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2rem;
+
+}
+
+.tint-packs {
+  justify-content: flex-start;
+  gap: 1.8rem;
+}
+
 #dealer-ctn {
   position: relative;
   top: 2rem;
@@ -75,7 +99,7 @@
   display: flex;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 500px) {
   #dealer-ctn {
     margin: 0 auto;
     width: 90vw;
@@ -105,9 +129,19 @@
   }
 
   .main-dealer-container {
-    width: 85%;
+    width: 100%;
     gap: 1rem;
     flex-direction: column;
+  }
+
+  .ppf-packs {
+    width: 100%;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .packs-header {
+    font-size: 1.7rem;
   }
 
   .btn-book {

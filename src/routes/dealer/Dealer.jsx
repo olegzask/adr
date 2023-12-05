@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { packages } from "./packages";
+import { packagesTint } from "./packagesTint";
 import { PackCard } from "./PackCard";
 import ".//dealer.styles.css";
 
@@ -90,16 +91,24 @@ export const Dealer = () => {
         </button>
       </div>
       <div className="main-dealer-container" id="mdealer">
-        {packages.map((el) => (
-          <PackCard opts={{...el, dlr: dealerName}} />
+      <h2 className="packs-header">Paint Protection Packages</h2>
+        <div className="ppf-packs">
+         
+        {packages.map((el, id) => (
+          <PackCard opts={{...el, dlr: dealerName, idNum: id}} />
         ))}
+        </div>
+      <h2 className="packs-header">Window Tint Packages</h2>
+       
+      <div className="ppf-packs tint-packs">
+         
+         {packagesTint.map((el, id) => (
+           <PackCard opts={{...el, dlr: dealerName, idNum: id +5}} />
+         ))}
+         </div>
       </div>
     
-      {/* <a className="book" href="/contact">
-        <button id="bookbutn" className="btn btn-book">
-          Book A Vehicle
-        </button>
-      </a> */}
+     
     
     </div>
   );
