@@ -68,6 +68,16 @@ export const Dealer = () => {
 
   };
 
+  const scrollToRemote = (e) => {
+    const idToFind = e.target.name;
+    const goodEl = document.getElementById(idToFind);
+    goodEl.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  };
+
 
   return (
     <div id="dealer-ctn">
@@ -91,14 +101,29 @@ export const Dealer = () => {
         </button>
       </div>
       <div className="main-dealer-container" id="mdealer">
-      <h2 className="packs-header">Paint Protection Packages</h2>
+
+      <div className="quick-links-dealer">
+            <h2 className="ql-hdr-dealer">Quick Links</h2>
+            <div className="ql-dealer">
+              <button name="ppf" className="quick-link-dealer" onClick={scrollToRemote}>
+                PAINT PROTECTION
+              </button>
+              <button name="tint" className="quick-link-dealer" onClick={scrollToRemote}>
+                WINDOW TINT
+              </button>
+             
+            </div>
+          </div>
+
+
+      <h2  id="ppf" className="packs-header">Paint Protection Packages</h2>
         <div className="ppf-packs">
          
         {packages.map((el, id) => (
           <PackCard opts={{...el, dlr: dealerName, idNum: id}} />
         ))}
         </div>
-      <h2 className="packs-header">Window Tint Packages</h2>
+      <h2 id="tint" className="packs-header">Window Tint Packages</h2>
        
       <div className="ppf-packs tint-packs">
          

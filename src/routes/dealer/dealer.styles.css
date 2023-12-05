@@ -99,6 +99,44 @@
   display: flex;
 }
 
+.quick-links-dealer {
+  margin: 0;
+  align-items: center;
+  width: 100%;
+}
+
+.ql-hdr-dealer {
+  color: black;
+  margin: 0;
+  text-align: center;
+}
+
+.ql-dealer {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+}
+
+.quick-link-dealer {
+  cursor: pointer;
+  margin: 0;
+  width: 12rem;
+  font-size: 1rem;
+  padding: 0.2rem;
+  background-color: white;
+  border: 0.1rem solid lightgray;
+  border-radius: 0.3rem;
+}
+
+.quick-link-dealer:hover {
+  transition: 0.3s;
+  border: 0.1rem solid rgb(113, 255, 25);
+
+}
+
 @media screen and (max-width: 500px) {
   #dealer-ctn {
     margin: 0 auto;
