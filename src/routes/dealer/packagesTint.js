@@ -26,7 +26,7 @@ export const packagesTint = [
         name: "Fronts Only",
         image: {
           car:"/logos/carFronts.jpg",
-          suv:"/logos/suvFronts.png",
+          suv:"/logos/suvFronts.jpg",
           truck:"/logos/truckFronts.jpg",
     
         },
@@ -48,7 +48,7 @@ export const packagesTint = [
         name: "Full Tint",
         image: {
           car:"/logos/carFull.jpg",
-          suv:"/logos/suvFull.png",
+          suv:"/logos/suvFull.jpg",
           truck:"/logos/truckFull.jpg",
     
         },
