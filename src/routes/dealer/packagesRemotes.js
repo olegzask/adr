@@ -16,10 +16,26 @@ export const packagesRemotes = [
     },
 
     {
+      name: "T13SS",
+      image: "/images/remotes/t13.jpg",
+      includes: [
+        "2-Way LCD",
+        "Hardware & installation",
+        "3 year warranty",
+        "Range: up to 4500M"
+
+      ],
+    ident: "t13ss",
+      remote: true,
+      dealerPriceCar: 550.95,
+      retailPriceCar: 990.95,
+    },
+
+    {
         name: "T12SS",
-        image: "/images/remotes/t12-color2.jpg",
+        image: "/images/remotes/t12.jpg",
         includes: [
-          "2-Way LCD or LED",
+          "2-Way LCD",
           "Hardware & installation",
           "3 year warranty",
           "Range: up to 4500M"
@@ -33,9 +49,9 @@ export const packagesRemotes = [
 
       {
         name: "Q9SS",
-        image: "/images/remotes/q9-color2.jpg",
+        image: "/images/remotes/q9.jpg",
         includes: [
-          "2-Way LCD or LED",
+          "2-Way LCD",
           "Hardware & installation",
           "3 year warranty",
           "Range: up to 3000M"
@@ -50,7 +66,7 @@ export const packagesRemotes = [
 
       {
         name: "G15SS",
-        image: "/images/remotes/g15-color2.jpg",
+        image: "/images/remotes/pg15.jpg",
         includes: [
           "2-Way LED",
           "Hardware & installation",
@@ -67,15 +83,31 @@ export const packagesRemotes = [
 
       {
         name: "G15FM",
-        image: "/images/remotes/g15-color2.jpg",
+        image: "/images/remotes/wg15.jpg",
         includes: [
-          "2-Way LED or 1-Way LED",
+          "1-Way LED",
           "Hardware & installation",
           "3 year warranty",
           "Range: up to 1000M"
 
         ],
       ident: "g15fm",
+        remote: true,
+        dealerPriceCar: 450.95,
+        retailPriceCar: 890.95,
+      },
+
+      {
+        name: "WR3",
+        image: "/images/remotes/wr3.jpg",
+        includes: [
+          "1-Way LED",
+          "Hardware & installation",
+          "3 year warranty",
+          "Range: up to 500M"
+
+        ],
+      ident: "wr3",
         remote: true,
         dealerPriceCar: 450.95,
         retailPriceCar: 890.95,

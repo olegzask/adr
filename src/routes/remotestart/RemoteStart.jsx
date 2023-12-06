@@ -47,6 +47,9 @@ export default function RemoteStart() {
                 DRONE
               </button>
               <button className="quick-link" onClick={scrollToRemote}>
+                T13SS
+              </button>
+              <button className="quick-link" onClick={scrollToRemote}>
                 T12SS
               </button>
               <button className="quick-link" onClick={scrollToRemote}>
