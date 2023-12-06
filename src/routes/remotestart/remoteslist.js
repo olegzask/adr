@@ -159,48 +159,48 @@ export const remotes = [
       "Start and secure your vehicle in two different ways depending on what's most comfortable for your hand. Use the side buttons OR te 4-in-1 button on the front. Tap to lock, double tap to unlock, and hold to remote start/stop.",
     ],
   },
-  {
-    app: false,
-    model: "T9FM",
-    type: ["2-Way LCD", "1-Way LCD"],
-    brand: "Compustar",
-    brandLogo: "/logos/compustar_logo.png",
-    price: 800,
-    imgBW: "/images/remotes/t9-bw.jpg",
-    imgColor: "/images/remotes/t9-color.jpg",
-    images: [
-      "/images/remotes/remote-imgs/t9_1.jpg",
-      "/images/remotes/remote-imgs/t9_2.jpg",
-    ],
-    features: [
-      {
-        name: "2-Way LCD",
-        symbol: <FcRefresh fill="rgb(14, 146, 255)" />,
-        description: "",
-      },
-      {
-        name: "1-Way LCD",
-        symbol: <TbArrowAutofitDown color="rgb(14, 146, 255)" />,
-        description: "",
-      },
-      {
-        name: "Alarm Notifications",
-        symbol: <MdNotificationsActive color="rgb(133, 255, 62)" />,
-        description: "",
-      },
-      {
-        name: "3 Year Warranty",
-        symbol: <BsAward color="rgb(133, 255, 62)" />,
-        description: "",
-      },
-    ],
-    range: "1000 M",
-    description: [
-      "3000-ft max range remote kit with 2-way interactive LCD. Includes additional backup 1-way remote. Works with all Compustar remote start and security systems.",
-      "Lock and start your vehivle with confidence using Compustar 2-Way remotes, which provide visual and audible confirmation when your commands are sent successfully.",
-      "Along with instant command confirmation, the PRIME T9 has an interactive screen that will show you vehicle's status at all times.",
-    ],
-  },
+  // {
+  //   app: false,
+  //   model: "T9FM",
+  //   type: ["2-Way LCD", "1-Way LCD"],
+  //   brand: "Compustar",
+  //   brandLogo: "/logos/compustar_logo.png",
+  //   price: 800,
+  //   imgBW: "/images/remotes/t9-bw.jpg",
+  //   imgColor: "/images/remotes/t9-color.jpg",
+  //   images: [
+  //     "/images/remotes/remote-imgs/t9_1.jpg",
+  //     "/images/remotes/remote-imgs/t9_2.jpg",
+  //   ],
+  //   features: [
+  //     {
+  //       name: "2-Way LCD",
+  //       symbol: <FcRefresh fill="rgb(14, 146, 255)" />,
+  //       description: "",
+  //     },
+  //     {
+  //       name: "1-Way LCD",
+  //       symbol: <TbArrowAutofitDown color="rgb(14, 146, 255)" />,
+  //       description: "",
+  //     },
+  //     {
+  //       name: "Alarm Notifications",
+  //       symbol: <MdNotificationsActive color="rgb(133, 255, 62)" />,
+  //       description: "",
+  //     },
+  //     {
+  //       name: "3 Year Warranty",
+  //       symbol: <BsAward color="rgb(133, 255, 62)" />,
+  //       description: "",
+  //     },
+  //   ],
+  //   range: "1000 M",
+  //   description: [
+  //     "3000-ft max range remote kit with 2-way interactive LCD. Includes additional backup 1-way remote. Works with all Compustar remote start and security systems.",
+  //     "Lock and start your vehivle with confidence using Compustar 2-Way remotes, which provide visual and audible confirmation when your commands are sent successfully.",
+  //     "Along with instant command confirmation, the PRIME T9 has an interactive screen that will show you vehicle's status at all times.",
+  //   ],
+  // },
   {
     app: false,
     model: "G15SS",

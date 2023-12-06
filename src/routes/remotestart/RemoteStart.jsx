@@ -52,9 +52,7 @@ export default function RemoteStart() {
               <button className="quick-link" onClick={scrollToRemote}>
                 Q9SS
               </button>
-              <button className="quick-link" onClick={scrollToRemote}>
-                T9FM
-              </button>
+              
               <button className="quick-link" onClick={scrollToRemote}>
                 G15SS
               </button>
