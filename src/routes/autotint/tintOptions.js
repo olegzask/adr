@@ -5,13 +5,14 @@ import { HiThumbUp } from "react-icons/hi";
 
 export const tintOptions = [
   {
-    tintType: "Ceramic Film",
+    tintType: "Nano-Ceramic Film",
     office: false,
-    img: "/images/services-images/suntek-tint.jpg",
+    img: "/logos/primeXr.png",
     description:
-  ["Ceramic nanoparticles give SunTek® CIR™ its upgrade in tint protection. This advanced ceramic technology helps enhance heat and infrared rejection while its non-metal construction minimizes signal interference for clear communications.", 
-  "Performance and appearance are a priority with CIR. Comfortable cabin temperatures are maintained while 99% of damaging UV rays are blocked.", 
-  "Available in a range of shade levels, this non-reflective tint is backed by a manufacturer’s lifetime limited warranty1 with protection against change in color."],
+  ["The Pinnacle Of High Performance Tint. Period.", 
+  "There's no better place to start than the top. If you're wanting the most out of your next window tint application, it's time to start looking at nano-ceramic film options from XPEL.", 
+  "Designed for maximum UV protection, this window tint can keep your vehicle cooler & more comfortable wherever you're headed.",
+  "The Skin Cancer Foundation recommends PRIME XR Window Tint as an effective UV protectant."],
     brands: "Suntek",
     shades: [5, 20, 35, 50],
     features: [
@@ -48,14 +49,14 @@ export const tintOptions = [
     ],
   },
   {
-    tintType: "Carbon Film",
-    img: "/images/services-images/suntek-tint.jpg",
+    tintType: "Dyed Film",
+    img: "/logos/primeCs.png",
     description:
-      ["SunTek® Carbon Series and CXP™ tint Series are engineered to meet today’s performance demands.", 
-      "Carbon construction gives our original Carbon Series and the upgraded CXP™ (Carbon Extra Performance) Series a non-reflective appearance in impressive shades of black to help deliver your desired level of solar protection.", 
-      "A manufacturer’s lifetime limited warranty1 protects this duo against color changes.", 
-      "Carbon Series is constructed with innovative carbon technology for good heat rejection, glare reduction, and U.V. protection.", 
-      "CXP™ features non-metal nano-hybrid carbon composition with outstanding infrared rejection for additional interior cooling."],
+      ["Safety And Color Stability Like Never Before", 
+      "hen comfort and cost is key, dyed window tint won't let you down. ", 
+      "PRIME CS BLACK can cut out the glare, protect your skin from harmful UV rays, and make any journey that much more enjoyable.",
+      "The Skin Cancer Foundation recommends PRIME CS BLACK ™ Window Tint as an effective UV protectant.", 
+      ],
     brands: "Suntek",
     shades: [5, 20, 35, 50],
     features: [

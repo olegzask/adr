@@ -7,14 +7,18 @@ import { FaDumbbell, FaShieldAlt } from "react-icons/fa";
 
 export const ppfOptions = [
   {
-    tintType: "SUNTEK ULTRA",
-    img: "/logos/ultra.png",
+    tintType: "ULTIMATE PLUS",
+    img: "/logos/ultimatePlus.png",
     description:
-  ["SunTek® PPF Ultra is scientifically formulated to help maintain the beauty and integrity of vehicle finishes—for many years in all kinds of weather.",
-   "It’s a fusion of innovative film technologies created to make a lasting impression. Our high-performing film features an advanced HydroResist™ technology.",
-    "When its improved stain resistant top coat is combined with Ultra’s impressive self-healing properties, a durable, high-gloss barrier is created, helping to shield against water, insects, road debris, and other stains." ,
-    "Premium PPF Ultra will help protect your car for years and is backed by a manufacturer’s 10-year limited warranty"],
-    brands: "Suntek",
+  ["PROTECTION FOR EVERYTHING YOU CAN IMAGINE",
+  "World's first self-healing paint protection film.",
+  "ULTIMATE PLUS ™ raises the bar once again with an unparalleled high gloss finish & improved impact protection. ",
+  " ULTIMATE PLUS is designed to provide you with the peace of mind you need on the open road, keeping your vehicle's surfaces safe from things like gravel, oils, bug acids, bird droppings, and stopping paint chips before they start.",
+
+
+
+   ],
+    brands: "XPEL",
 
     features: [
       {
@@ -31,16 +35,16 @@ export const ppfOptions = [
       },
 
       {
-        name: "Lasting Resistance",
+        name: "Discoloration & Stain Resistant",
         symbol: <FaRegEye />,
         description:
-          "HydroResist™ top coat increases stain resistance and the film’s longevity by limiting water and dirt accumulation on the surface.",
+          "Don't worry about specs, spots, or splotches from contaminants. ULTIMATE PLUS is stain resistant & will maintain clarity under the harshest conditions.",
       },
       {
-        name: "Outstanding Endurance",
+        name: "Prevents Wear & Tear",
         symbol: <HiThumbUp />,
         description:
-          "Automotive finishes stay fresh and flawless longer with a film that helps shield against damage caused by rocks, insects, and other road debris.",
+          "Stop rock chips, nicks & scratches in the paint, and keep your vehicle looking as good as the day it rolled off the lot.",
       },
       {
         name: "10-Year Warranty",
@@ -51,21 +55,22 @@ export const ppfOptions = [
     ],
   },
   {
-    tintType: "SUNTEK REACTION",
-    img: "/logos/reaction.png",
+    tintType: "ULTIMATE FUSION",
+    img: "/logos/ultimateFusion.png",
     description:
-      ["SunTek Reaction is packed full of advanced PPF and ceramic coating features.", 
-      "The new super hydrophobic1 topcoat provides up to 25% increased resistance against damage from harsh elements such as acid rain, bird droppings and tree sap.",
-       "Insects and dirt wash away effortlessly from Reaction’s slick surface with easy-clean efficiency—leaving behind an envy-inducing shine.",
-      "Professionally sold and installed Reaction PPF is backed by a manufacturer’s 12-year limited warranty, our best warranty to date"],
-    brands: "Suntek",
+      ["NEXT LEVEL DUAL-PURPOSE PROTECTION", 
+      "ULTIMATE FUSION is an optically clear, high gloss, self-healing film that protects vehicles from rock chips, scuffs, and light scratches.",
+      "Developed with a hydrophobic top-coat, the film’s naturally slick surface helps repel water, making protected surfaces easier to wash and stay clean.", 
+      
+      ],
+    brands: "XPEL",
 
     features: [
       {
         name: "Easy Clean Surface",
         symbol: <MdWaterDrop />,
         description:
-          "OEM-trusted Tetrashield™ technology; slick surface, easy-clean efficiency where water beads faster, taking dirt with it",
+          "Slick surface, easy-clean efficiency where water beads faster, taking dirt with it",
       },
       {
         name: "Stain Fighting",
@@ -91,7 +96,7 @@ export const ppfOptions = [
         name: "12-Year Warranty",
         symbol: <ImCheckmark />,
         description:
-          "Professionally sold and installed Suntek Reaction is backed by a manufacturer’s 12-year limited warranty against cracking, bubbling or yellowing.",
+          "Professionally sold and installed XPEL Ultimate Fusion is backed by a manufacturer’s 10-year limited warranty against cracking, bubbling or yellowing.",
       },
     ],
   },
