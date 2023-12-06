@@ -62,6 +62,9 @@ export default function RemoteStart() {
               <button className="quick-link" onClick={scrollToRemote}>
                 G15FM
               </button>
+              <button className="quick-link" onClick={scrollToRemote}>
+                WR3
+              </button>
             </div>
           </div>
 
