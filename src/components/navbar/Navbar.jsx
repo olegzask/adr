@@ -95,19 +95,14 @@ dropMenu.classList.remove("dropdown-active");
   };
 
   const goToDealer = (e) => {
-    servicesHover();
-    setTimeout(
-      () => {
-        const servicesEl = document.getElementById("dp");
-        servicesEl.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-          inline: "center",
-        });
-      },
+    const [dropMenu] = document.getElementsByClassName("services-dropdown-container");
 
-      100
-    );
+    !dropMenu.classList.contains("dropdown-active")
+      ? dropMenu.classList.add("dropdown-active")
+      : dropMenu.classList.remove("dropdown-active");
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
 
   };
 
@@ -128,9 +123,9 @@ dropMenu.classList.remove("dropdown-active");
           <span onClick={servicesHover} className="nav-link serv-link" to="/">
             Services
           </span>
-          {/* <Link onClick={goToDealer} className="nav-link" to="/">
-            Dealer Program
-          </Link> */}
+          <Link onClick={goToDealer} className="nav-link" to="/services/dealer-program/pricelist">
+            Dealer Login
+          </Link>
           <Link onClick={scrollToTop} className="nav-link" to="/simulator">
             Simulator
           </Link>

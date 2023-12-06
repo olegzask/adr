@@ -86,13 +86,16 @@ hideMenu();
    };
  
 
-  const goToDealer = (e) => {
-  
-hideMenu();
-setTimeout(() => {
-  window.scrollTo(0, 0);
-}, 100);
+   const goToDealer = (e) => {
+    const [dropMenu] = document.getElementsByClassName("services-dropdown-container");
 
+    !dropMenu.classList.contains("dropdown-active")
+      ? dropMenu.classList.add("dropdown-active")
+      : dropMenu.classList.remove("dropdown-active");
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
+    hideMenu();
 
   };
 
@@ -119,8 +122,8 @@ setTimeout(() => {
         {/* <Link onClick={hideMenu} className="mobile-link" to="/sales">
           Sales
         </Link> */}
-        <Link onClick={goToDealer} className="mobile-link" to="/services/dealer-program">
-          Dealer Program
+        <Link onClick={goToDealer} className="mobile-link" to="/services/dealer-program/pricelist">
+          Dealer Login
         </Link>
         <Link onClick={goToCareers} className="mobile-link" to="/careers">
           Careers
