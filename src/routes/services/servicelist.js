@@ -10,7 +10,7 @@ export const services = [
   "Enjoy the luxury of starting your car from afar, tailored to fit your specific vehicle.",
 "Remote start solutions that prioritize security, ease, and your peace of mind.",
 "Our services encompass cutting-edge technology like DRONE, a premier mobile app for advanced remote start functionality."],
-    image: "images/services-images/remote-color.jpg",
+    image: "images/services-images/t13S.jpg",
     link: "services/remote-start",
   },
   {
