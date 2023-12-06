@@ -164,8 +164,31 @@
   display: none;
 }
 
+.ql-rm-ct {
+display: none;
+margin: 0;
+}
+
+.ql-rm {
+  color: black;
+}
+
+.rm-ql {
+  width: auto;
+  padding: 0 0.5rem
+}
+
+
 @media screen and (max-width: 500px) {
- 
+
+  .packs-header {
+    margin-bottom: 0;
+  }
+
+  .ql-rm-ct {
+    display: block
+    }
+    
 
   .scrollUp {
     margin: 0;

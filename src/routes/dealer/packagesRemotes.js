@@ -8,6 +8,8 @@ export const packagesRemotes = [
         "Range: Unlimited"
 
       ],
+
+      ident: "drone",
       remote: true,
       dealerPriceCar: 550.95,
       retailPriceCar: 990.95,
@@ -23,6 +25,7 @@ export const packagesRemotes = [
           "Range: up to 4500M"
 
         ],
+      ident: "t12ss",
         remote: true,
         dealerPriceCar: 550.95,
         retailPriceCar: 990.95,
@@ -38,6 +41,8 @@ export const packagesRemotes = [
           "Range: up to 3000M"
 
         ],
+      ident: "q9ss",
+
         remote: true,
         dealerPriceCar: 550.95,
         retailPriceCar: 990.95,
@@ -53,6 +58,8 @@ export const packagesRemotes = [
           "Range: up to 3000M"
 
         ],
+      ident: "g15ss",
+
         remote: true,
         dealerPriceCar: 550.95,
         retailPriceCar: 990.95,
@@ -68,6 +75,7 @@ export const packagesRemotes = [
           "Range: up to 1000M"
 
         ],
+      ident: "g15fm",
         remote: true,
         dealerPriceCar: 450.95,
         retailPriceCar: 890.95,

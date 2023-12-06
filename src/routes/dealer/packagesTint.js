@@ -13,6 +13,7 @@ export const packagesTint = [
         "2 Quarters Glass (if present)"
         
       ],
+      ident: "rears",
       quarters: true,
       dealerPriceCar: 190.95,
       retailPriceCar: 380.95,
@@ -35,6 +36,7 @@ export const packagesTint = [
           "2 Quarters Glass (if present)"
           
         ],
+        ident: "fronts",
         quarters: true,
         dealerPriceCar: 140.95,
         retailPriceCar: 220.95,
@@ -58,6 +60,7 @@ export const packagesTint = [
           "2 Quarters Glass (if present)"
           
         ],
+        ident: "full",
         quarters: true,
         dealerPriceCar: 290.95,
         retailPriceCar: 550.95,

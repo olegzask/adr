@@ -90,6 +90,16 @@ export const Dealer = () => {
     });
   };
 
+  const scrollToModel = (e) => {
+    const idToFind = e.target.name;
+    const goodEl = document.getElementById(idToFind);
+    goodEl.scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+      inline: "nearest",
+    });
+  };
+
 
   return (
     <div id="dealer-ctn">
@@ -136,6 +146,25 @@ export const Dealer = () => {
 
 
       <h2  id="ppf" className="packs-header">Paint Protection Packages</h2>
+      <div className="quick-links ql-rm-ct">
+            <div className="ql">
+              <button  name="bronze" className="quick-link rm-ql" onClick={scrollToModel}>
+                BRONZE
+              </button>
+              <button name="silver" className="quick-link rm-ql" onClick={scrollToModel}>
+                SILVER
+              </button>
+              <button name="gold" className="quick-link rm-ql" onClick={scrollToModel}>
+                GOLD
+              </button>
+              <button name="platinum" className="quick-link rm-ql" onClick={scrollToModel}>
+                PLATINUM
+              </button>
+              <button name="diamond" className="quick-link rm-ql" onClick={scrollToModel}>
+                DIAMOND
+              </button>
+            </div>
+          </div>
         <div className="ppf-packs">
          
         {packages.map((el, id) => (
@@ -143,6 +172,19 @@ export const Dealer = () => {
         ))}
         </div>
       <h2 id="tint" className="packs-header">Window Tint Packages</h2>
+      <div className="quick-links ql-rm-ct">
+            <div className="ql">
+              <button name="fronts" className="quick-link rm-ql" onClick={scrollToModel}>
+                FRONTS ONLY
+              </button>
+              <button name="rears" className="quick-link rm-ql" onClick={scrollToModel}>
+                REARS ONLY
+              </button>
+              <button name="full" className="quick-link rm-ql" onClick={scrollToModel}>
+                FULL TINT
+              </button>
+            </div>
+          </div>
        
       <div className="ppf-packs tint-packs">
          
@@ -151,6 +193,25 @@ export const Dealer = () => {
          ))}
          </div>
          <h2 id="remote" className="packs-header">Remote Start Packages</h2>
+         <div className="quick-links ql-rm-ct">
+            <div className="ql">
+              <button name="drone" className="quick-link" onClick={scrollToModel}>
+                DRONE
+              </button>
+              <button name="t12ss" className="quick-link" onClick={scrollToModel}>
+                T12SS
+              </button>
+              <button name="q9ss" className="quick-link" onClick={scrollToModel}>
+                Q9SS
+              </button>
+              <button name="g15ss" className="quick-link" onClick={scrollToModel}>
+                G15SS
+              </button>
+              <button name="g15fm" className="quick-link" onClick={scrollToModel}>
+                G15FM
+              </button>
+            </div>
+          </div>
          <div className="ppf-packs tint-packs">
          
          {packagesRemotes.map((el, id) => (

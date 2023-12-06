@@ -3,7 +3,7 @@ export const packages = [
     name: "Bronze",
     image: {
       car:"/logos/bronzeCar.jpg",
-      suv:"/logos/bronzeSuv.png",
+      suv:"/logos/bronzeSuv.jpg",
       truck:"/logos/bronzeTruck.jpg",
 
     },
@@ -12,6 +12,7 @@ export const packages = [
       "Door Cups & Mirrors",
       
     ],
+    ident: "bronze",
     dealerPriceCar: 229.95,
     retailPriceCar: 499.95,
     dealerPriceSuv: 229.95,
@@ -23,7 +24,7 @@ export const packages = [
     name: "Silver",
     image: {
       car:"/logos/silverCar.jpg",
-      suv:"/logos/silverSuv.png",
+      suv:"/logos/silverSuv.jpg",
       truck:"/logos/silverTruck.jpg",
 
     },
@@ -32,6 +33,7 @@ export const packages = [
       "Door Cups & Mirrors",
       "Front Bumper (No Trim)",
     ],
+    ident: "silver",
     dealerPriceCar: 449.95,
     retailPriceCar: 1449.95,
     dealerPriceSuv: 449.95,
@@ -43,7 +45,7 @@ export const packages = [
     name: "Gold",
     image: {
       car:"/logos/goldCar.jpg",
-      suv:"/logos/goldSuv.png",
+      suv:"/logos/goldSuv.jpg",
       truck:"/logos/goldTruck.jpg",
 
     },
@@ -53,6 +55,7 @@ export const packages = [
       "Front Bumper (No Trim)",
       "Grille (Only Painted Grilles)",
     ],
+    ident: "gold",
     dealerPriceCar: 699.95,
     retailPriceCar: 1849.95,
     dealerPriceSuv: 699.95,
@@ -64,7 +67,7 @@ export const packages = [
     name: "Platinum",
     image: {
       car:"/logos/platinumCar.jpg",
-      suv:"/logos/platinumSuv.png",
+      suv:"/logos/platinumSuv.jpg",
       truck:"/logos/platinumTruck.jpg",
 
     },
@@ -73,6 +76,7 @@ export const packages = [
       "Door Cups & Mirrors",
       "Front Bumper (No Trim)",
     ],
+    ident: "platinum",
     dealerPriceCar: 1099.95,
     retailPriceCar: 2499.95,
     dealerPriceSuv: 1099.95,
@@ -84,7 +88,7 @@ export const packages = [
     name: "Diamond",
     image: {
       car:"/logos/diamondCar.jpg",
-      suv:"/logos/diamondSuv.png",
+      suv:"/logos/diamondSuv.jpg",
       truck:"/logos/diamondTruck.jpg",
 
     },
@@ -97,6 +101,7 @@ export const packages = [
       "Rockers"
 
     ],
+    ident: "diamond",
     dealerPriceCar: 1499.95,
     retailPriceCar: 2999.95,
     dealerPriceSuv: 1499.95,
