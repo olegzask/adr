@@ -1,5 +1,5 @@
 .main-dealer-container {
-  width: 90vw;
+  width: 100vw;
   margin: 1rem auto;
   color: white;
   display: none;
@@ -261,6 +261,7 @@ margin: 0;
   }
 
   .ppf-packs {
+    align-items: center;
     width: 100%;
     gap: 1rem;
     flex-direction: column;

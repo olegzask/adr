@@ -210,6 +210,9 @@ export const Dealer = () => {
               <button name="g15fm" className="quick-link" onClick={scrollToModel}>
                 G15FM
               </button>
+              <button name="wr3" className="quick-link" onClick={scrollToModel}>
+                WR3
+              </button>
             </div>
           </div>
          <div className="ppf-packs tint-packs">

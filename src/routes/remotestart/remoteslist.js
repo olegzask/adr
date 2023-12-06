@@ -294,7 +294,7 @@ export const remotes = [
     imgBW: "/images/remotes/g15-bw.jpg",
     imgColor: "/images/remotes/wr3.jpg",
     images: [
-      "/images/remotes/wr3.png",
+      "/images/remotes/wr3.jpg",
       "/images/remotes/remote-imgs/wr3.jpg",
       ,
     ],
