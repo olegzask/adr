@@ -96,10 +96,8 @@ dropMenu.classList.remove("dropdown-active");
 
   const goToDealer = (e) => {
     const [dropMenu] = document.getElementsByClassName("services-dropdown-container");
-
-    !dropMenu.classList.contains("dropdown-active")
-      ? dropMenu.classList.add("dropdown-active")
-      : dropMenu.classList.remove("dropdown-active");
+    dropMenu.classList.remove("dropdown-active");
+    
     setTimeout(() => {
       window.scrollTo(0, 0);
     }, 100);
