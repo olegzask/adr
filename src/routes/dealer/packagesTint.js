@@ -10,7 +10,7 @@ export const packagesTint = [
       includes: [
         "2 Rear Roll Downs",
         "Rear Windshield",
-        "2 Quarters Glass (If Applicable)"
+        "2 Quarters Glass (if present)"
         
       ],
       quarters: true,
@@ -32,7 +32,7 @@ export const packagesTint = [
         },
         includes: [
           "2 Fronts Roll Downs",
-          "2 Quarters Glass (If Applicable)"
+          "2 Quarters Glass (if present)"
           
         ],
         quarters: true,
@@ -55,7 +55,7 @@ export const packagesTint = [
         includes: [
           "2 Fronts Roll Downs",
           "2 Rear Roll Downs",
-          "2 Quarters Glass (If Applicable)"
+          "2 Quarters Glass (if present)"
           
         ],
         quarters: true,

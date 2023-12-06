@@ -1,13 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { packages } from "./packages";
 import { packagesTint } from "./packagesTint";
+import { packagesRemotes } from "./packagesRemotes";
 import { PackCard } from "./PackCard";
+import { FaRegArrowAltCircleUp } from "react-icons/fa";
 import ".//dealer.styles.css";
 
 export const Dealer = () => {
   const [isDealer, setIsDealer] = useState(false);
   const [password, setPassword] = useState(["adrenalin404", "derrick780", "infiniti780", "gomazda780", "stc780"]);
   const [dealerName, setDealerName] = useState("");
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    const onScroll = () => setOffset(window.pageYOffset);
+    window.removeEventListener("scroll", onScroll);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
 
 
   const showPrice = () => {
@@ -48,8 +59,11 @@ export const Dealer = () => {
     }
   };
 
-  const yourDealer = ()=> {
-
+  const goUp = ()=> {
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
+  
     
   }
 
@@ -109,9 +123,16 @@ export const Dealer = () => {
               <button name="tint" className="quick-link-dealer" onClick={scrollToRemote}>
                 WINDOW TINT
               </button>
+
+              <button name="remote" className="quick-link-dealer" onClick={scrollToRemote}>
+               REMOTE START
+              </button>
              
             </div>
           </div>
+
+
+          <div onClick={goUp} className={`scrollUp ${offset > 800 && "scrolledNah"}`}> <FaRegArrowAltCircleUp /><span className="scrollR">Return</span></div>
 
 
       <h2  id="ppf" className="packs-header">Paint Protection Packages</h2>
@@ -127,6 +148,13 @@ export const Dealer = () => {
          
          {packagesTint.map((el, id) => (
            <PackCard opts={{...el, dlr: dealerName, idNum: id +5}} />
+         ))}
+         </div>
+         <h2 id="remote" className="packs-header">Remote Start Packages</h2>
+         <div className="ppf-packs tint-packs">
+         
+         {packagesRemotes.map((el, id) => (
+           <PackCard opts={{...el, dlr: dealerName, idNum: id +9}} />
          ))}
          </div>
       </div>

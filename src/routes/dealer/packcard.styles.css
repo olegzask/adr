@@ -90,24 +90,31 @@ font-size: 0.8rem;
 .pack-info {
   height: 22rem;
   margin-bottom: 1rem;
+ 
+ 
 }
 
 .pack-list  {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  text-align: left;
   margin: 0;
   padding: 0;
-  margin-left: 1rem;
-  align-items: center;
-  width: 90%;
+  width: 100%;
   
 
 }
 .pack-img {
   width: 100%;
 }
+.pack-img-remote {
+}
 
 .pack-el {
   color: black;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .price-dealer {
