@@ -20,7 +20,7 @@ export const tintOptions = [
         name: "Advanced Technology",
         symbol: <CgMenuGridO />,
         description:
-          "Ceramic non-metal technology and construction. CIR is produced with a layer containing ceramic nanoparticles, invisible to the human eye. ",
+          "Contains a proprietary blend of ceramic particles to act as a solid barrier to heat while maintaining the ease of install in a 1.5 mil construction.",
       },
       {
         name: "Powerfull Rejection & Blocking",
