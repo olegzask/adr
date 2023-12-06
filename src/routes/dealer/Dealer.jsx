@@ -12,8 +12,6 @@ export const Dealer = () => {
 
   const showPrice = () => {
     const ghl = document.getElementById("pwinput").value;
-    console.log(ghl);
-    console.log(isDealer);
     if (password.includes(ghl.toLowerCase() + "" )) {
       if(ghl.toLowerCase() + "" === "adrenalin404") {
         setDealerName("Administrator")
