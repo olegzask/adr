@@ -9,18 +9,17 @@ import { FaShieldAlt } from "react-icons/fa";
 export const carAudioProducts = [
   {
     app: false,
-    model: "bronze",
-    brand: "EDM",
-    brandLogo: "/logos/rockford.png",
+    model: "DMH1700N",
+    brand: "pioneer",
+    brandLogo: "/logos/pioneer.png",
     imgBW: "",
-    imgColor: "/logos/bronze.png",
+    imgColor: "/images/audio-video/DMH-1700NEX/DMH1700NEX_1.jpg",
     images: [
-      "/images/audio-video/p300-10/p300-10_1.png",
-      "/images/audio-video/p300-10/p300-10_2.png",
-      "/images/audio-video/p300-10/p300-10_3.png",
-      "/images/audio-video/p300-10/p300-10_4.png",
-      "/images/audio-video/p300-10/p300-10_5.png",
-      "/images/audio-video/p300-10/p300-10_6.png",
+      "/images/audio-video/DMH-1700NEX/DMH1700NEX_1.jpg",
+      "/images/audio-video/DMH-1700NEX/DMH1700NEX_2.jpg",
+      "/images/audio-video/DMH-1700NEX/DMH1700NEX_3.jpg",
+      "/images/audio-video/DMH-1700NEX/DMH1700NEX_4.jpg",
+      "/images/audio-video/DMH-1700NEX/DMH1700NEX_5.jpg",
     ],
     description: [
       "The P300-10 powered subwoofer is an “all-in-one” solution when adding bass to a factory system or just to save space. This model features a 10” subwoofer in a sealed enclosure powered by an internal 300 watt amplifier.",
@@ -52,20 +51,18 @@ export const carAudioProducts = [
     ],
     range: "From $299",
   },
+
   {
     app: false,
-    model: "silver",
-    brand: "EDM",
-    brandLogo: "/logos/rockford.png",
+    model: "DMH2600N",
+    brand: "pioneer",
+    brandLogo: "/logos/pioneer.png",
     imgBW: "",
-    imgColor: "/logos/silver.png",
+    imgColor: "/images/audio-video/DMH-2600NEX/DMH-2600NEX_1.jpg",
     images: [
-      "/images/audio-video/p300-10/p300-10_1.png",
-      "/images/audio-video/p300-10/p300-10_2.png",
-      "/images/audio-video/p300-10/p300-10_3.png",
-      "/images/audio-video/p300-10/p300-10_4.png",
-      "/images/audio-video/p300-10/p300-10_5.png",
-      "/images/audio-video/p300-10/p300-10_6.png",
+      "/images/audio-video/DMH-2600NEX/DMH-2600NEX_1.jpg",
+      "/images/audio-video/DMH-2600NEX/DMH-2600NEX_2.jpg",
+      
     ],
     description: [
       "The P300-10 powered subwoofer is an “all-in-one” solution when adding bass to a factory system or just to save space. This model features a 10” subwoofer in a sealed enclosure powered by an internal 300 watt amplifier.",
@@ -84,11 +81,6 @@ export const carAudioProducts = [
         description: "",
       },
       {
-        name: "Front Bumper",
-        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
-        description: "",
-      },
-      {
         name: "Mirrors",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
@@ -100,23 +92,29 @@ export const carAudioProducts = [
       },
     
     ],
-    range: "From $699",
+    range: "From $299",
   },
 
   {
     app: false,
-    model: "gold",
-    brand: "EDM",
-    brandLogo: "/logos/rockford.png",
+    model: "W4600N",
+    brand: "pioneer",
+    brandLogo: "/logos/pioneer.png",
     imgBW: "",
-    imgColor: "/logos/gold.png",
+    imgColor: "/images/audio-video/DMH-W4600NEX/DMH-W4600NEX_1.jpg",
     images: [
-      "/images/audio-video/p300-10/p300-10_1.png",
-      "/images/audio-video/p300-10/p300-10_2.png",
-      "/images/audio-video/p300-10/p300-10_3.png",
-      "/images/audio-video/p300-10/p300-10_4.png",
-      "/images/audio-video/p300-10/p300-10_5.png",
-      "/images/audio-video/p300-10/p300-10_6.png",
+      "/images/audio-video/DMH-W4600NEX/DMH-W4600NEX_1.jpg",
+      "/images/audio-video/DMH-W4600NEX/DMH-W4600NEX_2.jpg",
+      "/images/audio-video/DMH-W4600NEX/DMH-W4600NEX_3.jpg",
+      "/images/audio-video/DMH-W4600NEX/DMH-W4600NEX_4.jpg",
+      "/images/audio-video/DMH-W4600NEX/DMH-W4600NEX_5.jpg",
+      "/images/audio-video/DMH-W4600NEX/DMH-W4600NEX_6.jpg",
+      "/images/audio-video/DMH-W4600NEX/DMH-W4600NEX_7.jpg",
+      "/images/audio-video/DMH-W4600NEX/DMH-W4600NEX_8.jpg",
+
+
+      
+      
     ],
     description: [
       "The P300-10 powered subwoofer is an “all-in-one” solution when adding bass to a factory system or just to save space. This model features a 10” subwoofer in a sealed enclosure powered by an internal 300 watt amplifier.",
@@ -135,16 +133,6 @@ export const carAudioProducts = [
         description: "",
       },
       {
-        name: "Front Bumper",
-        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
-        description: "",
-      },
-      {
-        name: "Grille",
-        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
-        description: "",
-      },
-      {
         name: "Mirrors",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
@@ -156,23 +144,25 @@ export const carAudioProducts = [
       },
     
     ],
-    range: "From $899",
+    range: "From $299",
   },
 
   {
     app: false,
-    model: "platinum",
-    brand: "EDM",
-    brandLogo: "/logos/ultra.png",
+    model: "NAM3510M7",
+    brand: "pioneer",
+    brandLogo: "/logos/nakamichi.png",
     imgBW: "",
-    imgColor: "/logos/platinum.png",
+    imgColor: "/images/audio-video/NAM3510-M7/NAM3510-M7_1.jpg",
     images: [
-      "/images/audio-video/p300-10/p300-10_1.png",
-      "/images/audio-video/p300-10/p300-10_2.png",
-      "/images/audio-video/p300-10/p300-10_3.png",
-      "/images/audio-video/p300-10/p300-10_4.png",
-      "/images/audio-video/p300-10/p300-10_5.png",
-      "/images/audio-video/p300-10/p300-10_6.png",
+      "/images/audio-video/NAM3510-M7/NAM3510-M7_1.jpg",
+      "/images/audio-video/NAM3510-M7/NAM3510-M7_2.jpg",
+      "/images/audio-video/NAM3510-M7/NAM3510-M7_3.jpg",
+      "/images/audio-video/NAM3510-M7/NAM3510-M7_4.jpg",
+
+
+      
+      
     ],
     description: [
       "The P300-10 powered subwoofer is an “all-in-one” solution when adding bass to a factory system or just to save space. This model features a 10” subwoofer in a sealed enclosure powered by an internal 300 watt amplifier.",
@@ -181,22 +171,12 @@ export const carAudioProducts = [
 
     features: [
       {
-        name: "Full Hood",
+        name: "Partial Hood",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Full Fenders",
-        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
-        description: "",
-      },
-      {
-        name: "Front Bumper",
-        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
-        description: "",
-      },
-      {
-        name: "Grille",
+        name: "Partial Fenders",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
@@ -212,15 +192,16 @@ export const carAudioProducts = [
       },
     
     ],
-    range: "From $1499",
+    range: "From $299",
   },
+
   {
     app: false,
-    model: "diamond",
-    brand: "EDM",
-    brandLogo: "/logos/rockford.png",
+    model: "P300-10",
+    brand: "pioneer",
+    brandLogo: "/logos/pioneer.png",
     imgBW: "",
-    imgColor: "/logos/diamond.png",
+    imgColor: "/images/audio-video/p300-10/p300-10_1.png",
     images: [
       "/images/audio-video/p300-10/p300-10_1.png",
       "/images/audio-video/p300-10/p300-10_2.png",
@@ -228,6 +209,8 @@ export const carAudioProducts = [
       "/images/audio-video/p300-10/p300-10_4.png",
       "/images/audio-video/p300-10/p300-10_5.png",
       "/images/audio-video/p300-10/p300-10_6.png",
+     
+      
     ],
     description: [
       "The P300-10 powered subwoofer is an “all-in-one” solution when adding bass to a factory system or just to save space. This model features a 10” subwoofer in a sealed enclosure powered by an internal 300 watt amplifier.",
@@ -236,22 +219,12 @@ export const carAudioProducts = [
 
     features: [
       {
-        name: "Full Hood",
+        name: "Partial Hood",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Full Fenders",
-        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
-        description: "",
-      },
-      {
-        name: "Front Bumper",
-        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
-        description: "",
-      },
-      {
-        name: "Grille",
+        name: "Partial Fenders",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
@@ -265,19 +238,56 @@ export const carAudioProducts = [
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
+    
+    ],
+    range: "From $299",
+  },
+
+  {
+    app: false,
+    model: "P300-12",
+    brand: "pioneer",
+    brandLogo: "/logos/pioneer.png",
+    imgBW: "",
+    imgColor: "/images/audio-video/p300-12/p300-12_1.jpeg",
+    images: [
+      "/images/audio-video/p300-12/p300-12_1.jpeg",
+      "/images/audio-video/p300-12/p300-12_2.jpeg",
+      "/images/audio-video/p300-12/p300-12_3.jpeg",
+      "/images/audio-video/p300-12/p300-12_4.jpeg",
+      
+    ],
+    description: [
+      "The P300-10 powered subwoofer is an “all-in-one” solution when adding bass to a factory system or just to save space. This model features a 10” subwoofer in a sealed enclosure powered by an internal 300 watt amplifier.",
+      `If you need to quickly add bass to a system or want to alleviate the hassle of separate amplifiers and subwoofers, then the P300-10 is the right one for the job! The P300-10 features a Punch 10” subwoofer in a custom sealed enclosure and is powered by a mighty 300 Watt amplifier. The system is all-inclusive, so you only need to run power, ground and a signal from the source to get this baby moving. Features a durable exterior that resists scrapes and bumps while in the trunk or cargo area.`,
+    ],
+
+    features: [
       {
-        name: "A-Pillars & Roof",
+        name: "Partial Hood",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Rockers",
+        name: "Partial Fenders",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+      {
+        name: "Mirrors",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+      {
+        name: "Door Cups",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
     
     ],
-    range: "From $1999",
+    range: "From $299",
   },
+  
+  
  
 ];

@@ -47,14 +47,14 @@ export default function CarAudioCard({ options }) {
 
   return (
     <div id={model} className="remote-card-container">
-      {/* <div className="top-logos-container">
-        <img
+      <div className="top-logos-container">
+        {/* <img
           className="brand-logo brnd"
           src="/logos/edm_3.png"
           alt="adrenalin-logo"
-        />
+        /> */}
         <img className="brand-logo" src={brandLogo} alt="brand-logo" />
-      </div> */}
+      </div>
 
       <div className="model-range-container">
         <h2 className="remote-model">
@@ -77,11 +77,15 @@ export default function CarAudioCard({ options }) {
       {!modal ? null : (
             <Booking opts={{ rem: "PPF-" + model.toUpperCase(), txt: "Service", reset: setModal }} />
           )}
-        <h2 className="remote-range rng">{range}</h2>
-       
-        <button onClick={showModal} className="remote-btn">
-            BOOK NOW
+      <button onClick={showModal} className="remote-btn">
+          REQUEST INFO
+        </button>
+
+        <Link onClick={scrollToTop} to={model}>
+          <button onClick={toggleActiveProduct} className="remote-btn">
+            READ MORE
           </button>
+        </Link>
         
       </div>
     </div>

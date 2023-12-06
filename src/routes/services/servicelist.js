@@ -40,6 +40,23 @@ export const services = [
     image: "images/services-images/dashcam.jpg",
     link: "services/dash-cams",
   },
+  {
+    name: "Audio / Video",
+    description:
+      ["Experience elevated driving pleasure with Adrenalin Audio's superior car audio/video installations. From personalized sound systems to seamless high-definition displays, we craft premium in-car entertainment.",
+      "Our dedication ensures expert integration of cutting-edge tech for unparalleled service and enjoyment at every turn."
+  ],
+    image: "images/audio-video/DMH-1700NEX/DMH1700NEX_1.jpg",
+    link: "services/car-audio-video",
+  },
+  {
+    name: "Marine Audio",
+    description:
+      ["Enhance your marine adventures with Adrenalin Audio's premium installations. Specializing in superior, weather-resistant sound systems tailored for open waters, we bring high-fidelity audio to your vessel.",
+    "Count on our expert setups for crystal-clear sound amidst the waves, seamlessly merging tech and marine thrills for an elevated onboard experience."],
+    image: "images/services-images/marine-color.jpg",
+    link: "services/marine-audio",
+  },
 
   {
     name: "12V Accessories",
