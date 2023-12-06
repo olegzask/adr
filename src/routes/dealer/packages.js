@@ -57,7 +57,7 @@ export const packages = [
     retailPriceCar: 1849.95,
     dealerPriceSuv: 699.95,
     retailPriceSuv: 1849.95,
-    dealerPriceTuck: 699.95,
+    dealerPriceTruck: 699.95,
     retailPriceTruck: 1849.95,
   },
   {
