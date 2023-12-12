@@ -105,7 +105,7 @@ export const Dealer = () => {
     <div id="dealer-ctn">
       <div className="dealer-login">
         <h2 id="dealer-name">{`Welcome, ${dealerName}!`}</h2>
-        <input content="width=device-width, initial-scale=1, maximum-scale=1"
+        <input 
           className="input-pw"
           placeholder="Please enter password"
           type="text"
