@@ -13,8 +13,6 @@ export default function BookingAccessories({ opts }) {
     phone: "",
     comments: "",
     vehicle: "",
-    poNumber: "",
-    dealerName: dName,
     price: dPrice,
     // vin: "",
     
@@ -43,7 +41,7 @@ export default function BookingAccessories({ opts }) {
       emailjs
         .sendForm(
           "service_52hwkbv",
-          "template_b3ku85r",
+          "template_ctldohl",
           form.current,
           "EdFYBsAAe4ETIUbxP"
         )
@@ -69,21 +67,19 @@ export default function BookingAccessories({ opts }) {
     const phoneInput = document.getElementById("phone");
     const commentsInput = document.getElementById("comments");
     const vehicleInput = document.getElementById("vehicle");
-    const poInput = document.getElementById("poNumber");
     const vinNumber = document.getElementById("vin");
     
 
 
 
 
-    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "", poNumber: "", dealerName: dName, price: dPrice, vin: "" });
+    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "", price: dPrice, vin: "" });
 
     nameInput.value = "";
     emailInput.value = "";
     phoneInput.value = "";
     commentsInput.value = "";
     vehicleInput.value = "";
-    poInput.value = "";
     vinNumber.value = "";
   };
 

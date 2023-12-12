@@ -80,7 +80,7 @@ export const CarAudioCard = ({ opts}) => {
     if(!quarters && !remote && !heatedseats && !audio) return `PPF ${name}`
     if(!quarters && remote) return `RS - ${name}`
     if(!quarters && !remote && heatedseats) return `HS - ${name}`
-    if(!quarters && !remote && !heatedseats && audio ) return `AUDIO/VIDEO - ${name}`
+    if(!quarters && !remote && !heatedseats && audio ) return `AUDIO VIDEO - ${name}`
 
 
 

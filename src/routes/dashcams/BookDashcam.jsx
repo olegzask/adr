@@ -13,8 +13,7 @@ export default function BookingDashcam({ opts }) {
     phone: "",
     comments: "",
     vehicle: "",
-    poNumber: "",
-    dealerName: dName,
+ 
     price: dPrice,
     // vin: "",
     
@@ -43,7 +42,7 @@ export default function BookingDashcam({ opts }) {
       emailjs
         .sendForm(
           "service_52hwkbv",
-          "template_b3ku85r",
+          "template_0kjqht4",
           form.current,
           "EdFYBsAAe4ETIUbxP"
         )
@@ -76,14 +75,14 @@ export default function BookingDashcam({ opts }) {
 
 
 
-    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "", poNumber: "", dealerName: dName, price: dPrice, vin: "" });
+    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "",  price: dPrice, vin: "" });
 
     nameInput.value = "";
     emailInput.value = "";
     phoneInput.value = "";
     commentsInput.value = "";
     vehicleInput.value = "";
-    poInput.value = "";
+    
     vinNumber.value = "";
   };
 
