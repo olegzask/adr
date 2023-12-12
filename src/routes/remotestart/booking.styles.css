@@ -97,9 +97,7 @@
   justify-content: space-between;
 }
 
-.remote-btn {
-  color: pink;
-}
+
 
 @media (max-width: 500px)  {
   #bookingForm {

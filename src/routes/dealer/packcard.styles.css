@@ -169,6 +169,16 @@ font-size: 0.8rem;
     margin-bottom: 0;
   }
 
+  .rmt-btn {
+    color: black;
+
+  }
+
+  .rmt-btn:hover {
+    transition: 0.3s ease-in;
+    border: rgb(113, 255, 25)
+  }
+
   .pack-info {
     height: auto;
   }
