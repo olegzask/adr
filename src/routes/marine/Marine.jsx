@@ -130,7 +130,7 @@ export default function Marine() {
               PMX-2
               </button>
               <button name="P-400X2" className="quick-link" onClick={scrollToModel}>
-              P-400X2
+              P400X2
               </button>
               <button name="M0-65B" className="quick-link" onClick={scrollToModel}>
               M0-65B
