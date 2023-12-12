@@ -27,7 +27,7 @@ export default function RemoteCard({ options }) {
   };
 
   return (
-    <div id={model} className="remote-card-container">
+    <div id={model} className="remote-card-container rem-good">
       <div className="top-logos-container">
         {/* <img
           className="brand-logo"

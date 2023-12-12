@@ -1,8 +1,8 @@
 import React from "react";
-import { ppfOptions } from "../paintprotection/ppfOpts";
-import { PpfCard } from "./PpfCard";
 import LinkComponent from "../../components/link/LinkComponent";
 import { scrollToTop } from "../../components/helperFunctions/helpers";
+import { PpfCard } from "./PpfCard";
+import {ppfOptions} from "./ppfOpts"
 
 import "../autotint/autotint.styles.css";
 import "./ppf.styles.css";

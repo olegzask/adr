@@ -1,11 +1,11 @@
-import React, {useState, useEffect} from "react";
-import {carAudioProducts} from "./caraudioproducts"
-import {CarAudioCard} from "./CarAudioCard";
+import React, { useState, useEffect } from "react";
+import { packagesRemotes } from "../dealer/packagesRemotes";
+import { PackCardRemote } from "./PackCardRemote";
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
 
-import "../remotestart/remotestart.styles.css";
+import "../dealer/dealer.styles.css";
 
-export const CarAudio = () => {
+export const RemsGood = () => {
   const [isDealer, setIsDealer] = useState(false);
   const [password, setPassword] = useState(["adrenalin404", "derrick780", "infiniti780", "gomazda780", "stc780"]);
   const [dealerName, setDealerName] = useState("");
@@ -107,7 +107,7 @@ export const CarAudio = () => {
 
           <div className="rs-topper">
           <h2 className="service-container-header rs-serv-header">
-            CAR AUDIO /<span className="our-services"> VIDEO</span>
+            REMOTE <span className="our-services">START</span>
           </h2>
 
           <span className="rs-description">
@@ -124,23 +124,23 @@ export const CarAudio = () => {
          
          <div className="quick-links ql-rm-ct">
             <div className="ql">
-              <button name="DMH1700N" className="quick-link" onClick={scrollToModel}>
-                1700N
+              <button name="DRONE" className="quick-link" onClick={scrollToModel}>
+                DRONE
               </button>
-              <button name="DMH2600N" className="quick-link" onClick={scrollToModel}>
-                2600N
+              <button name="T12SS" className="quick-link" onClick={scrollToModel}>
+                T12SS
               </button>
-              <button name="W4600N" className="quick-link" onClick={scrollToModel}>
-                4600N
+              <button name="Q9SS" className="quick-link" onClick={scrollToModel}>
+                Q9SS
               </button>
-              <button name="NAM3510M7" className="quick-link" onClick={scrollToModel}>
-                3510M7
+              <button name="G15SS" className="quick-link" onClick={scrollToModel}>
+                G15SS
               </button>
-              <button name="P300-10" className="quick-link" onClick={scrollToModel}>
-                P300-10
+              <button name="G15FM" className="quick-link" onClick={scrollToModel}>
+                G15FM
               </button>
-              <button name="P300-12" className="quick-link" onClick={scrollToModel}>
-                P300-12
+              <button name="WR3" className="quick-link" onClick={scrollToModel}>
+                WR3
               </button>
             </div>
           </div>
@@ -152,10 +152,10 @@ export const CarAudio = () => {
 
          <div className="ppf-packs tint-packs">
          
-         {carAudioProducts.map((el, id) => (
-           <CarAudioCard key={id} opts={{...el, dlr: dealerName, idNum: id +9}} />
+         {packagesRemotes.map((el, id) => (
+           <PackCardRemote key={id} opts={{...el, dlr: dealerName, idNum: id +9}} />
          ))}
          </div>
       </div>
   );
-         }
+};

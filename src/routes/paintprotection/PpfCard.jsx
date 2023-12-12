@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Booking from "../remotestart/Booking";
 import LinkComponent from "../../components/link/LinkComponent";
 import "../autotint/tint-card.styles.css";
@@ -50,9 +51,12 @@ export const PpfCard = ({ options }) => {
           {!modal ? null : (
             <Booking opts={{ rem: "PPF", txt: "Service", reset: setModal }} />
           )}
+          <Link onClick={scrollToTop} to="packages">
           <button onClick={showModal} className="remote-btn">
-            BOOK NOW
+            BROWSE PACKAGES
           </button>
+          </Link>
+         
         
         
         </div>

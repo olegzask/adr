@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Booking from "../remotestart/Booking";
+import BookingTint from "./BookingTint";
 import LinkComponent from "../../components/link/LinkComponent";
 import { scrollToTop } from "../../components/helperFunctions/helpers";
 
@@ -47,10 +47,10 @@ export const TintCard = ({ options }) => {
             }}
           />
           {!modal ? null : (
-            <Booking opts={{ rem: "Tint", txt: "Service", reset: setModal }} />
+            <BookingTint opts={{ rem: `Tint: ${tintType}`, txt: "Service", reset: setModal }} />
           )}
           <button onClick={showModal} className="remote-btn">
-            BOOK NOW
+            REQUEST PRICE
           </button>
         </div>
       </div>

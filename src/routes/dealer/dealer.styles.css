@@ -1,11 +1,27 @@
 .main-dealer-container {
-  width: 100vw;
-  margin: 1rem auto;
+  width: 95%;
+  margin: 0 auto;
   color: white;
   display: none;
   flex-direction: column;
+  align-items: center;
   opacity: 0;
   
+}
+
+.ppfec {
+  opacity: 1;
+  display: flex;
+  position: relative;
+  top: 2rem;
+  margin-top: 5rem;
+ 
+}
+
+
+.rs-cnt {
+  margin: 0 auto;
+  width: 95%;
 }
 
 .packs-header {
@@ -22,7 +38,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 2rem;
   width: 100%;
   margin-bottom: 2rem;
 
@@ -30,7 +47,7 @@
 
 .tint-packs {
   justify-content: flex-start;
-gap: 1.5rem;
+  gap: 2rem;
 }
 
 #dealer-ctn {
@@ -62,12 +79,17 @@ gap: 1.5rem;
 }
 
 .btn-submitpw {
+  cursor: pointer;
   width: 20%;
   color: black;
   background-color: white;
   border: 0.1rem solid grey;
   margin: 0;
   margin-left: 0.3rem;
+  border: 0.1rem solid rgb(160, 160, 160) ;
+  border-radius: 0.3rem;
+  height: 2rem;
+  
 }
 
 .btn-submitpw:hover {
@@ -188,7 +210,10 @@ margin: 0;
   }
 
   .ql-rm-ct {
-    display: block
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
     }
     
 
@@ -278,4 +303,32 @@ margin: 0;
   .quick-link-dealer {
     font-size: 0.9rem;
   }
+
+  .ql-rm-ct {
+    width: 100%;
+  }
+
+  .ql-ppf {
+    padding: 0;
+    width: 4rem;
+    margin: 0;
+    cursor: pointer;
+    font-size: 0.7rem;
+    height: 1.5rem;
+    background-color: white;
+    border: 0.1rem solid rgb(187, 186, 186);
+    border-radius: 0.2rem;
+    color: black;
+  }
+  
+  .ql-ppf:focus {
+    background-color: rgb(113, 255, 25);
+    border: 0.1rem solid transparent;
+  }
+  
+  .ql-ppf:active {
+    transition: 0.1s;
+    background-color: rgb(113, 255, 25);
+  }
+ 
 }

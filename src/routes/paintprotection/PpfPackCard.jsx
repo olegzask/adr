@@ -1,15 +1,10 @@
-import React, {useState, useContext} from "react";
-import { Link } from "react-router-dom";
-import { scrollToTop } from "../../components/helperFunctions/helpers";
-import { dashcams } from "./dashcamlist";
-import BookingDashcam from "./BookDashcam";
-import "../remotestart/remotestart.styles.css";
+import React, {useState} from "react";
+import BookingPpf from "./BookingPpf"
+import BookingDealer from "../remotestart/BookingDealer";
+import "../dealer/packcard.styles.css";
 
-import { BooleanContext } from "../../store";
-
-
-export  const DashcamCard = ({ opts}) => {
-  const {ident, accessory, heatedseats, audio, remote, model, name, includes, dealerPrice, retailPrice, dealerPriceCar, dealerPriceSuv, dealerPriceTruck, retailPriceCar, retailPriceSuv, retailPriceTruck, image, dlr, quarters, idNum } = opts;
+export const PpfPackCard = ({ opts }) => {
+  const {ident, remote, name, includes, dealerPrice, retailPrice, dealerPriceCar, dealerPriceSuv, dealerPriceTruck, retailPriceCar, retailPriceSuv, retailPriceTruck, image, dlr, quarters, idNum } = opts;
   const [modal, setModal] = useState(false);
   const [quarts, setQuarters] = useState(false)
   const [vehic, setVehic]= useState('car');
@@ -18,27 +13,14 @@ export  const DashcamCard = ({ opts}) => {
   const [brow, setBrow] = useState(false);
   const [transmission, setTransmission] = useState("auto");
   const [security, setSecurity] = useState(false)
-  const { setActiveProduct } = useContext(BooleanContext);
-
-
-
-  const toggleActiveProduct = (e) => {
-    const clickedProductId = e.target.closest(".remote-card-container").id;
-    console.log(clickedProductId)
-    const properProduct = dashcams.find((el) => el.model === clickedProductId);
-    console.log(properProduct)
-    setActiveProduct(properProduct);
-    scrollToTop();
-  };
-
 
 
 
 
   const filmec =()=> {
     if(ceramic) return "Ceramic";
-    if(ultimate) return "Ultimate"
-    if(!ceramic && !ultimate && !remote) return "Regular"
+    if(ultimate) return "Ceramic Fusion"
+    if(!ceramic && !ultimate && !remote) return "Ultimate Plus"
     if(!ceramic && !ultimate && remote) return ""
 
 
@@ -46,9 +28,9 @@ export  const DashcamCard = ({ opts}) => {
 
 
   const ppfPic =(e)=> {
-    if(vehic === "car" && !remote) return image;
-    if(vehic === "suv" && !remote) return image;
-    if(vehic === "truck" && !remote) return image;
+    if(vehic === "car" && !remote) return image.car;
+    if(vehic === "suv" && !remote) return image.suv;
+    if(vehic === "truck" && !remote) return image.truck;
 
     if(remote) return image;
 
@@ -69,23 +51,50 @@ export  const DashcamCard = ({ opts}) => {
     </div>
 
     </div>;
-    if(!quarters && !remote) return <div className="quarters-check"> <input onClick={useCer} type="checkbox" name="quarters" id="ulti" /><span>USE ULTIMATE FILM</span></div>;
+    if(!quarters && !remote) return <div className="quarters-check"> <input onClick={useCer} type="checkbox" name="quarters" id="ulti" /><span>USE CERAMIC FUSION</span></div>;
 
     if(remote) return <div className="quarters-check"> <input onClick={useCer} type="checkbox" name="quarters" id="ulti" /><span>ADD SECURITY</span></div>;
 
   }
 
   const serviceDecider =()=> {
-   return `DASHCAM- ${name}`
-
-
+    if(quarters === true) return `Tint ${name}`;
+    if(!quarters && !remote) return `PPF ${name}`
+    if(!quarters && remote) return `RS - ${name}`
 
   }
 
   const getPrice = (e)=> {
-    return dealerPriceCar;
+
+    if(remote && transmission==="auto" && !security) return dealerPriceCar;
+    if(remote && transmission==="manual" && !security) return dealerPriceCar +200;
+
+    if(remote && transmission==="auto" && security) return dealerPriceCar +300;
+    if(remote && transmission==="manual" && security) return dealerPriceCar +500;
+
+
+    if(vehic==="car" && !ceramic && !brow && !ultimate) return dealerPriceCar;
+    if(vehic==="suv" && !ceramic && !brow && !ultimate) return dealerPriceSuv;
+    if(vehic==="truck" && !ceramic && !brow && !ultimate) return dealerPriceTruck;
+
+    if(vehic==="car" && ultimate) return Math.round(dealerPriceCar * 1.5).toFixed(2);
+    if(vehic==="suv" && ultimate) return Math.round(dealerPriceSuv * 1.5).toFixed(2);
+    if(vehic==="truck" && ultimate ) return Math.round(dealerPriceTruck * 1.5).toFixed(2);
+
+    if(vehic==="car" && !ceramic && brow) return dealerPriceCar +80;
+    if(vehic==="suv" && !ceramic && brow) return dealerPriceSuv +80;
+    if(vehic==="truck" && !ceramic && brow) return dealerPriceTruck +80;
+
+    if(vehic==="car" && ceramic && !brow) return Math.round(dealerPriceCar * 1.5).toFixed(2);
+    if(vehic==="suv" && ceramic && !brow) return Math.round(dealerPriceSuv * 1.5).toFixed(2);
+    if(vehic==="truck" && ceramic && !brow) return Math.round(dealerPriceTruck * 1.5).toFixed(2);
+
+
+    if(vehic==="car" && ceramic && brow) return Math.round(dealerPriceCar  * 1.5 +80).toFixed(2);
+    if(vehic==="suv" && ceramic && brow) return Math.round(dealerPriceSuv * 1.5 +80 ).toFixed(2);
+    if(vehic==="truck" && ceramic && brow) return Math.round(dealerPriceTruck * 1.5 +80).toFixed(2);
   }
-  
+
   const useCer = (e)=> {
     const checkBox =  e.target;
     if(!remote && checkBox.id +"" ==="quart") {
@@ -133,7 +142,7 @@ if(remote){
     
 
     return (
-        <div id={ident + 21} className="droper">
+        <div className="droper">
              <label className="droper-head" for="vehicle-select">{!remote ? "Choose vehicle type:" : "Choose transmission type:"}</label>
     
     <select onChange={!remote ? checkVeh : checkTrans} name="vehicles" className="dropgovno" id={`vehicles-select${idNum}`}>
@@ -170,39 +179,30 @@ if(remote){
   };
 
   return (
-    <div className="remote-card-container  pack-container" id={model} >
+    <div className="pack-container" id={ident} >
       <div className="pack-info">
         <h3 className="pack-name">{name.toUpperCase()}</h3>
         <img className={!remote ? "pack-img" : " pack-img pack-img-remote" }src={ppfPic()} alt="package-img" />
         <div className="pack-list">
-          {includes.map((el, id) => (
-            <span key={id} className="pack-el">- {el}</span>
+          {includes.map((el) => (
+            <span className="pack-el">- {el}</span>
           ))}
         </div>
       
       </div>
-      {/* {DropMenu()}
-      {quarters ? DropMenu() : null}
-       {checkPoint()} */}
+      {DropMenu()}
+      {/* {quarters ? DropMenu() : null} */}
+       {checkPoint()}
 <div className="price-cont">
 <h4 className="price-dealer">From: $ <span id={`dp-${idNum}`}>{quarters ? getPrice() : getPrice()}</span> </h4>
 </div>
       
       {!modal ? null : (
-            <BookingDashcam opts={{ rem: serviceDecider(), txt: "", reset: setModal, dPrice: document.getElementById(`dp-${idNum}`).innerHTML}} />
+            <BookingPpf opts={{ rem: serviceDecider(), txt: "", reset: setModal, dName: "", filmType: filmec(), dPrice: document.getElementById(`dp-${idNum}`).innerHTML, vehType: document.getElementById(`vehicles-select${idNum}`).value,  vBrow: brow ? "/ Add Brow" : "", secur: security ? "/ Add Security" : "" }} />
           )}
-          <div className="buts-cont">
-          <button id="bookbutn"  onClick={showModal} className="rmt-btn">
-            BOOK NOW
+          <button id="bookbutn"  onClick={showModal} className="btn-book remote-btn">
+            REQUEST QUOTE
           </button>
-          <Link to={name}>
-          <button id="bookbutn"  onClick={toggleActiveProduct} className="rmt-btn">
-            MORE INFO
-          </button>
-          </Link>
-         
-          </div>
-         
     </div>
   );
-}
+};

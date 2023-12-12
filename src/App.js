@@ -10,14 +10,15 @@ import Careers from "./routes/careers/Careers";
 import ContactUs from "./routes/contact/ContactUs";
 import Services from "./routes/services/Services";
 import RemoteStart from "./routes/remotestart/RemoteStart";
+import { RemsGood } from "./routes/remotestart/RemsGood";
 import PaintProtection from "./routes/paintprotection/PaintProtection";
 import Dashcams from "./routes/dashcams/Dashcams";
 import InfoCard from "./components/moreinfo/InfoCard";
 import { Simulator } from "./components/simulator/simulator";
 import Accessories from "./routes/12voltaccessories/Accessories";
-import CarAudio from "./routes/car audio-video/CarAudio";
+import {CarAudio}from "./routes/car audio-video/CarAudio";
 import Marine from "./routes/marine/Marine";
-import PpfPacks from "./routes/car audio-video/CarAudio";
+import { PpfPackages } from "./routes/paintprotection/PpfPacks";
 import { Dealer } from "./routes/dealer/Dealer";
 
 const App = () => {
@@ -35,7 +36,7 @@ const App = () => {
         <Route path="careers" element={<Careers />} />
         <Route path="contact" element={<ContactUs />} />
         <Route path="simulator" element={<Simulator />} />
-        <Route path="services/remote-start" element={<RemoteStart />} />
+        <Route path="services/remote-start" element={<RemsGood />} />
         <Route
           path="services/paint-protection-film"
           element={<PaintProtection />}
@@ -45,7 +46,7 @@ const App = () => {
         <Route path="services/marine-audio" element={<Marine />} />
         <Route path="services/car-audio-video" element={<CarAudio />} />
 
-        <Route path="services/paint-protection-film/packages" element={<PpfPacks/>} />
+        <Route path="services/paint-protection-film/packages" element={<PpfPackages/>} />
 
         <Route path="services/:service/:id" element={<InfoCard />} />
       </Route>

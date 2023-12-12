@@ -45,13 +45,13 @@ export const Dropdown = () => {
 
 
   return (
-    <div className="services-dropdown-container">
-        <Link onClick={goToServices} className="nav-link" to="/">
+    <div className="services-dropdown-container" id="nav-dropdown">
+        <Link key="all-serv-dd" onClick={goToServices} className="nav-link" to="/">
             All Services
           </Link>
       {services.map((service, id) => {
         return (
-            <Link onClick={servicesHover} className="nav-link" to={`/${service.link}`}>
+            <Link key={id} onClick={servicesHover} className="nav-link" to={`/${service.link}`}>
             {service.name}
           </Link>
         );

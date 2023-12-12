@@ -5,6 +5,41 @@
   padding-left: 1rem;
 }
 
+.rs-main-container {
+  width: 100%;
+  margin-bottom: 8rem;
+  
+}
+
+.buts-cont {
+  margin: 0;
+ justify-content: space-around;
+ height: 4rem;
+ display: flex;
+ flex-direction: column;
+ padding-bottom: 1rem;
+ padding-top: 0.5rem;
+}
+
+
+
+
+.rmt-btn {
+  width: 100%;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin: 0;
+  border-radius: 0.5rem;
+  height: 1.7rem;
+  background-color: white;
+  border: 0.1rem solid rgb(146, 146, 146);
+}
+
+.rmt-btn:hover {
+  transition: 0.3s ease-in;
+  border: 0.1rem solid rgb(113, 255, 25);
+}
+
 
 
 .pack-container {
@@ -108,8 +143,7 @@ font-size: 0.8rem;
 .pack-img {
   width: 100%;
 }
-.pack-img-remote {
-}
+
 
 .pack-el {
   color: black;

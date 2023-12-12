@@ -111,13 +111,13 @@ export const Dealer = () => {
           type="text"
           id="pwinput"
         />
-        <button onClick={showPrice} id="subm_btn" className="btn btn-submitpw">
+        <button onClick={showPrice} id="subm_btn" className="btn-submitpw">
           SUBMIT
         </button>
         <button
           onClick={hidePrice}
           id="logout_btn"
-          className="btn btn-submitpw"
+          className="btn-submitpw"
         >
           LOG OUT
         </button>

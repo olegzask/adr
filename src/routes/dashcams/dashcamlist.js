@@ -9,14 +9,17 @@ export const dashcams = [
       "https://apps.apple.com/ca/app/momento-m6-dash-cam-viewer/id1447529243",
     googleLink:
       "https://play.google.com/store/apps/details?id=kr.e777.mcnex&hl=en_CA&gl=US&pli=1",
+      name: "M6",
     model: "M6",
     category: "DashCam",
     type: ["Wi-Fi HD Dual Dash Camera"],
     brand: "Momento",
     brandLogo: "/logos/logo-momento-black.png",
-    price: 750,
+  
     imgBW: "",
     imgColor: "/images/dashcams/M6/M6-angled.png",
+    image: "/images/dashcams/M6/M6-angled.png",
+
     images: [
       "/images/dashcams/M6/M6-angled.png",
       "/images/dashcams/M6/M6-back.png",
@@ -26,6 +29,13 @@ export const dashcams = [
       "/images/dashcams/M6/M6-top.png",
       "/images/dashcams/M6/M6-with-rearcam.png",
       "/images/dashcams/M6/32GB.png",
+    ],
+
+    includes: [
+      "Hardware & installation",
+      "32GB SD Card",
+      "Manufacturer's Warranty"
+
     ],
     features: [
       {
@@ -68,5 +78,7 @@ export const dashcams = [
       "The M6 includes a 32GB micro-SD card that can be upgraded to any Class 10 micro-SD card up to 256GB. That's twice as much as our leading competitors! Plus, its easy-to-use file management system best utilizes your storage while ensuring your most important videos stay saved.",
       "The M6 is protected by a 2-Year manufacturer’s Warranty. This warranty covers both front and rear cameras, and protects your purchase from defects or malfunctioning parts*.",
     ],
+    dealerPriceCar: 750.95,
+    retailPriceCar: 990.95,
   },
 ];

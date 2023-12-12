@@ -36,28 +36,7 @@ export const remotes = [
       "Set mileage-based service reminders.",
     ],
 
-    features: [
-      {
-        name: "GPS Tracking",
-        symbol: <RiGpsLine color="rgb(133, 255, 62)" />,
-        description: "",
-      },
-      {
-        name: "Family Sharing",
-        symbol: <BsShare color="rgb(133, 255, 62)" />,
-        description: "",
-      },
-      {
-        name: "Push Notifications",
-        symbol: <MdNotificationsActive color="rgb(133, 255, 62)" />,
-        description: "",
-      },
-      {
-        name: "iOS / Android Compatible",
-        symbol: <FaMobileAlt color="rgb(133, 255, 62)" />,
-        description: "",
-      },
-    ],
+
     range: "Unlimited",
   },
   {

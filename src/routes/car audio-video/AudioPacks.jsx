@@ -1,16 +1,14 @@
-import React, {useState, useEffect} from "react";
-import {carAudioProducts} from "./caraudioproducts"
-import {CarAudioCard} from "./CarAudioCard";
+import React, { useState, useEffect } from "react";
+import {CarAudioCard} from "./CarAudioCard"
+import { carAudioProducts } from "./caraudioproducts";
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
+import "../dealer/dealer.styles.css";
 
-import "../remotestart/remotestart.styles.css";
-
-export const CarAudio = () => {
+export const AudioPackages = () => {
   const [isDealer, setIsDealer] = useState(false);
   const [password, setPassword] = useState(["adrenalin404", "derrick780", "infiniti780", "gomazda780", "stc780"]);
   const [dealerName, setDealerName] = useState("");
   const [offset, setOffset] = useState(0);
-
 
   useEffect(() => {
     const onScroll = () => setOffset(window.pageYOffset);
@@ -102,60 +100,43 @@ export const CarAudio = () => {
 
 
   return (
-    
-    <div id="dealer-ctn" className="rs-cnt">
+    <div id="dealer-ctn ">
+         <div className="main-dealer-container ppfec" id="mdealer">
 
-          <div className="rs-topper">
-          <h2 className="service-container-header rs-serv-header">
-            CAR AUDIO /<span className="our-services"> VIDEO</span>
-          </h2>
 
-          <span className="rs-description">
-          Discover top-tier remote start installation services in Edmonton that offer unparalleled expertise in seamlessly integrating advanced technology into your vehicle. At our facility, we specialize in precision installations tailored to your vehicle's specific requirements, ensuring optimal performance.          </span>
-          <br/>
-          <br/>
 
-          
-          <span className="rs-description">
-          Elevate your driving experience with our comprehensive approach, which includes the integration of DRONE, an advanced mobile app that offers cutting-edge remote start functionality. With a focus on convenience, security, and innovation, our Edmonton-based service guarantees the luxury of starting your car remotely, all backed by our commitment to user-friendly solutions and superior craftsmanship.
-          </span>
-          <br />
-          </div>
-         
-         <div className="quick-links ql-rm-ct">
+          <div onClick={goUp} className={`scrollUp ${offset > 800 && "scrolledNah"}`}> <FaRegArrowAltCircleUp /><span className="scrollR">Return</span></div>
+
+
+      <h2  id="ppf" className="packs-header">Car Audio / Video</h2>
+      <div className="quick-links ql-rm-ct">
             <div className="ql">
-              <button name="DMH1700N" className="quick-link" onClick={scrollToModel}>
-                1700N
+              <button  name="bronze" className="quick-link rm-ql" onClick={scrollToModel}>
+                BRONZE
               </button>
-              <button name="DMH2600N" className="quick-link" onClick={scrollToModel}>
-                2600N
+              <button name="silver" className="quick-link rm-ql" onClick={scrollToModel}>
+                SILVER
               </button>
-              <button name="W4600N" className="quick-link" onClick={scrollToModel}>
-                4600N
+              <button name="gold" className="quick-link rm-ql" onClick={scrollToModel}>
+                GOLD
               </button>
-              <button name="NAM3510M7" className="quick-link" onClick={scrollToModel}>
-                3510M7
+              <button name="platinum" className="quick-link rm-ql" onClick={scrollToModel}>
+                PLATINUM
               </button>
-              <button name="P300-10" className="quick-link" onClick={scrollToModel}>
-                P300-10
-              </button>
-              <button name="P300-12" className="quick-link" onClick={scrollToModel}>
-                P300-12
+              <button name="diamond" className="quick-link rm-ql" onClick={scrollToModel}>
+                DIAMOND
               </button>
             </div>
           </div>
-          <div onClick={goUp} className={`scrollUp ${offset > 800 && "scrolledNah"}`}> <FaRegArrowAltCircleUp /><span className="scrollR">Return</span></div>
-
-          <h2 className="rs-description-lower">
-            NOT SURE WHAT KIND OF REMOTE START YOU NEED? EXPLORE OUR OPTIONS!
-          </h2>
-
-         <div className="ppf-packs tint-packs">
+        <div className="ppf-packs">
          
-         {carAudioProducts.map((el, id) => (
-           <CarAudioCard key={id} opts={{...el, dlr: dealerName, idNum: id +9}} />
-         ))}
-         </div>
-      </div>
+        {carAudioProducts.map((el, id) => (
+           
+          <CarAudioCard opts={{...el, dlr: dealerName, idNum: id}} />
+        ))}
+        </div>
+    
+                </div>
+    </div>
   );
-         }
+};

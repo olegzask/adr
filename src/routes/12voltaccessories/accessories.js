@@ -5,12 +5,15 @@ import { AiOutlineEyeInvisible } from "react-icons/ai";
 export const allAccessories = [
   {
     app: false,
-    model: "HEATED SEAT-HS1",
+    accessory: true,
+    name: "HS1",
+    model: "HS1",
     brand: "AA",
     brandLogo: "/logos/adrenalin_logo.png",
     price: 0,
     imgBW: "",
     imgColor: "/images/accessories/12volt-color.jpg",
+    image: "/images/accessories/12volt-color.jpg",
     images: [
       "/images/accessories/12volt-color.jpg",
       "/images/accessories/hseats_1.jpg",
@@ -23,6 +26,13 @@ export const allAccessories = [
       "Dual temperature control system (Electronic control and Standard bi-metal thermostat).",
       "Illuminated 2-color switch for high & low temperature setting",
       "Can be wired into remote start systems for automatic turn-on",
+    ],
+
+    includes: [
+      "Hardware & installation",
+      "2 Seats Included",
+      "Quick Warm up"
+
     ],
 
     features: [
@@ -43,5 +53,7 @@ export const allAccessories = [
       },
     ],
     range: "Universal",
+    dealerPriceCar: 550.95,
+      retailPriceCar: 990.95,
   },
 ];

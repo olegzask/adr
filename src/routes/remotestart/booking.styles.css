@@ -7,8 +7,8 @@
   padding: 2rem;
   padding-top: 0rem;
   padding-bottom: 2rem;
-  width: 90%;
-  height: 80%;
+  width:95%;
+  height: 85%;
   justify-content: center;
   left: 0;
   z-index: 1;
@@ -65,6 +65,10 @@
   width: 25%;
   align-items: center;
 }
+#vin {
+  width: 25%;
+  align-items: center;
+}
 
 .booking-header {
   margin: 0;
@@ -102,6 +106,7 @@
     top: 2rem;
 left: -0.5rem;
 height: 100%;
+width: 90%;
   }
 
   .vehicle-info {
@@ -135,6 +140,10 @@ height: 100%;
     text-align: center;
   }
   #cartype {
+    width: auto;
+    text-align: center;
+  }
+  #vin {
     width: auto;
     text-align: center;
   }

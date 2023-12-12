@@ -1,15 +1,14 @@
 import React, {useState, useContext} from "react";
 import { Link } from "react-router-dom";
+import BookingRemote from "./BookingRemote";
 import { scrollToTop } from "../../components/helperFunctions/helpers";
-import { dashcams } from "./dashcamlist";
-import BookingDashcam from "./BookDashcam";
-import "../remotestart/remotestart.styles.css";
-
+import { packagesRemotes } from "../dealer/packagesRemotes";
+import "../dealer/packcard.styles.css";
 import { BooleanContext } from "../../store";
 
 
-export  const DashcamCard = ({ opts}) => {
-  const {ident, accessory, heatedseats, audio, remote, model, name, includes, dealerPrice, retailPrice, dealerPriceCar, dealerPriceSuv, dealerPriceTruck, retailPriceCar, retailPriceSuv, retailPriceTruck, image, dlr, quarters, idNum } = opts;
+export const PackCardRemote = ({ opts }) => {
+  const {ident, remote, model, name, includes, dealerPrice, retailPrice, dealerPriceCar, dealerPriceSuv, dealerPriceTruck, retailPriceCar, retailPriceSuv, retailPriceTruck, image, dlr, quarters, idNum } = opts;
   const [modal, setModal] = useState(false);
   const [quarts, setQuarters] = useState(false)
   const [vehic, setVehic]= useState('car');
@@ -25,7 +24,7 @@ export  const DashcamCard = ({ opts}) => {
   const toggleActiveProduct = (e) => {
     const clickedProductId = e.target.closest(".remote-card-container").id;
     console.log(clickedProductId)
-    const properProduct = dashcams.find((el) => el.model === clickedProductId);
+    const properProduct = packagesRemotes.find((el) => el.model === clickedProductId);
     console.log(properProduct)
     setActiveProduct(properProduct);
     scrollToTop();
@@ -46,9 +45,9 @@ export  const DashcamCard = ({ opts}) => {
 
 
   const ppfPic =(e)=> {
-    if(vehic === "car" && !remote) return image;
-    if(vehic === "suv" && !remote) return image;
-    if(vehic === "truck" && !remote) return image;
+    if(vehic === "car" && !remote) return image.car;
+    if(vehic === "suv" && !remote) return image.suv;
+    if(vehic === "truck" && !remote) return image.truck;
 
     if(remote) return image;
 
@@ -76,16 +75,45 @@ export  const DashcamCard = ({ opts}) => {
   }
 
   const serviceDecider =()=> {
-   return `DASHCAM- ${name}`
-
+    if(quarters === true) return `Tint ${name}`;
+    if(!quarters && !remote) return `PPF ${name}`
+    if(!quarters && remote) return `RS - ${name}`
+    if(!quarters && !remote && heatedseats) return `HS - ${name}`
 
 
   }
 
   const getPrice = (e)=> {
-    return dealerPriceCar;
+
+    if(remote && transmission==="auto" && !security) return dealerPriceCar;
+    if(remote && transmission==="manual" && !security) return dealerPriceCar +200;
+
+    if(remote && transmission==="auto" && security) return dealerPriceCar +300;
+    if(remote && transmission==="manual" && security) return dealerPriceCar +500;
+
+
+    if(vehic==="car" && !ceramic && !brow && !ultimate) return dealerPriceCar;
+    if(vehic==="suv" && !ceramic && !brow && !ultimate) return dealerPriceSuv;
+    if(vehic==="truck" && !ceramic && !brow && !ultimate) return dealerPriceTruck;
+
+    if(vehic==="car" && ultimate) return Math.round(dealerPriceCar * 1.5).toFixed(2);
+    if(vehic==="suv" && ultimate) return Math.round(dealerPriceSuv * 1.5).toFixed(2);
+    if(vehic==="truck" && ultimate ) return Math.round(dealerPriceTruck * 1.5).toFixed(2);
+
+    if(vehic==="car" && !ceramic && brow) return dealerPriceCar +80;
+    if(vehic==="suv" && !ceramic && brow) return dealerPriceSuv +80;
+    if(vehic==="truck" && !ceramic && brow) return dealerPriceTruck +80;
+
+    if(vehic==="car" && ceramic && !brow) return Math.round(dealerPriceCar * 1.5).toFixed(2);
+    if(vehic==="suv" && ceramic && !brow) return Math.round(dealerPriceSuv * 1.5).toFixed(2);
+    if(vehic==="truck" && ceramic && !brow) return Math.round(dealerPriceTruck * 1.5).toFixed(2);
+
+
+    if(vehic==="car" && ceramic && brow) return Math.round(dealerPriceCar  * 1.5 +80).toFixed(2);
+    if(vehic==="suv" && ceramic && brow) return Math.round(dealerPriceSuv * 1.5 +80 ).toFixed(2);
+    if(vehic==="truck" && ceramic && brow) return Math.round(dealerPriceTruck * 1.5 +80).toFixed(2);
   }
-  
+
   const useCer = (e)=> {
     const checkBox =  e.target;
     if(!remote && checkBox.id +"" ==="quart") {
@@ -181,15 +209,15 @@ if(remote){
         </div>
       
       </div>
-      {/* {DropMenu()}
-      {quarters ? DropMenu() : null}
-       {checkPoint()} */}
+      {DropMenu()}
+      {/* {quarters ? DropMenu() : null} */}
+       {checkPoint()}
 <div className="price-cont">
 <h4 className="price-dealer">From: $ <span id={`dp-${idNum}`}>{quarters ? getPrice() : getPrice()}</span> </h4>
 </div>
       
       {!modal ? null : (
-            <BookingDashcam opts={{ rem: serviceDecider(), txt: "", reset: setModal, dPrice: document.getElementById(`dp-${idNum}`).innerHTML}} />
+            <BookingRemote  opts={{ rem: serviceDecider(), txt: "", reset: setModal, dName: dlr, filmType: filmec(), dPrice: document.getElementById(`dp-${idNum}`).innerHTML, vehType: document.getElementById(`vehicles-select${idNum}`).value,  vBrow: brow ? "/ Add Brow" : "", secur: security ? "/ Add Security" : "" }} />
           )}
           <div className="buts-cont">
           <button id="bookbutn"  onClick={showModal} className="rmt-btn">
@@ -205,4 +233,4 @@ if(remote){
          
     </div>
   );
-}
+};
