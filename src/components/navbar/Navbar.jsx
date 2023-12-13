@@ -112,7 +112,7 @@ dropMenu.classList.remove("dropdown-active");
         <div className="navlinks-cont">
           <Link onClick={scrollToTop} to="/">
             {/* <FaPowerOff className="navbar-logo" /> */}
-            <img className="navbar-logo"  src="/logos/adrenalin_hor.png" alt="logo" />
+            <img className="navbar-logo"  src="/logos/adren_new.png" alt="logo" />
 
           </Link>
           <Link onClick={goToAbout} className="nav-link" to="/">
