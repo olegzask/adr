@@ -56,6 +56,12 @@ export const remotes = [
     ],
     features: [
       {
+        name: "Model: T13SS",
+        symbol: <FcRefresh fill="rgb(14, 146, 255)" />,
+        description: "",
+      },
+     
+      {
         name: "2-Way LCD",
         symbol: <FcRefresh fill="rgb(14, 146, 255)" />,
         description: "",

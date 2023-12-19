@@ -79,6 +79,7 @@ export const packagesRemotes = [
      
     ],
     features: [
+      
       {
         name: "2-Way LCD",
         symbol: <FcRefresh fill="rgb(14, 146, 255)" />,
@@ -104,6 +105,7 @@ export const packagesRemotes = [
     ],
       image: "/images/remotes/t13.jpg",
       includes: [
+        "Model: T13SS",
         "2-Way LCD",
         "Hardware & installation",
         "3 year warranty",
@@ -167,6 +169,8 @@ export const packagesRemotes = [
         name: "RS-05",
         image: "/images/remotes/t12.jpg",
         includes: [
+        "Model: T12SS",
+
           "2-Way LCD",
           "Hardware & installation",
           "3 year warranty",
@@ -219,6 +223,8 @@ export const packagesRemotes = [
             name: "RS-04",
             image: "/images/remotes/q9.jpg",
             includes: [
+        "Model: Q9SS",
+
               "2-Way LCD",
               "Hardware & installation",
               "3 year warranty",
@@ -280,6 +286,8 @@ export const packagesRemotes = [
         name: "RS-03",
         image: "/images/remotes/t9.jpg",
         includes: [
+        "Model: T9SS",
+
           "2-Way LCD",
           "Hardware & installation",
           "3 year warranty",
@@ -339,6 +347,8 @@ export const packagesRemotes = [
         name: "RS-02T",
         image: "/images/remotes/pg15.jpg",
         includes: [
+        "Model: G15SS",
+
           "2-Way LED",
           "Hardware & installation",
           "3 year warranty",
@@ -388,6 +398,8 @@ export const packagesRemotes = [
         name: "RS-02",
         image: "/images/remotes/wg15.jpg",
         includes: [
+        "Model: G15FM",
+
           "1-Way LED",
           "Hardware & installation",
           "3 year warranty",
@@ -436,6 +448,8 @@ export const packagesRemotes = [
         name: "RS-01",
         image: "/images/remotes/wr3.jpg",
         includes: [
+        "Model: WR3",
+
           "1-Way LED",
           "Hardware & installation",
           "3 year warranty",
