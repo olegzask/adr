@@ -23,6 +23,8 @@ export const PackCard = ({ opts }) => {
   const [seats, setSeats] = useState("single");
   const [security, setSecurity] = useState(false)
   const [rearSeats, setRearSeats] = useState(false)
+  const [shadeFront, setShadeFront] = useState("5%");
+  const [shadeRear, setShadeRear] = useState("5%");
 
 
 
@@ -35,10 +37,23 @@ export const PackCard = ({ opts }) => {
 
 
   const extras = ()=> {
-    if(headlamps && !luggage) return "Headlamps"
-    if(!headlamps && !luggage) return false;
-    if(!headlamps && luggage) return "Luggage"
-    if(headlamps && luggage) return "Headlamps & Luggage"
+    if(headlamps && !luggage && !rearSeats && !security && !brow && !ceramic && !ultimate) return "Headlamps"
+    if(!headlamps && !luggage && !rearSeats && !security && !brow && !ceramic && !ultimate) return false;
+    if(!headlamps && luggage && !rearSeats && !security && !brow && !ceramic && !ultimate) return "Luggage"
+    if(headlamps && luggage && ! rearSeats && !security && !brow && !ceramic && !ultimate) return "Headlamps & Luggage"
+    if(rearSeats && !headlamps && !luggage && !security && !brow && !ceramic && !ultimate) return "Rear Seats"
+    if(!rearSeats && !headlamps && !luggage && security && !brow && !ceramic && !ultimate) return "Security"
+    if(rearSeats && !headlamps && !luggage && !security && !brow && !ceramic && !ultimate) return "Rear Seats"
+    if(!rearSeats && !headlamps && !luggage && !security && brow && !ceramic && !ultimate) return "Windshield Brow"
+    if(!rearSeats && !headlamps && !luggage && !security && !brow && ceramic && !ultimate) return "Ceramic Film"
+    if(!rearSeats && !headlamps && !luggage && !security && brow && ceramic && !ultimate) return "Ceramic Film & Add Brow"
+    if(!rearSeats && !headlamps && !luggage && !security && !brow && !ceramic && ultimate) return "Ultimate Film"
+    if(!rearSeats && headlamps && !luggage && !security && !brow && !ceramic && ultimate) return "Ultimate Film | Add Headlamps"
+    if(!rearSeats && headlamps && luggage && !security && !brow && !ceramic && ultimate) return "Ultimate Film | Add Headlamps | Add Luggage"
+    if(!rearSeats && !headlamps && luggage && !security && !brow && !ceramic && ultimate) return "Ultimate Film | Add Luggage"
+
+
+
   }
 
   const ppfPic =(e)=> {
@@ -362,6 +377,34 @@ setGlass(false);
     if(remote && !hseat) return "Choose transmission type";
   }
 
+  const dropMenuTint =()=> {
+    return (
+      <div className="droper droper-tint">
+        {name !=="Fronts Only" ?    <div className="selector-cont">
+        <label className="droper-head" for="vehicle-select">Rears %</label>
+      <select onChange={checkShade} name="vehicles" className="dropgovno" id="shade-rear">
+      <option className="opt" value="5%">5%-Limo</option>
+      <option className="opt" value="20%">20%-Match Rears</option>
+      <option className="opt" value="35%">35%</option>
+      <option className="opt" value="50%">50%</option>
+      </select>
+        </div>
+        : null
+    }
+     
+     {name !== "Full Rears" ?    <div className="selector-cont">
+        <label className="droper-head" for="vehicle-select">Fronts %</label>
+      <select onChange={checkShade} name="vehicles" className="dropgovno" id="shade-front">
+      <option className="opt" value="5%">5%-Limo</option>
+      <option className="opt" value="20%">20%-Match Rears</option>
+      <option className="opt" value="35%">35%</option>
+      <option className="opt" value="50%">50%</option>
+      </select>
+        </div> : null}
+        </div>
+    )
+  }
+
 
 
   const DropMenu= () => {
@@ -431,6 +474,18 @@ setGlass(false);
     setTransmission(e.target.value)
   }
 
+  const checkShade =(e)=> {
+    const value = e.target.value;
+    const tintId = e.target.id
+    if(tintId === "shade-front") {
+setShadeFront(value);
+    }
+
+    if(tintId === "shade-rear") {
+      setShadeRear(value)
+    }
+  }
+
   const checkSeats = (e)=> {
     // resetAll();
 
@@ -460,6 +515,9 @@ setGlass(false);
         </div>
       
       </div>
+      <div className="shadesoftint">
+        {quarters ?dropMenuTint() : null}
+      </div>
       {DropMenu()}
       {/* {quarters ? DropMenu() : null} */}
        {checkPoint()}
@@ -469,7 +527,7 @@ setGlass(false);
 </div>
       
       {!modal ? null : (
-            <BookingDealer opts={{ rem: serviceDecider(), txt: "", reset: setModal, addons: extras(), dName: dlr, filmType: filmec(), dPrice: document.getElementById(`dp-${idNum}`).innerHTML, vehType: document.getElementById(`vehicles-select${idNum}`).value,  vBrow: brow ? "/ Add Brow" : "", secur: security ? "/ Add Security" : "" }} />
+            <BookingDealer opts={{ rem: serviceDecider(), txt: "", shades: quarters ? {fronts: name !=="Full Rears"  ? shadeFront : "", rears: name !== "Fronts Only" ? shadeRear : "" } : false, rearHseat: rearSeats, reset: setModal, addons: extras(), dName: dlr, filmType: filmec(), dPrice: document.getElementById(`dp-${idNum}`).innerHTML, vehType: document.getElementById(`vehicles-select${idNum}`).value,  vBrow: brow ? "/ Add Brow" : "", secur: security ? "/ Add Security" : "" }} />
           )}
           <button id="bookbutn"  onClick={showModal} className="btn-book remote-btn">
             BOOK NOW

@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 import "./booking.styles.css";
 
 export default function BookingDealer({ opts }) {
-  const { rem, reset, txt, dName, filmType, dPrice, vehType, vBrow, secur, addons} = opts;
+  const { rem, shades, rearHseat, reset, txt, dName, filmType, dPrice, vehType, vBrow, secur, addons} = opts;
   const [formInfo, setFormInfo] = useState({
     name: "",
     email: "",
@@ -108,7 +108,7 @@ export default function BookingDealer({ opts }) {
       ) : null}
       {requestSent ? (
         <SuccessWindow
-          fields={{ handler: setRequest, errHandler: setErrorBooking }}
+          fields={{ handler: setRequest, errHandler: setErrorBooking, closeIt: closeForm }}
         />
       ) : null}
       <div className="close-hdr">
@@ -157,7 +157,7 @@ export default function BookingDealer({ opts }) {
             className="form-input"
             type="text"
             name="rs-model"
-            value={`${rem} ${filmType} ${vBrow} ${secur}`}
+            value={`${rem}`}
           />
           <input
             disabled={false}
@@ -226,7 +226,17 @@ export default function BookingDealer({ opts }) {
           className="form-input"
           type="text"
           name="addons"
-          value={`Added Extras: ${addons}`}
+          value={`${addons}`}
+        />}
+
+{!shades ? null :   <input
+            disabled={false}
+          autoComplete="off"
+          id="shades"
+          className="form-input"
+          type="text"
+          name="shades"
+          value={`${shades.fronts ? "Fronts:" : ""} ${shades.fronts}  ${shades.rears ? "Rears:" : ""} ${shades.rears}`}
         />}
       
 

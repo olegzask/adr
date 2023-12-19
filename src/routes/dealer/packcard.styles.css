@@ -76,6 +76,15 @@
   
 }
 
+.droper-tint {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selector-cont {
+  width: 45%;
+}
+
 
 .droper{
   width: auto;

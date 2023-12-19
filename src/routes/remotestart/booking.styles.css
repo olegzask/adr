@@ -39,8 +39,16 @@
 
 #addons {
   background-color: lightgrey;
+  text-align: center;
 
 }
+#shades {
+  background-color: lightgrey;
+  text-align: center;
+
+
+}
+
 
 #vehicle {
   width: 35%;

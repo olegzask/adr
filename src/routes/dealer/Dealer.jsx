@@ -226,8 +226,8 @@ export const Dealer = () => {
          <h2 id="remote" className="packs-header">12V Accessories Packages</h2>
          <div className="quick-links ql-rm-ct">
             <div className="ql">
-              <button name="drone" className="quick-link" onClick={scrollToModel}>
-                DRONE
+              <button name="hs1" className="quick-link" onClick={scrollToModel}>
+                HS1
               </button>
          
             </div>
