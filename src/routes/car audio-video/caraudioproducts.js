@@ -36,29 +36,34 @@ export const carAudioProducts = [
 
     includes: [
       "Hardware & installation",
-      "30 Days Free Trial",
-      "Range: Unlimited"
+      "Manufacturer's Warranty",
+      "Installation Warranty"
 
     ],
 
     features: [
       {
-        name: "Partial Hood",
+        name: "6.8 inch WVGA (Capacitive Touch)",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Partial Fenders",
+        name: "Apple CarPlay® Compatible",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Mirrors",
+        name: "Android Auto™ Compatible",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Door Cups",
+        name: "SiriusXM-Ready™",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+      {
+        name: "Built-in Bluetooth®",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
@@ -94,32 +99,48 @@ export const carAudioProducts = [
 
     includes: [
       "Hardware & installation",
-      "30 Days Free Trial",
-      "Range: Unlimited"
+      "Manufacturer's Warranty",
+      "Installation Warranty"
 
     ],
 
     features: [
       {
-        name: "Partial Hood",
+        name: "6.8inch WVGA (Capacitive Touch)",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Partial Fenders",
+        name: "Apple CarPlay™ Compatible",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Mirrors",
+        name: "Android Auto™ Compatible",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Door Cups",
+        name: "Amazon Alexa Built-in when Paired with Pioneer Vozsis App",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
+      {
+        name: "SiriusXM-Ready™",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+      {
+        name: "Built-in Bluetooth®",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+      {
+        name: "iDataLink® Maestro™ Compatible",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+      
     
     ],
     range: "From $299",
@@ -161,29 +182,29 @@ export const carAudioProducts = [
 
     includes: [
       "Hardware & installation",
-      "30 Days Free Trial",
-      "Range: Unlimited"
+      "Manufacturer's Warranty",
+      "Installation Warranty"
 
     ],
 
     features: [
       {
-        name: "Partial Hood",
+        name: "Short Chassis with 6.8 inch WVGA Capacitive Touch Screen Display",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Partial Fenders",
+        name: "Amazon Alexa Built-in",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Mirrors",
+        name: "Apple CarPlay® (Wired, Wireless)",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Door Cups",
+        name: "Android Auto™ (Wired, Wireless)",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
@@ -224,32 +245,29 @@ export const carAudioProducts = [
 
     includes: [
       "Hardware & installation",
-      "30 Days Free Trial",
-      "Range: Unlimited"
+      "Manufacturer's Warranty",
+      "Installation Warranty"
 
     ],
 
     features: [
       {
-        name: "Partial Hood",
+        name: "7inch Wide Angle Touch Screen Display",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
-      {
-        name: "Partial Fenders",
-        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
-        description: "",
-      },
-      {
-        name: "Mirrors",
-        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
-        description: "",
-      },
-      {
-        name: "Door Cups",
-        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
-        description: "",
-      },
+        {
+          name: "Bluetooth®",
+          symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+          description: "",
+        },
+        {
+          name: "USB Support",
+          symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+          description: "",
+        },
+      
+      
     
     ],
     range: "From $299",
@@ -264,8 +282,8 @@ export const carAudioProducts = [
     name: "P300-10",
 
     model: "P300-10",
-    brand: "pioneer",
-    brandLogo: "/logos/pioneer.png",
+    brand: "rockford fosgate",
+    brandLogo: "",
     imgBW: "",
     imgColor: "/images/audio-video/p300-10/p300-10_1.jpg",
 
@@ -287,32 +305,49 @@ export const carAudioProducts = [
 
     includes: [
       "Hardware & installation",
-      "30 Days Free Trial",
-      "Range: Unlimited"
+      "Manufacturer's Warranty",
+      "Installation Warranty"
 
     ],
 
     features: [
       {
-        name: "Partial Hood",
+        name: "Built-in adjustable bass boost EQ",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Partial Fenders",
+        name: "Built-in 0°/180° phase switch",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Mirrors",
+        name: "Intelligent auto turn on/off function",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Door Cups",
+        name: "Adjustable 12db/Octave low pass crossover",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
+      {
+        name: "Remote bass level control included",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+      {
+        name: "Thermal and over/under voltage protection",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+      {
+        name: "Proprietary high output woofer",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+    
+    
     
     ],
     range: "From $299",
@@ -327,8 +362,8 @@ export const carAudioProducts = [
     name: "P300-12",
 
     model: "P300-12",
-    brand: "pioneer",
-    brandLogo: "/logos/pioneer.png",
+    brand: "rockford fosgate",
+    brandLogo: "",
     imgBW: "",
     imgColor: "/images/audio-video/p300-12/p300-12_1.jpg",
 
@@ -342,33 +377,48 @@ export const carAudioProducts = [
     ],
     includes: [
       "Hardware & installation",
-      "30 Days Free Trial",
-      "Range: Unlimited"
+      "Manufacturer's Warranty",
+      "Installation Warranty"
 
     ],
     description: [
-      "The P300-10 powered subwoofer is an “all-in-one” solution when adding bass to a factory system or just to save space. This model features a 10” subwoofer in a sealed enclosure powered by an internal 300 watt amplifier.",
-      `If you need to quickly add bass to a system or want to alleviate the hassle of separate amplifiers and subwoofers, then the P300-10 is the right one for the job! The P300-10 features a Punch 10” subwoofer in a custom sealed enclosure and is powered by a mighty 300 Watt amplifier. The system is all-inclusive, so you only need to run power, ground and a signal from the source to get this baby moving. Features a durable exterior that resists scrapes and bumps while in the trunk or cargo area.`,
+      "The P300-12 powered subwoofer is an “all-in-one” solution when adding bass to a factory system or just to save space. This model features a 12” subwoofer in a sealed enclosure powered by an internal 300 watt amplifier.",
+      `If you need to quickly add bass to a system or want to alleviate the hassle of separate amplifiers and subwoofers, then the P300-12 is the right one for the job! The P300-12 features a Punch 12” subwoofer in a custom sealed enclosure and is powered by a mighty 300 Watt amplifier. The system is all-inclusive, so you only need to run power, ground and a signal from the source to get this baby moving. Features a durable exterior that resists scrapes and bumps while in the trunk or cargo area.`,
     ],
 
     features: [
       {
-        name: "Partial Hood",
+        name: "Built-in adjustable bass boost EQ",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Partial Fenders",
+        name: "Built-in 0°/180° phase switch",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Mirrors",
+        name: "Intelligent auto turn on/off function",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Door Cups",
+        name: "Adjustable 12db/Octave low pass crossover",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+      {
+        name: "Remote bass level control included",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+      {
+        name: "Thermal and over/under voltage protection",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+      {
+        name: "Proprietary high output woofer",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },

@@ -8,7 +8,7 @@ export const allAccessories = [
     accessory: true,
     name: "HS1",
     model: "HS1",
-    brand: "AA",
+    brand: "",
     brandLogo: "/logos/adrenalin_logo.png",
     price: 0,
     imgBW: "",

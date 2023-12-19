@@ -68,7 +68,7 @@ export const packagesRemotes = [
 
     {
       model: "T13SS",
-      name: "T13SS",
+      name: "RS-06",
       brand: "Compustar",
       brandLogo: "/logos/compustar_logo.png",
     imgColor: "/images/remotes/t13.jpg",
@@ -112,8 +112,8 @@ export const packagesRemotes = [
       ],
     ident: "t13ss",
       remote: true,
-      dealerPriceCar: 550.95,
-      retailPriceCar: 990.95,
+      dealerPriceCar: 989.95,
+      retailPriceCar: 1195.95,
     },
 
     {
@@ -164,7 +164,7 @@ export const packagesRemotes = [
       "The T12 LCD remote has a built-in lithium-ion battery that you can recharge using a standard micro-USB cable.",
       "The T12 is IPX-7 waterproof and fuatures a high-strength injection molded body to withstand everyday impact.",
     ],
-        name: "T12SS",
+        name: "RS-05",
         image: "/images/remotes/t12.jpg",
         includes: [
           "2-Way LCD",
@@ -178,6 +178,59 @@ export const packagesRemotes = [
         dealerPriceCar: 849.95,
         retailPriceCar: 990.95,
       },
+
+      {
+        model: "Q9SS",
+        brand: "Compustar",
+        brandLogo: "/logos/compustar_logo.png",
+        imgColor: "/images/remotes/q9.jpg",
+        images: [
+          "/images/remotes/q9.jpg",
+          "/images/remotes/remote-imgs/q9_1.jpg",
+          "/images/remotes/remote-imgs/q9_2.jpg",
+          "/images/remotes/remote-imgs/g15ss_1.jpg",
+          "/images/remotes/remote-imgs/g15ss_2.jpg",
+        ],
+        features: [
+          {
+            name: "2-Way LCD",
+            symbol: <FcRefresh fill="rgb(14, 146, 255)" />,
+            description: "",
+          },
+         
+          {
+            name: "Alarm Notifications",
+            symbol: <MdNotificationsActive color="rgb(133, 255, 62)" />,
+            description: "",
+          },
+          {
+            name: "3 Year Warranty",
+            symbol: <BsAward color="rgb(133, 255, 62)" />,
+            description: "",
+          },
+        ],
+        range: "3000 M",
+        description: [
+          "3000-ft max range remote kit with 2-way interactive LCD. Includes additional backup 1-way remote. Works with all Compustar remote start and security systems.",
+          "Lock and start your vehivle with confidence using Compustar 2-Way remotes, which provide visual and audible confirmation when your commands are sent successfully.",
+          "Checking on your vehicle's safety and status is easier with the Q9. The Backlit, color LCD provides better visibility and animations to confirm every successful command.",
+          "Start and secure your vehicle in two different ways depending on what's most comfortable for your hand. Use the side buttons OR te 4-in-1 button on the front. Tap to lock, double tap to unlock, and hold to remote start/stop.",
+        ],
+            name: "RS-04",
+            image: "/images/remotes/q9.jpg",
+            includes: [
+              "2-Way LCD",
+              "Hardware & installation",
+              "3 year warranty",
+              "Range: up to 3000M"
+    
+            ],
+          ident: "q9ss",
+    
+            remote: true,
+            dealerPriceCar: 695.95,
+            retailPriceCar: 990.95,
+          },
 
       {
         model: "T9SS",
@@ -224,7 +277,7 @@ export const packagesRemotes = [
       "The T9 LCD remote has a built-in lithium-ion battery that you can recharge using a standard micro-USB cable.",
       "The T9 is IPX-7 waterproof and fuatures a high-strength injection molded body to withstand everyday impact.",
     ],
-        name: "T9SS",
+        name: "RS-03",
         image: "/images/remotes/t9.jpg",
         includes: [
           "2-Way LCD",
@@ -239,58 +292,7 @@ export const packagesRemotes = [
         retailPriceCar: 990.95,
       },
 
-      {
-    model: "Q9SS",
-    brand: "Compustar",
-    brandLogo: "/logos/compustar_logo.png",
-    imgColor: "/images/remotes/q9.jpg",
-    images: [
-      "/images/remotes/q9.jpg",
-      "/images/remotes/remote-imgs/q9_1.jpg",
-      "/images/remotes/remote-imgs/q9_2.jpg",
-      "/images/remotes/remote-imgs/g15ss_1.jpg",
-      "/images/remotes/remote-imgs/g15ss_2.jpg",
-    ],
-    features: [
-      {
-        name: "2-Way LCD",
-        symbol: <FcRefresh fill="rgb(14, 146, 255)" />,
-        description: "",
-      },
-     
-      {
-        name: "Alarm Notifications",
-        symbol: <MdNotificationsActive color="rgb(133, 255, 62)" />,
-        description: "",
-      },
-      {
-        name: "3 Year Warranty",
-        symbol: <BsAward color="rgb(133, 255, 62)" />,
-        description: "",
-      },
-    ],
-    range: "3000 M",
-    description: [
-      "3000-ft max range remote kit with 2-way interactive LCD. Includes additional backup 1-way remote. Works with all Compustar remote start and security systems.",
-      "Lock and start your vehivle with confidence using Compustar 2-Way remotes, which provide visual and audible confirmation when your commands are sent successfully.",
-      "Checking on your vehicle's safety and status is easier with the Q9. The Backlit, color LCD provides better visibility and animations to confirm every successful command.",
-      "Start and secure your vehicle in two different ways depending on what's most comfortable for your hand. Use the side buttons OR te 4-in-1 button on the front. Tap to lock, double tap to unlock, and hold to remote start/stop.",
-    ],
-        name: "Q9SS",
-        image: "/images/remotes/q9.jpg",
-        includes: [
-          "2-Way LCD",
-          "Hardware & installation",
-          "3 year warranty",
-          "Range: up to 3000M"
-
-        ],
-      ident: "q9ss",
-
-        remote: true,
-        dealerPriceCar: 695.95,
-        retailPriceCar: 990.95,
-      },
+    
 
       {
     model: "G15SS",
@@ -334,7 +336,7 @@ export const packagesRemotes = [
       "Lock and start your vehivle with confidence using Compustar 2-Way remotes, which provide visual and audible confirmation when your commands are sent successfully.",
       "The 2-Way PRO G15 features a high-strength injection molded body that is water-resistand and withstands everyday impact.",
     ],
-        name: "G15SS",
+        name: "RS-02T",
         image: "/images/remotes/pg15.jpg",
         includes: [
           "2-Way LED",
@@ -383,7 +385,7 @@ export const packagesRemotes = [
       "Lock and start your vehicle with Compustar 1-Way remotes. Please note, 1-Way remotes do not send confimation if vehicle was successfully started.",
       "The 1-Way G15 features a high-strength injection molded body that is water-resistand and withstands everyday impact.",
     ],
-        name: "G15FM",
+        name: "RS-02",
         image: "/images/remotes/wg15.jpg",
         includes: [
           "1-Way LED",
@@ -431,7 +433,7 @@ export const packagesRemotes = [
       "Lock and start your vehicle with Compustar 1-Way remotes. Please note, 1-Way remotes do not send confimation if vehicle was successfully started.",
       "The 1-Way WR3 has only START & STOP Engine functionality. Just a most basic remote start.",
     ],
-        name: "WR3",
+        name: "RS-01",
         image: "/images/remotes/wr3.jpg",
         includes: [
           "1-Way LED",

@@ -197,22 +197,28 @@ export const Dealer = () => {
          <div className="quick-links ql-rm-ct">
             <div className="ql">
               <button name="drone" className="quick-link" onClick={scrollToModel}>
-                DRONE
+                RS-DRONE
+              </button>
+              <button name="t13ss" className="quick-link" onClick={scrollToModel}>
+                RS-06
               </button>
               <button name="t12ss" className="quick-link" onClick={scrollToModel}>
-                T12SS
+                RS-05
               </button>
               <button name="q9ss" className="quick-link" onClick={scrollToModel}>
-                Q9SS
+                RS-04
+              </button>
+              <button name="t9ss" className="quick-link" onClick={scrollToModel}>
+                RS-03
               </button>
               <button name="g15ss" className="quick-link" onClick={scrollToModel}>
-                G15SS
+                RS-02T
               </button>
               <button name="g15fm" className="quick-link" onClick={scrollToModel}>
-                G15FM
+                RS-02
               </button>
               <button name="wr3" className="quick-link" onClick={scrollToModel}>
-                WR3
+                RS-01
               </button>
             </div>
           </div>
