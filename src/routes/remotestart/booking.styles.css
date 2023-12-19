@@ -37,6 +37,11 @@
 
 }
 
+#addons {
+  background-color: lightgrey;
+
+}
+
 #vehicle {
   width: 35%;
   text-align: center;

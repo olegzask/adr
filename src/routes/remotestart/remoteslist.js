@@ -136,6 +136,67 @@ export const remotes = [
 
   {
     app: false,
+    model: "T9SS",
+    brand: "Compustar",
+brandLogo: "/logos/compustar_logo.png",
+imgColor: "/images/remotes/t9.jpg",
+images: [
+  "/images/remotes/t9.jpg",
+  "/images/remotes/remote-imgs/t9_1.jpg",
+  "/images/remotes/remote-imgs/t9_2.jpg",
+   ],
+features: [
+  {
+    name: "2-Way LCD",
+    symbol: <FcRefresh fill="rgb(14, 146, 255)" />,
+    description: "",
+  },
+ 
+  {
+    name: "Waterproof",
+    symbol: <RiWaterFlashFill color="rgb(133, 255, 62)" />,
+    description: "",
+  },
+  {
+    name: "Crushproof",
+    symbol: <GiBrokenShield color="rgb(133, 255, 62)" />,
+    description: "",
+  },
+  {
+    name: "Alarm Notifications",
+    symbol: <MdNotificationsActive color="rgb(133, 255, 62)" />,
+    description: "",
+  },
+  {
+    name: "3 Year Warranty",
+    symbol: <BsAward color="rgb(133, 255, 62)" />,
+    description: "",
+  },
+],
+description: [
+  "3-mile max range, USB rechargeable, IPX-7 waterproof remote kit. Includes one 2-way LCD and one 2-way LED remote. Works with all Compustar remote start and security systems.",
+  "The Compustar T12 remote kit now includes a 2-way LCD remote and a 2-Wat LED remote as a backup. So no matter what, you will receive instant command confirmation when you remote start and secure your vehicle",
+  "Lock and start your vehicle with confidence using Compustar 2-way remotes, which provide visual and audible confirmation when your commands are sent successfully.",
+  "The Compustar T12 utilizes Digital Spread Spectrum Technology to send lock and start commands to your vehicle from up to 3-miles away.",
+  "The T12 LCD remote has a built-in lithium-ion battery that you can recharge using a standard micro-USB cable.",
+  "The T12 is IPX-7 waterproof and fuatures a high-strength injection molded body to withstand everyday impact.",
+],
+    name: "T9SS",
+    image: "/images/remotes/t9.jpg",
+    includes: [
+      "2-Way LCD",
+      "Hardware & installation",
+      "3 year warranty",
+      "Range: up to 4500M"
+
+    ],
+  ident: "t9ss",
+    remote: true,
+    dealerPriceCar: 589.95,
+    retailPriceCar: 990.95,
+  },
+  {
+    app: false,
     model: "Q9SS",
     type: ["2-Way LCD"],
     brand: "Compustar",

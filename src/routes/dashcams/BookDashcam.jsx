@@ -167,7 +167,7 @@ export default function BookingDashcam({ opts }) {
           name="dealerName"
           value={dName}
         /> */}
-            <input
+            {/* <input
             disabled={false}
           autoComplete="off"
           id="dPrice"
@@ -175,7 +175,7 @@ export default function BookingDashcam({ opts }) {
           type="text"
           name="dPrice"
           value={`From: $${dPrice} +GST`}
-        />
+        /> */}
 
             {/* <input
             disabled={false}

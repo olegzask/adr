@@ -193,12 +193,12 @@ if(remote){
       {DropMenu()}
       {/* {quarters ? DropMenu() : null} */}
        {checkPoint()}
-<div className="price-cont">
+{/* <div className="price-cont">
 <h4 className="price-dealer">From: $ <span id={`dp-${idNum}`}>{quarters ? getPrice() : getPrice()}</span> </h4>
-</div>
+</div> */}
       
       {!modal ? null : (
-            <BookingPpf opts={{ rem: serviceDecider(), txt: "", reset: setModal, dName: "", filmType: filmec(), dPrice: document.getElementById(`dp-${idNum}`).innerHTML, vehType: document.getElementById(`vehicles-select${idNum}`).value,  vBrow: brow ? "/ Add Brow" : "", secur: security ? "/ Add Security" : "" }} />
+            <BookingPpf opts={{ rem: serviceDecider(), txt: "", reset: setModal, dName: "", filmType: filmec(), vehType: document.getElementById(`vehicles-select${idNum}`).value,  vBrow: brow ? "/ Add Brow" : "", secur: security ? "/ Add Security" : "" }} />
           )}
           <button id="bookbutn"  onClick={showModal} className="btn-book remote-btn">
             REQUEST QUOTE

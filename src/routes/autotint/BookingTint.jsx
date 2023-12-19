@@ -73,7 +73,7 @@ export default function BookingTint({ opts }) {
 
 
 
-    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "",  price: dPrice, vin: ""  });
+    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "", vin: ""  });
 
     nameInput.value = "";
     emailInput.value = "";

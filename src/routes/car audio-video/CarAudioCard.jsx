@@ -220,16 +220,16 @@ if(remote){
       {DropMenu()}
       {quarters ? DropMenu() : null}
        {/* {checkPoint()} */}
-<div className="price-cont">
+{/* <div className="price-cont">
 <h4 className="price-dealer">From: $ <span id={`dp-${idNum}`}>{quarters ? getPrice() : getPrice()}</span> </h4>
-</div>
+</div> */}
       
       {!modal ? null : (
-            <BookingAudio  opts={{ rem: serviceDecider(), txt: "", reset: setModal, dName: dlr, filmType: filmec(), dPrice: document.getElementById(`dp-${idNum}`).innerHTML, vehType: document.getElementById(`vehicles-select${idNum}`).value,  vBrow: brow ? "/ Add Brow" : "", secur: security ? "/ Add Security" : "" }} />
+            <BookingAudio  opts={{ rem: serviceDecider(), txt: "", reset: setModal, dName: dlr, filmType: filmec(), vehType: document.getElementById(`vehicles-select${idNum}`).value,  vBrow: brow ? "/ Add Brow" : "", secur: security ? "/ Add Security" : "" }} />
           )}
           <div className="buts-cont">
           <button id="bookbutn"  onClick={showModal} className="rmt-btn">
-            BOOK NOW
+            REQUEST QUOTE
           </button>
           <Link to={name}>
           <button id="bookbutn"  onClick={toggleActiveProduct} className="rmt-btn">

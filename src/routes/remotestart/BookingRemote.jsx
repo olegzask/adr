@@ -6,14 +6,14 @@ import emailjs from "@emailjs/browser";
 import "./booking.styles.css";
 
 export default function BookingRemote({ opts }) {
-  const { rem, reset, txt, dName, filmType, dPrice, vehType, vBrow, secur} = opts;
+  const { rem, reset, filmType,  vehType, vBrow, secur} = opts;
   const [formInfo, setFormInfo] = useState({
     name: "",
     email: "",
     phone: "",
     comments: "",
     vehicle: "",
-    price: dPrice,
+    // price: dPrice,
     // vin: "",
     
 
@@ -73,7 +73,7 @@ export default function BookingRemote({ opts }) {
 
 
 
-    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "",  price: dPrice, vin: "" });
+    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "",  vin: "" });
 
     nameInput.value = "";
     emailInput.value = "";
@@ -164,7 +164,7 @@ export default function BookingRemote({ opts }) {
           name="dealerName"
           value={dName}
         /> */}
-            <input
+            {/* <input
             disabled={false}
           autoComplete="off"
           id="dPrice"
@@ -172,7 +172,7 @@ export default function BookingRemote({ opts }) {
           type="text"
           name="dPrice"
           value={`From: $${dPrice} +GST`}
-        />
+        /> */}
 
             <input
             disabled={false}

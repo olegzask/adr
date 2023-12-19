@@ -23,7 +23,7 @@ export const packagesRemotes = [
       ],
       includes: [
         "Hardware & installation",
-        "30 Days Free Trial",
+        "1 Year Subscription",
         "Range: Unlimited"
 
       ],
@@ -62,8 +62,8 @@ export const packagesRemotes = [
 
       ident: "drone",
       remote: true,
-      dealerPriceCar: 550.95,
-      retailPriceCar: 990.95,
+      dealerPriceCar: 699.95,
+      retailPriceCar: 870.00,
     },
 
     {
@@ -175,7 +175,67 @@ export const packagesRemotes = [
         ],
       ident: "t12ss",
         remote: true,
-        dealerPriceCar: 550.95,
+        dealerPriceCar: 849.95,
+        retailPriceCar: 990.95,
+      },
+
+      {
+        model: "T9SS",
+        brand: "Compustar",
+    brandLogo: "/logos/compustar_logo.png",
+    imgColor: "/images/remotes/t9.jpg",
+    images: [
+      "/images/remotes/remote-imgs/t9_1.jpg",
+      "/images/remotes/remote-imgs/t9_2.jpg",
+       ],
+    features: [
+      {
+        name: "2-Way LCD",
+        symbol: <FcRefresh fill="rgb(14, 146, 255)" />,
+        description: "",
+      },
+     
+      {
+        name: "Waterproof",
+        symbol: <RiWaterFlashFill color="rgb(133, 255, 62)" />,
+        description: "",
+      },
+      {
+        name: "Crushproof",
+        symbol: <GiBrokenShield color="rgb(133, 255, 62)" />,
+        description: "",
+      },
+      {
+        name: "Alarm Notifications",
+        symbol: <MdNotificationsActive color="rgb(133, 255, 62)" />,
+        description: "",
+      },
+      {
+        name: "3 Year Warranty",
+        symbol: <BsAward color="rgb(133, 255, 62)" />,
+        description: "",
+      },
+    ],
+    description: [
+      "3-mile max range, USB rechargeable, IPX-7 waterproof remote kit. Includes one 2-way LCD and one 2-way LED remote. Works with all Compustar remote start and security systems.",
+      "The Compustar T9 remote kit now includes a 2-way LCD remote and a 2-Wat LED remote as a backup. So no matter what, you will receive instant command confirmation when you remote start and secure your vehicle",
+      "Lock and start your vehicle with confidence using Compustar 2-way remotes, which provide visual and audible confirmation when your commands are sent successfully.",
+      "The Compustar T9 utilizes Digital Spread Spectrum Technology to send lock and start commands to your vehicle from up to 3-miles away.",
+      "The T9 LCD remote has a built-in lithium-ion battery that you can recharge using a standard micro-USB cable.",
+      "The T9 is IPX-7 waterproof and fuatures a high-strength injection molded body to withstand everyday impact.",
+    ],
+        name: "T9SS",
+        image: "/images/remotes/t9.jpg",
+        includes: [
+          "2-Way LCD",
+          "Hardware & installation",
+          "3 year warranty",
+          "Range: up to 4500M"
+
+        ],
+      ident: "t9ss",
+        remote: true,
+        dealerPriceCar: 589.95,
         retailPriceCar: 990.95,
       },
 
@@ -228,7 +288,7 @@ export const packagesRemotes = [
       ident: "q9ss",
 
         remote: true,
-        dealerPriceCar: 550.95,
+        dealerPriceCar: 695.95,
         retailPriceCar: 990.95,
       },
 
@@ -286,7 +346,7 @@ export const packagesRemotes = [
       ident: "g15ss",
 
         remote: true,
-        dealerPriceCar: 550.95,
+        dealerPriceCar: 649.95,
         retailPriceCar: 990.95,
       },
 
@@ -334,7 +394,7 @@ export const packagesRemotes = [
         ],
       ident: "g15fm",
         remote: true,
-        dealerPriceCar: 450.95,
+        dealerPriceCar: 549.95,
         retailPriceCar: 890.95,
       },
 
@@ -382,7 +442,7 @@ export const packagesRemotes = [
         ],
       ident: "wr3",
         remote: true,
-        dealerPriceCar: 450.95,
+        dealerPriceCar: 459.95,
         retailPriceCar: 890.95,
       },
 

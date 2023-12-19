@@ -6,14 +6,14 @@ import emailjs from "@emailjs/browser";
 import "./booking.styles.css";
 
 export default function BookingDealer({ opts }) {
-  const { rem, reset, txt, dName, filmType, dPrice, vehType, vBrow, secur} = opts;
+  const { rem, reset, txt, dName, filmType, dPrice, vehType, vBrow, secur, addons} = opts;
   const [formInfo, setFormInfo] = useState({
     name: "",
     email: "",
     phone: "",
     comments: "",
     vehicle: "",
-    poNumber: "",
+    // poNumber: "",
     dealerName: dName,
     price: dPrice,
     // vin: "",
@@ -45,7 +45,7 @@ export default function BookingDealer({ opts }) {
           "service_52hwkbv",
           "template_b3ku85r",
           form.current,
-          "EdFYBsAAe4ETIUbxP"
+          "EdFYBsAAe4ETIUbxP",
         )
         .then(
           (result) => {
@@ -76,7 +76,7 @@ export default function BookingDealer({ opts }) {
 
 
 
-    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "", poNumber: "", dealerName: dName, price: dPrice, vin: "" });
+    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "", poNumber: "", dealerName: dName, price: dPrice, });
 
     nameInput.value = "";
     emailInput.value = "";
@@ -219,6 +219,17 @@ export default function BookingDealer({ opts }) {
             placeholder="Vehicle's make & model?"
           />
         </div>
+        {!addons ? null :   <input
+            disabled={false}
+          autoComplete="off"
+          id="addons"
+          className="form-input"
+          type="text"
+          name="addons"
+          value={`Added Extras: ${addons}`}
+        />}
+      
+
 
         <textarea
           autoComplete="off"

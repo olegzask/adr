@@ -13,7 +13,7 @@ export default function BookingAccessories({ opts }) {
     phone: "",
     comments: "",
     vehicle: "",
-    price: dPrice,
+    // price: dPrice,
     // vin: "",
     
 
@@ -73,7 +73,7 @@ export default function BookingAccessories({ opts }) {
 
 
 
-    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "", price: dPrice, vin: "" });
+    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "", vin: "" });
 
     nameInput.value = "";
     emailInput.value = "";
@@ -164,7 +164,7 @@ export default function BookingAccessories({ opts }) {
           name="dealerName"
           value={dName}
         /> */}
-            <input
+            {/* <input
             disabled={false}
           autoComplete="off"
           id="dPrice"
@@ -172,7 +172,7 @@ export default function BookingAccessories({ opts }) {
           type="text"
           name="dPrice"
           value={`From: $${dPrice} +GST`}
-        />
+        /> */}
 
             {/* <input
             disabled={false}

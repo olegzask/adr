@@ -11,6 +11,29 @@
   
 }
 
+.attachment-container {
+  /* border: 0.1rem solid red; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+}
+
+.attachment-header {
+  font-size: 0.8rem;
+  width: 50%;
+  color: black;
+  /* border: 0.1rem solid red; */
+
+}
+
+.attachment-input {
+  margin: 0;
+  width: 50%;
+  /* border: 0.1rem solid red; */
+  margin-left: 2rem;
+
+}
+
 .buts-cont {
   margin: 0;
  justify-content: space-around;

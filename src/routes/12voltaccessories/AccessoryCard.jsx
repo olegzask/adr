@@ -184,16 +184,16 @@ if(remote){
       {/* {DropMenu()}
       {quarters ? DropMenu() : null}
        {checkPoint()} */}
-<div className="price-cont">
+{/* <div className="price-cont">
 <h4 className="price-dealer">From: $ <span id={`dp-${idNum}`}>{quarters ? getPrice() : getPrice()}</span> </h4>
-</div>
+</div> */}
       
       {!modal ? null : (
-            <BookingAccessories opts={{ rem: serviceDecider(), txt: "", reset: setModal, dPrice: document.getElementById(`dp-${idNum}`).innerHTML}} />
+            <BookingAccessories opts={{ rem: serviceDecider(), txt: "", reset: setModal}} />
           )}
           <div className="buts-cont">
           <button id="bookbutn"  onClick={showModal} className="rmt-btn">
-            BOOK NOW
+           REQUEST QUOTE
           </button>
           <Link to={name}>
           <button id="bookbutn"  onClick={toggleActiveProduct} className="rmt-btn">

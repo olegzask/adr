@@ -31,13 +31,13 @@ export default function ApplicationCard({ opts }) {
     const emailInput = document.getElementById("email");
     const phoneInput = document.getElementById("phone");
     const commentsInput = document.getElementById("comments");
-    const resumeInput = document.getElementById("resume-file");
+    // const resumeInput = document.getElementById("resume-file");
 
     nameInput.value = "";
     emailInput.value = "";
     phoneInput.value = "";
     commentsInput.value = "";
-    resumeInput.value = "";
+    // resumeInput.value = "";
 
     setUserInfo({ name: "", email: "", phone: "", comments: "" });
   };
@@ -58,7 +58,7 @@ export default function ApplicationCard({ opts }) {
       emailjs
         .sendForm(
           "service_52hwkbv",
-          "template_6qijcwj",
+          "template_nzp2nfg",
           form.current,
           "EdFYBsAAe4ETIUbxP",
           this
@@ -193,7 +193,7 @@ export default function ApplicationCard({ opts }) {
           className="user-notes"
           placeholder="Tell us something about yourself!"
         ></textarea>
-        <div className="resume-container">
+        {/* <div className="resume-container">
           <span className="resume-header">
             Have a Resume? Attach it <BsArrowRight />
           </span>
@@ -203,7 +203,7 @@ export default function ApplicationCard({ opts }) {
             className="resume"
             type="file"
           />
-        </div>
+        </div> */}
 
         <button onClick={fieldsChecker} className="job-submit-btn">
           SEND APPLICATION

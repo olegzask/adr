@@ -185,6 +185,10 @@ input:focus {
   color: rgb(41, 41, 41);
 }
 
+#position {
+  background-color: lightgray;
+}
+
 @media (min-width: 1000px) {
   .application-input {
     height: 2rem;

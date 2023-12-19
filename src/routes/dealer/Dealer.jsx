@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { packages } from "./packages";
 import { packagesTint } from "./packagesTint";
 import { packagesRemotes } from "./packagesRemotes";
+import { packagesAccessories } from "./accessories";
 import { PackCard } from "./PackCard";
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
 import ".//dealer.styles.css";
@@ -168,7 +169,7 @@ export const Dealer = () => {
         <div className="ppf-packs">
          
         {packages.map((el, id) => (
-          <PackCard opts={{...el, dlr: dealerName, idNum: id}} />
+          <PackCard key={id} opts={{...el, dlr: dealerName, idNum: id}} />
         ))}
         </div>
       <h2 id="tint" className="packs-header">Window Tint Packages</h2>
@@ -189,7 +190,7 @@ export const Dealer = () => {
       <div className="ppf-packs tint-packs">
          
          {packagesTint.map((el, id) => (
-           <PackCard opts={{...el, dlr: dealerName, idNum: id +5}} />
+           <PackCard key={id} opts={{...el, dlr: dealerName, idNum: id +5}} />
          ))}
          </div>
          <h2 id="remote" className="packs-header">Remote Start Packages</h2>
@@ -218,10 +219,30 @@ export const Dealer = () => {
          <div className="ppf-packs tint-packs">
          
          {packagesRemotes.map((el, id) => (
-           <PackCard opts={{...el, dlr: dealerName, idNum: id +9}} />
+           <PackCard key={id} opts={{...el, dlr: dealerName, idNum: id +9}} />
+         ))}
+         </div>
+
+         <h2 id="remote" className="packs-header">12V Accessories Packages</h2>
+         <div className="quick-links ql-rm-ct">
+            <div className="ql">
+              <button name="drone" className="quick-link" onClick={scrollToModel}>
+                DRONE
+              </button>
+         
+            </div>
+          </div>
+         <div className="ppf-packs tint-packs">
+         
+         {packagesAccessories.map((el, id) => (
+           <PackCard key={id} opts={{...el, dlr: dealerName, idNum: id +19}} />
          ))}
          </div>
       </div>
+
+    
+
+    
     
      
     
