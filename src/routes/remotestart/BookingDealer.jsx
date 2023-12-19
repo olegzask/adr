@@ -121,7 +121,7 @@ export default function BookingDealer({ opts }) {
       <h3 className="contactform-header-two booking-two">
         Fill out some info for a service to be done...
       </h3>
-      <form className="contact-form-main" ref={form} onSubmit={sendEmail}>
+      <form id="dealer-book-form" action="?" method="POST" className="contact-form-main" ref={form} onSubmit={sendEmail}>
         <input
           autoComplete="off"
           id="name"
@@ -249,7 +249,7 @@ export default function BookingDealer({ opts }) {
           name="comments"
           placeholder="Any special requests? Date for install? Comments?"
         ></textarea>
-        <button className="submit-request" onClick={submitRequest}>
+        <button className="submit-request"  onClick={submitRequest}>
           SUBMIT REQUEST
         </button>
       </form>
