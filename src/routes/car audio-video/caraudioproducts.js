@@ -43,17 +43,17 @@ export const carAudioProducts = [
 
     features: [
       {
-        name: "6.8 inch WVGA (Capacitive Touch)",
+        name: "6.8 inch Display",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Apple CarPlay® Compatible",
+        name: "Apple CarPlay®",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Android Auto™ Compatible",
+        name: "Android Auto™",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
@@ -63,7 +63,7 @@ export const carAudioProducts = [
         description: "",
       },
       {
-        name: "Built-in Bluetooth®",
+        name: "Bluetooth®",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
@@ -106,22 +106,22 @@ export const carAudioProducts = [
 
     features: [
       {
-        name: "6.8inch WVGA (Capacitive Touch)",
+        name: "6.8inch Display",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Apple CarPlay™ Compatible",
+        name: "Apple CarPlay™",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Android Auto™ Compatible",
+        name: "Android Auto™",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Amazon Alexa Built-in when Paired with Pioneer Vozsis App",
+        name: "Amazon Alexa",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
@@ -131,12 +131,12 @@ export const carAudioProducts = [
         description: "",
       },
       {
-        name: "Built-in Bluetooth®",
+        name: "Bluetooth®",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "iDataLink® Maestro™ Compatible",
+        name: "iDataLink® Maestro™",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
@@ -189,22 +189,22 @@ export const carAudioProducts = [
 
     features: [
       {
-        name: "Short Chassis with 6.8 inch WVGA Capacitive Touch Screen Display",
+        name: "6.8inch Display",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Amazon Alexa Built-in",
+        name: "Amazon Alexa",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Apple CarPlay® (Wired, Wireless)",
+        name: "Apple CarPlay®",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Android Auto™ (Wired, Wireless)",
+        name: "Android Auto™",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
@@ -252,7 +252,7 @@ export const carAudioProducts = [
 
     features: [
       {
-        name: "7inch Wide Angle Touch Screen Display",
+        name: "7inch Display",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
@@ -312,27 +312,27 @@ export const carAudioProducts = [
 
     features: [
       {
-        name: "Built-in adjustable bass boost EQ",
+        name: "Adjustable bass boost EQ",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Built-in 0°/180° phase switch",
+        name: "0°/180° phase switch",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Intelligent auto turn on/off function",
+        name: "Auto turn on/off function",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Adjustable 12db/Octave low pass crossover",
+        name: "12db/Octave low pass crossover",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
       {
-        name: "Remote bass level control included",
+        name: "Bass level control included",
         symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
         description: "",
       },
