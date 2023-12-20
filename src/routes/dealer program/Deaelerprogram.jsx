@@ -16,7 +16,7 @@ const Automotivetint = () => {
           </h2>
 
           <span className="rs-description">
-          Introducing our dealership program tailored exclusively for automotive dealerships seeking premium window tint and paint protection film installation services.
+          Introducing our dealership program tailored exclusively for automotive dealerships in Edmonton & surrounding areas seeking premium remote start, window tint, paint protection film & 12 volt accessories installation services.
           </span>
           <br/>
           <br/>
@@ -28,7 +28,7 @@ const Automotivetint = () => {
           <br />
 
           <span className="rs-description-lower">
-            LET'S EXPLORE BENEFITS OF OUR DEALERSHIP PROGRAM!
+           PARTNER WITH EDMONTON'S BEST EXPERTS & EXPLORE BENEFITS OF OUR DEALERSHIP PROGRAM!
           </span>
 
           <div className="linkec-cont">
