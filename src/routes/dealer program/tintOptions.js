@@ -24,7 +24,7 @@ export const tintOptions = [
         name: "Expert Installation",
         symbol: <FaUserCheck />,
         description:
-          "Partner with our skilled technicians who excels in precise and flawless nstallations.",
+          "Partner with our skilled technicians who excels in precise and flawless installations.",
       },
       {
         name: "Premium Products",
