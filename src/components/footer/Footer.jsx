@@ -176,7 +176,7 @@ export const Footer = () => {
             <BsInstagram className="social-icon" />
           </a>
           <a
-            href="https://www.instagram.com/adrenalin_audio/"
+            href="https://www.tiktok.com/@adrenalin.audio"
             target="_blank"
           >
             <FaTiktok className="social-icon" />
