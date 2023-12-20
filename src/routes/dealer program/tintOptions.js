@@ -10,7 +10,7 @@ export const tintOptions = [
     office: false,
     img: "../images/services-images/dealer.jpg",
     description:
-      ["By partnering with us, you'll be equipped with the resources to meet the growing demand for window tint and paint protection film services, enhancing your dealership's offerings and ultimately driving customer loyalty and satisfaction.", 
+      ["By partnering with us, you'll be equipped with the resources to meet the growing demand for remote start, window tint, paint protection & 12 volt accessories services, enhancing your dealership's offerings and ultimately driving customer loyalty and satisfaction.", 
       "Contact us today to learn more about our dealership program and how you can seamlessly integrate our premium installation services into your dealership's portfolio. Together, we can create a winning combination that enhances vehicles and drives your dealership's success."],
     brands: "Edmonton Tint Studio",
     features: [
@@ -24,13 +24,13 @@ export const tintOptions = [
         name: "Expert Installation",
         symbol: <FaUserCheck />,
         description:
-          "Partner with our skilled technicians who excels in precise and flawless window tint and paint protection film installations.",
+          "Partner with our skilled technicians who excels in precise and flawless nstallations.",
       },
       {
         name: "Premium Products",
         symbol: <MdOutlineWorkspacePremium />,
         description:
-          "Benefit from access to top-tier window tint and paint protection film products, renowned for their quality and durability.",
+          "Benefit from access to top-tier products, renowned for their quality and durability.",
       },
       {
         name: "Custom Solutions",
@@ -43,7 +43,7 @@ export const tintOptions = [
         name: "Increased Customer Satisfaction",
         symbol: <MdSentimentSatisfiedAlt/>,
         description:
-          "Elevate your customer experience by offering sought-after enhancements that protect vehicles and elevate their visual appeal.",
+          "Elevate your customer experience by offering sought-after enhancements that protect vehicles and elevate their visual & technical appeal.",
       },
       {
         name: "Streamlined Operations",
