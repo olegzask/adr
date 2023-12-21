@@ -51,8 +51,8 @@ export const packagesAccessories = [
 
       ident: "hs1",
       hseat: true,
-      dealerPriceCar: 349.95,
-      retailPriceCar: 490.95,
+      dealerPriceCar: 350.00,
+      retailPriceCar: 490.00,
     },
 
 ]
