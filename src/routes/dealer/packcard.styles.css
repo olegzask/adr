@@ -218,7 +218,7 @@ font-size: 0.8rem;
   }
 
   .pack-container {
-    max-width: 20rem;
+    min-width: 20rem;
   }
  
   #vehicles-select {
