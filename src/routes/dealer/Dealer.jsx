@@ -187,7 +187,7 @@ export const Dealer = () => {
             </div>
           </div>
        
-      <div className="ppf-packs tint-packs">
+      <div className="ppf-packs tint-packs tnt-pc">
          
          {packagesTint.map((el, id) => (
            <PackCard key={id} opts={{...el, dlr: dealerName, idNum: id +5}} />
