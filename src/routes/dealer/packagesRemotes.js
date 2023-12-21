@@ -62,7 +62,7 @@ export const packagesRemotes = [
 
       ident: "drone",
       remote: true,
-      dealerPriceCar: 699.95,
+      dealerPriceCar: 700.00,
       retailPriceCar: 870.00,
     },
 
@@ -114,8 +114,8 @@ export const packagesRemotes = [
       ],
     ident: "t13ss",
       remote: true,
-      dealerPriceCar: 989.95,
-      retailPriceCar: 1195.95,
+      dealerPriceCar: 990.00,
+      retailPriceCar: 1195.00,
     },
 
     {
@@ -179,8 +179,8 @@ export const packagesRemotes = [
         ],
       ident: "t12ss",
         remote: true,
-        dealerPriceCar: 849.95,
-        retailPriceCar: 990.95,
+        dealerPriceCar: 850.00,
+        retailPriceCar: 990.00,
       },
 
       {
@@ -234,8 +234,8 @@ export const packagesRemotes = [
           ident: "q9ss",
     
             remote: true,
-            dealerPriceCar: 695.95,
-            retailPriceCar: 990.95,
+            dealerPriceCar: 695.00,
+            retailPriceCar: 990.00,
           },
 
       {
@@ -296,8 +296,8 @@ export const packagesRemotes = [
         ],
       ident: "t9ss",
         remote: true,
-        dealerPriceCar: 589.95,
-        retailPriceCar: 990.95,
+        dealerPriceCar: 590.00,
+        retailPriceCar: 990.00,
       },
 
     
@@ -358,8 +358,8 @@ export const packagesRemotes = [
       ident: "g15ss",
 
         remote: true,
-        dealerPriceCar: 649.95,
-        retailPriceCar: 990.95,
+        dealerPriceCar: 650.00,
+        retailPriceCar: 990.00,
       },
 
       {
@@ -408,8 +408,8 @@ export const packagesRemotes = [
         ],
       ident: "g15fm",
         remote: true,
-        dealerPriceCar: 549.95,
-        retailPriceCar: 890.95,
+        dealerPriceCar: 550.00,
+        retailPriceCar: 890.00,
       },
 
       {
@@ -458,8 +458,8 @@ export const packagesRemotes = [
         ],
       ident: "wr3",
         remote: true,
-        dealerPriceCar: 459.95,
-        retailPriceCar: 890.95,
+        dealerPriceCar: 460.00,
+        retailPriceCar: 890.00,
       },
 
 ]

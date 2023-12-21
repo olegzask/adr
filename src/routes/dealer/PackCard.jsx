@@ -127,22 +127,22 @@ if(quarters === true && vehic !== "car") return <div className="quarters-check">
 
   const getPrice = (e)=> {
 
-    if(remote && !hseat && transmission==="auto" && !security) return dealerPriceCar;
-    if(remote && !hseat && transmission==="manual" && !security) return dealerPriceCar +200;
+    if(remote && !hseat && transmission==="auto" && !security) return dealerPriceCar.toFixed(2);
+    if(remote && !hseat && transmission==="manual" && !security) return (dealerPriceCar*1.25).toFixed(2);
 
     if(remote && !hseat && transmission==="auto" && security) return dealerPriceCar +260;
-    if(remote && !hseat && transmission==="manual" && security) return dealerPriceCar +390;
+    if(remote && !hseat && transmission==="manual" && security) return (dealerPriceCar * 1.25+260).toFixed(2);
 
-    if(!remote && hseat && seats==="single" && !security && !rearSeats) return dealerPriceCar;
+    if(!remote && hseat && seats==="single" && !security && !rearSeats) return dealerPriceCar.toFixed(2);
     if(!remote && hseat && seats==="double" && !security && !rearSeats) return dealerPriceCar +150;
 
     if(!remote && hseat && seats==="single" && !security && rearSeats) return dealerPriceCar +650;
     if(!remote && hseat && seats==="double" && !security && rearSeats) return dealerPriceCar +800;
 
 
-    if(vehic==="car" && !ceramic && !qglass && !brow && !ultimate && !headlamps && !luggage) return dealerPriceCar;
-    if(vehic==="suv" && !ceramic && !qglass && !brow && !ultimate && !headlamps && !luggage) return dealerPriceSuv;
-    if(vehic==="truck" && !ceramic && !qglass && !brow && !ultimate && !headlamps && !luggage) return dealerPriceTruck;
+    if(vehic==="car" && !ceramic && !qglass && !brow && !ultimate && !headlamps && !luggage) return dealerPriceCar.toFixed(2);
+    if(vehic==="suv" && !ceramic && !qglass && !brow && !ultimate && !headlamps && !luggage) return dealerPriceSuv.toFixed(2);
+    if(vehic==="truck" && !ceramic && !qglass && !brow && !ultimate && !headlamps && !luggage) return dealerPriceTruck.toFixed(2);
 
     if(vehic==="car" && !ceramic && !brow && !ultimate && headlamps && !luggage) return dealerPriceCar +115.00;
     if(vehic==="suv" && !ceramic && !brow && !ultimate && headlamps && !luggage) return dealerPriceSuv +115.00;
@@ -181,9 +181,9 @@ if(quarters === true && vehic !== "car") return <div className="quarters-check">
 
 //DEALER PRICE TINT
 
- if(vehic==="car" && !ceramic && !qglass && !brow && !headlamps && !luggage) return dealerPriceCar;
- if(vehic==="suv" && !ceramic && !qglass && !brow && !headlamps && !luggage) return dealerPriceSuv;
- if(vehic==="truck" && !ceramic && !qglass && !brow && !headlamps && !luggage) return dealerPriceTruck;
+ if(vehic==="car" && !ceramic && !qglass && !brow && !headlamps && !luggage) return dealerPriceCar.toFixed(2);
+ if(vehic==="suv" && !ceramic && !qglass && !brow && !headlamps && !luggage) return dealerPriceSuv.toFixed(2);
+ if(vehic==="truck" && !ceramic && !qglass && !brow && !headlamps && !luggage) return dealerPriceTruck.toFixed(2);
 
  if(vehic==="car" && !ceramic && !qglass && brow) return dealerPriceCar +100;
  if(vehic==="suv" && !ceramic && !qglass && brow) return dealerPriceSuv +100;
