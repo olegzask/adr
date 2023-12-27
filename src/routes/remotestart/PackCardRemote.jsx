@@ -217,7 +217,7 @@ if(remote){
 </div> */}
       
       {!modal ? null : (
-            <BookingRemote  opts={{ rem: serviceDecider(), txt: "", reset: setModal, dName: dlr, filmType: filmec(), vehType: document.getElementById(`vehicles-select${idNum}`).value,  vBrow: brow ? "/ Add Brow" : "", secur: security ? "/ Add Security" : "" }} />
+            <BookingRemote  opts={{ rem: serviceDecider(), txt: "", reset: setModal, dName: dlr, filmType: filmec(), vehType: document.getElementById(`vehicles-select${idNum}`).value,  vBrow: brow ? "Add Brow" : "", secur: security ? "Add Security" : "" }} />
           )}
           <div className="buts-cont">
           <button id="bookbutn"  onClick={showModal} className="rmt-btn">

@@ -54,14 +54,16 @@ export default function BookingRemote({ opts }) {
             console.log(error.text);
           }
         );
-      setErrorBooking(false)
+      // setErrorBooking(false)
       // setRequest(true);
-    // setTimeout(setShow(false), 500);
-    // setTimeout(setShow(true), 600);
+      // clearFields();
+      setTimeout(() => {
+        clearFields
+      }, 1000);
 
     setTimeout(() => {
       window.location="/success-submit"
-    }, 1000);
+    }, 1500);
     } else {
       setMissing(missingFields);
       setErrorBooking(true);
@@ -161,7 +163,7 @@ export default function BookingRemote({ opts }) {
           className="form-input"
           type="text"
           name="rs-model"
-          value={`${rem} ${filmType} ${vBrow} ${secur}`}
+          value={`${rem} ${secur}`}
         />
         {/* <input
           disabled={false}

@@ -56,6 +56,10 @@ export default function BookingTint({ opts }) {
           }
         );
         setTimeout(() => {
+          clearFields
+        }, 1000);
+
+        setTimeout(() => {
           window.location="/success-submit"
         }, 1000);
 

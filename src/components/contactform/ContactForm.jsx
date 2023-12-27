@@ -47,6 +47,11 @@ export const ContactForm = () => {
             console.log(error.text);
           }
         );
+        setError(false);
+        setTimeout(() => {
+          clearFields
+        }, 1000);
+
         setTimeout(() => {
           window.location="/success-submit"
         }, 1000);

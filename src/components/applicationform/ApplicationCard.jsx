@@ -74,9 +74,12 @@ export default function ApplicationCard({ opts }) {
           }
         );
         setTimeout(() => {
-          window.location="/success-submit"
+          clearFields
         }, 1000);
 
+        setTimeout(() => {
+          window.location="/success-submit"
+        }, 1000);
     } else {
       setMissing(missingFields);
       setErrorBooking(true);

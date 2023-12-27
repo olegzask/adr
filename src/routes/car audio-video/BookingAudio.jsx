@@ -59,6 +59,10 @@ export default function BookingAudio({ opts }) {
 
         );
         setTimeout(() => {
+          clearFields
+        }, 1000);
+
+        setTimeout(() => {
           window.location="/success-submit"
         }, 1000);
 
