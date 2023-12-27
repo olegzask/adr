@@ -49,10 +49,10 @@ export const ContactForm = () => {
         );
         setRequest(true);
         clearFields();
-        setErrorBooking(false)
+        setError(false)
   
         setTimeout(() => {
-          window.location="/success-submit"
+          window.location.href = "https://adrenalinaudio.ca/success-submit"
         }, 1500);
   
 
