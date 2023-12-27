@@ -13,7 +13,7 @@ export default function SuccessPage() {
     setTimeout(() => {
       location.reload();
 
-    }, 1000);
+    }, 2000);
   }
 
 
