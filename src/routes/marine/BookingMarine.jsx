@@ -55,13 +55,13 @@ export default function BookingMarine({ opts }) {
             console.log(error.text);
           }
         );
-        setTimeout(() => {
-          clearFields
-        }, 1000);
-
+        setRequest(true);
+        clearFields();
+        setErrorBooking(false)
         setTimeout(() => {
           window.location="/success-submit"
-        }, 1000);
+        }, 1500);
+  
 
     } else {
       setMissing(missingFields);
@@ -109,7 +109,7 @@ export default function BookingMarine({ opts }) {
   return (
    
     <div id="bookingForm" className="contactform-container booking-container">
-      {errorBooking ? (
+      {errorBooking && !requestSent ? (
         <ErrorWindow fields={{ handler: setErrorBooking, info: missing }} />
       ) : null}
       {requestSent ? (

@@ -47,14 +47,14 @@ export const ContactForm = () => {
             console.log(error.text);
           }
         );
-        setError(false);
-        setTimeout(() => {
-          clearFields
-        }, 1000);
-
+        setRequest(true);
+        clearFields();
+        setErrorBooking(false)
+  
         setTimeout(() => {
           window.location="/success-submit"
         }, 1500);
+  
 
     } else {
       setMissing(missingFields);
@@ -93,7 +93,7 @@ export const ContactForm = () => {
       <h3 className="contactform-header-two">
       Don't hesitate to reach out... we are eager to provide the help you need.
       </h3>
-      {error ? (
+      {error && !requestSent ? (
         <ErrorWindow fields={{ handler: setError, info: missing }} />
       ) : null}
       {requestSent ? (
