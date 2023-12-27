@@ -106,11 +106,11 @@ export default function BookingTint({ opts }) {
       {errorBooking ? (
         <ErrorWindow fields={{ handler: setErrorBooking, info: missing }} />
       ) : null}
-      {requestSent ? (
+      {/* {requestSent ? (
         <SuccessWindow
           fields={{ handler: setRequest, errHandler: setErrorBooking }}
         />
-      ) : null}
+      ) : null} */}
       <div className="close-hdr">
         <h2 className="contactform-header booking-header">
           Send us your work request!
