@@ -57,7 +57,9 @@ export default function BookingRemote({ opts }) {
       setErrorBooking(false)
       // setRequest(true);
     setTimeout(setShow(false), 1000);
-      setTimeout(window.location="/success-submit", 1700);
+    setTimeout(() => {
+      window.location="/success-submit"
+    }, 1000);
     } else {
       setMissing(missingFields);
       setErrorBooking(true);
