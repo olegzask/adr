@@ -10,6 +10,10 @@ export default function SuccessPage() {
 
   const goBackPage = ()=> {
     window.history.go(-1);
+    setTimeout(() => {
+      location.reload();
+
+    }, 1000);
   }
 
 
