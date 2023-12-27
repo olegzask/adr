@@ -59,7 +59,7 @@ export default function BookingMarine({ opts }) {
         clearFields();
         setErrorBooking(false)
         setTimeout(() => {
-          window.location="/success-submit"
+          window.location.href = "https://adrenalinaudio.ca/success-submit"
         }, 1500);
   
 
