@@ -9,11 +9,8 @@ export default function SuccessPage() {
 
 
   const goBackPage = ()=> {
-    window.location="/"
-    setTimeout(() => {
-      location.reload();
-
-    }, 2000);
+    window.location.href = "https://adrenalinaudio.ca"
+   
   }
 
 
