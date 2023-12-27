@@ -11,6 +11,8 @@ export const ContactForm = () => {
     phone: "",
     comments: "",
   });
+  const [show, setShow] = useState(true);
+
   const [missing, setMissing] = useState();
   const [error, setError] = useState(false);
   const [requestSent, setRequest] = useState(false);
@@ -45,6 +47,8 @@ export const ContactForm = () => {
             console.log(error.text);
           }
         );
+    setTimeout(setShow(false), 500);
+
         setTimeout(window.location="/success-submit", 1000);
 
     } else {
@@ -78,6 +82,7 @@ export const ContactForm = () => {
   };
 
   return (
+    show ?
     <div className="contactform-container" id="ankor-2" >
       <h2 className="contactform-header" >Let's get the conversation rolling!</h2>
       <h3 className="contactform-header-two">
@@ -128,5 +133,7 @@ export const ContactForm = () => {
         <button className="submit-request">SUBMIT REQUEST</button>
       </form>
     </div>
+    :
+    null
   );
 };

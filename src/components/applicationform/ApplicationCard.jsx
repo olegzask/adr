@@ -8,6 +8,8 @@ import "./applicationcard.styles.css";
 
 export default function ApplicationCard({ opts }) {
   const { name, jobs } = opts;
+  const [show, setShow] = useState(true);
+
   const [heh] = jobs;
   const { jobBen, jobReq, jobResp, jobName } = heh;
   const [missing, setMissing] = useState();
@@ -71,6 +73,8 @@ export default function ApplicationCard({ opts }) {
             console.log(error.text);
           }
         );
+    setTimeout(setShow(false), 500);
+
         setTimeout(window.location="/success-submit", 1000);
 
     } else {
@@ -98,6 +102,7 @@ export default function ApplicationCard({ opts }) {
   };
 
   return (
+    show ?
     <div className="application-form-container">
       {errorBooking ? (
         <ErrorWindow fields={{ handler: setErrorBooking, info: missing }} />
@@ -210,5 +215,7 @@ export default function ApplicationCard({ opts }) {
         </button>
       </form>
     </div>
+    : 
+    null
   );
 }

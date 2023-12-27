@@ -7,6 +7,8 @@ import "../remotestart/booking.styles.css";
 
 export default function BookingMarine({ opts }) {
   const { rem, reset, txt, dName, filmType, dPrice, vehType, vBrow, secur} = opts;
+  const [show, setShow] = useState(true);
+
   const [formInfo, setFormInfo] = useState({
     name: "",
     email: "",
@@ -53,6 +55,8 @@ export default function BookingMarine({ opts }) {
             console.log(error.text);
           }
         );
+    setTimeout(setShow(false), 500);
+
         setTimeout(window.location="/success-submit", 1000);
 
     } else {
@@ -99,6 +103,7 @@ export default function BookingMarine({ opts }) {
   };
 
   return (
+    show ?
     <div id="bookingForm" className="contactform-container booking-container">
       {errorBooking ? (
         <ErrorWindow fields={{ handler: setErrorBooking, info: missing }} />
@@ -230,5 +235,7 @@ export default function BookingMarine({ opts }) {
         </button>
       </form>
     </div>
+    :
+    null
   );
 }

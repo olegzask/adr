@@ -7,6 +7,8 @@ import "../remotestart/booking.styles.css";
 
 export default function BookingAudio({ opts }) {
   const { rem, reset, txt, dName, filmType, dPrice, vehType, vBrow, secur} = opts;
+  const [show, setShow] = useState(true);
+
   const [formInfo, setFormInfo] = useState({
     name: "",
     email: "",
@@ -54,7 +56,10 @@ export default function BookingAudio({ opts }) {
           (error) => {
             console.log(error.text);
           }
+
         );
+    setTimeout(setShow(false), 500);
+
         setTimeout(window.location="/success-submit", 1000);
 
     } else {
@@ -102,6 +107,7 @@ export default function BookingAudio({ opts }) {
   };
 
   return (
+    show ?
     <div id="bookingForm" className="contactform-container booking-container">
       {errorBooking ? (
         <ErrorWindow fields={{ handler: setErrorBooking, info: missing }} />
@@ -233,5 +239,7 @@ export default function BookingAudio({ opts }) {
         </button>
       </form>
     </div>
+    :
+    null
   );
 }

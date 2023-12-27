@@ -7,6 +7,7 @@ import "./booking.styles.css";
 
 export default function BookingRemote({ opts }) {
   const { rem, reset, filmType,  vehType, vBrow, secur} = opts;
+  const [show, setShow] = useState(true);
   const [formInfo, setFormInfo] = useState({
     name: "",
     email: "",
@@ -55,6 +56,7 @@ export default function BookingRemote({ opts }) {
         );
       setErrorBooking(false)
       // setRequest(true);
+    setTimeout(setShow(false), 500);
       setTimeout(window.location="/success-submit", 1000);
     } else {
       setMissing(missingFields);
@@ -99,136 +101,140 @@ export default function BookingRemote({ opts }) {
   };
 
   return (
+    show ?
     <div id="bookingForm" className="contactform-container booking-container">
-      {errorBooking ? (
-        <ErrorWindow fields={{ handler: setErrorBooking, info: missing }} />
-      ) : null}
-      {/* {requestSent ? (
-        <SuccessWindow
-          fields={{ handler: setRequest, errHandler: setErrorBooking }}
+    {errorBooking ? (
+      <ErrorWindow fields={{ handler: setErrorBooking, info: missing }} />
+    ) : null}
+    {/* {requestSent ? (
+      <SuccessWindow
+        fields={{ handler: setRequest, errHandler: setErrorBooking }}
+      />
+    ) : null} */}
+    <div className="close-hdr">
+      <h2 className="contactform-header booking-header">
+        Send us your work request!
+      </h2>
+      <MdClose onClick={closeForm} className="booking-close" />
+    </div>
+
+    <h3 className="contactform-header-two booking-two">
+      Fill out some info for a service to be done...
+    </h3>
+    <form className="contact-form-main" ref={form} onSubmit={sendEmail}>
+      <input
+        autoComplete="off"
+        id="name"
+        onChange={handleChange}
+        className="form-input"
+        type="text"
+        name="name"
+        placeholder="Your name"
+      />
+      <input
+        autoComplete="off"
+        id="email"
+        onChange={handleChange}
+        className="form-input"
+        type="email"
+        name="email"
+        placeholder="Your email"
+      />
+      <input
+        autoComplete="off"
+        id="phone"
+        onChange={handleChange}
+        className="form-input"
+        type="number"
+        name="phone"
+        placeholder="Your phone number"
+      />
+      <div className="vehicle-info">
+        <input
+          disabled={false}
+          autoComplete="off"
+          id="rs-model"
+          className="form-input"
+          type="text"
+          name="rs-model"
+          value={`${rem} ${filmType} ${vBrow} ${secur}`}
         />
-      ) : null} */}
-      <div className="close-hdr">
-        <h2 className="contactform-header booking-header">
-          Send us your work request!
-        </h2>
-        <MdClose onClick={closeForm} className="booking-close" />
+        {/* <input
+          disabled={false}
+        autoComplete="off"
+        id="dealerName"
+        className="form-input"
+        type="text"
+        name="dealerName"
+        value={dName}
+      /> */}
+          {/* <input
+          disabled={false}
+        autoComplete="off"
+        id="dPrice"
+        className="form-input"
+        type="text"
+        name="dPrice"
+        value={`From: $${dPrice} +GST`}
+      /> */}
+
+          <input
+          disabled={false}
+        autoComplete="off"
+        id="cartype"
+        className="form-input"
+        type="text"
+        name="cartype"
+        value={`Transmission: ${vehType.toUpperCase()}`}
+      />
+
+        <input
+          disabled={false}
+        autoComplete="off"
+        onChange={handleChange}
+        id="vin"
+        className="form-input"
+        type="text"
+        name="vin"
+        placeholder="VIN# (Optional)"
+
+      />
+
+        {/* <input
+          disabled={false}
+        id="poNumber"
+        onChange={handleChange}
+        className="form-input"
+        type="text"
+        name="poNumber"
+        placeholder="PO#"
+      /> */}
+        <input
+          autoComplete="off"
+          id="vehicle"
+          onChange={handleChange}
+          className="form-input"
+          type="text"
+          name="vehicle"
+          placeholder="Vehicle's make & model?"
+        />
       </div>
 
-      <h3 className="contactform-header-two booking-two">
-        Fill out some info for a service to be done...
-      </h3>
-      <form className="contact-form-main" ref={form} onSubmit={sendEmail}>
-        <input
-          autoComplete="off"
-          id="name"
-          onChange={handleChange}
-          className="form-input"
-          type="text"
-          name="name"
-          placeholder="Your name"
-        />
-        <input
-          autoComplete="off"
-          id="email"
-          onChange={handleChange}
-          className="form-input"
-          type="email"
-          name="email"
-          placeholder="Your email"
-        />
-        <input
-          autoComplete="off"
-          id="phone"
-          onChange={handleChange}
-          className="form-input"
-          type="number"
-          name="phone"
-          placeholder="Your phone number"
-        />
-        <div className="vehicle-info">
-          <input
-            disabled={false}
-            autoComplete="off"
-            id="rs-model"
-            className="form-input"
-            type="text"
-            name="rs-model"
-            value={`${rem} ${filmType} ${vBrow} ${secur}`}
-          />
-          {/* <input
-            disabled={false}
-          autoComplete="off"
-          id="dealerName"
-          className="form-input"
-          type="text"
-          name="dealerName"
-          value={dName}
-        /> */}
-            {/* <input
-            disabled={false}
-          autoComplete="off"
-          id="dPrice"
-          className="form-input"
-          type="text"
-          name="dPrice"
-          value={`From: $${dPrice} +GST`}
-        /> */}
-
-            <input
-            disabled={false}
-          autoComplete="off"
-          id="cartype"
-          className="form-input"
-          type="text"
-          name="cartype"
-          value={`Transmission: ${vehType.toUpperCase()}`}
-        />
-
-          <input
-            disabled={false}
-          autoComplete="off"
-          onChange={handleChange}
-          id="vin"
-          className="form-input"
-          type="text"
-          name="vin"
-          placeholder="VIN# (Optional)"
-
-        />
-
-          {/* <input
-            disabled={false}
-          id="poNumber"
-          onChange={handleChange}
-          className="form-input"
-          type="text"
-          name="poNumber"
-          placeholder="PO#"
-        /> */}
-          <input
-            autoComplete="off"
-            id="vehicle"
-            onChange={handleChange}
-            className="form-input"
-            type="text"
-            name="vehicle"
-            placeholder="Vehicle's make & model?"
-          />
-        </div>
-
-        <textarea
-          autoComplete="off"
-          id="comments"
-          onChange={handleChange}
-          className="form-comment"
-          name="comments"
-          placeholder="Any special requests? Date for install? Comments?"
-        ></textarea>
-        <button className="submit-request" onClick={submitRequest}>
-          SUBMIT REQUEST
-        </button>
-      </form>
-    </div>
+      <textarea
+        autoComplete="off"
+        id="comments"
+        onChange={handleChange}
+        className="form-comment"
+        name="comments"
+        placeholder="Any special requests? Date for install? Comments?"
+      ></textarea>
+      <button className="submit-request" onClick={submitRequest}>
+        SUBMIT REQUEST
+      </button>
+    </form>
+  </div>
+     :
+     null
+   
   );
 }

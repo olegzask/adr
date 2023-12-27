@@ -7,6 +7,8 @@ import "../remotestart/booking.styles.css";
 
 export default function BookingTint({ opts }) {
   const { rem, reset, txt, dName, filmType, dPrice, vehType, vBrow, secur} = opts;
+  const [show, setShow] = useState(true);
+
   const [formInfo, setFormInfo] = useState({
     name: "",
     email: "",
@@ -53,6 +55,8 @@ export default function BookingTint({ opts }) {
             console.log(error.text);
           }
         );
+    setTimeout(setShow(false), 500);
+
         setTimeout(window.location="/success-submit", 1000);
 
     } else {
@@ -98,6 +102,7 @@ export default function BookingTint({ opts }) {
   };
 
   return (
+    show ?
     <div id="bookingForm" className="contactform-container booking-container">
       {errorBooking ? (
         <ErrorWindow fields={{ handler: setErrorBooking, info: missing }} />
@@ -155,34 +160,6 @@ export default function BookingTint({ opts }) {
             name="rs-model"
             value={`${rem}`}
           />
-          {/* <input
-            disabled={false}
-          autoComplete="off"
-          id="dealerName"
-          className="form-input"
-          type="text"
-          name="dealerName"
-          value={dName}
-        /> */}
-            {/* <input
-            disabled={false}
-          autoComplete="off"
-          id="dPrice"
-          className="form-input"
-          type="text"
-          name="dPrice"
-          value={`From: $${dPrice} +GST`}
-        /> */}
-{/* 
-            <input
-            disabled={false}
-          autoComplete="off"
-          id="cartype"
-          className="form-input"
-          type="text"
-          name="cartype"
-          value={`Transmission: ${vehType.toUpperCase()}`}
-        /> */}
 
           <input
             disabled={false}
@@ -195,16 +172,6 @@ export default function BookingTint({ opts }) {
           placeholder="VIN# (Optional)"
 
         />
-
-          {/* <input
-            disabled={false}
-          id="poNumber"
-          onChange={handleChange}
-          className="form-input"
-          type="text"
-          name="poNumber"
-          placeholder="PO#"
-        /> */}
           <input
             autoComplete="off"
             id="vehicle"
@@ -229,5 +196,7 @@ export default function BookingTint({ opts }) {
         </button>
       </form>
     </div>
+    :
+    null
   );
 }

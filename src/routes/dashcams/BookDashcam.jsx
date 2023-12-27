@@ -7,6 +7,8 @@ import "../remotestart/booking.styles.css";
 
 export default function BookingDashcam({ opts }) {
   const { rem, reset, txt, dName, filmType, dPrice, vehType, vBrow, secur} = opts;
+  const [show, setShow] = useState(true);
+
   const [formInfo, setFormInfo] = useState({
     name: "",
     email: "",
@@ -54,8 +56,10 @@ export default function BookingDashcam({ opts }) {
             console.log(error.text);
           }
         );
-      setRequest(true);
-      clearFields();
+        setTimeout(setShow(false), 500);
+      setTimeout(window.location="/success-submit", 1000);
+
+
     } else {
       setMissing(missingFields);
       setErrorBooking(true);
@@ -101,6 +105,7 @@ export default function BookingDashcam({ opts }) {
   };
 
   return (
+    show ?
     <div id="bookingForm" className="contactform-container booking-container">
       {errorBooking ? (
         <ErrorWindow fields={{ handler: setErrorBooking, info: missing }} />
@@ -232,5 +237,7 @@ export default function BookingDashcam({ opts }) {
         </button>
       </form>
     </div>
+    :
+    null
   );
 }
