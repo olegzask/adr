@@ -47,7 +47,7 @@ export const ContactForm = () => {
             console.log(error.text);
           }
         );
-        setRequest(true);
+        // setRequest(true);
         clearFields();
         setError(false)
   
