@@ -55,7 +55,7 @@ export default function BookingMarine({ opts }) {
             console.log(error.text);
           }
         );
-        setRequest(true);
+        // setRequest(true);
         clearFields();
         setErrorBooking(false)
         setTimeout(() => {

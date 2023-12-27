@@ -55,7 +55,7 @@ export default function BookingRemote({ opts }) {
           }
         );
 
-        setRequest(true);
+        // setRequest(true);
       clearFields();
       setErrorBooking(false)
 

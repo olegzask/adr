@@ -56,7 +56,7 @@ export default function BookingDashcam({ opts }) {
             console.log(error.text);
           }
         );
-        setRequest(true);
+        // setRequest(true);
         clearFields();
         setErrorBooking(false)
   

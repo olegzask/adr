@@ -55,7 +55,7 @@ export default function BookingAccessories({ opts }) {
             console.log(error.text);
           }
         );
-        setRequest(true);
+        // setRequest(true);
         clearFields();
         setErrorBooking(false)
   
