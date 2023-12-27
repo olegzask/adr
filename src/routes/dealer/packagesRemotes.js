@@ -344,7 +344,7 @@ export const packagesRemotes = [
       "Lock and start your vehivle with confidence using Compustar 2-Way remotes, which provide visual and audible confirmation when your commands are sent successfully.",
       "The 2-Way PRO G15 features a high-strength injection molded body that is water-resistand and withstands everyday impact.",
     ],
-        name: "RS-02T",
+        name: "RS-02+",
         image: "/images/remotes/pg15.jpg",
         includes: [
         "Model: G15SS",

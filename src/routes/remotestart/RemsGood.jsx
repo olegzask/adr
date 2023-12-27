@@ -140,7 +140,7 @@ export const RemsGood = () => {
                 RS-03
               </button>
               <button name="G15SS" className="quick-link" onClick={scrollToModel}>
-                RS-02T
+                RS-02+
               </button>
               <button name="G15FM" className="quick-link" onClick={scrollToModel}>
                 RS-02

@@ -212,7 +212,7 @@ export const Dealer = () => {
                 RS-03
               </button>
               <button name="g15ss" className="quick-link" onClick={scrollToModel}>
-                RS-02T
+                RS-02+
               </button>
               <button name="g15fm" className="quick-link" onClick={scrollToModel}>
                 RS-02
