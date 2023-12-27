@@ -62,7 +62,7 @@ export default function BookingDashcam({ opts }) {
 
         setTimeout(() => {
           window.location="/success-submit"
-        }, 1000);
+        }, 1500);
     } else {
       setMissing(missingFields);
       setErrorBooking(true);

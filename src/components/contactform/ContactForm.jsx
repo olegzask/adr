@@ -54,7 +54,7 @@ export const ContactForm = () => {
 
         setTimeout(() => {
           window.location="/success-submit"
-        }, 1000);
+        }, 1500);
 
     } else {
       setMissing(missingFields);
