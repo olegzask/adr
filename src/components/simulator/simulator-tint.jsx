@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { MdDeleteForever } from "react-icons/md";
+import BookingSimulator from "./BookingSimulator"
+import { scrollToTop } from "../helperFunctions/helpers";
 import { RadioButtons } from "./radio-buttons";
 import LinkComponent from "../link/LinkComponent";
 import { tintShades } from "./tint-data";
@@ -8,13 +10,14 @@ import { tintPartsSedan, tintPartsTruck, tintPartsSuv } from "./tintParts";
 import "./simulator-tint.styles.css";
 
 const tintPrices = {
-  car: { fronts: 100, rears: 100, rearws: 100, wsbrow: 80 },
-  suv: { fronts: 100, rears: 150, rearws: 100, wsbrow: 80 },
-  truck: { fronts: 100, rears: 100, rearws: 100, wsbrow: 80 },
+  car: { fronts: 120, rears: 120, rearws: 100, wsbrow: 100 },
+  suv: { fronts: 120, rears: 180, rearws: 100, wsbrow: 100 },
+  truck: { fronts: 120, rears: 120, rearws: 100, wsbrow: 100 },
 };
 
 export const SimulatorTint = () => {
   const [linked, setLinked] = useState(tintPartsSedan);
+  const [modal, setModal] = useState(false);
   const [frontglass, setFrontGlass] = useState();
   const [rearsideglass, setRearSideGlass] = useState();
   const [rearwindshield, setRearWindshield] = useState();
@@ -32,9 +35,22 @@ export const SimulatorTint = () => {
     0
   );
 
+  const showModal = (e) => {
+    setModal(true);
+  };
+
   const clearShade = (event) => {
     const selectedDiv = event.target.closest(".glass-container");
     const selectedId = selectedDiv.id;
+    console.log(selectedId)
+
+    if(selectedId === "frontglass") setFrontGlass("");
+    if(selectedId === "rearsideglass") setRearSideGlass("");
+    if(selectedId === "frontglass") setFrontGlass("");
+    if(selectedId === "rearwindshield") setRearWindshield("");
+    if(selectedId === "windshieldbrow") setWindshieldBrow("");
+
+
 
     const hideImg = document.getElementById(`${selectedId}-tint`);
     hideImg.style.opacity = 0;
@@ -74,6 +90,11 @@ export const SimulatorTint = () => {
   }, [selectedParts]);
 
   const vehicleSelector = (event) => {
+    setFrontGlass("");
+    setRearSideGlass("");
+    setFrontGlass("");
+    setRearWindshield("");
+    setWindshieldBrow("");
     setPrice({
       frontglass: 0,
       rearsideglass: 0,
@@ -264,6 +285,13 @@ export const SimulatorTint = () => {
           </div>
           <div className="price-tint">
             <span className="price-total">{`Estimated Price: $${totalPrice}`}</span>
+            {!modal ? null : (
+            <BookingSimulator opts={{ rem: `Tint: ${vehicle.toUpperCase()}`, partsToDo: {fronts: frontglass, rears: rearsideglass, rearws: rearwindshield, brow: windshieldbrow}, txt: "Service", reset: setModal, price: totalPrice }} />
+          )}
+          <button onClick={showModal} className="remote-btn req-pt">
+            REQUEST QUOTE
+          </button>
+        
             {/* <LinkComponent
               opts={{
                 name: "CONTACT US",

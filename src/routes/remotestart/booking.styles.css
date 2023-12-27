@@ -49,6 +49,15 @@
 
 }
 
+#parts {
+  background-color: lightgrey;
+  text-align: center;
+}
+
+#estprice {
+  background-color: lightgrey;
+  text-align: center;
+}
 
 #vehicle {
   width: 35%;
@@ -155,6 +164,16 @@ width: 90%;
     text-align: center;
   }
   #vin {
+    width: auto;
+    text-align: center;
+  }
+
+  #parts {
+    width: auto;
+    text-align: center;
+  }
+
+  #estprice {
     width: auto;
     text-align: center;
   }
