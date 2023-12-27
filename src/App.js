@@ -19,6 +19,7 @@ import Accessories from "./routes/12voltaccessories/Accessories";
 import {CarAudio}from "./routes/car audio-video/CarAudio";
 import Marine from "./routes/marine/Marine";
 import { PpfPackages } from "./routes/paintprotection/PpfPacks";
+import SuccessPage from "./routes/successpage/SuccessPage";
 import { Dealer } from "./routes/dealer/Dealer";
 
 const App = () => {
@@ -49,6 +50,8 @@ const App = () => {
         <Route path="services/paint-protection-film/packages" element={<PpfPackages/>} />
 
         <Route path="services/:service/:id" element={<InfoCard />} />
+        <Route path="success-submit" element={<SuccessPage />} />
+
       </Route>
     </Routes>
   );

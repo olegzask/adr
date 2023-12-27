@@ -53,8 +53,8 @@ export default function BookingMarine({ opts }) {
             console.log(error.text);
           }
         );
-      setRequest(true);
-      clearFields();
+        setTimeout(window.location="/success-submit", 1000);
+
     } else {
       setMissing(missingFields);
       setErrorBooking(true);

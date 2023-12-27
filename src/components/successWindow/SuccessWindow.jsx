@@ -1,4 +1,5 @@
 import React from "react";
+import {scrollToTop} from "../../components/helperFunctions/helpers"
 import "../errorWindow/error.styles.css"
 
 export default function SuccessWindow({ fields }) {

@@ -53,8 +53,9 @@ export default function BookingRemote({ opts }) {
             console.log(error.text);
           }
         );
-      setRequest(true);
-      clearFields();
+      setErrorBooking(false)
+      // setRequest(true);
+      setTimeout(window.location="/success-submit", 1000);
     } else {
       setMissing(missingFields);
       setErrorBooking(true);
@@ -102,11 +103,11 @@ export default function BookingRemote({ opts }) {
       {errorBooking ? (
         <ErrorWindow fields={{ handler: setErrorBooking, info: missing }} />
       ) : null}
-      {requestSent ? (
+      {/* {requestSent ? (
         <SuccessWindow
           fields={{ handler: setRequest, errHandler: setErrorBooking }}
         />
-      ) : null}
+      ) : null} */}
       <div className="close-hdr">
         <h2 className="contactform-header booking-header">
           Send us your work request!
