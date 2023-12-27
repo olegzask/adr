@@ -9,7 +9,7 @@ export default function SuccessPage() {
 
 
   const goBackPage = ()=> {
-    window.history.go(-1);
+    window.location="/"
     setTimeout(() => {
       location.reload();
 

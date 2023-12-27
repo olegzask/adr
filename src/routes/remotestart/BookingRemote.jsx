@@ -56,8 +56,8 @@ export default function BookingRemote({ opts }) {
         );
       setErrorBooking(false)
       // setRequest(true);
-    setTimeout(setShow(false), 500);
-    setTimeout(setShow(true), 600);
+    // setTimeout(setShow(false), 500);
+    // setTimeout(setShow(true), 600);
 
     setTimeout(() => {
       window.location="/success-submit"
@@ -105,7 +105,7 @@ export default function BookingRemote({ opts }) {
   };
 
   return (
-    show ?
+
     <div id="bookingForm" className="contactform-container booking-container">
     {errorBooking ? (
       <ErrorWindow fields={{ handler: setErrorBooking, info: missing }} />
@@ -237,8 +237,6 @@ export default function BookingRemote({ opts }) {
       </button>
     </form>
   </div>
-     :
-     null
-   
+
   );
 }

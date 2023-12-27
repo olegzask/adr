@@ -47,9 +47,9 @@ export const ContactForm = () => {
             console.log(error.text);
           }
         );
-    setTimeout(setShow(false), 500);
-
-        setTimeout(window.location="/success-submit", 1000);
+        setTimeout(() => {
+          window.location="/success-submit"
+        }, 1000);
 
     } else {
       setMissing(missingFields);
@@ -82,7 +82,7 @@ export const ContactForm = () => {
   };
 
   return (
-    show ?
+
     <div className="contactform-container" id="ankor-2" >
       <h2 className="contactform-header" >Let's get the conversation rolling!</h2>
       <h3 className="contactform-header-two">
@@ -133,7 +133,6 @@ export const ContactForm = () => {
         <button className="submit-request">SUBMIT REQUEST</button>
       </form>
     </div>
-    :
-    null
+  
   );
 };

@@ -56,9 +56,9 @@ export default function BookingDashcam({ opts }) {
             console.log(error.text);
           }
         );
-        setTimeout(setShow(false), 500);
-      setTimeout(window.location="/success-submit", 1000);
-
+        setTimeout(() => {
+          window.location="/success-submit"
+        }, 1000);
 
     } else {
       setMissing(missingFields);
@@ -105,7 +105,7 @@ export default function BookingDashcam({ opts }) {
   };
 
   return (
-    show ?
+
     <div id="bookingForm" className="contactform-container booking-container">
       {errorBooking ? (
         <ErrorWindow fields={{ handler: setErrorBooking, info: missing }} />
@@ -237,7 +237,6 @@ export default function BookingDashcam({ opts }) {
         </button>
       </form>
     </div>
-    :
-    null
+   
   );
 }

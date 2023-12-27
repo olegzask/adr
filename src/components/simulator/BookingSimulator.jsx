@@ -55,8 +55,9 @@ export default function BookingTint({ opts }) {
             console.log(error.text);
           }
         );
-      // setRequest(true);
-      setTimeout(window.location="/success-submit", 1000);
+        setTimeout(() => {
+          window.location="/success-submit"
+        }, 1000);
 
     } else {
       setMissing(missingFields);
