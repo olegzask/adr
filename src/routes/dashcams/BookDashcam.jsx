@@ -56,12 +56,12 @@ export default function BookingDashcam({ opts }) {
             console.log(error.text);
           }
         );
-        // setRequest(true);
+        setRequest(true);
         clearFields();
         setErrorBooking(false)
   
         setTimeout(() => {
-          window.location.href = "https://adrenalinaudio.ca/success-submit"
+          window.location.href = "/success-submit"
         }, 1500);
   
     } else {
@@ -114,11 +114,11 @@ export default function BookingDashcam({ opts }) {
       {errorBooking && !requestSent ? (
         <ErrorWindow fields={{ handler: setErrorBooking, info: missing }} />
       ) : null}
-      {requestSent ? (
+      {/* {requestSent ? (
         <SuccessWindow
           fields={{ handler: setRequest, errHandler: setErrorBooking }}
         />
-      ) : null}
+      ) : null} */}
       <div className="close-hdr">
         <h2 className="contactform-header booking-header">
           Send us your work request!
@@ -236,7 +236,7 @@ export default function BookingDashcam({ opts }) {
           name="comments"
           placeholder="Any special requests? Date for install? Comments?"
         ></textarea>
-        <button className="submit-request" onClick={submitRequest}>
+        <button className="submit-request">
           SUBMIT REQUEST
         </button>
       </form>

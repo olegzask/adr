@@ -1,8 +1,10 @@
-import React from "react";
+import React,  {useEffect} from "react";
+import useExternalScripts from "./ScriptGoogle";
 import {scrollToTop} from "../../components/helperFunctions/helpers"
 import "../errorWindow/error.styles.css"
 
 export default function SuccessWindow({ fields }) {
+  useExternalScripts("https://www.googletagmanager.com/gtag/js?id=G-QLHER9KTLW")
   const { handler, errHandler} = fields;
 
   const closeWindow = () => {

@@ -47,12 +47,12 @@ export const ContactForm = () => {
             console.log(error.text);
           }
         );
-        // setRequest(true);
+        setRequest(true);
         clearFields();
         setError(false)
   
         setTimeout(() => {
-          window.location.href = "https://adrenalinaudio.ca/success-submit"
+          window.location.href = "/success-submit"
         }, 1500);
   
 
@@ -96,9 +96,9 @@ export const ContactForm = () => {
       {error && !requestSent ? (
         <ErrorWindow fields={{ handler: setError, info: missing }} />
       ) : null}
-      {requestSent ? (
+      {/* {requestSent ? (
         <SuccessWindow fields={{ handler: setRequest, errHandler: setError }} />
-      ) : null}
+      ) : null} */}
       <form className="contact-form-main" ref={form} onSubmit={sendEmail}>
         <input
           autoComplete="off"

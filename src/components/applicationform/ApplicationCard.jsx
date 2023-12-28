@@ -73,12 +73,12 @@ export default function ApplicationCard({ opts }) {
             console.log(error.text);
           }
         );
-        // setRequest(true);
+        setRequest(true);
       clearFields();
       setErrorBooking(false)
 
       setTimeout(() => {
-        window.location.href = "https://adrenalinaudio.ca/success-submit"
+        window.location.href = "/success-submit"
       }, 1500);
     } else {
       setMissing(missingFields);
@@ -110,11 +110,11 @@ export default function ApplicationCard({ opts }) {
       {errorBooking && !requestSent ? (
         <ErrorWindow fields={{ handler: setErrorBooking, info: missing }} />
       ) : null}
-      {requestSent ? (
+      {/* {requestSent ? (
         <SuccessWindow
           fields={{ handler: setRequest, errHandler: setErrorBooking }}
         />
-      ) : null}
+      ) : null} */}
       <div className="job-description-container">
         <div className="resp-container">
           <div className="header-cont">
@@ -213,7 +213,7 @@ export default function ApplicationCard({ opts }) {
           />
         </div> */}
 
-        <button onClick={fieldsChecker} className="job-submit-btn">
+        <button className="job-submit-btn">
           SEND APPLICATION
         </button>
       </form>
