@@ -9,7 +9,8 @@ export default function SuccessPage() {
 
 
   const goBackPage = ()=> {
-    window.location.href = "https://adrenalinaudio.ca"
+    history.back();
+    // window.location.href = "https://adrenalinaudio.ca"
    
   }
 
