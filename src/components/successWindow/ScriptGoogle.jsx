@@ -5,6 +5,9 @@ export default function useExternalScripts({ url }){
     const head = document.querySelector("head");
     const script = document.createElement("script");
 
+    script.innerHTML = "hue";
+  
+
     script.setAttribute("src", url);
     head.appendChild(script);
 
