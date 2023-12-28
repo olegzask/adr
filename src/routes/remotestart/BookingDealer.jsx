@@ -249,7 +249,7 @@ export default function BookingDealer({ opts }) {
           name="comments"
           placeholder="Any special requests? Date for install? Comments?"
         ></textarea>
-        <button className="submit-request"  onClick={submitRequest}>
+        <button className="submit-request">
           SUBMIT REQUEST
         </button>
       </form>
