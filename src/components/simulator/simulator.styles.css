@@ -67,6 +67,24 @@
   padding: 17px;
 }
 
+.radio-header {
+  font-size: 1.6rem;
+  width: 100%;
+}
+
+#govneco {
+  align-items: center;
+  width: 75%;
+}
+
+
+.ebanoe {
+  margin: 0;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 500px) {
   .simulator-selector {
     position: relative;
@@ -77,6 +95,15 @@
   .req-pt {
     width: 100%;
     height: 2rem;
+  }
+
+  .radio-header {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  #govneco {
+    width: 100%;
   }
 
   .simulator-box {

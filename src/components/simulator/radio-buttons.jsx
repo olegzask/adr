@@ -6,11 +6,14 @@ import {
   FormControlLabel,
 } from "@mui/material";
 
+import "./simulator.styles.css"
+
 export const RadioButtons = ({ options }) => {
   return (
-    <FormControl>
-      <h2 className="radio-header">VEHICLE TYPE</h2>
+    <FormControl id="govneco" >
+      <h2 className="radio-header">WINDOW TINT & PPF SIMULATOR</h2>
       <RadioGroup
+      className="ebanoe"
         row
         aria-labelledby="demo-row-radio-buttons-group-label"
         name="row-radio-buttons-group"
