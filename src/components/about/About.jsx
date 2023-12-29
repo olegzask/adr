@@ -10,15 +10,15 @@ export default function About() {
       </h2>
      
       <div className="about-bottom-text">
-        <p className="about-paragraph">
+        <h2 className="about-paragraph">
         We've proudly serviced Edmonton for over 20 years and have recently extended our expertise to include Spruce Grove and Stony Plain. Specializing in top-tier automotive solutions, our focus remains on seamless integration and reliability. Whether it's remote start systems, premium 12-volt accessories like heated seats, or our meticulous automotive window tint and paint protection film services, our installations are crafted to elevate your driving experience.
-        </p>
-        <p className="about-paragraph">
+        </h2>
+        <h2 className="about-paragraph">
         Additionally, our commitment to 100% customer satisfaction extends to our top-tier automotive window tint and paint protection film services. With meticulous care, we safeguard your vehicle's appearance, providing UV protection and shielding against scratches and environmental elements. Trust us to enhance your vehicle while prioritizing your satisfaction above all else.
-        </p>
-         <p className="about-paragraph">
+        </h2>
+         <h2 className="about-paragraph">
          If you choose to partner with us, you're not just a client but part of our growing family-like customer community. We value each relationship and strive to build lasting connections, ensuring your trust and satisfaction in our services for years to come.
-        </p>
+        </h2>
 {/* 
         <p className="about-paragraph">
         With my expertise and attention to detail, I aim to exceed customer expectations and leave them completely satisfied with my work. As a solo operator, I prioritize personalized service and ensure that each customer receives the utmost attention and care.

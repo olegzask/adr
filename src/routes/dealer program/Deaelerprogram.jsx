@@ -11,9 +11,9 @@ const Automotivetint = () => {
     <div className="rs-main-container dashcams-main-container">
       <div className="rs-container">
         <div className="rs-topper">
-          <h2 className="service-container-header  rs-serv-header">
-            DEALER <span className="our-services">PROGRAM</span>
-          </h2>
+          <h1 className="service-container-header  rs-serv-header">
+            DEALER PROGRAM
+          </h1>
 
           <span className="rs-description">
           Introducing our dealership program tailored exclusively for automotive dealerships in Edmonton & surrounding areas seeking premium remote start, window tint, paint protection film & 12 volt accessories installation services.

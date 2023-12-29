@@ -104,9 +104,9 @@ export default function Accessories() {
     <div id="dealer-ctn" className="rs-cnt">
 
           <div className="rs-topper">
-          <h2 className="service-container-header rs-serv-header">
-            12 VOLT /<span className="our-services"> ACCESSORIES</span>
-          </h2>
+          <h1 className="service-container-header rs-serv-header">
+            12 VOLT ACCESSORIES
+          </h1>
 
           <span className="rs-description">
           Enhance your marine adventures with Adrenalin Audio's premium installations. Specializing in superior, weather-resistant sound systems tailored for open waters, we bring high-fidelity audio to your vessel.

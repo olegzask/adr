@@ -22,9 +22,9 @@ export default function TextVideo() {
   return (
     <div className="text-on-video">
       <div className="text-top">
-        <span className="text-header hdr-tint">REMOTE START & 12V ACCESSORIES</span>
-        <span className="text-header hdr-ppf">WINDOW TINT & PAINT PROTECTION</span>
-        <span className="text-header done-right">SERVICES DONE RIGHT.</span>
+        <h1 className="text-header hdr-tint">REMOTE START & 12V ACCESSORIES</h1>
+        <h2 className="text-header hdr-ppf">WINDOW TINT & PAINT PROTECTION</h2>
+        <h3 className="text-header done-right">SERVICES DONE RIGHT.</h3>
       </div>
 
       <div className="text-bottom">

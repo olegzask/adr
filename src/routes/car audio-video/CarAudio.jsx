@@ -106,9 +106,9 @@ export const CarAudio = () => {
     <div id="dealer-ctn" className="rs-cnt">
 
           <div className="rs-topper">
-          <h2 className="service-container-header rs-serv-header">
-            CAR AUDIO /<span className="our-services"> VIDEO</span>
-          </h2>
+          <h1 className="service-container-header rs-serv-header">
+            CAR AUDIO / VIDEO
+          </h1>
 
           <span className="rs-description">
           Discover top-tier remote start installation services in Edmonton that offer unparalleled expertise in seamlessly integrating advanced technology into your vehicle. At our facility, we specialize in precision installations tailored to your vehicle's specific requirements, ensuring optimal performance.          </span>

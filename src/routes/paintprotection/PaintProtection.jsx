@@ -13,7 +13,7 @@ export default function PaintProtection() {
       <div className="rs-container">
         <div className="rs-topper">
           <h1 className="service-container-header  rs-serv-header">
-           PAINT <span className="our-services">PROTECTION FILM</span>
+           PAINT PROTECTION FILM
           </h1>
           <p className="rs-description">
           Discover the ultimate safeguard for your vehicle's pristine finish with our Paint Protection Film (PPF) solutions, now available in Edmonton, Spruce Grove, and Stony Plain. Engineered to shield your car from the rigors of the road, our state-of-the-art PPF offers an invisible armor against rock chips, scratches, and environmental contaminants. Our skilled technicians meticulously apply this virtually undetectable layer, ensuring your vehicle's factory paint remains flawless and unblemished. 

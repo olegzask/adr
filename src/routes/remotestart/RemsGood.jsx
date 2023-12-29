@@ -106,19 +106,19 @@ export const RemsGood = () => {
     <div id="dealer-ctn" className="rs-cnt">
 
           <div className="rs-topper">
-          <h2 className="service-container-header rs-serv-header">
-            REMOTE <span className="our-services">START</span>
-          </h2>
+          <h1 className="service-container-header rs-serv-header">
+            REMOTE START
+          </h1>
 
-          <span className="rs-description">
-          Discover top-tier remote start installation services in Edmonton that offer unparalleled expertise in seamlessly integrating advanced technology into your vehicle. At our facility, we specialize in precision installations tailored to your vehicle's specific requirements, ensuring optimal performance.          </span>
+          <h2 className="rs-description">
+          Discover top-tier remote start installation services in Edmonton that offer unparalleled expertise in seamlessly integrating advanced technology into your vehicle. At our facility, we specialize in precision installations tailored to your vehicle's specific requirements, ensuring optimal performance.          </h2>
           <br/>
           <br/>
 
           
-          <span className="rs-description">
+          <h2 className="rs-description">
           Elevate your driving experience with our comprehensive approach, which includes the integration of DRONE, an advanced mobile app that offers cutting-edge remote start functionality. With a focus on convenience, security, and innovation, our Edmonton-based service guarantees the luxury of starting your car remotely, all backed by our commitment to user-friendly solutions and superior craftsmanship.
-          </span>
+          </h2>
           <br />
           </div>
          
