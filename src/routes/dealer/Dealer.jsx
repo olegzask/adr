@@ -129,14 +129,17 @@ export const Dealer = () => {
             <h2 className="ql-hdr-dealer">Quick Links</h2>
             <div className="ql-dealer">
               <button name="ppf" className="quick-link-dealer" onClick={scrollToRemote}>
-                PAINT PROTECTION
+                PPF
               </button>
               <button name="tint" className="quick-link-dealer" onClick={scrollToRemote}>
-                WINDOW TINT
+                TINT
               </button>
 
               <button name="remote" className="quick-link-dealer" onClick={scrollToRemote}>
-               REMOTE START
+               RS
+              </button>
+              <button name="accs" className="quick-link-dealer" onClick={scrollToRemote}>
+               ACCS
               </button>
              
             </div>
@@ -229,11 +232,11 @@ export const Dealer = () => {
          ))}
          </div>
 
-         <h2 id="remote" className="packs-header">12V Accessories Packages</h2>
+         <h2 id="accs" className="packs-header">12V Accessories Packages</h2>
          <div className="quick-links ql-rm-ct">
             <div className="ql">
               <button name="hs1" className="quick-link" onClick={scrollToModel}>
-                HS1
+                HEATED SEATS
               </button>
          
             </div>

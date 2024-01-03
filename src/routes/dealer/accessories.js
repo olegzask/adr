@@ -10,7 +10,7 @@ export const packagesAccessories = [
       model: "HS1",
       brand: "adrenalin",
       brandLogo: "/logos/1200x300-drone-logo-white.png",
-      name: "HS1",
+      name: "HEATED SEATS",
       image:  "/images/accessories/heatedseats_main.jpg",
       imgColor: "/images/accessories/heatedseats_main.jpg",
       images: [

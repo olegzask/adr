@@ -6,7 +6,7 @@ export const allAccessories = [
   {
     app: false,
     accessory: true,
-    name: "HS1",
+    name: "HEATED SEATS",
     model: "HS1",
     brand: "",
     brandLogo: "/logos/adrenalin_logo.png",
