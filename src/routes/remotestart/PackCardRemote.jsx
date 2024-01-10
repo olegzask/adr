@@ -8,7 +8,7 @@ import { BooleanContext } from "../../store";
 
 
 export const PackCardRemote = ({ opts }) => {
-  const {ident, remote, model, name, includes, dealerPrice, retailPrice, dealerPriceCar, dealerPriceSuv, dealerPriceTruck, retailPriceCar, retailPriceSuv, retailPriceTruck, image, dlr, quarters, idNum } = opts;
+  const {ident, altname, brand, remote, model, name, includes, dealerPrice, retailPrice, dealerPriceCar, dealerPriceSuv, dealerPriceTruck, retailPriceCar, retailPriceSuv, retailPriceTruck, image, dlr, quarters, idNum } = opts;
   const [modal, setModal] = useState(false);
   const [quarts, setQuarters] = useState(false)
   const [vehic, setVehic]= useState('car');
@@ -201,7 +201,7 @@ if(remote){
     <div className="remote-card-container  pack-container" id={model} >
       <div className="pack-info">
         <h3 className="pack-name">{name.toUpperCase()}</h3>
-        <img className={!remote ? "pack-img" : " pack-img pack-img-remote" }src={ppfPic()} alt="package-img" />
+        <img className={!remote ? "pack-img" : " pack-img pack-img-remote" }src={ppfPic()} alt={altname} />
         <div className="pack-list">
           {includes.map((el, id) => (
             <span key={id} className="pack-el">- {el}</span>

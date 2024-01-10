@@ -5,7 +5,7 @@ import "./servicecard.styles.css";
 import { scrollToTop } from "../../components/helperFunctions/helpers";
 
 export default function ServiceCard({ opts }) {
-  const { name, description, image, link, id } = opts;
+  const { name, altname, description, image, link, id } = opts;
   const lolec = name;
 
   const goToContact = (e) => {
@@ -35,7 +35,7 @@ export default function ServiceCard({ opts }) {
       ))}
         {/* <span className="service-description">{description}</span> */}
         <div className="service-link-container">
-          <LinkComponent
+          <LinkComponent key="linkkey"
             opts={{
               name: "MORE INFO",
               linkTo: link,
@@ -54,7 +54,7 @@ export default function ServiceCard({ opts }) {
       </div>
 
       <div className="servicecard-right-side">
-        <img className="service-img" src={image} alt="service-image" />
+        <img className="service-img" src={image} alt={altname} />
       </div>
     </div>
   );

@@ -111,7 +111,7 @@ export const RemsGood = () => {
           </h1>
 
           <h2 className="rs-description">
-          Discover top-tier remote start installation services in Edmonton that offer unparalleled expertise in seamlessly integrating advanced technology into your vehicle. At our facility, we specialize in precision installations tailored to your vehicle's specific requirements, ensuring optimal performance.          </h2>
+          Discover top-tier remote start installation services in Edmonton that offer unparalleled expertise in seamlessly integrating advanced technology into your vehicle. At our facility, we specialize in precision installations tailored to your vehicle's specific requirements, ensuring optimal performance. We are COMPUSTAR PRO Dealer & we have variety of compustar remotes options to choose from.         </h2>
           <br/>
           <br/>
 

@@ -3,6 +3,7 @@ import { BooleanContext } from "../../store";
 
 export const services = [
   {
+    altname: "remote-start", 
     name: "Remote Start",
     description:
       ["Professional remote start installation for your vehicle, enhancing convenience and comfort.",
@@ -14,6 +15,7 @@ export const services = [
     link: "services/remote-start",
   },
   {
+    altname: "window-tint", 
     name: "Window Tint",
     id: "wt",
     description: ["Our Automotive Window Tint service offers a professional solution to enhance your driving experience.", "We provide expert consultation, premium window tint films, and professional installation.", " Our films reduce heat and UV rays, minimize glare, enhance privacy, and add aesthetic appeal.", "Experience a comfortable, safe, and stylish driving experience with our high-quality window tinting services." ],
@@ -23,6 +25,7 @@ export const services = [
     link: "services/window-tint",
   },
   {
+    altname: "paint-protection-film", 
     name: "Paint Protection",
     id: "ppf",
     description: ["Our Automotive Paint Protection film service offers premium protection for your vehicle's paint.","With a comprehensive consultation, precise installation, and high-quality films, we safeguard your vehicle from scratches, chips, UV rays, and chemicals.","Our durable and virtually invisible films provide long-lasting protection and can even self-heal minor scratches.", "Trust our professional service to keep your vehicle looking pristine and protected."],
@@ -32,6 +35,7 @@ export const services = [
 
  
   {
+    altname: "dash-camera", 
     name: "Dash Cams",
     description:
       ["At Adrenalin Audio, we specialize in dash camera installations, providing a crucial layer of safety and security for your vehicle.",
@@ -41,6 +45,7 @@ export const services = [
     link: "services/dash-cams",
   },
   {
+    altname: "audio-video", 
     name: "Audio / Video",
     description:
       ["Experience elevated driving pleasure with Adrenalin Audio's superior car audio/video installations. From personalized sound systems to seamless high-definition displays, we craft premium in-car entertainment.",
@@ -50,6 +55,7 @@ export const services = [
     link: "services/car-audio-video",
   },
   {
+    altname: "marine-audio", 
     name: "Marine Audio",
     description:
       ["Enhance your marine adventures with Adrenalin Audio's premium installations. Specializing in superior, weather-resistant sound systems tailored for open waters, we bring high-fidelity audio to your vessel.",
@@ -59,6 +65,7 @@ export const services = [
   },
 
   {
+    altname: "12volt-accessories", 
     name: "12V Accessories",
     description:
       ["At Adrenalin Audio, our 12-volt accessories, including heated seats, HD cameras, and premium DVD players, redefine comfort, safety, and entertainment in your vehicle.",
@@ -69,6 +76,7 @@ export const services = [
   },
 
   {
+    altname: "dealer-program", 
     name: "Dealer Program",
     id: "dp",
     description:

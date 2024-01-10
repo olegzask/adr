@@ -8,6 +8,7 @@ import { TbArrowAutofitDown } from "react-icons/tb";
 
 export const packagesRemotes = [
     {
+      altname: "remote-start-drone", 
       model: "DRONE",
       brand: "DRONE",
       brandLogo: "/logos/1200x300-drone-logo-white.png",
@@ -67,6 +68,7 @@ export const packagesRemotes = [
     },
 
     {
+      altname: "remote-start-t13", 
       model: "T13SS",
       name: "RS-06",
       brand: "Compustar",
@@ -119,6 +121,7 @@ export const packagesRemotes = [
     },
 
     {
+      altname: "remote-start-t12", 
         model: "T12SS",
         brand: "Compustar",
     brandLogo: "/logos/compustar_logo.png",
@@ -184,6 +187,7 @@ export const packagesRemotes = [
       },
 
       {
+        altname: "remote-start-q9", 
         model: "Q9SS",
         brand: "Compustar",
         brandLogo: "/logos/compustar_logo.png",
@@ -239,6 +243,7 @@ export const packagesRemotes = [
           },
 
       {
+        altname: "remote-start-t9", 
         model: "T9SS",
         brand: "Compustar",
     brandLogo: "/logos/compustar_logo.png",
@@ -303,6 +308,7 @@ export const packagesRemotes = [
     
 
       {
+        altname: "remote-start-g15", 
     model: "G15SS",
     brand: "Compustar PRO",
     brandLogo: "/logos/compustar_logo.png",
@@ -363,6 +369,7 @@ export const packagesRemotes = [
       },
 
       {
+        altname: "remote-start-g15", 
     model: "G15FM",
     brand: "Compustar",
     brandLogo: "/logos/compustar_logo.png",
@@ -413,6 +420,7 @@ export const packagesRemotes = [
       },
 
       {
+        altname: "remote-start-wr3", 
     model: "WR3",
     brand: "Compustar",
     brandLogo: "/logos/compustar_logo.png",
