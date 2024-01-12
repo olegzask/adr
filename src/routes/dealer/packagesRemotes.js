@@ -1,10 +1,11 @@
 import { RiGpsLine, RiWaterFlashFill } from "react-icons/ri";
 import { BsShare, BsAward } from "react-icons/bs";
-import { FaDigitalOcean, FaMobileAlt } from "react-icons/fa";
+import { FaDigitalOcean, FaMobileAlt, FaUsb } from "react-icons/fa";
 import { GiBrokenShield } from "react-icons/gi";
 import { MdNotificationsActive } from "react-icons/md";
 import { FcRefresh } from "react-icons/fc";
 import { TbArrowAutofitDown } from "react-icons/tb";
+import { IoIosRadio } from "react-icons/io"
 
 export const packagesRemotes = [
     {
@@ -101,9 +102,10 @@ export const packagesRemotes = [
       
     ],
     description: [
-      "3000-ft max range remote kit with 2-way interactive LCD. Includes additional backup 1-way remote. Works with all Compustar remote start and security systems.",
+      "The all-new PRO T13 is the industry’s most advanced remote start and security system!",
+      "5000-Meters max range remote kit with 2-way interactive LCD. Includes additional backup 1-way remote. Works with all Compustar remote start and security systems.",
       "Lock and start your vehivle with confidence using Compustar 2-Way remotes, which provide visual and audible confirmation when your commands are sent successfully.",
-      "Along with instant command confirmation, the PRIME T9 has an interactive screen that will show you vehicle's status at all times.",
+      "Compustar's next generation of PRO 2-way remotes features built-in proximity sensors that automatically unlock the doors when you come within three to six feet of your vehicle."
     ],
       image: "/images/remotes/t13.jpg",
       includes: [
@@ -111,7 +113,7 @@ export const packagesRemotes = [
         "2-Way LCD",
         "Hardware & installation",
         "3 year warranty",
-        "Range: up to 4500M"
+        "Range: up to 5000M"
 
       ],
     ident: "t13ss",
@@ -137,6 +139,21 @@ export const packagesRemotes = [
       {
         name: "2-Way LCD",
         symbol: <FcRefresh fill="rgb(14, 146, 255)" />,
+        description: "",
+      },
+      {
+        name: "Smartphone Control",
+        symbol: <FaMobileAlt fill="rgb(14, 146, 255)" />,
+        description: "",
+      },
+      {
+        name: "Proximity Unlock",
+        symbol: <IoIosRadio fill="rgb(14, 146, 255)" />,
+        description: "",
+      },
+      {
+        name: "USB Rechargable",
+        symbol: <FaUsb fill="rgb(14, 146, 255)" />,
         description: "",
       },
      
