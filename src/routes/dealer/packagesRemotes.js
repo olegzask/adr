@@ -116,7 +116,7 @@ export const packagesRemotes = [
       ],
     ident: "t13ss",
       remote: true,
-      dealerPriceCar: 990.00,
+      dealerPriceCar: 940.00,
       retailPriceCar: 1195.00,
     },
 

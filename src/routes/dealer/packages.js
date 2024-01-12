@@ -109,4 +109,25 @@ export const packages = [
     dealerPriceTruck: 1870.00,
     retailPriceTruck: 3499.00,
   },
+  // {
+  //   name: "Custom",
+  //   image: {
+  //     car:"/logos/diamondCar.jpg",
+  //     suv:"/logos/diamondSuv.jpg",
+  //     truck:"/logos/diamondTruck.jpg",
+
+  //   },
+  //   includes: [
+  //     "Pick your coverage",
+    
+
+  //   ],
+  //   ident: "custom",
+  //   dealerPriceCar: 0.00,
+  //   retailPriceCar: 0.00,
+  //   dealerPriceSuv: 0.00,
+  //   retailPriceSuv: 0.00,
+  //   dealerPriceTruck: 0.00,
+  //   retailPriceTruck: 0.00,
+  // },
 ];

@@ -183,6 +183,29 @@ font-size: 0.8rem;
   font-weight: 400;
 }
 
+.custombuild {
+height: 16rem;
+}
+
+.hood-cont {
+  display: flex;
+  align-items: center;
+}
+
+.droper-hood {
+  margin-left: 0.5rem;
+  height: 1.5rem;
+  align-items: center;
+}
+
+.drophood {
+  font-size: 0.9rem;
+  height: 1.3rem;
+  border-radius: 0.2rem;
+}
+
+
+
 .price-dealer {
   color: rgb(113, 255, 25);
   font-size: 1.25rem;

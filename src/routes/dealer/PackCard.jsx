@@ -104,12 +104,42 @@ if(quarters === true && vehic !== "car") return <div className="quarters-check">
 
 
 
-    if(!quarters && !remote && !hseat) return <div className="quarters-check">
+    if(!quarters && !remote && !hseat && name !== "Custom") return <div className="quarters-check">
        <div className="inpt-cont"><input className="inpt-box" onClick={useCer} type="checkbox" name="quarters" id="ulti" /><span>USE ULTIMATE FILM</span></div>
        <div className="inpt-cont"><input className="inpt-box"  onClick={useCer} type="checkbox" name="quarters" id="lamps" /><span>ADD HEADLAMPS</span></div>
        <div className="inpt-cont"><input  className="inpt-box" onClick={useCer} type="checkbox" name="quarters" id="lugg" /><span>ADD LUGGAGE PIECE</span></div>
 
         </div>;
+
+if(!quarters && !remote && !hseat && name === "Custom") return <div className="quarters-check">
+<div className="inpt-cont"><input className="inpt-box" onClick={useCer} type="checkbox" name="quarters" id="ulti" /><span>USE ULTIMATE FILM</span></div>
+<div className="coverage-cont">
+<div className="inpt-cont hood-cont"><input className="inpt-box"  onClick={useCer} type="checkbox" name="quarters" id="lamps" /><span>HOOD</span>
+  <div className="droper droper-tint droper-hood">
+      <select  name="vehicles" className="dropgovno drophood" id="shade-rear">
+      <option className="opt" value="5%">18 INCH</option>
+      <option className="opt" value="20%">24 INCH</option>
+      <option className="opt" value="35%">FULL</option>
+      </select>
+  </div>
+</div>
+<div className="inpt-cont"><input  className="inpt-box" onClick={useCer} type="checkbox" name="quarters" id="lugg" /><span>FENDERS</span></div>
+<div className="inpt-cont"><input  className="inpt-box" onClick={useCer} type="checkbox" name="quarters" id="lugg" /><span>MIRRORS</span></div>
+<div className="inpt-cont"><input  className="inpt-box" onClick={useCer} type="checkbox" name="quarters" id="lugg" /><span>FRONT BUMPER</span></div>
+<div className="inpt-cont"><input  className="inpt-box" onClick={useCer} type="checkbox" name="quarters" id="lugg" /><span>DOOR CUPS</span></div>
+<div className="inpt-cont"><input  className="inpt-box" onClick={useCer} type="checkbox" name="quarters" id="lugg" /><span>GRILLE</span></div>
+<div className="inpt-cont"><input  className="inpt-box" onClick={useCer} type="checkbox" name="quarters" id="lugg" /><span>PILLARS & ROOFLINE</span></div>
+<div className="inpt-cont"><input  className="inpt-box" onClick={useCer} type="checkbox" name="quarters" id="lugg" /><span>ROCKERS</span></div>
+</div>
+
+
+
+
+
+
+
+
+ </div>;
 
     if(remote) return <div className="quarters-check"> <input onClick={useCer} type="checkbox" name="quarters" id="ulti" /><span>ADD SECURITY</span></div>;
     if(!remote && hseat) return <div className="quarters-check"> <input className="inpt-box"  onClick={useCer} type="checkbox" name="quarters" id="rears" /><span>ADD REAR SEATS</span></div>;
@@ -130,31 +160,31 @@ if(quarters === true && vehic !== "car") return <div className="quarters-check">
     if(remote && !hseat && transmission==="auto" && !security) return dealerPriceCar.toFixed(2);
     if(remote && !hseat && transmission==="manual" && !security) return (dealerPriceCar*1.25).toFixed(2);
 
-    if(remote && !hseat && transmission==="auto" && security) return dealerPriceCar +260;
+    if(remote && !hseat && transmission==="auto" && security) return (dealerPriceCar +260).toFixed(2);
     if(remote && !hseat && transmission==="manual" && security) return (dealerPriceCar * 1.25+260).toFixed(2);
 
     if(!remote && hseat && seats==="single" && !security && !rearSeats) return dealerPriceCar.toFixed(2);
-    if(!remote && hseat && seats==="double" && !security && !rearSeats) return dealerPriceCar +150;
+    if(!remote && hseat && seats==="double" && !security && !rearSeats) return (dealerPriceCar +150).toFixed(2);
 
-    if(!remote && hseat && seats==="single" && !security && rearSeats) return dealerPriceCar +650;
-    if(!remote && hseat && seats==="double" && !security && rearSeats) return dealerPriceCar +800;
+    if(!remote && hseat && seats==="single" && !security && rearSeats) return (dealerPriceCar +650).toFixed(2);
+    if(!remote && hseat && seats==="double" && !security && rearSeats) return (dealerPriceCar +800).toFixed(2);
 
 
     if(vehic==="car" && !ceramic && !qglass && !brow && !ultimate && !headlamps && !luggage) return dealerPriceCar.toFixed(2);
     if(vehic==="suv" && !ceramic && !qglass && !brow && !ultimate && !headlamps && !luggage) return dealerPriceSuv.toFixed(2);
     if(vehic==="truck" && !ceramic && !qglass && !brow && !ultimate && !headlamps && !luggage) return dealerPriceTruck.toFixed(2);
 
-    if(vehic==="car" && !ceramic && !brow && !ultimate && headlamps && !luggage) return dealerPriceCar +115.00;
-    if(vehic==="suv" && !ceramic && !brow && !ultimate && headlamps && !luggage) return dealerPriceSuv +115.00;
-    if(vehic==="truck" && !ceramic && !brow && !ultimate && headlamps && !luggage) return dealerPriceTruck +115.00;
+    if(vehic==="car" && !ceramic && !brow && !ultimate && headlamps && !luggage) return (dealerPriceCar +115.00).toFixed(2);
+    if(vehic==="suv" && !ceramic && !brow && !ultimate && headlamps && !luggage) return (dealerPriceSuv +115.00).toFixed(2);
+    if(vehic==="truck" && !ceramic && !brow && !ultimate && headlamps && !luggage) return (dealerPriceTruck +115.00).toFixed(2);
 
-    if(vehic==="car" && !ceramic && !brow && !ultimate &&  !headlamps && luggage) return dealerPriceCar +120.00;
-    if(vehic==="suv" && !ceramic && !brow && !ultimate && !headlamps && luggage) return dealerPriceSuv +120.00;
-    if(vehic==="truck" && !ceramic && !brow && !ultimate && !headlamps && luggage) return dealerPriceTruck +120.00;
+    if(vehic==="car" && !ceramic && !brow && !ultimate &&  !headlamps && luggage) return (dealerPriceCar +120.00).toFixed(2);
+    if(vehic==="suv" && !ceramic && !brow && !ultimate && !headlamps && luggage) return (dealerPriceSuv +120.00).toFixed(2);
+    if(vehic==="truck" && !ceramic && !brow && !ultimate && !headlamps && luggage) return (dealerPriceTruck +120.00).toFixed(2);
 
-    if(vehic==="car" && !ceramic && !brow && !ultimate &&  headlamps && luggage) return dealerPriceCar +235.00;
-    if(vehic==="suv" && !ceramic && !brow && !ultimate && headlamps && luggage) return dealerPriceSuv +235.00;
-    if(vehic==="truck" && !ceramic && !brow && !ultimate && headlamps && luggage) return dealerPriceTruck +235.00;
+    if(vehic==="car" && !ceramic && !brow && !ultimate &&  headlamps && luggage) return (dealerPriceCar +235.00).toFixed(2);
+    if(vehic==="suv" && !ceramic && !brow && !ultimate && headlamps && luggage) return (dealerPriceSuv +235.00).toFixed(2);
+    if(vehic==="truck" && !ceramic && !brow && !ultimate && headlamps && luggage) return (dealerPriceTruck +235.00).toFixed(2);
 
 
 
@@ -185,9 +215,9 @@ if(quarters === true && vehic !== "car") return <div className="quarters-check">
  if(vehic==="suv" && !ceramic && !qglass && !brow && !headlamps && !luggage) return dealerPriceSuv.toFixed(2);
  if(vehic==="truck" && !ceramic && !qglass && !brow && !headlamps && !luggage) return dealerPriceTruck.toFixed(2);
 
- if(vehic==="car" && !ceramic && !qglass && brow) return dealerPriceCar +100;
- if(vehic==="suv" && !ceramic && !qglass && brow) return dealerPriceSuv +100;
- if(vehic==="truck" && !ceramic && !qglass && brow) return dealerPriceTruck +100;
+ if(vehic==="car" && !ceramic && !qglass && brow) return (dealerPriceCar +100).toFixed(2);
+ if(vehic==="suv" && !ceramic && !qglass && brow) return (dealerPriceSuv +100).toFixed(2);
+ if(vehic==="truck" && !ceramic && !qglass && brow) return (dealerPriceTruck +100).toFixed(2);
 
 
 
@@ -202,13 +232,13 @@ if(quarters === true && vehic !== "car") return <div className="quarters-check">
 
  //WITH QGLASS
 
- if(vehic==="car" && !ceramic && qglass && !brow && !headlamps && !luggage ) return dealerPriceCar +40;
- if(vehic==="suv" && !ceramic && qglass && !brow && !headlamps && !luggage) return dealerPriceSuv +40;
- if(vehic==="truck" && !ceramic && qglass && !brow && !headlamps && !luggage) return dealerPriceTruck+40;
+ if(vehic==="car" && !ceramic && qglass && !brow && !headlamps && !luggage ) return (dealerPriceCar +40).toFixed(2);
+ if(vehic==="suv" && !ceramic && qglass && !brow && !headlamps && !luggage) return (dealerPriceSuv +40).toFixed(2);
+ if(vehic==="truck" && !ceramic && qglass && !brow && !headlamps && !luggage) return (dealerPriceTruck+40).toFixed(2);
 
- if(vehic==="car" && !ceramic && qglass && brow) return dealerPriceCar +140;
- if(vehic==="suv" && !ceramic && qglass && brow) return dealerPriceSuv +140;
- if(vehic==="truck" && !ceramic && qglass && brow) return dealerPriceTruck +140;
+ if(vehic==="car" && !ceramic && qglass && brow) return (dealerPriceCar +140).toFixed(2);
+ if(vehic==="suv" && !ceramic && qglass && brow) return (dealerPriceSuv +140).toFixed(2);
+ if(vehic==="truck" && !ceramic && qglass && brow) return (dealerPriceTruck +140).toFixed(2);
 
 
  if(vehic==="car" && ceramic && qglass && !brow) return Math.round(dealerPriceCar+40)*1.5.toFixed(2);
@@ -274,15 +304,22 @@ if(!remote && checkBox.id ==="rears"){
     if(remote && transmission==="auto" && security) return (retailPriceCar +300).toFixed(2);
     if(remote && transmission==="manual" && security) return (retailPriceCar * 1.25 +300).toFixed(2);
 
+     //PRICE HEATED SEATS
+     if(!remote && hseat && seats==="single" && !security && !rearSeats) return retailPriceCar.toFixed(2);
+     if(!remote && hseat && seats==="double" && !security && !rearSeats) return (retailPriceCar +250).toFixed(2);
+ 
+     if(!remote && hseat && seats==="single" && !security && rearSeats) return (retailPriceCar +650).toFixed(2);
+     if(!remote && hseat && seats==="double" && !security && rearSeats) return (retailPriceCar +960).toFixed(2);
+
     //RETAIL PRICE TINT
 
-    if(vehic==="car" && !ceramic && !qglass && !brow && !headlamps && !luggage) return retailPriceCar;
-    if(vehic==="suv" && !ceramic && !qglass && !brow && !headlamps && !luggage) return retailPriceSuv;
-    if(vehic==="truck" && !ceramic && !qglass && !brow && !headlamps && !luggage) return retailPriceTruck;
+    if(vehic==="car" && !ceramic && !qglass && !brow && !headlamps && !luggage) return retailPriceCar.toFixed(2);
+    if(vehic==="suv" && !ceramic && !qglass && !brow && !headlamps && !luggage) return retailPriceSuv.toFixed(2);
+    if(vehic==="truck" && !ceramic && !qglass && !brow && !headlamps && !luggage) return retailPriceTruck.toFixed(2);
 
-    if(vehic==="car" && !ceramic && !qglass && brow) return retailPriceCar +100;
-    if(vehic==="suv" && !ceramic && !qglass && brow) return retailPriceSuv +100;
-    if(vehic==="truck" && !ceramic && !qglass && brow) return retailPriceTruck +100;
+    if(vehic==="car" && !ceramic && !qglass && brow) return (retailPriceCar +100).toFixed(2);
+    if(vehic==="suv" && !ceramic && !qglass && brow) return (retailPriceSuv +100).toFixed(2);
+    if(vehic==="truck" && !ceramic && !qglass && brow) return (retailPriceTruck +100).toFixed(2);
 
 
     if(vehic==="car" && ceramic && !qglass && !brow) return Math.round(retailPriceCar * 1.5).toFixed(2);
@@ -296,13 +333,13 @@ if(!remote && checkBox.id ==="rears"){
 
     //WITH QGLASS
 
-    if(vehic==="car" && !ceramic && qglass && !brow && !headlamps && !luggage && !hseat) return retailPriceCar +40;
-    if(vehic==="suv" && !ceramic && qglass && !brow && !headlamps && !luggage && !hseat) return retailPriceSuv +40;
-    if(vehic==="truck" && !ceramic && qglass && !brow && !headlamps && !luggage && !hseat) return retailPriceTruck+40;
+    if(vehic==="car" && !ceramic && qglass && !brow && !headlamps && !luggage && !hseat) return (retailPriceCar +40).toFixed(2);
+    if(vehic==="suv" && !ceramic && qglass && !brow && !headlamps && !luggage && !hseat) return (retailPriceSuv +40).toFixed(2);
+    if(vehic==="truck" && !ceramic && qglass && !brow && !headlamps && !luggage && !hseat) return (retailPriceTruck+40).toFixed(2);
 
-    if(vehic==="car" && !ceramic && qglass && brow) return retailPriceCar +140;
-    if(vehic==="suv" && !ceramic && qglass && brow) return retailPriceSuv +140;
-    if(vehic==="truck" && !ceramic && qglass && brow) return retailPriceTruck +140;
+    if(vehic==="car" && !ceramic && qglass && brow) return (retailPriceCar +140).toFixed(2);
+    if(vehic==="suv" && !ceramic && qglass && brow) return (retailPriceSuv +140).toFixed(2);
+    if(vehic==="truck" && !ceramic && qglass && brow) return (retailPriceTruck +140).toFixed(2);
 
 
     if(vehic==="car" && ceramic && qglass && !brow) return Math.round(retailPriceCar+40)*1.5.toFixed(2);
@@ -316,21 +353,21 @@ if(!remote && checkBox.id ==="rears"){
     // RETAIL PPF PRICES
 
 
-    if(vehic==="car" && !ceramic && !brow && !ultimate && !headlamps && !luggage) return retailPriceCar;
-    if(vehic==="suv" && !ceramic && !brow && !ultimate && headlamps && !luggage) return retailPriceSuv;
-    if(vehic==="truck" && !ceramic && !brow && !ultimate && !headlamps && !luggage) return retailPriceTruck;
+    if(vehic==="car" && !ceramic && !brow && !ultimate && !headlamps && !luggage) return retailPriceCar.toFixed(2);
+    if(vehic==="suv" && !ceramic && !brow && !ultimate && headlamps && !luggage) return retailPriceSuv.toFixed(2);
+    if(vehic==="truck" && !ceramic && !brow && !ultimate && !headlamps && !luggage) return retailPriceTruck.toFixed(2);
 
-    if(vehic==="car" && !ceramic && !brow && !ultimate && headlamps && !luggage) return retailPriceCar +115.00;
-    if(vehic==="suv" && !ceramic && !brow && !ultimate && headlamps && !luggage) return retailPriceSuv +115.00;
-    if(vehic==="truck" && !ceramic && !brow && !ultimate && headlamps && !luggage) return retailPriceTruck +115.00;
+    if(vehic==="car" && !ceramic && !brow && !ultimate && headlamps && !luggage) return (retailPriceCar +115.00).toFixed(2);
+    if(vehic==="suv" && !ceramic && !brow && !ultimate && headlamps && !luggage) return (retailPriceSuv +115.00).toFixed(2);
+    if(vehic==="truck" && !ceramic && !brow && !ultimate && headlamps && !luggage) return (retailPriceTruck +115.00).toFixed(2);
 
-    if(vehic==="car" && !ceramic && !brow && !ultimate &&  !headlamps && luggage) return retailPriceCar +120.00;
-    if(vehic==="suv" && !ceramic && !brow && !ultimate && !headlamps && luggage) return retailPriceSuv +120.00;
-    if(vehic==="truck" && !ceramic && !brow && !ultimate && !headlamps && luggage) return retailPriceTruck +120.00;
+    if(vehic==="car" && !ceramic && !brow && !ultimate &&  !headlamps && luggage) return (retailPriceCar +120.00).toFixed(2);
+    if(vehic==="suv" && !ceramic && !brow && !ultimate && !headlamps && luggage) return (retailPriceSuv +120.00).toFixed(2);
+    if(vehic==="truck" && !ceramic && !brow && !ultimate && !headlamps && luggage) return (retailPriceTruck +120.00).toFixed(2);
 
-    if(vehic==="car" && !ceramic && !brow && !ultimate &&  headlamps && luggage) return retailPriceCar +235.00;
-    if(vehic==="suv" && !ceramic && !brow && !ultimate && headlamps && luggage) return retailPriceSuv +235.00;
-    if(vehic==="truck" && !ceramic && !brow && !ultimate && headlamps && luggage) return retailPriceTruck +235.00;
+    if(vehic==="car" && !ceramic && !brow && !ultimate &&  headlamps && luggage) return (retailPriceCar +235.00).toFixed(2);
+    if(vehic==="suv" && !ceramic && !brow && !ultimate && headlamps && luggage) return (retailPriceSuv +235.00).toFixed(2);
+    if(vehic==="truck" && !ceramic && !brow && !ultimate && headlamps && luggage) return (retailPriceTruck +235.00).toFixed(2);
 
 
 
@@ -354,6 +391,8 @@ if(!remote && checkBox.id ==="rears"){
     if(vehic==="suv" && !ceramic && ultimate && headlamps && luggage) return Math.round( (retailPriceSuv+235.00)*1.5).toFixed(2);
     if(vehic==="truck" && !ceramic && ultimate && headlamps && luggage ) return Math.round((retailPriceTruck+235.00)*1.5).toFixed(2);
 
+
+   
 
   }
 
@@ -505,7 +544,7 @@ setShadeFront(value);
 
   return (
     <div className="pack-container" id={ident} >
-      <div className="pack-info">
+      <div className={`pack-info ${name === "Custom" ? "custombuild" : null}`}>
         <h3 className="pack-name">{name.toUpperCase()}</h3>
         <img className={!remote ? "pack-img" : " pack-img pack-img-remote" }src={ppfPic()} alt="package-img" />
         <div className="pack-list">
