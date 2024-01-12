@@ -88,6 +88,21 @@ export const packagesRemotes = [
         symbol: <FcRefresh fill="rgb(14, 146, 255)" />,
         description: "",
       },
+      {
+        name: "Smartphone Control",
+        symbol: <FaMobileAlt fill="rgb(14, 146, 255)" />,
+        description: "",
+      },
+      {
+        name: "Proximity Unlock",
+        symbol: <IoIosRadio fill="rgb(14, 146, 255)" />,
+        description: "",
+      },
+      {
+        name: "USB Rechargable",
+        symbol: <FaUsb fill="rgb(14, 146, 255)" />,
+        description: "",
+      },
      
       {
         name: "Alarm Notifications",
@@ -141,22 +156,7 @@ export const packagesRemotes = [
         symbol: <FcRefresh fill="rgb(14, 146, 255)" />,
         description: "",
       },
-      {
-        name: "Smartphone Control",
-        symbol: <FaMobileAlt fill="rgb(14, 146, 255)" />,
-        description: "",
-      },
-      {
-        name: "Proximity Unlock",
-        symbol: <IoIosRadio fill="rgb(14, 146, 255)" />,
-        description: "",
-      },
-      {
-        name: "USB Rechargable",
-        symbol: <FaUsb fill="rgb(14, 146, 255)" />,
-        description: "",
-      },
-     
+   
       {
         name: "Waterproof",
         symbol: <RiWaterFlashFill color="rgb(133, 255, 62)" />,
