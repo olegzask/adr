@@ -166,8 +166,8 @@ if(!quarters && !remote && !hseat && name === "Custom") return <div className="q
     if(!remote && hseat && seats==="single" && !security && !rearSeats) return dealerPriceCar.toFixed(2);
     if(!remote && hseat && seats==="double" && !security && !rearSeats) return (dealerPriceCar +150).toFixed(2);
 
-    if(!remote && hseat && seats==="single" && !security && rearSeats) return (dealerPriceCar +650).toFixed(2);
-    if(!remote && hseat && seats==="double" && !security && rearSeats) return (dealerPriceCar +800).toFixed(2);
+    if(!remote && hseat && seats==="single" && !security && rearSeats) return (dealerPriceCar +450).toFixed(2);
+    if(!remote && hseat && seats==="double" && !security && rearSeats) return (dealerPriceCar +600).toFixed(2);
 
 
     if(vehic==="car" && !ceramic && !qglass && !brow && !ultimate && !headlamps && !luggage) return dealerPriceCar.toFixed(2);
