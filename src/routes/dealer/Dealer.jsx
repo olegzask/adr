@@ -106,7 +106,7 @@ export const Dealer = () => {
   return (
     <div id="dealer-ctn">
         <Helmet>
-        <title>Dealer Log In</title>
+        <title>Dealer Log In | Adrenalin Audio</title>
         <meta name="description" content="Dealer Pricing log in. Please log in to see prices." />
       </Helmet>
 

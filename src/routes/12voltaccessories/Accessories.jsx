@@ -104,7 +104,7 @@ export default function Accessories() {
     
     <div id="dealer-ctn" className="rs-cnt">
         <Helmet>
-        <title>12 Volt Accessories</title>
+        <title>Accessories | Adrenalin Audio</title>
         <meta name="description" content="Heated seats & other 12 volt accessories in Edmonton. Choose from options." />
       </Helmet>
 

@@ -107,7 +107,7 @@ export const CarAudio = () => {
     <div id="dealer-ctn" className="rs-cnt">
 
 <Helmet>
-        <title>Car Audio / Video</title>
+        <title>Car Audio / Video | Adrenalin Audio</title>
         <meta name="description" content="Car Audio & Video installation servicesin Edmonton. Pioneer, Kenwood & More. Choose from options." />
       </Helmet>
 

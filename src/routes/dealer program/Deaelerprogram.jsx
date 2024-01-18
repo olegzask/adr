@@ -12,7 +12,7 @@ const Automotivetint = () => {
   return (
     <div className="rs-main-container dashcams-main-container">
         <Helmet>
-        <title>Dealer Program</title>
+        <title>Dealer Program | Adrenalin Audio</title>
         <meta name="description" content="Dealer program for Remote Start, Window Tint, Paint Protection Film services in Edmonton" />
       </Helmet>
 

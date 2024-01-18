@@ -104,7 +104,7 @@ export default function Marine() {
     
     <div id="dealer-ctn" className="rs-cnt">
         <Helmet>
-        <title>Marine Audio</title>
+        <title>Marine Audio | Adrenalin Audio</title>
         <meta name="description" content="Wide selection of Marine Audio & Accessories in Edmonton. Choose from options." />
       </Helmet>
 

@@ -29,7 +29,7 @@ export const Simulator = () => {
   return (
     <div id="simulator-main" className="simulator-box">
         <Helmet>
-        <title>Simulator</title>
+        <title>Simulator  | Adrenalin Audio</title>
         <meta name="description" content="Window Tint & Paint Protection Film simulator in Edmonton. Choose from options." />
       </Helmet>
 

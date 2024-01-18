@@ -104,7 +104,7 @@ export default function Accessories() {
     
     <div id="dealer-ctn" className="rs-cnt">
         <Helmet>
-        <title>Dash Cameras</title>
+        <title>Dash Cameras | Adrenalin Audio</title>
         <meta name="description" content="Momento Dash Camera installation in Edmonton." />
       </Helmet>
 

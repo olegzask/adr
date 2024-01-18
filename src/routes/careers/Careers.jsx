@@ -42,7 +42,7 @@ export default function Careers() {
   return (
     <div className="careers-container">
         <Helmet>
-        <title>Careers</title>
+        <title>Careers | Adrenalin Audio</title>
         <meta name="description" content="Adrenalin Audio careers options. From 12 Volt to Window Tint & Paint Protection films. " />
       </Helmet>
 
