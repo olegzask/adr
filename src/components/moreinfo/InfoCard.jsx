@@ -1,4 +1,5 @@
 import React, { useContext, useState } from "react";
+import { Helmet } from "react-helmet";
 import Overview from "./Overview";
 import Features from "./Features";
 import InfoCardTop from "./InfoCardTop";
@@ -12,6 +13,10 @@ export default function InfoCard() {
 
   return (
     <div className="infocard-container">
+        <Helmet>
+        <meta name="robots" content="noindex" />
+      </Helmet>
+
       <InfoCardTop product={{ ...activeProduct, infoState, setInfoState }} />
       {infoState === "overview" ? (
         <Overview product={activeProduct} />

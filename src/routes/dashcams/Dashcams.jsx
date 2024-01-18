@@ -134,6 +134,9 @@ export default function Accessories() {
               <button name="M6" className="quick-link" onClick={scrollToModel}>
               M6
               </button>
+              <button name="M7" className="quick-link" onClick={scrollToModel}>
+              M7 Wi-Fi
+              </button>
             </div>
           </div>
           <div onClick={goUp} className={`scrollUp ${offset > 800 && "scrolledNah"}`}> <FaRegArrowAltCircleUp /><span className="scrollR">Return</span></div>
@@ -142,7 +145,7 @@ export default function Accessories() {
             NOT SURE WHAT KIND OF DASH CAMERA YOU NEED? EXPLORE OUR OPTIONS!
           </h2>
 
-         <div className="ppf-packs tint-packs">
+         <div className="ppf-packs tint-packs dashcam-cont">
          
          {dashcams.map((el, id) => (
            <DashcamCard key={id} opts={{...el, dlr: dealerName, idNum: id +9}} />
