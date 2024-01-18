@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import { Helmet } from "react-helmet";
 import { marineProducts } from "./marineproducts";
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
 import {MarineCard} from "./MarineCard";
@@ -102,6 +103,11 @@ export default function Marine() {
   return (
     
     <div id="dealer-ctn" className="rs-cnt">
+        <Helmet>
+        <title>Marine Audio</title>
+        <meta name="description" content="Wide selection of Marine Audio & Accessories in Edmonton. Choose from options." />
+      </Helmet>
+
 
           <div className="rs-topper">
           <h1 className="service-container-header rs-serv-header">

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Helmet } from "react-helmet";
 import { packages } from "./packages";
 import { packagesTint } from "./packagesTint";
 import { packagesRemotes } from "./packagesRemotes";
@@ -104,6 +105,11 @@ export const Dealer = () => {
 
   return (
     <div id="dealer-ctn">
+        <Helmet>
+        <title>Dealer Log In</title>
+        <meta name="description" content="Dealer Pricing log in. Please log in to see prices." />
+      </Helmet>
+
       <div className="dealer-login">
         <h2 id="dealer-name">{`Welcome, ${dealerName}!`}</h2>
         <input 

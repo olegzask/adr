@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import { Helmet } from "react-helmet";
 import { allAccessories } from "./accessories";
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
 import {AccessoryCard} from "./AccessoryCard";
@@ -102,6 +103,11 @@ export default function Accessories() {
   return (
     
     <div id="dealer-ctn" className="rs-cnt">
+        <Helmet>
+        <title>12 Volt Accessories</title>
+        <meta name="description" content="Heated seats & other 12 volt accessories in Edmonton. Choose from options." />
+      </Helmet>
+
 
           <div className="rs-topper">
           <h1 className="service-container-header rs-serv-header">

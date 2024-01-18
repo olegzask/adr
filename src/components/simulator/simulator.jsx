@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import { SimulatorTint } from "./simulator-tint";
 import { SimulatorPpf } from "./simulator-ppf";
 
@@ -27,6 +28,11 @@ export const Simulator = () => {
 
   return (
     <div id="simulator-main" className="simulator-box">
+        <Helmet>
+        <title>Simulator</title>
+        <meta name="description" content="Window Tint & Paint Protection Film simulator in Edmonton. Choose from options." />
+      </Helmet>
+
       <div className="simulator-selector">
         <span
           onClick={clicked}

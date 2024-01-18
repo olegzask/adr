@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import { Helmet } from "react-helmet";
 import { dashcams } from "./dashcamlist";
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
 import {DashcamCard} from "./DashcamCard";
@@ -102,6 +103,11 @@ export default function Accessories() {
   return (
     
     <div id="dealer-ctn" className="rs-cnt">
+        <Helmet>
+        <title>Dash Cameras</title>
+        <meta name="description" content="Momento Dash Camera installation in Edmonton." />
+      </Helmet>
+
 
           <div className="rs-topper">
           <h1 className="service-container-header rs-serv-header">

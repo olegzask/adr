@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { tintOptions } from "./tintOptions";
 import { TintCard } from "./tint-card";
 
@@ -7,6 +8,11 @@ import "./remotestart.styles.css";
 const Automotivetint = () => {
   return (
     <div className="rs-main-container dashcams-main-container">
+        <Helmet>
+        <title>Window Tint</title>
+        <meta name="description" content="Auto window tint installation services in Edmonton. XPEL Prime CS & Prime XR films." />
+      </Helmet>
+
       <div className="rs-container">
         <div className="rs-topper">
           <h1 className="service-container-header  rs-serv-header">

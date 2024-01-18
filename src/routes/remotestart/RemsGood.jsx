@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Helmet } from "react-helmet";
 import { packagesRemotes } from "../dealer/packagesRemotes";
 import { PackCardRemote } from "./PackCardRemote";
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
@@ -104,6 +105,10 @@ export const RemsGood = () => {
   return (
     
     <div id="dealer-ctn" className="rs-cnt">
+        <Helmet>
+        <title>Remote Start</title>
+        <meta name="description" content="Compustar Remote Start & DRONE smart control for any vehicle in Edmonton. Choose from options." />
+      </Helmet>
 
           <div className="rs-topper">
           <h1 className="service-container-header rs-serv-header">

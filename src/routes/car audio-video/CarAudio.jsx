@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import { Helmet } from "react-helmet";
 import {carAudioProducts} from "./caraudioproducts"
 import {CarAudioCard} from "./CarAudioCard";
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
@@ -104,6 +105,12 @@ export const CarAudio = () => {
   return (
     
     <div id="dealer-ctn" className="rs-cnt">
+
+<Helmet>
+        <title>Car Audio / Video</title>
+        <meta name="description" content="Car Audio & Video installation servicesin Edmonton. Pioneer, Kenwood & More. Choose from options." />
+      </Helmet>
+
 
           <div className="rs-topper">
           <h1 className="service-container-header rs-serv-header">

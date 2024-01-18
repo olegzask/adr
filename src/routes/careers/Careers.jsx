@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import { RxReset } from "react-icons/rx";
 import { jobs } from "../../components/applicationform/joblist";
 import ApplicationCard from "../../components/applicationform/ApplicationCard";
@@ -40,6 +41,11 @@ export default function Careers() {
 
   return (
     <div className="careers-container">
+        <Helmet>
+        <title>Careers</title>
+        <meta name="description" content="Adrenalin Audio careers options. From 12 Volt to Window Tint & Paint Protection films. " />
+      </Helmet>
+
       <h2 className="careers-header">
         Adrenalin Audio is always looking for good people to join our team!
       </h2>

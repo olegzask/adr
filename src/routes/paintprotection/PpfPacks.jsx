@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Helmet } from "react-helmet";
 import {packages} from "./ppfpacks"
 import { PpfPackCard } from "./PpfPackCard";
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
@@ -101,6 +102,11 @@ export const PpfPackages = () => {
 
   return (
     <div id="dealer-ctn ">
+        <Helmet>
+        <title>Paint Protection Packages</title>
+        <meta name="description" content="XPEL Paint Protection Film packages options in Edmonton." />
+      </Helmet>
+
          <div className="main-dealer-container ppfec" id="mdealer">
 
 

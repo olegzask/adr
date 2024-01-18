@@ -1,4 +1,6 @@
 import React from "react";
+import { Helmet } from "react-helmet";
+import { HelmetData } from "react-helmet";
 import LinkComponent from "../../components/link/LinkComponent";
 import { tintOptions } from "./tintOptions";
 import { TintCard } from "./tint-card";
@@ -9,6 +11,11 @@ import "./autotint.styles.css";
 const Automotivetint = () => {
   return (
     <div className="rs-main-container dashcams-main-container">
+        <Helmet>
+        <title>Dealer Program</title>
+        <meta name="description" content="Dealer program for Remote Start, Window Tint, Paint Protection Film services in Edmonton" />
+      </Helmet>
+
       <div className="rs-container">
         <div className="rs-topper">
           <h1 className="service-container-header  rs-serv-header">

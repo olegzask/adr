@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import LinkComponent from "../../components/link/LinkComponent";
 import { scrollToTop } from "../../components/helperFunctions/helpers";
 import { PpfCard } from "./PpfCard";
@@ -10,6 +11,11 @@ import "./ppf.styles.css";
 export default function PaintProtection() {
   return (
     <div className="rs-main-container dashcams-main-container">
+        <Helmet>
+        <title>Paint Protection Film</title>
+        <meta name="description" content="XPEL Paint Protection Film installation services in Edmonton. Choose your coverage." />
+      </Helmet>
+
       <div className="rs-container">
         <div className="rs-topper">
           <h1 className="service-container-header  rs-serv-header">
