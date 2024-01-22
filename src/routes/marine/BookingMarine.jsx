@@ -222,7 +222,7 @@ export default function BookingMarine({ opts }) {
             className="form-input"
             type="text"
             name="vehicle"
-            placeholder="Vehicle's make & model?"
+            placeholder="Vehicle's yar, make & model?"
           />
         </div>
 
