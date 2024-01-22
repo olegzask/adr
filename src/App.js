@@ -21,6 +21,7 @@ import Marine from "./routes/marine/Marine";
 import { PpfPackages } from "./routes/paintprotection/PpfPacks";
 import SuccessPage from "./routes/successpage/SuccessPage";
 import { Dealer } from "./routes/dealer/Dealer";
+import { Financing } from "./routes/financing/Financing";
 
 const App = () => {
   return (
@@ -46,6 +47,8 @@ const App = () => {
         <Route path="services/12-volt-accessories" element={<Accessories />} />
         <Route path="services/marine-audio" element={<Marine />} />
         <Route path="services/car-audio-video" element={<CarAudio />} />
+        <Route path="financing" element={<Financing />} />
+
 
         <Route path="services/paint-protection-film/packages" element={<PpfPackages/>} />
 

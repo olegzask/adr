@@ -127,9 +127,9 @@ dropMenu.classList.remove("dropdown-active");
           <Link onClick={scrollToTop} className="nav-link" to="/simulator">
             Simulator
           </Link>
-          {/* <Link onClick={scrollToTop} className="nav-link" to="/news">
-            News
-          </Link> */}
+          <Link onClick={scrollToTop} className="nav-link" to="/financing">
+            Financing
+          </Link>
           <Link onClick={scrollToTop} className="nav-link" to="/careers">
             Careers
           </Link>

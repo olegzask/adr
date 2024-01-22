@@ -125,6 +125,9 @@ hideMenu();
         <Link onClick={goToDealer} className="mobile-link" to="/services/dealer-program/pricelist">
           Dealer Login
         </Link>
+        <Link onClick={goToCareers}  className="mobile-link" to="/financing">
+          Financing
+        </Link>
         <Link onClick={goToCareers} className="mobile-link" to="/careers">
           Careers
         </Link>

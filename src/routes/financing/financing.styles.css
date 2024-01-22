@@ -1,0 +1,100 @@
+.fairstone-logo {
+    width: 45%;
+    border: 0.3rem solid rgb(104, 51, 129);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.financing-cont {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(104, 51, 129);
+    border-radius: 1rem;
+
+}
+
+.financing-rightside {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+gap: 0.9rem;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+#finance-btn {
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#finance-btn:hover {
+    transition: 0.2s;
+    background-color: rgb(255, 105, 59);
+    color: white;
+}
+
+.financing-hdr {
+    margin: 0;
+    font-weight: 400;
+}
+
+.hdr-1 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.hdr-2 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .financing-cont {
+        margin: 0;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .fairstone-logo {
+        margin: 0 auto;
+        width: 97%;
+        border: none;
+        margin-top: 0.3rem;
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+        border-bottom-left-radius: 0rem;
+
+
+    }
+
+    .hdr-1 {
+        font-size: 1rem;
+    }
+
+    .hdr-2 {
+        font-size: 0.8rem;
+    }
+
+    #finance-btn {
+        height: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .financing-rightside {
+        gap: 0.2rem;
+        padding: 0.5rem;
+        width: 90%;
+    }
+}
