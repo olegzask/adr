@@ -30,6 +30,8 @@
   top: 5rem;
   display: flex;
   padding: 1rem 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   flex-direction: column;
   justify-content: center;
   gap: 1.2rem;
