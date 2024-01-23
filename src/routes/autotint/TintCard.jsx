@@ -538,7 +538,7 @@ setShadeFront(value);
   };
 
   return (
-    <div className="pack-container" id={ident} >
+    <div className="pack-container packnah" id={ident} >
       <div className={`pack-info ${name === "Custom" ? "custombuild" : null}`}>
         <h3 className="pack-name">{name.toUpperCase()}</h3>
         <img className={!remote ? "pack-img" : " pack-img pack-img-remote" }src={ppfPic()} alt="package-img" />
