@@ -103,7 +103,7 @@ export const PpfPackages = () => {
   return (
     <div id="dealer-ctn ">
         <Helmet>
-        <title>Paint Protection Packages</title>
+        <title>Paint Protection Packages | Adrenalin Audio</title>
         <meta name="description" content="XPEL Paint Protection Film packages options in Edmonton." />
       </Helmet>
 

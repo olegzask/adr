@@ -53,8 +53,8 @@ export const TintPackages = () => {
   return (
     <div id="dealer-ctn">
         <Helmet>
-        <title>Paint Protection Packages</title>
-        <meta name="description" content="XPEL Paint Protection Film packages options in Edmonton." />
+        <title>Window Tint Packages | Adrenalin Audio</title>
+        <meta name="description" content="XPEL Window Tint packages options in Edmonton." />
       </Helmet>
 
          <div className="main-dealer-container ppfec" id="mdealer">

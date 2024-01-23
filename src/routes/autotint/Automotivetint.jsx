@@ -4,7 +4,7 @@ import LinkComponent from "../../components/link/LinkComponent";
 import { scrollToTop } from "../../components/helperFunctions/helpers";
 import { tintOptions } from "./tintOptions";
 import { TintCard } from "./tint-card";
-import { TintPackages } from "./TintPacks";
+// import { TintPackages } from "./TintPacks";
 
 import "./remotestart.styles.css";
 
@@ -53,7 +53,7 @@ Explore our premium automotive window tint services in Edmonton, Spruce Grove, a
           return <TintCard key={id} options={opt} />;
         })}
       </div>
-      <TintPackages />
+      {/* <TintPackages /> */}
     </div>
   );
 };
