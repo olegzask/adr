@@ -22,6 +22,7 @@ import { PpfPackages } from "./routes/paintprotection/PpfPacks";
 import SuccessPage from "./routes/successpage/SuccessPage";
 import { Dealer } from "./routes/dealer/Dealer";
 import { Financing } from "./routes/financing/Financing";
+import { TintPackages } from "./routes/autotint/TintPacks";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
         {/* <Route path="about" element={<AboutUs />} /> */}
         <Route path="services" element={<Services />} />
         <Route path="services/window-tint" element={<Automotivetint />} />
+        <Route path="services/window-tint/tint-packages" element={<TintPackages />} />
         <Route path="services/dealer-program" element={<Dealerprogram />} />
         <Route path="services/dealer-program/pricelist" element={<Dealer />} />
 

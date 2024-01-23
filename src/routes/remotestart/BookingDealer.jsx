@@ -145,7 +145,7 @@ export default function BookingDealer({ opts }) {
           id="phone"
           onChange={handleChange}
           className="form-input"
-          type="number"
+          type="text"
           name="phone"
           placeholder="Your phone number"
         />

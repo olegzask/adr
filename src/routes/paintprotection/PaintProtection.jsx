@@ -4,7 +4,7 @@ import LinkComponent from "../../components/link/LinkComponent";
 import { scrollToTop } from "../../components/helperFunctions/helpers";
 import { PpfCard } from "./PpfCard";
 import {ppfOptions} from "./ppfOpts"
-
+import { PpfPackages } from "./PpfPacks";
 import "../autotint/autotint.styles.css";
 import "./ppf.styles.css";
 
@@ -55,6 +55,7 @@ export default function PaintProtection() {
           return <PpfCard key={id} options={opt} />;
         })}
       </div>
+      <PpfPackages/>
     </div>
   );
 }

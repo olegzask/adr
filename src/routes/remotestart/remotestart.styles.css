@@ -7,6 +7,13 @@
   
 }
 
+.tint-packs-cont {
+  text-align: center;
+}
+
+.titpack {
+  justify-content: center;
+}
 
 .rems-cont {
   margin: 0;
@@ -44,7 +51,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-top: 0.4rem solid rgb(113, 255, 25);
 }
 
 

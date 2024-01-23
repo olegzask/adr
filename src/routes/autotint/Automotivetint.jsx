@@ -1,13 +1,16 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import LinkComponent from "../../components/link/LinkComponent";
+import { scrollToTop } from "../../components/helperFunctions/helpers";
 import { tintOptions } from "./tintOptions";
 import { TintCard } from "./tint-card";
+import { TintPackages } from "./TintPacks";
 
 import "./remotestart.styles.css";
 
 const Automotivetint = () => {
   return (
-    <div className="rs-main-container dashcams-main-container">
+    <div className="rs-main-container dashcams-main-container tint-packs-cont">
         <Helmet>
         <title>Window Tint | Adrenalin Audio</title>
         <meta name="description" content="Auto window tint installation services in Edmonton. XPEL Prime CS & Prime XR films." />
@@ -36,12 +39,21 @@ Explore our premium automotive window tint services in Edmonton, Spruce Grove, a
           <span className="rs-description-lower">
             NOT SURE WHAT KIND OF WINDOW FILM YOU NEED? EXPLORE OUR OPTIONS!
           </span>
+          <LinkComponent
+            opts={{
+              name: "BROWSE PACKAGES",
+              linkTo: "services/window-tint/tint-packages",
+              clName: "tint-btn titpack",
+              func:  scrollToTop
+            }}
+          />
         </div>
 
         {tintOptions.map((opt, id) => {
           return <TintCard key={id} options={opt} />;
         })}
       </div>
+      <TintPackages />
     </div>
   );
 };

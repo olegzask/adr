@@ -5,16 +5,16 @@ import { MdClose } from "react-icons/md";
 import emailjs from "@emailjs/browser";
 import "../remotestart/booking.styles.css";
 
-export default function BookingMarine({ opts }) {
-  const { rem, reset, txt, dName, filmType, dPrice, vehType, vBrow, secur} = opts;
-  const [show, setShow] = useState(true);
-
+export default function BookingTintPack({ opts }) {
+  const { rem, shades, rearHseat, reset, txt, dName, filmType, dPrice, vehType, vBrow, secur, addons} = opts;
   const [formInfo, setFormInfo] = useState({
     name: "",
     email: "",
     phone: "",
     comments: "",
     vehicle: "",
+    // poNumber: "",
+    dealerName: dName,
     price: dPrice,
     // vin: "",
     
@@ -43,9 +43,9 @@ export default function BookingMarine({ opts }) {
       emailjs
         .sendForm(
           "service_52hwkbv",
-          "template_in6mzyt",
+          "template_iue7fwx",
           form.current,
-          "EdFYBsAAe4ETIUbxP"
+          "EdFYBsAAe4ETIUbxP",
         )
         .then(
           (result) => {
@@ -55,14 +55,8 @@ export default function BookingMarine({ opts }) {
             console.log(error.text);
           }
         );
-        setRequest(true);
-        clearFields();
-        setErrorBooking(false)
-        setTimeout(() => {
-          window.location.href = "/success-submit"
-        }, 1500);
-  
-
+      setRequest(true);
+      clearFields();
     } else {
       setMissing(missingFields);
       setErrorBooking(true);
@@ -82,13 +76,14 @@ export default function BookingMarine({ opts }) {
 
 
 
-    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "",  price: dPrice, vin: "" });
+    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "", poNumber: "", dealerName: dName, price: dPrice, });
 
     nameInput.value = "";
     emailInput.value = "";
     phoneInput.value = "";
     commentsInput.value = "";
     vehicleInput.value = "";
+    poInput.value = "";
     vinNumber.value = "";
   };
 
@@ -107,16 +102,15 @@ export default function BookingMarine({ opts }) {
   };
 
   return (
-   
     <div id="bookingForm" className="contactform-container booking-container">
-      {errorBooking && !requestSent ? (
+      {errorBooking ? (
         <ErrorWindow fields={{ handler: setErrorBooking, info: missing }} />
       ) : null}
-      {/* {requestSent ? (
+      {requestSent ? (
         <SuccessWindow
-          fields={{ handler: setRequest, errHandler: setErrorBooking }}
+          fields={{ handler: setRequest, errHandler: setErrorBooking, closeIt: closeForm }}
         />
-      ) : null} */}
+      ) : null}
       <div className="close-hdr">
         <h2 className="contactform-header booking-header">
           Send us your work request!
@@ -127,7 +121,7 @@ export default function BookingMarine({ opts }) {
       <h3 className="contactform-header-two booking-two">
         Fill out some info for a service to be done...
       </h3>
-      <form className="contact-form-main" ref={form} onSubmit={sendEmail}>
+      <form id="dealer-book-form" action="?" method="POST" className="contact-form-main" ref={form} onSubmit={sendEmail}>
         <input
           autoComplete="off"
           id="name"
@@ -184,15 +178,15 @@ export default function BookingMarine({ opts }) {
           value={`From: $${dPrice} +GST`}
         />
 
-            {/* <input
+            <input
             disabled={false}
           autoComplete="off"
           id="cartype"
           className="form-input"
           type="text"
           name="cartype"
-          value={`Vehicle Type: ${vehType.toUpperCase()}`}
-        /> */}
+          value={`${vehType.toUpperCase()}`}
+        />
 
           <input
             disabled={false}
@@ -222,9 +216,30 @@ export default function BookingMarine({ opts }) {
             className="form-input"
             type="text"
             name="vehicle"
-            placeholder="Vehicle's yar, make & model?"
+            placeholder="Vehicle's year, make & model?"
           />
         </div>
+        {!addons ? null :   <input
+            disabled={false}
+          autoComplete="off"
+          id="addons"
+          className="form-input"
+          type="text"
+          name="addons"
+          value={`${addons}`}
+        />}
+
+{!shades ? null :   <input
+            disabled={false}
+          autoComplete="off"
+          id="shades"
+          className="form-input"
+          type="text"
+          name="shades"
+          value={`${shades.fronts ? "Fronts:" : ""} ${shades.fronts}  ${shades.rears ? "Rears:" : ""} ${shades.rears}`}
+        />}
+      
+
 
         <textarea
           autoComplete="off"
@@ -239,6 +254,5 @@ export default function BookingMarine({ opts }) {
         </button>
       </form>
     </div>
-   
   );
 }

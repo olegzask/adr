@@ -151,7 +151,7 @@ export default function BookingPpf({ opts }) {
           id="phone"
           onChange={handleChange}
           className="form-input"
-          type="number"
+          type="text"
           name="phone"
           placeholder="Your phone number"
         />

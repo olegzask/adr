@@ -115,7 +115,7 @@ export const PpfPackages = () => {
 
 
       <h2  id="ppf" className="packs-header">Paint Protection Packages</h2>
-      <div className="quick-links ql-rm-ct">
+      <div className="ql-rm-ct">
             
               <button  name="bronze" className="ql-ppf" onClick={scrollToModel}>
                 BRONZE

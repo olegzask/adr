@@ -156,7 +156,7 @@ export const Dealer = () => {
 
 
       <h2  id="ppf" className="packs-header">Paint Protection Packages</h2>
-      <div className="quick-links ql-rm-ct">
+      <div className="ql-rm-ct">
             <div className="ql">
               <button  name="bronze" className="quick-link rm-ql" onClick={scrollToModel}>
                 BRONZE
@@ -182,7 +182,7 @@ export const Dealer = () => {
         ))}
         </div>
       <h2 id="tint" className="packs-header">Window Tint Packages</h2>
-      <div className="quick-links ql-rm-ct">
+      <div className="ql-rm-ct">
             <div className="ql">
               <button name="fronts" className="quick-link rm-ql" onClick={scrollToModel}>
                 FRONTS ONLY
@@ -203,7 +203,7 @@ export const Dealer = () => {
          ))}
          </div>
          <h2 id="remote" className="packs-header">Remote Start Packages</h2>
-         <div className="quick-links ql-rm-ct">
+         <div className="ql-rm-ct">
             <div className="ql">
               <button name="drone" className="quick-link" onClick={scrollToModel}>
                 RS-DRONE
@@ -239,7 +239,7 @@ export const Dealer = () => {
          </div>
 
          <h2 id="accs" className="packs-header">12V Accessories Packages</h2>
-         <div className="quick-links ql-rm-ct">
+         <div className="ql-rm-ct">
             <div className="ql">
               <button name="hs1" className="quick-link" onClick={scrollToModel}>
                 HEATED SEATS

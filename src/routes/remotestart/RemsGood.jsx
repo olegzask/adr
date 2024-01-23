@@ -127,7 +127,7 @@ export const RemsGood = () => {
           <br />
           </div>
          
-         <div className="quick-links ql-rm-ct">
+         <div className="ql-rm-ct">
             <div className="ql">
               <button name="DRONE" className="quick-link" onClick={scrollToModel}>
                 DRONE
@@ -161,7 +161,7 @@ export const RemsGood = () => {
             NOT SURE WHAT KIND OF REMOTE START YOU NEED? EXPLORE OUR OPTIONS!
           </h2>
 
-         <div className="ppf-packs tint-packs">
+         <div className="rems-packs">
          
          {packagesRemotes.map((el, id) => (
            <PackCardRemote key={id} opts={{...el, dlr: dealerName, idNum: id +9}} />
