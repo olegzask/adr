@@ -164,7 +164,7 @@ export const RemsGood = () => {
          <div className="rems-packs">
          
          {packagesRemotes.map((el, id) => (
-           <PackCardRemote key={id} opts={{...el, dlr: dealerName, idNum: id +9}} />
+           el.name != "RS-C/S" ? <PackCardRemote key={id} opts={{...el, dlr: dealerName, idNum: id +9}} /> : null
          ))}
          </div>
       </div>

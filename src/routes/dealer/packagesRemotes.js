@@ -487,4 +487,53 @@ export const packagesRemotes = [
         retailPriceCar: 890.00,
       },
 
+      {
+        altname: "remote-start-cs", 
+    model: "CS",
+    brand: "Compustar",
+    brandLogo: "/logos/compustar_logo.png",
+    imgColor: "/images/remotes/supply.jpg",
+    images: [
+      "/images/remotes/supply.jpg",
+      
+    ],
+    features: [
+    
+      {
+        name: "N/A",
+        symbol: <TbArrowAutofitDown color="rgb(14, 146, 255)" />,
+        description: "",
+      },
+      {
+        name: "N/A",
+        symbol: <RiWaterFlashFill color="rgb(133, 255, 62)" />,
+        description: "",
+      },
+      {
+        name: "N/A",
+        symbol: <BsAward color="rgb(133, 255, 62)" />,
+        description: "",
+      },
+    ],
+    range: "N/A",
+    description: [
+      "Have your own hardware & need it installed? Supply us with your hardware & we will do the work.",
+    ],
+        name: "RS-C/S",
+        image: "/images/remotes/supply.jpg",
+        includes: [
+        
+
+          "Supply own Hardware",
+          "Compustar or iData brands",
+          "Hardware & installation"
+          
+
+        ],
+      ident: "cs",
+        remote: true,
+        dealerPriceCar: 280.00,
+        retailPriceCar: 345.00,
+      },
+
 ]
