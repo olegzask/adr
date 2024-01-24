@@ -156,12 +156,19 @@ if(!quarters && !remote && !hseat && name === "Custom") return <div className="q
   }
 
   const getPrice = (e)=> {
+//REMOTE PRICE
+    if(remote && !hseat && transmission==="auto" && !security && name !== "RS-C/S") return dealerPriceCar.toFixed(2);
+    if(remote && !hseat && transmission==="manual" && !security && name !== "RS-C/S") return (dealerPriceCar*1.25).toFixed(2);
 
-    if(remote && !hseat && transmission==="auto" && !security) return dealerPriceCar.toFixed(2);
-    if(remote && !hseat && transmission==="manual" && !security) return (dealerPriceCar*1.25).toFixed(2);
+    if(remote && !hseat && transmission==="auto" && security && name !== "RS-C/S") return (dealerPriceCar +260).toFixed(2);
+    if(remote && !hseat && transmission==="manual" && security && name !== "RS-C/S") return (dealerPriceCar * 1.25+260).toFixed(2);
+//REMOTE PRICE BYOD
+if(remote && !hseat && transmission==="auto" && !security && name === "RS-C/S") return dealerPriceCar.toFixed(2);
+if(remote && !hseat && transmission==="manual" && !security && name === "RS-C/S") return (dealerPriceCar +155).toFixed(2);
 
-    if(remote && !hseat && transmission==="auto" && security) return (dealerPriceCar +260).toFixed(2);
-    if(remote && !hseat && transmission==="manual" && security) return (dealerPriceCar * 1.25+260).toFixed(2);
+if(remote && !hseat && transmission==="auto" && security && name === "RS-C/S") return (dealerPriceCar +260).toFixed(2);
+if(remote && !hseat && transmission==="manual" && security && name === "RS-C/S") return (dealerPriceCar + 415).toFixed(2);
+
 
     if(!remote && hseat && seats==="single" && !security && !rearSeats) return dealerPriceCar.toFixed(2);
     if(!remote && hseat && seats==="double" && !security && !rearSeats) return (dealerPriceCar +150).toFixed(2);
@@ -297,12 +304,19 @@ if(!remote && checkBox.id ==="rears"){
 
 
   const getPriceRetail = (e)=> {
+//PRICE REMOTE START
+    if(remote && transmission==="auto" && !security && name !== "RS-C/S") return retailPriceCar.toFixed(2);
+    if(remote && transmission==="manual" && !security && name !== "RS-C/S") return (retailPriceCar *1.25).toFixed(2);
 
-    if(remote && transmission==="auto" && !security) return retailPriceCar.toFixed(2);
-    if(remote && transmission==="manual" && !security) return (retailPriceCar *1.25).toFixed(2);
+    if(remote && transmission==="auto" && security && name !== "RS-C/S") return (retailPriceCar +300).toFixed(2);
+    if(remote && transmission==="manual" && security && name !== "RS-C/S") return (retailPriceCar * 1.25 +300).toFixed(2);
 
-    if(remote && transmission==="auto" && security) return (retailPriceCar +300).toFixed(2);
-    if(remote && transmission==="manual" && security) return (retailPriceCar * 1.25 +300).toFixed(2);
+    //REMOTE PRICE BYOD
+if(remote && !hseat && transmission==="auto" && !security && name === "RS-C/S") return retailPriceCar.toFixed(2);
+if(remote && !hseat && transmission==="manual" && !security && name === "RS-C/S") return (retailPriceCar +195).toFixed(2);
+
+if(remote && !hseat && transmission==="auto" && security && name === "RS-C/S") return (retailPriceCar +290).toFixed(2);
+if(remote && !hseat && transmission==="manual" && security && name === "RS-C/S") return (retailPriceCar + 485).toFixed(2);
 
      //PRICE HEATED SEATS
      if(!remote && hseat && seats==="single" && !security && !rearSeats) return retailPriceCar.toFixed(2);
