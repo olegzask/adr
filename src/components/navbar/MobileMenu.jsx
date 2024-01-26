@@ -128,6 +128,9 @@ hideMenu();
         <Link onClick={goToCareers}  className="mobile-link" to="/financing">
           Financing
         </Link>
+        <Link onClick={goToCareers}  className="mobile-link" to="/faq">
+          FAQ
+        </Link>
         <Link onClick={goToCareers} className="mobile-link" to="/careers">
           Careers
         </Link>

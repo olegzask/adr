@@ -144,6 +144,9 @@ export const Footer = () => {
         <Link onClick={scrollToTop} className="footer-link" to="/simulator">
           Simulator
         </Link>
+        <Link onClick={scrollToTop} className="footer-link" to="/faq">
+          FAQ
+        </Link>
         <Link onClick={scrollToTop} className="footer-link" to="/financing">
           Financing
         </Link>

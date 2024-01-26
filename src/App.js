@@ -23,6 +23,8 @@ import SuccessPage from "./routes/successpage/SuccessPage";
 import { Dealer } from "./routes/dealer/Dealer";
 import { Financing } from "./routes/financing/Financing";
 import { TintPackages } from "./routes/autotint/TintPacks";
+import {Faq} from "./routes/faq/Faq"
+// import { ProductCare } from "./routes/productcare/Productcare";
 
 const App = () => {
   return (
@@ -56,6 +58,10 @@ const App = () => {
 
         <Route path="services/:service/:id" element={<InfoCard />} />
         <Route path="success-submit" element={<SuccessPage />} />
+        <Route path="faq" element={<Faq />} />
+        {/* <Route path="product-care" element={<ProductCare />} /> */}
+
+
 
       </Route>
     </Routes>

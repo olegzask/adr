@@ -1,0 +1,29 @@
+.popup-container {
+    transition: 1s;
+    margin: 0 auto;
+    width: 88%;
+    color: rgb(113, 255, 25);
+    background-color: black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    display: none;
+    opacity: 0;
+  }
+  
+  @keyframes fadeIn {
+    30% {
+      opacity: 20;
+    }
+    60% {
+      opacity: 60;
+    }
+    100% {
+      opacity: 100;
+    }
+  }
+  
+  .visible {
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+    display: flex;
+  }
