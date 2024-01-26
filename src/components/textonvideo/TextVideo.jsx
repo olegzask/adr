@@ -24,7 +24,7 @@ export default function TextVideo() {
       <div className="text-top">
         <h1 className="text-header hdr-tint">REMOTE START & 12V ACCESSORIES</h1>
         <h2 className="text-header hdr-ppf">WINDOW TINT & PAINT PROTECTION</h2>
-        <h3 className="text-header done-right">SERVICES DONE RIGHT.</h3>
+        <h2 className="text-header done-right">SERVICES IN EDMONTON DONE RIGHT.</h2>
       </div>
 
       <div className="text-bottom">
