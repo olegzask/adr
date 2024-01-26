@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import { Popup } from "./Popup";
 import { FaQuestionCircle } from "react-icons/fa";
 import { IoMdArrowDropupCircle } from "react-icons/io";
@@ -41,6 +42,10 @@ export  const Faq = () => {
 
   return (
     <div className="faq-container">
+          <Helmet>
+        <title>FAQ | Adrenalin Audio</title>
+        <meta name="description" content="Frequently asked questions & Product care info." />
+      </Helmet>
       <h1 className="faq-header">Frequently Asked Questions</h1>
 
       <div className="questions-container">
