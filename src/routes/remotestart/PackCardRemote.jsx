@@ -198,7 +198,7 @@ if(remote){
   };
 
   return (
-    <div className="pack-container" id={model} >
+    <div className="pack-container remote-card-container" id={model} >
       <div className="pack-info">
         <h3 className="pack-name">{name.toUpperCase()}</h3>
         <img className={!remote ? "pack-img" : " pack-img pack-img-remote" }src={ppfPic()} alt={altname} />
