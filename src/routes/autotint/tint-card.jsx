@@ -46,12 +46,20 @@ export const TintCard = ({ options }) => {
               func: scrollToTop
             }}
           />
+               <LinkComponent
+            opts={{
+              name: "BROWSE PACKAGES",
+              linkTo: "services/window-tint/tint-packages",
+              clName: "tint-btn",
+              func:  scrollToTop
+            }}
+          />
           {!modal ? null : (
             <BookingTint opts={{ rem: `Tint: ${tintType}`, txt: "Service", reset: setModal }} />
           )}
-          <button onClick={showModal} className="remote-btn">
+          {/* <button onClick={showModal} className="remote-btn">
             REQUEST PRICE
-          </button>
+          </button> */}
         </div>
       </div>
 
