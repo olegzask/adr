@@ -9,20 +9,20 @@ export default function SuccessPage() {
   const [errorBooking, setErrorBooking] = useState(false);
 
 
-//   <Helmet>
+  <Helmet>
         
-//   {/* <!-- Google tag (gtag.js) --> */}
-// <script async src="https://www.googletagmanager.com/gtag/js?id=G-QLHER9KTLW">
-// </script>
-// <script>
-//          {`
-//            window.dataLayer = window.dataLayer || [];
-//            function gtag(){dataLayer.push(arguments);}
-//            gtag('js', new Date());
-//            gtag('config', 'G-QLHER9KTLW');
-//          `}
-//        </script>
-//      </Helmet>
+  {/* <!-- Google tag (gtag.js) --> */}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KPTSX4E5TB">
+</script>
+<script>
+         {`
+           window.dataLayer = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+           gtag('config', 'G-KPTSX4E5TB');
+         `}
+       </script>
+     </Helmet>
 
 
   const goBackPage = ()=> {
