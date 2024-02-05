@@ -12,10 +12,16 @@ import Brands from "../../components/brands/Brands";
 import { ContactForm } from "../../components/contactform/ContactForm";
 import "./home.styles.css";
 
-ReactPixel.init('your-pixel-id-goes-here');
+ReactPixel.init('1511079976117787');
+ReactPixel.track('PageView');
 
 export const Home = () => {
   const { clickedOn, path } = useContext(BooleanContext);
+
+  useEffect(() => {
+    ReactPixel.init('your-pixel-id-goes-here');
+    ReactPixel.pageView();
+  }, []);
 
 
 
