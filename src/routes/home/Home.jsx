@@ -1,4 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
+import ReactPixel from 'react-facebook-pixel';
+
 import { Helmet } from "react-helmet";
 import { BooleanContext } from "../../store";
 import Video from "../../components/video/Video";
@@ -9,6 +11,8 @@ import Services from "../services/Services";
 import Brands from "../../components/brands/Brands";
 import { ContactForm } from "../../components/contactform/ContactForm";
 import "./home.styles.css";
+
+ReactPixel.init('your-pixel-id-goes-here');
 
 export const Home = () => {
   const { clickedOn, path } = useContext(BooleanContext);
