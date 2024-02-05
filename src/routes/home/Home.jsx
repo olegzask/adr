@@ -19,7 +19,7 @@ export const Home = () => {
   const { clickedOn, path } = useContext(BooleanContext);
 
   useEffect(() => {
-    ReactPixel.init('your-pixel-id-goes-here');
+    ReactPixel.init('1511079976117787');
     ReactPixel.pageView();
   }, []);
 
