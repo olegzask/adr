@@ -104,26 +104,26 @@ export default function Marine() {
     
     <div id="dealer-ctn" className="rs-cnt">
         <Helmet>
-        <title>Marine Audio | Adrenalin Audio</title>
+        <title>Marine Audio Edmonton | Adrenalin Audio</title>
         <meta name="description" content="Wide selection of Marine Audio & Accessories in Edmonton. Choose from options." />
       </Helmet>
 
 
           <div className="rs-topper">
           <h1 className="service-container-header rs-serv-header">
-            MARINE AUDIO
+            MARINE AUDIO EDMONTON
           </h1>
 
-          <span className="rs-description">
+          <p className="rs-description">
           Enhance your marine adventures with Adrenalin Audio's premium installations. Specializing in superior, weather-resistant sound systems tailored for open waters, we bring high-fidelity audio to your vessel.
-          </span>
+          </p>
           <br/>
           <br/>
 
           
-          <span className="rs-description">
+          <p className="rs-description">
           Count on our expert setups for crystal-clear sound amidst the waves, seamlessly merging tech and marine thrills for an elevated onboard experience.
-          </span>
+          </p>
           <br />
           </div>
          
@@ -154,9 +154,9 @@ export default function Marine() {
           </div>
           <div onClick={goUp} className={`scrollUp ${offset > 800 && "scrolledNah"}`}> <FaRegArrowAltCircleUp /><span className="scrollR">Return</span></div>
 
-          <h2 className="rs-description-lower">
-            NOT SURE WHAT KIND OF REMOTE START YOU NEED? EXPLORE OUR OPTIONS!
-          </h2>
+          <h3 className="rs-description-lower">
+            NOT SURE WHAT KIND OF AUDIO EQUIPMENT YOU NEED? EXPLORE OUR OPTIONS!
+          </h3>
 
          <div className="ppf-packs tint-packs">
          

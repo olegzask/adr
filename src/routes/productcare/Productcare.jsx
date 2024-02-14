@@ -6,10 +6,10 @@ export const ProductCare = () => {
     <div className="productcare-container">
       <div className="care care-tint">
         <h2 className="care-header">Automotive Tint Care Information</h2>
-        <span className="span-rule">
+        <p className="span-rule">
           Window tint is installed inside the vehicle glass, please follow these
           simple rules:
-        </span>
+        </p>
         <ol>
           <li className="rule">
             - Avoid sharp objects hitting the inside that can damage the film.
@@ -23,10 +23,10 @@ export const ProductCare = () => {
 
       <div className="care care-ppf">
         <h2 className="care-header">Paint Protection Film Care Information</h2>
-        <span className="span-rule">
+        <p className="span-rule">
           PPF is installed to protect your paint, please follow these simple
           rules:
-        </span>
+        </p>
         <ol>
           <li className="rule">
             - Avoid automated car wash systems at all costs.

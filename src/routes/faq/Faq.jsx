@@ -59,16 +59,16 @@ export  const Faq = () => {
                 className="question-icon"
               />
             )}{" "}
-            <span className="qs">
-            How Much does it cost to tint my vehicle?
+            <p className="qs">
+            How Much to tint my vehicle?
 
-            </span>
+            </p>
           </span>
           <Popup opts={{ id: "one", text: answers.firstQuestion }} />
         </div>
 
         <div className="question-container">
-          <span onClick={swapIcons} id="second" className="faq-question">
+          <p onClick={swapIcons} id="second" className="faq-question">
             {!second ? (
               <FaQuestionCircle onClick={swapIcons} className="question-icon" />
             ) : (
@@ -78,16 +78,16 @@ export  const Faq = () => {
               />
             )}{" "}
 
-            <span className="qs">
-            How Much does it cost to instal PPF on my vehicle?
+            <p className="qs">
+            How Much to instal PPF on my vehicle?
 
-            </span>
-          </span>
+            </p>
+          </p>
           <Popup opts={{ id: "two", text: answers.secondQuestion }} />
         </div>
 
         <div className="question-container">
-          <span onClick={swapIcons} id="third" className="faq-question">
+          <p onClick={swapIcons} id="third" className="faq-question">
             {!third ? (
               <FaQuestionCircle onClick={swapIcons} className="question-icon" />
             ) : (
@@ -97,16 +97,16 @@ export  const Faq = () => {
               />
             )}{" "}
 
-            <span className="qs">
+            <p className="qs">
             Is my vehicle bullet proof now?
 
-            </span>
-          </span>
+            </p>
+          </p>
           <Popup opts={{ id: "three", text: answers.thirdQuestion }} />
         </div>
 
         <div className="question-container">
-          <span onClick={swapIcons} id="fourth" className="faq-question">
+          <p onClick={swapIcons} id="fourth" className="faq-question">
             {!fourth ? (
               <FaQuestionCircle onClick={swapIcons} className="question-icon" />
             ) : (
@@ -116,11 +116,11 @@ export  const Faq = () => {
               />
             )}{" "}
 
-            <span className="qs">
-            What is the difference between dyed film and ceramic film?
+            <p className="qs">
+           Dyed & Ceramic film, any difference?
 
-            </span>
-          </span>
+            </p>
+          </p>
           <Popup opts={{ id: "four", text: answers.fourthQuestion }} />
         </div>
       </div>

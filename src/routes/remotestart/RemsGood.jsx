@@ -106,24 +106,24 @@ export const RemsGood = () => {
     
     <div id="dealer-ctn" className="rs-cnt">
         <Helmet>
-        <title>Remote Start | Adrenalin Audio</title>
+        <title>Remote Start Edmonton | Adrenalin Audio</title>
         <meta name="description" content="Compustar Remote Start & DRONE smart control for any vehicle in Edmonton. Choose from options." />
       </Helmet>
 
           <div className="rs-topper">
           <h1 className="service-container-header rs-serv-header">
-            REMOTE START
+            REMOTE START EDMONTON
           </h1>
 
-          <h2 className="rs-description">
-          Discover top-tier remote start installation services in Edmonton that offer unparalleled expertise in seamlessly integrating advanced technology into your vehicle. At our facility, we specialize in precision installations tailored to your vehicle's specific requirements, ensuring optimal performance. We are COMPUSTAR PRO Dealer & we have variety of compustar remotes options to choose from.         </h2>
+          <p className="rs-description">
+          Discover top-tier remote start installation services in Edmonton that offer unparalleled expertise in seamlessly integrating advanced technology into your vehicle. At our facility, we specialize in precision installations tailored to your vehicle's specific requirements, ensuring optimal performance. We are COMPUSTAR PRO Dealer & we have variety of compustar remotes options to choose from.         </p>
           <br/>
           <br/>
 
           
-          <h2 className="rs-description">
+          <p className="rs-description">
           Elevate your driving experience with our comprehensive approach, which includes the integration of DRONE, an advanced mobile app that offers cutting-edge remote start functionality. With a focus on convenience, security, and innovation, our Edmonton-based service guarantees the luxury of starting your car remotely, all backed by our commitment to user-friendly solutions and superior craftsmanship.
-          </h2>
+          </p>
           <br />
           </div>
          

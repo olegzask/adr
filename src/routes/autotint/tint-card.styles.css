@@ -49,6 +49,7 @@
   color: black;
   font-size: 1.1rem;
   padding-bottom: 1rem;
+  margin: 0;
 }
 
 .shade-header {
@@ -93,11 +94,13 @@
   color: rgb(41, 41, 41);
   font-size: 1.5rem;
   padding-bottom: 1rem;
+  margin: 0;
 }
 
 .feat-description {
   color: rgb(41, 41, 41);
   font-size: 1.2rem;
+  margin: 0;
 }
 
 .feature-icon {

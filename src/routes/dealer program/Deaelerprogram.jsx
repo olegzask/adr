@@ -12,31 +12,31 @@ const Automotivetint = () => {
   return (
     <div className="rs-main-container dashcams-main-container">
         <Helmet>
-        <title>Dealer Program | Adrenalin Audio</title>
+        <title>Dealer Program Edmonton | Adrenalin Audio</title>
         <meta name="description" content="Dealer program for Remote Start, Window Tint, Paint Protection Film services in Edmonton" />
       </Helmet>
 
       <div className="rs-container">
         <div className="rs-topper">
           <h1 className="service-container-header  rs-serv-header">
-            DEALER PROGRAM
+            DEALER PROGRAM EDMONTON
           </h1>
 
-          <span className="rs-description">
+          <p className="rs-description">
           Introducing our dealership program tailored exclusively for automotive dealerships in Edmonton & surrounding areas seeking premium remote start, window tint, paint protection film & 12 volt accessories installation services.
-          </span>
+          </p>
           <br/>
           <br/>
 
-          <span className="rs-description">
+          <p className="rs-description">
           As an authorized partner, you'll gain access to our specialized expertise and industry-leading solutions, allowing you to offer enhanced vehicle aesthetics and protection to your valued customers.
-          </span>
+          </p>
           
           <br />
 
-          <span className="rs-description-lower">
+          <h3 className="rs-description-lower">
            PARTNER WITH EDMONTON'S BEST EXPERTS & EXPLORE BENEFITS OF OUR DEALERSHIP PROGRAM!
-          </span>
+          </h3>
 
           <div className="linkec-cont">
           <LinkComponent

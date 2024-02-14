@@ -12,14 +12,14 @@ export default function PaintProtection() {
   return (
     <div className="rs-main-container dashcams-main-container">
         <Helmet>
-        <title>Paint Protection Film | Adrenalin Audio</title>
+        <title>Paint Protection Film Edmonton | Adrenalin Audio</title>
         <meta name="description" content="XPEL Paint Protection Film installation services in Edmonton. Choose your coverage." />
       </Helmet>
 
       <div className="rs-container">
         <div className="rs-topper">
           <h1 className="service-container-header  rs-serv-header">
-           PAINT PROTECTION FILM
+           PAINT PROTECTION FILM EDMONTON
           </h1>
           <p className="rs-description">
           Discover the ultimate safeguard for your vehicle's pristine finish with our Paint Protection Film (PPF) solutions, now available in Edmonton, Spruce Grove, and Stony Plain. Engineered to shield your car from the rigors of the road, our state-of-the-art PPF offers an invisible armor against rock chips, scratches, and environmental contaminants. Our skilled technicians meticulously apply this virtually undetectable layer, ensuring your vehicle's factory paint remains flawless and unblemished. 
@@ -35,9 +35,9 @@ export default function PaintProtection() {
           
           <br />
 
-          <span className="rs-description-lower">
+          <h3 className="rs-description-lower">
             NOT SURE WHAT COVERAGE YOU WANT? EXPLORE OUR OPTIONS!
-          </span>
+          </h3>
           <div className="linkec-cont">
           <LinkComponent
             opts={{

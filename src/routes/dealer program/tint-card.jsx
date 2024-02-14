@@ -31,9 +31,9 @@ export const TintCard = ({ options }) => {
     <div className="card-container">
       <div className="tint-card-left">
         <h2 className="card-header">{tintType}</h2>
-        <img className="card-img" src={img} alt="" />
+        <img className="card-img" src={img} alt="dealer-program-image" />
         {description.map((el, id) => (
-                <span className="card-description">- {el}</span>
+                <p className="card-description">- {el}</p>
 
       ))}
 
@@ -58,11 +58,10 @@ export const TintCard = ({ options }) => {
 
             return (
               <div key={id} className="feature-g">
-                <header className="feat-name">{name}</header>
-
+                <h3 className="feat-name">{name}</h3>
                 <div className="feat-container-g">
                   <div className="feature-icon">{symbol}</div>
-                  <span className="feat-description">{description}</span>
+                  <p className="feat-description">{description}</p>
                 </div>
               </div>
             );

@@ -6,7 +6,9 @@
  
 }
 
-
+.service-container-header {
+  margin: 0;
+}
 
 
 .about-top-text {
@@ -22,12 +24,10 @@
 .about-bottom-text {
   color: rgb(78, 78, 78);
   margin: 0;
-  margin-bottom: 2rem;
   font-size: 1rem;
   width: 90%;
   padding-left: 1rem;
   border-left: 0.1rem solid rgb(113, 255, 25);
-  max-height: 10rem;
   text-overflow:ellipsis;
   overflow: auto;
   
@@ -36,6 +36,8 @@
 .about-paragraph {
   font-weight: 300;
   font-size: 1.3rem;
+  margin: 0;
+  padding: 0;
 }
 
 

@@ -542,7 +542,7 @@ setShadeFront(value);
     <div className="pack-container packnah" id={ident} >
       <div className={`pack-info ${name === "Custom" ? "custombuild" : null}`}>
         <h3 className="pack-name">{name.toUpperCase()}</h3>
-        <img className={!remote ? "pack-img" : " pack-img pack-img-remote" }src={ppfPic()} alt="package-img" />
+        <img className={!remote ? "pack-img" : " pack-img pack-img-remote" }src={ppfPic()} alt="tint-package-img" />
         <div className="pack-list">
           {includes.map((el, id) => (
             <span key={id} className="pack-el">- {el}</span>

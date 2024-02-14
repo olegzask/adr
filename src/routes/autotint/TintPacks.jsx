@@ -53,7 +53,7 @@ export const TintPackages = () => {
   return (
     <div id="dealer-ctn">
         <Helmet>
-        <title>Window Tint Packages | Adrenalin Audio</title>
+        <title>Window Tint Packages Edmonton | Adrenalin Audio</title>
         <meta name="description" content="XPEL Window Tint packages options in Edmonton." />
       </Helmet>
 
@@ -64,7 +64,7 @@ export const TintPackages = () => {
           <div onClick={goUp} className={`scrollUp ${offset > 800 && "scrolledNah"}`}> <FaRegArrowAltCircleUp /><span className="scrollR">Return</span></div>
 
 
-      <h2  id="ppf" className="packs-header">Window Tint Packages</h2>
+      <h2  id="ppf" className="packs-header">Window Tint Packages Edmonton</h2>
       <div className="ql-rm-ct">
             <div className="ql">
               <button name="fronts" className="quick-link rm-ql" onClick={scrollToModel}>

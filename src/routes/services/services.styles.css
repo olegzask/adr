@@ -6,6 +6,10 @@
   width: 90%;
 }
 
+.service-description {
+  margin: 0;
+}
+
 .service-container-header {
   margin: 0;
   margin-bottom: 2rem;

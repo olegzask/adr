@@ -107,25 +107,25 @@ export const CarAudio = () => {
     <div id="dealer-ctn" className="rs-cnt">
 
 <Helmet>
-        <title>Car Audio / Video | Adrenalin Audio</title>
+        <title>Car Audio / Video Edmonton | Adrenalin Audio</title>
         <meta name="description" content="Car Audio & Video installation servicesin Edmonton. Pioneer, Kenwood & More. Choose from options." />
       </Helmet>
 
 
           <div className="rs-topper">
           <h1 className="service-container-header rs-serv-header">
-            CAR AUDIO / VIDEO
+            CAR AUDIO / VIDEO EDMONTON
           </h1>
 
-          <span className="rs-description">
-          Discover top-tier remote start installation services in Edmonton that offer unparalleled expertise in seamlessly integrating advanced technology into your vehicle. At our facility, we specialize in precision installations tailored to your vehicle's specific requirements, ensuring optimal performance.          </span>
+          <p className="rs-description">
+          Discover top-tier remote start installation services in Edmonton that offer unparalleled expertise in seamlessly integrating advanced technology into your vehicle. At our facility, we specialize in precision installations tailored to your vehicle's specific requirements, ensuring optimal performance.          </p>
           <br/>
           <br/>
 
           
-          <span className="rs-description">
+          <p className="rs-description">
           Elevate your driving experience with our comprehensive approach, which includes the integration of DRONE, an advanced mobile app that offers cutting-edge remote start functionality. With a focus on convenience, security, and innovation, our Edmonton-based service guarantees the luxury of starting your car remotely, all backed by our commitment to user-friendly solutions and superior craftsmanship.
-          </span>
+          </p>
           <br />
           </div>
          
@@ -153,9 +153,9 @@ export const CarAudio = () => {
           </div>
           <div onClick={goUp} className={`scrollUp ${offset > 800 && "scrolledNah"}`}> <FaRegArrowAltCircleUp /><span className="scrollR">Return</span></div>
 
-          <h2 className="rs-description-lower">
-            NOT SURE WHAT KIND OF REMOTE START YOU NEED? EXPLORE OUR OPTIONS!
-          </h2>
+          <h3 className="rs-description-lower">
+            NOT SURE WHAT KIND OF EQUIPMENT YOU NEED? EXPLORE OUR OPTIONS!
+          </h3>
 
          <div className="ppf-packs tint-packs">
          

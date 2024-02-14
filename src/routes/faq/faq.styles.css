@@ -36,6 +36,8 @@
     font-size: 1.3rem;
     align-items: center;
     cursor: pointer;
+    margin: 0;
+    height: 2rem;
   }
   
   .faq-question:hover {

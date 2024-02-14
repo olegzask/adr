@@ -29,23 +29,23 @@ export const Simulator = () => {
   return (
     <div id="simulator-main" className="simulator-box">
         <Helmet>
-        <title>Simulator  | Adrenalin Audio</title>
+        <title>Window Tint & Paint Protection Simulator Edmonton | Adrenalin Audio</title>
         <meta name="description" content="Window Tint & Paint Protection Film simulator in Edmonton. Choose from options." />
       </Helmet>
 
       <div className="simulator-selector">
-        <span
+        <h2
           onClick={clicked}
           className="simulator-tint-header header-clicked simulator-header"
         >
           WINDOW TINT
-        </span>
-        <span
+        </h2>
+        <h2
           onClick={clicked}
           className="simulator-ppf-header simulator-header"
         >
           PROTECTION FILM
-        </span>
+        </h2>
       </div>
 
       <div className="decider">{decider()}</div>

@@ -105,8 +105,8 @@ export const Footer = () => {
     >
       <div className="footer-left-side">
         <span className="direct-contact-container">
-          <span className="have-question">Got a Question? </span>
-          <span className="ask-us-anything">We are here to help.</span>
+          <h3 className="have-question">Got a Question? </h3>
+          <h3 className="ask-us-anything">We are here to help.</h3>
         </span>
         <a className="direct-link" href="tel:17804409438">
           <MdCall className="phone-icon-footer" />1.780.440.9438
@@ -160,13 +160,7 @@ export const Footer = () => {
 
       <div className="footer-bottom">
         <div className="footer-address">
-          {/* <a
-            target="_blank"
-            className="footer-address"
-            href="https://www.google.com/maps/place/Adrenalin+Audio+%2F+Remote+Starters,+Window+Tint+and+Film+Protection/@53.4961639,-113.4827581,15z/data=!4m5!3m4!1s0x0:0x47bceeee593e223!8m2!3d53.4961639!4d-113.4827581?hl=en"
-          >
-            <b>HQ </b>- 2784 Maple Way NW Edmonton Alberta Canada T6T 2P1
-          </a> */}
+
         </div>
         <div className="social-media-icons">
           <a href="https://www.facebook.com/adrenalinaudio/" target="_blank">

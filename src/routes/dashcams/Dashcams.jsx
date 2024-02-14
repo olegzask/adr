@@ -104,28 +104,28 @@ export default function Accessories() {
     
     <div id="dealer-ctn" className="rs-cnt">
         <Helmet>
-        <title>Dash Cameras | Adrenalin Audio</title>
+        <title>Dash Cameras Edmonton | Adrenalin Audio</title>
         <meta name="description" content="Momento Dash Camera installation in Edmonton." />
       </Helmet>
 
 
           <div className="rs-topper">
           <h1 className="service-container-header rs-serv-header">
-            DASH CAMERAS
+            DASH CAMERAS EDMONTON
           </h1>
 
-          <span className="rs-description">
+          <p className="rs-description">
           Dash cameras from Adrenalin Audio provide an essential layer of protection for your vehicle. Offering real-time evidence in accidents, theft deterrence, and surveillance capabilities, our expertly installed dash cameras enhance safety and accountability on the road.
           
-          </span>
+          </p>
           <br/>
           <br/>
 
           
-          <span className="rs-description">
+          <p className="rs-description">
           With seamless integration and premium features, trust Adrenalin Audio for reliable dash camera installations that safeguard your journeys. Contact us today for a safer driving experience.
           
-          </span>
+          </p>
           <br />
           </div>
          
@@ -141,9 +141,9 @@ export default function Accessories() {
           </div>
           <div onClick={goUp} className={`scrollUp ${offset > 800 && "scrolledNah"}`}> <FaRegArrowAltCircleUp /><span className="scrollR">Return</span></div>
 
-          <h2 className="rs-description-lower">
+          <h3 className="rs-description-lower">
             NOT SURE WHAT KIND OF DASH CAMERA YOU NEED? EXPLORE OUR OPTIONS!
-          </h2>
+          </h3>
 
          <div className="ppf-packs tint-packs dashcam-cont">
          
