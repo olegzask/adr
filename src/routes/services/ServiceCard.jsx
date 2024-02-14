@@ -30,7 +30,7 @@ export default function ServiceCard({ opts }) {
 
         <h2 className="service-name srv-name">{name}</h2>
         {description.map((el, id) => (
-                <h3 className="service-description">- {el}</h3>
+                <p className="service-description">- {el}</p>
 
       ))}
         {/* <span className="service-description">{description}</span> */}
