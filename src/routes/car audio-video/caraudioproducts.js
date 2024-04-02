@@ -10,28 +10,93 @@ export const carAudioProducts = [
   {
 
     app: false,
-    ident: "dmh1700n",
+    ident: "dmh1500n",
     remote: false,
     dealerPriceCar: 550.95,
     retailPriceCar: 990.95,
-    name: "DMH1700N",
-    model: "DMH1700N",
+    name: "DMH1500N",
+    model: "DMH1500N",
     brand: "pioneer",
     brandLogo: "/logos/pioneer.png",
     imgBW: "",
-    imgColor: "/images/audio-video/DMH-1700NEX/DMH1700NEX_1.jpg",
+    imgColor: "/images/audio-video/DMH-1500NEX/DMH1500NEX_1.jpg",
 
-    image: "/images/audio-video/DMH-1700NEX/DMH1700NEX_1.jpg",
+    image: "/images/audio-video/DMH-1500NEX/DMH1500NEX_1.jpg",
     images: [
-      "/images/audio-video/DMH-1700NEX/DMH1700NEX_1.jpg",
-      "/images/audio-video/DMH-1700NEX/DMH1700NEX_2.jpg",
-      "/images/audio-video/DMH-1700NEX/DMH1700NEX_3.jpg",
-      "/images/audio-video/DMH-1700NEX/DMH1700NEX_4.jpg",
-      "/images/audio-video/DMH-1700NEX/DMH1700NEX_5.jpg",
+      "/images/audio-video/DMH-1500NEX/DMH1500NEX_1.jpg",
+      "/images/audio-video/DMH-1500NEX/DMH1500NEX_2.jpg",
+      "/images/audio-video/DMH-1500NEX/DMH1500NEX_3.jpg",
+     
     ],
     description: [
-      "The P300-10 powered subwoofer is an “all-in-one” solution when adding bass to a factory system or just to save space. This model features a 10” subwoofer in a sealed enclosure powered by an internal 300 watt amplifier.",
-      `If you need to quickly add bass to a system or want to alleviate the hassle of separate amplifiers and subwoofers, then the P300-10 is the right one for the job! The P300-10 features a Punch 10” subwoofer in a custom sealed enclosure and is powered by a mighty 300 Watt amplifier. The system is all-inclusive, so you only need to run power, ground and a signal from the source to get this baby moving. Features a durable exterior that resists scrapes and bumps while in the trunk or cargo area.`,
+     "7-inch - Amazon Alexa, Apple CarPlay™, Android Auto™, Built-in Bluetooth® - Multimedia Digital Media Receiver"
+    ],
+
+    includes: [
+      "Hardware & installation",
+      "Manufacturer's Warranty",
+      "Installation Warranty"
+
+    ],
+
+    features: [
+      {
+        name: "7 inch Display",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+      {
+        name: "Apple CarPlay®",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+      {
+        name: "Android Auto™",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+      {
+        name: "SiriusXM-Ready™",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+      {
+        name: "Bluetooth®",
+        symbol: <FaShieldAlt color="rgb(113, 255, 25)" />,
+        description: "",
+      },
+    
+    ],
+    range: "From $299",
+    dealerPriceCar: 550.95,
+      retailPriceCar: 990.95,
+      audio:true
+
+  },
+  {
+
+    app: false,
+    ident: "dmh1770n",
+    remote: false,
+    dealerPriceCar: 550.95,
+    retailPriceCar: 990.95,
+    name: "DMH1770N",
+    model: "DMH1770N",
+    brand: "pioneer",
+    brandLogo: "/logos/pioneer.png",
+    imgBW: "",
+    imgColor: "/images/audio-video/DMH-1770NEX/DMH-1770NEX_1.jpg",
+
+    image: "/images/audio-video/DMH-1770NEX/DMH-1770NEX_1.jpg",
+    images: [
+      "/images/audio-video/DMH-1770NEX/DMH-1770NEX_1.jpg",
+      "/images/audio-video/DMH-1770NEX/DMH-1770NEX_2.jpg",
+      "/images/audio-video/DMH-1770NEX/DMH-1770NEX_3.jpg",
+      "/images/audio-video/DMH-1770NEX/DMH-1770NEX_4.jpg",
+      "/images/audio-video/DMH-1770NEX/DMH-1770NEX_5.jpg",
+    ],
+    description: [
+      "6.8 inch Capacitive Touchscreen, Bluetooth®, Back-up Camera Ready - Digital Media Receiver"
     ],
 
     includes: [
@@ -78,23 +143,34 @@ export const carAudioProducts = [
 
   {
     app: false,
-    name: "DMH2600N",
+    name: "DMH2770N",
 
-    model: "DMH2600N",
+    model: "DMH2770N",
     brand: "pioneer",
     brandLogo: "/logos/pioneer.png",
     imgBW: "",
-    imgColor: "/images/audio-video/DMH-2600NEX/DMH-2600NEX_1.jpg",
+    imgColor: "/images/audio-video/DMH-2770NEX/DMH-2700NEX_1.jpg",
 
-    image: "/images/audio-video/DMH-2600NEX/DMH-2600NEX_1.jpg",
+    image: "/images/audio-video/DMH-2770NEX/DMH-2700NEX_1.jpg",
     images: [
-      "/images/audio-video/DMH-2600NEX/DMH-2600NEX_1.jpg",
-      "/images/audio-video/DMH-2600NEX/DMH-2600NEX_2.jpg",
+      "/images/audio-video/DMH-2770NEX/DMH-2700NEX_1.jpg",
+      "/images/audio-video/DMH-2770NEX/DMH-2700NEX_2.jpg",
+      "/images/audio-video/DMH-2770NEX/DMH-2700NEX_3.jpg",
+      "/images/audio-video/DMH-2770NEX/DMH-2700NEX_4.jpg",
+      "/images/audio-video/DMH-2770NEX/DMH-2700NEX_5.jpg",
+      "/images/audio-video/DMH-2770NEX/DMH-2700NEX_6.jpg",
+      "/images/audio-video/DMH-2770NEX/DMH-2700NEX_7.jpg",
+      "/images/audio-video/DMH-2770NEX/DMH-2700NEX_8.jpg",
+
+
+
+
+
+
       
     ],
     description: [
-      "The P300-10 powered subwoofer is an “all-in-one” solution when adding bass to a factory system or just to save space. This model features a 10” subwoofer in a sealed enclosure powered by an internal 300 watt amplifier.",
-      `If you need to quickly add bass to a system or want to alleviate the hassle of separate amplifiers and subwoofers, then the P300-10 is the right one for the job! The P300-10 features a Punch 10” subwoofer in a custom sealed enclosure and is powered by a mighty 300 Watt amplifier. The system is all-inclusive, so you only need to run power, ground and a signal from the source to get this baby moving. Features a durable exterior that resists scrapes and bumps while in the trunk or cargo area.`,
+      
     ],
 
     includes: [

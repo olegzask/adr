@@ -8,21 +8,12 @@ import "./index.css";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
-// root.render(
-//   <BrowserRouter>
-//     <BooleanProvider>
-//       <App />
-//     </BooleanProvider>
-//   </BrowserRouter>
-// );
-
-ReactDOM.hydrate(
-  <React.StrictMode>
-    <BrowserRouter>
+root.render(
+  <BrowserRouter>
     <BooleanProvider>
       <App />
     </BooleanProvider>
   </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
 );
+
+
