@@ -131,11 +131,14 @@ export const CarAudio = () => {
          
          <div className="quick-links ql-rm-ct">
             <div className="ql">
-              <button name="DMH1700N" className="quick-link" onClick={scrollToModel}>
-                1700N
+              <button name="DMH1500N" className="quick-link" onClick={scrollToModel}>
+                1500N
               </button>
-              <button name="DMH2600N" className="quick-link" onClick={scrollToModel}>
-                2600N
+              <button name="DMH1770N" className="quick-link" onClick={scrollToModel}>
+                1770N
+              </button>
+              <button name="DMH2770N" className="quick-link" onClick={scrollToModel}>
+                2770N
               </button>
               <button name="W4600N" className="quick-link" onClick={scrollToModel}>
                 4600N
