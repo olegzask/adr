@@ -42,7 +42,7 @@ Explore our premium automotive window tinting services in Edmonton, Spruce Grove
           <LinkComponent
             opts={{
               name: "BROWSE PACKAGES",
-              linkTo: "services/window-tinting/tint-packages",
+              linkTo: "services/window-tinting-edmonton/tint-packages",
               clName: "tint-btn titpack",
               func:  scrollToTop
             }}

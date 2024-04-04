@@ -42,7 +42,7 @@ export default function PaintProtection() {
           <LinkComponent
             opts={{
               name: "BROWSE PACKAGES",
-              linkTo: "services/paint-protection-film/packages",
+              linkTo: "services/paint-protection-film-edmonton/packages",
               clName: "tint-btn",
               func:  scrollToTop
             }}

@@ -43,7 +43,7 @@ export const PpfCard = ({ options }) => {
           <LinkComponent
             opts={{
               name: "SIMULATOR",
-              linkTo: "simulator",
+              linkTo: "tint-ppf-simulator",
               clName: "tint-btn",
               func:  scrollToTop
             }}

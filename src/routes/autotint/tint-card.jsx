@@ -17,7 +17,7 @@ export const TintCard = ({ options }) => {
     <div className="card-container">
       <div className="tint-card-left">
         <h2 className="card-header">{tintType}</h2>
-        <img className="card-img" src={img} alt="xpel-window-tinting" />
+        <img className="card-img" src={img} alt="xpel-window-tinting-edmonton" />
 
         {description.map((el, id) => (
                 <p className="card-description">- {el}</p>
@@ -41,7 +41,7 @@ export const TintCard = ({ options }) => {
           <LinkComponent
             opts={{
               name: "SIMULATOR",
-              linkTo: "simulator",
+              linkTo: "tint-ppf-simulator",
               clName: "tint-btn",
               func: scrollToTop
             }}
@@ -49,7 +49,7 @@ export const TintCard = ({ options }) => {
                <LinkComponent
             opts={{
               name: "BROWSE PACKAGES",
-              linkTo: "services/window-tinting/tint-packages",
+              linkTo: "services/window-tinting-edmonton/tint-packages",
               clName: "tint-btn",
               func:  scrollToTop
             }}

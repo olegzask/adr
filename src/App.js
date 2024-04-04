@@ -34,17 +34,17 @@ const App = () => {
         <Route path="sales" element={<Sales />} />
         {/* <Route path="about" element={<AboutUs />} /> */}
         <Route path="services" element={<Services />} />
-        <Route path="services/window-tinting" element={<Automotivetint />} />
-        <Route path="services/window-tinting/tint-packages" element={<TintPackages />} />
+        <Route path="services/window-tinting-edmonton" element={<Automotivetint />} />
+        <Route path="services/window-tinting-edmonton/tint-packages" element={<TintPackages />} />
         <Route path="services/dealer-program" element={<Dealerprogram />} />
         <Route path="services/dealer-program/pricelist" element={<Dealer />} />
 
         <Route path="careers" element={<Careers />} />
         <Route path="contact" element={<ContactUs />} />
-        <Route path="simulator" element={<Simulator />} />
-        <Route path="services/remote-start" element={<RemsGood />} />
+        <Route path="tint-ppf-simulator" element={<Simulator />} />
+        <Route path="services/remote-start-edmonton" element={<RemsGood />} />
         <Route
-          path="services/paint-protection-film"
+          path="services/paint-protection-film-edmonton"
           element={<PaintProtection />}
         />
         <Route path="services/dash-cams" element={<Dashcams />} />
@@ -54,7 +54,7 @@ const App = () => {
         <Route path="financing" element={<Financing />} />
 
 
-        <Route path="services/paint-protection-film/packages" element={<PpfPackages/>} />
+        <Route path="services/paint-protection-film-edmonton/packages" element={<PpfPackages/>} />
 
         <Route path="services/:service/:id" element={<InfoCard />} />
         <Route path="success-submit" element={<SuccessPage />} />

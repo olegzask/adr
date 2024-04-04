@@ -12,7 +12,7 @@ export const services = [
 "Remote start solutions that prioritize security, ease, and your peace of mind.",
 "Our services encompass cutting-edge technology like DRONE, a premier mobile app for advanced remote start functionality."],
     image: "images/services-images/t13S.jpg",
-    link: "services/remote-start",
+    link: "services/remote-start-edmonton",
   },
   {
     altname: "window-tinting", 
@@ -22,7 +22,7 @@ export const services = [
     // description:
     //   "Our Automotive Window Tint service offers a professional solution to enhance your driving experience. We provide expert consultation, premium window tint films, and professional installation. Our films reduce heat and UV rays, minimize glare, enhance privacy, and add aesthetic appeal. Experience a comfortable, safe, and stylish driving experience with our high-quality window tinting services.",
     image: "images/services-images/tint-color.jpg",
-    link: "services/window-tinting",
+    link: "services/window-tinting-edmonton",
   },
   {
     altname: "paint-protection-film", 
@@ -30,7 +30,7 @@ export const services = [
     id: "ppf",
     description: ["Our Automotive Paint Protection film service offers premium protection for your vehicle's paint.","With a comprehensive consultation, precise installation, and high-quality films, we safeguard your vehicle from scratches, chips, UV rays, and chemicals.","Our durable and virtually invisible films provide long-lasting protection and can even self-heal minor scratches.", "Trust our professional service to keep your vehicle looking pristine and protected."],
     image: "images/services-images/ppf-color.jpg",
-    link: "services/paint-protection-film",
+    link: "services/paint-protection-film-edmonton",
   },
 
  
