@@ -124,7 +124,7 @@ dropMenu.classList.remove("dropdown-active");
           <Link onClick={goToDealer} className="nav-link" to="/services/dealer-program/pricelist">
             Dealer Login
           </Link>
-          <Link onClick={scrollToTop} className="nav-link" to="/simulator">
+          <Link onClick={scrollToTop} className="nav-link" to="/tint-ppf-simulator">
             Simulator
           </Link>
           <Link onClick={scrollToTop} className="nav-link" to="/financing">

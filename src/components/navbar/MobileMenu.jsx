@@ -116,7 +116,7 @@ hideMenu();
         <Link onClick={goToServices} className="mobile-link" to="/">
           Services
         </Link>
-        <Link onClick={goToSimulator} className="mobile-link" to="/simulator">
+        <Link onClick={goToSimulator} className="mobile-link" to="/tint-ppf-simulator">
           Simulator
         </Link>
         {/* <Link onClick={hideMenu} className="mobile-link" to="/sales">
