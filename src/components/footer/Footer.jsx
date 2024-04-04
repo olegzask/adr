@@ -141,7 +141,7 @@ export const Footer = () => {
         <Link onClick={goToDealer} className="footer-link" to="/">
           Dealer Program
         </Link>
-        <Link onClick={scrollToTop} className="footer-link" to="/simulator">
+        <Link onClick={scrollToTop} className="footer-link" to="/tint-ppf-simulator">
           Simulator
         </Link>
         <Link onClick={scrollToTop} className="footer-link" to="/faq">
