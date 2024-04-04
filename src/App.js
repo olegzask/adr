@@ -14,6 +14,7 @@ import { RemsGood } from "./routes/remotestart/RemsGood";
 import PaintProtection from "./routes/paintprotection/PaintProtection";
 import Dashcams from "./routes/dashcams/Dashcams";
 import InfoCard from "./components/moreinfo/InfoCard";
+import BlankCard from "./components/moreinfo/Blank";
 import { Simulator } from "./components/simulator/simulator";
 import Accessories from "./routes/12voltaccessories/Accessories";
 import {CarAudio}from "./routes/car audio-video/CarAudio";
@@ -34,6 +35,15 @@ const App = () => {
         <Route path="sales" element={<Sales />} />
         {/* <Route path="about" element={<AboutUs />} /> */}
         <Route path="services" element={<Services />} />
+
+        
+        <Route path="services/window-tint" element={<BlankCard />} />
+        <Route path="services/paint-protection-film" element={<BlankCard />} />
+        <Route path="services/remote-start" element={<BlankCard />} />
+        <Route path="simulator" element={<BlankCard />} />
+
+
+
         <Route path="services/window-tinting-edmonton" element={<Automotivetint />} />
         <Route path="services/window-tinting-edmonton/tint-packages" element={<TintPackages />} />
         <Route path="services/dealer-program" element={<Dealerprogram />} />
