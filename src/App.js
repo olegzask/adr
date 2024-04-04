@@ -14,7 +14,14 @@ import { RemsGood } from "./routes/remotestart/RemsGood";
 import PaintProtection from "./routes/paintprotection/PaintProtection";
 import Dashcams from "./routes/dashcams/Dashcams";
 import InfoCard from "./components/moreinfo/InfoCard";
-import BlankCard from "./components/moreinfo/Blank";
+
+import BlankCardTint from "./components/moreinfo/BlankTint";
+import BlankCardPpf from "./components/moreinfo/BlankPpf";
+import BlankCardRemote from "./components/moreinfo/BlankRemote";
+import BlankCardSimulator from "./components/moreinfo/BlankSimulator";
+
+
+
 import { Simulator } from "./components/simulator/simulator";
 import Accessories from "./routes/12voltaccessories/Accessories";
 import {CarAudio}from "./routes/car audio-video/CarAudio";
@@ -37,10 +44,10 @@ const App = () => {
         <Route path="services" element={<Services />} />
 
         
-        <Route path="services/window-tint" element={<BlankCard />} />
-        <Route path="services/paint-protection-film" element={<BlankCard />} />
-        <Route path="services/remote-start" element={<BlankCard />} />
-        <Route path="simulator" element={<BlankCard />} />
+        <Route path="services/window-tint" element={<BlankCardTint />} />
+        <Route path="services/paint-protection-film" element={<BlankCardPpf />} />
+        <Route path="services/remote-start" element={<BlankCardRemote />} />
+        <Route path="simulator" element={<BlankCardSimulator />} />
 
 
 
