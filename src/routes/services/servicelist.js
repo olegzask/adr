@@ -15,14 +15,14 @@ export const services = [
     link: "services/remote-start",
   },
   {
-    altname: "window-tint", 
-    name: "Window Tint",
+    altname: "window-tinting", 
+    name: "Window Tinting",
     id: "wt",
     description: ["Our Automotive Window Tint service offers a professional solution to enhance your driving experience.", "We provide expert consultation, premium window tint films, and professional installation.", " Our films reduce heat and UV rays, minimize glare, enhance privacy, and add aesthetic appeal.", "Experience a comfortable, safe, and stylish driving experience with our high-quality window tinting services." ],
     // description:
     //   "Our Automotive Window Tint service offers a professional solution to enhance your driving experience. We provide expert consultation, premium window tint films, and professional installation. Our films reduce heat and UV rays, minimize glare, enhance privacy, and add aesthetic appeal. Experience a comfortable, safe, and stylish driving experience with our high-quality window tinting services.",
     image: "images/services-images/tint-color.jpg",
-    link: "services/window-tint",
+    link: "services/window-tinting",
   },
   {
     altname: "paint-protection-film", 

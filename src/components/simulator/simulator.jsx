@@ -23,13 +23,13 @@ export const Simulator = () => {
     if (selected === "window tint") {
       return <SimulatorTint />;
     }
-    if (selected === "protection film") return <SimulatorPpf />;
+    if (selected === "paint protection film") return <SimulatorPpf />;
   };
 
   return (
     <div id="simulator-main" className="simulator-box">
         <Helmet>
-        <title>Window Tint & Paint Protection Simulator Edmonton | Adrenalin Audio</title>
+        <title>Window Tinting & Paint Protection Simulator Edmonton | Adrenalin Audio</title>
         <meta name="description" content="Window Tint & Paint Protection Film simulator in Edmonton. Choose from options." />
       </Helmet>
 
@@ -44,7 +44,7 @@ export const Simulator = () => {
           onClick={clicked}
           className="simulator-ppf-header simulator-header"
         >
-          PROTECTION FILM
+         PAINT PROTECTION FILM
         </h2>
       </div>
 

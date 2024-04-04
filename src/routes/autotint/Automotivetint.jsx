@@ -12,14 +12,14 @@ const Automotivetint = () => {
   return (
     <div className="rs-main-container dashcams-main-container tint-packs-cont">
         <Helmet>
-        <title>Window Tint Edmonton | Adrenalin Audio</title>
-        <meta name="description" content="Auto window tint installation services in Edmonton. XPEL Prime CS & Prime XR films." />
+        <title>Window Tinting Edmonton | Adrenalin Audio</title>
+        <meta name="description" content="Auto window tinting installation services in Edmonton. XPEL Prime CS & Prime XR films." />
       </Helmet>
 
       <div className="rs-container">
         <div className="rs-topper">
           <h1 className="service-container-header  rs-serv-header">
-            WINDOW TINT EDMONTON
+            WINDOW TINTING EDMONTON
           </h1>
 
           <p className="rs-description">
@@ -42,7 +42,7 @@ Explore our premium automotive window tinting services in Edmonton, Spruce Grove
           <LinkComponent
             opts={{
               name: "BROWSE PACKAGES",
-              linkTo: "services/window-tint/tint-packages",
+              linkTo: "services/window-tinting/tint-packages",
               clName: "tint-btn titpack",
               func:  scrollToTop
             }}

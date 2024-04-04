@@ -34,8 +34,8 @@ const App = () => {
         <Route path="sales" element={<Sales />} />
         {/* <Route path="about" element={<AboutUs />} /> */}
         <Route path="services" element={<Services />} />
-        <Route path="services/window-tint" element={<Automotivetint />} />
-        <Route path="services/window-tint/tint-packages" element={<TintPackages />} />
+        <Route path="services/window-tinting" element={<Automotivetint />} />
+        <Route path="services/window-tinting/tint-packages" element={<TintPackages />} />
         <Route path="services/dealer-program" element={<Dealerprogram />} />
         <Route path="services/dealer-program/pricelist" element={<Dealer />} />
 
