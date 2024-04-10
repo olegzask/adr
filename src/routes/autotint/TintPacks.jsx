@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
-import {packagesTint} from "../dealer/packagesTint"
+import {packagesTint} from "./packagesTint"
 import { PackCard } from "../dealer/PackCard";
 import { TintCard } from "./TintCard";
 import "../dealer/dealer.styles.css";
@@ -64,7 +64,7 @@ export const TintPackages = () => {
           <div onClick={goUp} className={`scrollUp ${offset > 800 && "scrolledNah"}`}> <FaRegArrowAltCircleUp /><span className="scrollR">Return</span></div>
 
 
-      <h2  id="ppf" className="packs-header">Window Tint Packages Edmonton</h2>
+      <h2  id="ppf" className="packs-header tint-packs-hdr">Window Tint Packages Edmonton</h2>
       <div className="ql-rm-ct">
             <div className="ql">
               <button name="fronts" className="quick-link rm-ql" onClick={scrollToModel}>

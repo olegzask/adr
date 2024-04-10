@@ -110,7 +110,7 @@ export default function Marine() {
 
 
           <div className="rs-topper">
-          <h1 className="service-container-header rs-serv-header">
+          <h1 className="service-container-header rs-serv-header hdr-rs">
             MARINE AUDIO EDMONTON
           </h1>
 

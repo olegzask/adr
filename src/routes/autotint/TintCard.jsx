@@ -5,7 +5,7 @@ import BookingTintPack from "./BookingTintPack";
 import "../dealer/packcard.styles.css";
 
 export const TintCard = ({ opts }) => {
-  const {ident,hseat, remote, name, includes, dealerPrice, retailPrice, dealerPriceCar, dealerPriceSuv, dealerPriceTruck, retailPriceCar, retailPriceSuv, retailPriceTruck, image, dlr, quarters, idNum } = opts;
+  const {ident,hseat, remote, name, includes, retail, dealerPrice, retailPrice, dealerPriceCar, dealerPriceSuv, dealerPriceTruck, retailPriceCar, retailPriceSuv, retailPriceTruck, image, dlr, quarters, idNum } = opts;
   const [modal, setModal] = useState(false);
   const [quarts, setQuarters] = useState(false)
   const [qglass, setGlass] = useState(false)
@@ -211,9 +211,9 @@ if(!quarters && !remote && !hseat && name === "Custom") return <div className="q
  if(vehic==="suv" && !ceramic && !qglass && !brow && !headlamps && !luggage) return dealerPriceSuv.toFixed(2);
  if(vehic==="truck" && !ceramic && !qglass && !brow && !headlamps && !luggage) return dealerPriceTruck.toFixed(2);
 
- if(vehic==="car" && !ceramic && !qglass && brow) return (dealerPriceCar +100).toFixed(2);
- if(vehic==="suv" && !ceramic && !qglass && brow) return (dealerPriceSuv +100).toFixed(2);
- if(vehic==="truck" && !ceramic && !qglass && brow) return (dealerPriceTruck +100).toFixed(2);
+ if(vehic==="car" && !ceramic && !qglass && brow) return (dealerPriceCar +80).toFixed(2);
+ if(vehic==="suv" && !ceramic && !qglass && brow) return (dealerPriceSuv +80).toFixed(2);
+ if(vehic==="truck" && !ceramic && !qglass && brow) return (dealerPriceTruck +80).toFixed(2);
 
 
 

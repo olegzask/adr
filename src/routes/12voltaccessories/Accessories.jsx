@@ -110,7 +110,7 @@ export default function Accessories() {
 
 
           <div className="rs-topper">
-          <h1 className="service-container-header rs-serv-header">
+          <h1 className="service-container-header rs-serv-header hdr-rs">
             12 VOLT ACCESSORIES EDMONTON
           </h1>
 

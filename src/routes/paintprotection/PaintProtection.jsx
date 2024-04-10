@@ -17,18 +17,22 @@ export default function PaintProtection() {
       </Helmet>
 
       <div className="rs-container">
-        <div className="rs-topper">
-          <h1 className="service-container-header  rs-serv-header">
+      <h1 className="service-container-header  rs-serv-header">
            PAINT PROTECTION FILM EDMONTON
           </h1>
+        <div className="rs-topper rs-topper-tint">
+
+        <div className="rs-topper-left">
+
+        
           <p className="rs-description">
-          Discover the ultimate safeguard for your vehicle's pristine finish with our Paint Protection Film (PPF) solutions, now available in Edmonton, Spruce Grove, and Stony Plain. Engineered to shield your car from the rigors of the road, our state-of-the-art PPF offers an invisible armor against rock chips, scratches, and environmental contaminants. Our skilled technicians meticulously apply this virtually undetectable layer, ensuring your vehicle's factory paint remains flawless and unblemished. 
+          Discover the ultimate safeguard for your vehicle's pristine finish with our XPEL Paint Protection Film (PPF) solutions, now available in Edmonton, Spruce Grove, and Stony Plain. Engineered to shield your car from the rigors of the road, our state-of-the-art PPF offers an invisible armor against rock chips, scratches, and environmental contaminants. Our skilled technicians meticulously apply this virtually undetectable layer, ensuring your vehicle's factory paint remains flawless and unblemished. 
           </p>
 
           <br/>
 
           <p className="rs-description">
-          Uncompromising in both form and function, our PPF not only provides unparalleled protection but also enhances your vehicle's aesthetic appeal by preserving its original shine. Whether you're navigating urban streets or embarking on off-road adventures, our premium PPF empowers you to drive with confidence, knowing that your investment is shielded by the pinnacle of automotive defense. Elevate your driving experience and uphold your vehicle's value with our unrivaled Paint Protection Film expertise.
+          Uncompromising in both form and function, our XPEL PPF not only provides unparalleled protection but also enhances your vehicle's aesthetic appeal by preserving its original shine. Whether you're navigating urban streets or embarking on off-road adventures, our premium PPF empowers you to drive with confidence, knowing that your investment is shielded by the pinnacle of automotive defense. Elevate your driving experience and uphold your vehicle's value with our unrivaled Paint Protection Film expertise.
           </p>
 
           
@@ -48,6 +52,15 @@ export default function PaintProtection() {
             }}
           />
           </div>
+          </div>
+
+          <div className="rs-topper-right">
+          <img className="card-img tnt-img" src="/images/services-images/ppf-color.jpg" alt="xpel-paint-protection-film-edmonton" />
+          {/* <img className="card-img xpel-logo" src="/logos/xpel-logo.jpg" alt="xpel-window-tinting-edmonton" /> */}
+
+
+            
+            </div>
          
         </div>
 

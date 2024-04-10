@@ -200,6 +200,9 @@ if(remote){
       {!modal ? null : (
             <BookingPpf opts={{ rem: serviceDecider(), txt: "", reset: setModal, dName: "", filmType: filmec(), vehType: document.getElementById(`vehicles-select${idNum}`).value,  vBrow: brow ? "/ Add Brow" : "", secur: security ? "/ Add Security" : "" }} />
           )}
+<div className="price-cont">
+<h4 className="price-dealer">From: $ <span id={`dp-${idNum}`}>{quarters ? getPrice() : getPrice()}</span> </h4>
+</div>
           <button id="bookbutn"  onClick={showModal} className="btn-book remote-btn">
             REQUEST QUOTE
           </button>

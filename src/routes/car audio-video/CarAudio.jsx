@@ -113,7 +113,7 @@ export const CarAudio = () => {
 
 
           <div className="rs-topper">
-          <h1 className="service-container-header rs-serv-header">
+          <h1 className="service-container-header rs-serv-header hdr-rs">
             CAR AUDIO / VIDEO EDMONTON
           </h1>
 

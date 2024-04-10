@@ -118,7 +118,7 @@ dropMenu.classList.remove("dropdown-active");
           <Link onClick={goToAbout} className="nav-link" to="/">
             About
           </Link>
-          <Link onClick={servicesHover} className="nav-link serv-link" to="/">
+          <Link onClick={servicesHover} className="nav-link serv-link" >
             Services
           </Link>
           <Link onClick={goToDealer} className="nav-link" to="/services/dealer-program/pricelist">

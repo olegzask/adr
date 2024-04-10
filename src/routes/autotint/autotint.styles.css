@@ -7,6 +7,36 @@
   font-family: "Lato", sans-serif;
 }
 
+.rs-serv-header {
+}
+
+.rs-topper-tint {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items:flex-start;
+}
+
+.rs-topper-left {
+  width: 70%;
+
+}
+
+.rs-topper-right {
+  display: flex;
+  width: 30%;
+ 
+}
+
+.tnt-img {
+  width: 97%;
+}
+
+
+
+.rs-description {
+  font-size: 1.1rem;
+}
+
 .autotint-container {
   display: flex;
   flex-direction: column;
@@ -48,10 +78,29 @@
     width: 100%;
     margin-bottom: 7rem;
   }
+  .rs-topper-right {
+    display: none;
+  }
+  .rs-topper-tint{
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .rs-topper-left {
+    width: 100%;
+  }
+
+  .rs-description {
+    font-size: 0.8rem;
+  }
 
   .tint-description-lower {
     font-size: 1.2rem;
     text-align: center;
+  }
+
+  .rs-serv-header {
+    font-size: 1.2rem;
   }
 
   .autotint-header {

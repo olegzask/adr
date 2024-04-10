@@ -114,7 +114,7 @@ export const PpfPackages = () => {
           <div onClick={goUp} className={`scrollUp ${offset > 800 && "scrolledNah"}`}> <FaRegArrowAltCircleUp /><span className="scrollR">Return</span></div>
 
 
-      <h2  id="ppf" className="packs-header">Paint Protection Packages Edmonton</h2>
+      <h2  id="ppf" className="packs-header tint-packs-hdr">Paint Protection Packages Edmonton</h2>
       <div className="ql-rm-ct">
             
               <button  name="bronze" className="ql-ppf" onClick={scrollToModel}>
