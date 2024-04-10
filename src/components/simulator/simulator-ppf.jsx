@@ -344,7 +344,7 @@ export const SimulatorPpf = () => {
            <LinkComponent
             opts={{
               name: "BROWSE PACKAGES",
-              linkTo: "services/paint-protection-film/packages",
+              linkTo: "services/paint-protection-film-edmonton/packages",
               clName: "tint-btn",
               func:  scrollToTop
             }}
