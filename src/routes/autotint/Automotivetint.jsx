@@ -13,7 +13,7 @@ const Automotivetint = () => {
     <div className="rs-main-container dashcams-main-container tint-packs-cont">
         <Helmet>
         <title>Window Tinting Edmonton | Adrenalin Audio</title>
-        <meta name="description" content="Auto window tinting installation services in Edmonton. XPEL Prime CS & Prime XR films." />
+        <meta name="description" content="Professional Window tinting services in Edmonton. XPEL Prime CS & Prime XR films. Best prices guaranteed." />
       </Helmet>
 
       <div className="rs-container">

@@ -39,15 +39,15 @@ export const Home = () => {
       className={`home-page-container `}
     >
         <Helmet>
-        <title>Adrenalin Audio | Window Tint | Paint Protection | Remote Start</title>
-        <meta name="description" content="Professional Remote Start, Window Tint & Paint Protection Film installation services in Edmonton." />
+        <title>Adrenalin Audio | Window Tinting | Paint Protection Film | Remote Start</title>
+        <meta name="description" content="Professional Remote Start, Window Tinting, Paint Protection Film installation services in Edmonton, Spruce Grove and Stony Plain." />
       </Helmet>
       <Video />
       {/* <TextVideo /> */}
       <div className="text-on-video">
       <div className="text-top">
         <h1 className="text-header hdr-tint">REMOTE START & 12V ACCESSORIES</h1>
-        <h2 className="text-header hdr-ppf">WINDOW TINT & PAINT PROTECTION</h2>
+        <h2 className="text-header hdr-ppf">WINDOW TINTING & PAINT PROTECTION FILM</h2>
         <h2 className="text-header done-right">SERVICES IN EDMONTON DONE RIGHT.</h2>
       </div>
 

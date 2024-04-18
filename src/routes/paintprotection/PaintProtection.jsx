@@ -13,7 +13,7 @@ export default function PaintProtection() {
     <div className="rs-main-container dashcams-main-container">
         <Helmet>
         <title>Paint Protection Film Edmonton | Adrenalin Audio</title>
-        <meta name="description" content="XPEL Paint Protection Film installation services in Edmonton. Choose your coverage." />
+        <meta name="description" content="Professional Paint Protection Film installation services in Edmonton. XPEL Ultimate Plus & XPEL Fusionn films. Choose your coverage." />
       </Helmet>
 
       <div className="rs-container">

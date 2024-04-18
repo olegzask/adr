@@ -20,6 +20,14 @@
   position: relative;
 }
 
+.hdr-tint {
+  font-size: 1.8rem;
+}
+
+.hdr-ppf {
+  font-size: 1.8rem;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -84,6 +92,13 @@ html {
    margin-bottom: 9rem;
     
    
+  }
+  .hdr-tint {
+    font-size: 3.4rem;
+  }
+
+  .hdr-ppf {
+    font-size: 3.4rem;
   }
 }
 
