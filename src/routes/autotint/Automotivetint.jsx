@@ -56,7 +56,7 @@ Explore our premium XPEL automotive window tinting services in Edmonton, Spruce 
           </div>
 
           <div className="rs-topper-right">
-          <img className="card-img tnt-img" src="/images/services-images/tint-color-orig.jpg" alt="xpel-window-tinting-edmonton" />
+          <img className="card-img tnt-img" src="/images/services-images/tint-color-orig.jpg" alt="windowt inting services edmonton" />
           {/* <img className="card-img xpel-logo" src="/logos/xpel-logo.jpg" alt="xpel-window-tinting-edmonton" /> */}
 
 

@@ -55,7 +55,7 @@ export default function PaintProtection() {
           </div>
 
           <div className="rs-topper-right">
-          <img className="card-img tnt-img" src="/images/services-images/ppf-color.jpg" alt="xpel-paint-protection-film-edmonton" />
+          <img className="card-img tnt-img" src="/images/services-images/ppf-color.jpg" alt="paint protection film services edmonton" />
           {/* <img className="card-img xpel-logo" src="/logos/xpel-logo.jpg" alt="xpel-window-tinting-edmonton" /> */}
 
 
