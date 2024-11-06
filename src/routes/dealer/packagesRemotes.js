@@ -70,16 +70,15 @@ export const packagesRemotes = [
 
     {
       altname: "remote-start-t13", 
-      model: "T13SS",
+      model: "RFX-P2WT13-SF",
       name: "RS-06",
       brand: "Compustar",
       brandLogo: "/logos/compustar_logo.png",
-    imgColor: "/images/remotes/t13.jpg",
+    imgColor: "/images/remotes/pro13_1.png",
     images: [
-      "/images/remotes/t13.jpg",
-      "/images/remotes/remote-imgs/t13.jpg",
-      "/images/remotes/remote-imgs/t13Backup.jpg",
-     
+      "/images/remotes/pro13_1.png",
+      "/images/remotes/pro13_2.png",
+      "/images/remotes/pro13_3.png",
     ],
     features: [
       
@@ -122,10 +121,11 @@ export const packagesRemotes = [
       "Lock and start your vehivle with confidence using Compustar 2-Way remotes, which provide visual and audible confirmation when your commands are sent successfully.",
       "Compustar's next generation of PRO 2-way remotes features built-in proximity sensors that automatically unlock the doors when you come within three to six feet of your vehicle."
     ],
-      image: "/images/remotes/t13.jpg",
+      image: "/images/remotes/pro13_1.png",
       includes: [
-        "Model: T13SS",
-        "2-Way LCD",
+        "Model: RFX-P2WT13-SF",
+        "2-Way LCD + 2-Way LED",
+        "Includes DRONE",
         "Hardware & installation",
         "3 year warranty",
         "Range: up to 5000M"
@@ -191,7 +191,7 @@ export const packagesRemotes = [
         includes: [
         "Model: T12SS",
 
-          "2-Way LCD",
+          "2-Way LCD + 2-Way LED",
           "Hardware & installation",
           "3 year warranty",
           "Range: up to 4500M"
@@ -246,7 +246,7 @@ export const packagesRemotes = [
             includes: [
         "Model: Q9SS",
 
-              "2-Way LCD",
+              "2-Way LCD + 2-Way LED",
               "Hardware & installation",
               "3 year warranty",
               "Range: up to 3000M"
@@ -264,10 +264,13 @@ export const packagesRemotes = [
         model: "T9SS",
         brand: "Compustar",
     brandLogo: "/logos/compustar_logo.png",
-    imgColor: "/images/remotes/t9.jpg",
+    imgColor: "/images/remotes/q9.jpg",
     images: [
-      "/images/remotes/remote-imgs/t9_1.jpg",
-      "/images/remotes/remote-imgs/t9_2.jpg",
+    "/images/remotes/q9.jpg",
+          "/images/remotes/remote-imgs/q9_1.jpg",
+          "/images/remotes/remote-imgs/q9_2.jpg",
+          "/images/remotes/remote-imgs/g15ss_1.jpg",
+          "/images/remotes/remote-imgs/g15ss_2.jpg",
        ],
     features: [
       {
@@ -306,14 +309,14 @@ export const packagesRemotes = [
       "The T9 is IPX-7 waterproof and fuatures a high-strength injection molded body to withstand everyday impact.",
     ],
         name: "RS-03",
-        image: "/images/remotes/t9.jpg",
+        image: "/images/remotes/q9.jpg",
         includes: [
-        "Model: T9SS",
+        "Model: Q9FM",
 
-          "2-Way LCD",
+          "2-Way LCD + 1-Way LED",
           "Hardware & installation",
           "3 year warranty",
-          "Range: up to 4500M"
+          "Range: up to 1000M"
 
         ],
       ident: "t9ss",
@@ -326,14 +329,16 @@ export const packagesRemotes = [
 
       {
         altname: "remote-start-g15", 
-    model: "G15SS",
+    model: "2WG18",
     brand: "Compustar PRO",
     brandLogo: "/logos/compustar_logo.png",
-    imgColor: "/images/remotes/pg15.jpg",
+    imgColor: "/images/remotes/g18_1.png",
     images: [
-      "/images/remotes/pg15.jpg",
-      "/images/remotes/remote-imgs/g15ss_1.jpg",
-      "/images/remotes/remote-imgs/g15ss_2.jpg",
+      "/images/remotes/g18_1.png",
+      "/images/remotes/g18_2.png",
+      "/images/remotes/g18_3.png",
+      "/images/remotes/g18_4.png",
+      "/images/remotes/g18_5.png",
     ],
     features: [
       {
@@ -362,20 +367,21 @@ export const packagesRemotes = [
         description: "",
       },
     ],
-    range: "3000 M",
+    range: "1000 M",
     description: [
       "Lock and start your vehivle with confidence using Compustar 2-Way remotes, which provide visual and audible confirmation when your commands are sent successfully.",
       "The 2-Way PRO G15 features a high-strength injection molded body that is water-resistand and withstands everyday impact.",
     ],
         name: "RS-02+",
-        image: "/images/remotes/pg15.jpg",
+        image: "/images/remotes/g18_1.png",
         includes: [
-        "Model: G15SS",
+        "Model: PRO 2WG18",
 
-          "2-Way LED",
+          "2-Way LED + 1-Way LED",
           "Hardware & installation",
+          "Includes DRONE",
           "3 year warranty",
-          "Range: up to 3000M"
+          "Range: up to 1000M"
 
         ],
       ident: "g15ss",
@@ -390,11 +396,13 @@ export const packagesRemotes = [
     model: "G15FM",
     brand: "Compustar",
     brandLogo: "/logos/compustar_logo.png",
-    imgColor: "/images/remotes/wg15.jpg",
+    imgColor: "/images/remotes/g18_1.png",
     images: [
-      "/images/remotes/wg15.jpg",
-      "/images/remotes/remote-imgs/15fmx.jpg",
-      "/images/remotes/remote-imgs/15fmx2.jpg",
+     "/images/remotes/g18_1.png",
+     "/images/remotes/g18_2.png",
+     "/images/remotes/g18_3.png",
+     "/images/remotes/g18_4.png",
+     "/images/remotes/g18_5.png",
     ],
     features: [
     
@@ -424,7 +432,7 @@ export const packagesRemotes = [
         includes: [
         "Model: G15FM",
 
-          "1-Way LED",
+          "2-Way LED + 1-Way LED",
           "Hardware & installation",
           "3 year warranty",
           "Range: up to 1000M"

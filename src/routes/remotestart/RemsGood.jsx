@@ -132,7 +132,7 @@ export const RemsGood = () => {
               <button name="DRONE" className="quick-link" onClick={scrollToModel}>
                 DRONE
               </button>
-              <button name="T13SS" className="quick-link" onClick={scrollToModel}>
+              <button name="RFX-P2WT13-SF" className="quick-link" onClick={scrollToModel}>
                 RS-06
               </button>
               <button name="T12SS" className="quick-link" onClick={scrollToModel}>
@@ -144,7 +144,7 @@ export const RemsGood = () => {
               <button name="T9SS" className="quick-link" onClick={scrollToModel}>
                 RS-03
               </button>
-              <button name="G15SS" className="quick-link" onClick={scrollToModel}>
+              <button name="2WG18" className="quick-link" onClick={scrollToModel}>
                 RS-02+
               </button>
               <button name="G15FM" className="quick-link" onClick={scrollToModel}>

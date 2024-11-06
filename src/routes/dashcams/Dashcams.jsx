@@ -137,6 +137,9 @@ export default function Accessories() {
               <button name="M7" className="quick-link" onClick={scrollToModel}>
               M7 Wi-Fi
               </button>
+              <button name="XC" className="quick-link" onClick={scrollToModel}>
+              DRONE XC
+              </button>
             </div>
           </div>
           <div onClick={goUp} className={`scrollUp ${offset > 800 && "scrolledNah"}`}> <FaRegArrowAltCircleUp /><span className="scrollR">Return</span></div>

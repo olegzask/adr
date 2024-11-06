@@ -149,13 +149,13 @@ hideMenu();
         >
           <GoLocation className="phone-icon" /> Edmonton
         </a>
-        <a
+        {/* <a
           href="https://www.google.ca/maps/place/951+Boulder+Blvd+%23201,+Stony+Plain,+AB+T7Z+0E7/@53.550748,-113.988526,17z/data=!3m1!4b1!4m5!3m4!1s0x539f8fd1b2926fd9:0xafa166e10faf7045!8m2!3d53.550748!4d-113.988526?entry=ttu"
           className="calus"
           target="_blank"
         >
           <GoLocation className="phone-icon" /> Spruce Grove / Stony Plain
-        </a>
+        </a> */}
       </div>
     </div>
   );
