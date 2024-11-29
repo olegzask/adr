@@ -70,7 +70,7 @@ export const packagesRemotes = [
 
     {
       altname: "remote-start-t13", 
-      model: "RFX-P2WT13-SF",
+      model: "T13",
       name: "RS-06",
       brand: "Compustar",
       brandLogo: "/logos/compustar_logo.png",
@@ -93,7 +93,7 @@ export const packagesRemotes = [
         description: "",
       },
       {
-        name: "Proximity Unlock",
+        name: "Proximity Lock & Unlock",
         symbol: <IoIosRadio fill="rgb(14, 146, 255)" />,
         description: "",
       },
@@ -123,12 +123,13 @@ export const packagesRemotes = [
     ],
       image: "/images/remotes/pro13_1.png",
       includes: [
-        "Model: RFX-P2WT13-SF",
+        "Model: T13",
         "2-Way LCD + 2-Way LED",
         "Includes DRONE",
         "Hardware & installation",
         "3 year warranty",
-        "Range: up to 5000M"
+        "Range: up to 5000M",
+        "Drone Range: Unlimited"
 
       ],
     ident: "t13ss",
@@ -142,18 +143,21 @@ export const packagesRemotes = [
         model: "T12SS",
         brand: "Compustar",
     brandLogo: "/logos/compustar_logo.png",
-    imgColor: "/images/remotes/t12.jpg",
+    imgColor:   "/images/remotes/r5_1.png",
     images: [
-      "/images/remotes/t12.jpg",
-      "/images/remotes/remote-imgs/t11_1.jpg",
-      "/images/remotes/remote-imgs/t11_2.jpg",
-      "/images/remotes/remote-imgs/g15ss_1.jpg",
-      "/images/remotes/remote-imgs/g15ss_2.jpg",
+     "/images/remotes/r5_1.png",
+     "/images/remotes/r5_2.png",
+     "/images/remotes/r5_3.png",
     ],
     features: [
       {
         name: "2-Way LCD",
         symbol: <FcRefresh fill="rgb(14, 146, 255)" />,
+        description: "",
+      },
+      {
+        name: "Proximity Lock & Unlock",
+        symbol: <IoIosRadio fill="rgb(14, 146, 255)" />,
         description: "",
       },
    
@@ -187,14 +191,17 @@ export const packagesRemotes = [
       "The T12 is IPX-7 waterproof and fuatures a high-strength injection molded body to withstand everyday impact.",
     ],
         name: "RS-05",
-        image: "/images/remotes/t12.jpg",
+        image: "/images/remotes/r5_1.png",
         includes: [
-        "Model: T12SS",
+        "Model: R5",
 
-          "2-Way LCD + 2-Way LED",
+          "2-Way LED + 2-Way LED",
+        "Includes DRONE",
           "Hardware & installation",
           "3 year warranty",
-          "Range: up to 4500M"
+          "Range: up to 4500M",
+          "Drone Range: Unlimited"
+
 
         ],
       ident: "t12ss",
@@ -208,13 +215,13 @@ export const packagesRemotes = [
         model: "Q9SS",
         brand: "Compustar",
         brandLogo: "/logos/compustar_logo.png",
-        imgColor: "/images/remotes/q9.jpg",
+        imgColor: "/images/remotes/g18_1.png",
         images: [
-          "/images/remotes/q9.jpg",
-          "/images/remotes/remote-imgs/q9_1.jpg",
-          "/images/remotes/remote-imgs/q9_2.jpg",
-          "/images/remotes/remote-imgs/g15ss_1.jpg",
-          "/images/remotes/remote-imgs/g15ss_2.jpg",
+          "/images/remotes/g18_1.png",
+          "/images/remotes/g18_2.png",
+          "/images/remotes/g18_3.png",
+          "/images/remotes/g18_4.png",
+          "/images/remotes/g18_5.png",
         ],
         features: [
           {
@@ -242,14 +249,18 @@ export const packagesRemotes = [
           "Start and secure your vehicle in two different ways depending on what's most comfortable for your hand. Use the side buttons OR te 4-in-1 button on the front. Tap to lock, double tap to unlock, and hold to remote start/stop.",
         ],
             name: "RS-04",
-            image: "/images/remotes/q9.jpg",
+            image: "/images/remotes/g18_1.png",
             includes: [
-        "Model: Q9SS",
+        "Model: G18",
 
-              "2-Way LCD + 2-Way LED",
+              "2-Way LED + 2-Way LED",
+        "Includes DRONE",
+
               "Hardware & installation",
               "3 year warranty",
-              "Range: up to 3000M"
+              "Range: up to 1000M",
+        "Drone Range: Unlimited"
+
     
             ],
           ident: "q9ss",
@@ -311,9 +322,9 @@ export const packagesRemotes = [
         name: "RS-03",
         image: "/images/remotes/q9.jpg",
         includes: [
-        "Model: Q9FM",
+        "Model: Q9FMX",
 
-          "2-Way LCD + 1-Way LED",
+          "2-Way LCD + 2-Way LED",
           "Hardware & installation",
           "3 year warranty",
           "Range: up to 1000M"
@@ -332,13 +343,12 @@ export const packagesRemotes = [
     model: "2WG18",
     brand: "Compustar PRO",
     brandLogo: "/logos/compustar_logo.png",
-    imgColor: "/images/remotes/g18_1.png",
+    imgColor: "/images/remotes/ftx2600_1.png",
     images: [
-      "/images/remotes/g18_1.png",
-      "/images/remotes/g18_2.png",
-      "/images/remotes/g18_3.png",
-      "/images/remotes/g18_4.png",
-      "/images/remotes/g18_5.png",
+      "/images/remotes/ftx2600_1.png",
+      "/images/remotes/ftx2600_2.png",
+      "/images/remotes/ftx2600_3.png",
+     
     ],
     features: [
       {
@@ -373,15 +383,14 @@ export const packagesRemotes = [
       "The 2-Way PRO G15 features a high-strength injection molded body that is water-resistand and withstands everyday impact.",
     ],
         name: "RS-02+",
-        image: "/images/remotes/g18_1.png",
+        image: "/images/remotes/ftx2600_1.png",
         includes: [
-        "Model: PRO 2WG18",
+        "Model: FTX2600",
 
-          "2-Way LED + 1-Way LED",
+          "2-Way LED + 2-Way LED",
           "Hardware & installation",
-          "Includes DRONE",
           "3 year warranty",
-          "Range: up to 1000M"
+          "Range: up to 3000M"
 
         ],
       ident: "g15ss",
@@ -391,58 +400,58 @@ export const packagesRemotes = [
         retailPriceCar: 990.00,
       },
 
-      {
-        altname: "remote-start-g15", 
-    model: "G15FM",
-    brand: "Compustar",
-    brandLogo: "/logos/compustar_logo.png",
-    imgColor: "/images/remotes/g18_1.png",
-    images: [
-     "/images/remotes/g18_1.png",
-     "/images/remotes/g18_2.png",
-     "/images/remotes/g18_3.png",
-     "/images/remotes/g18_4.png",
-     "/images/remotes/g18_5.png",
-    ],
-    features: [
+    //   {
+    //     altname: "remote-start-g15", 
+    // model: "G15FM",
+    // brand: "Compustar",
+    // brandLogo: "/logos/compustar_logo.png",
+    // imgColor: "/images/remotes/g18_1.png",
+    // images: [
+    //  "/images/remotes/g18_1.png",
+    //  "/images/remotes/g18_2.png",
+    //  "/images/remotes/g18_3.png",
+    //  "/images/remotes/g18_4.png",
+    //  "/images/remotes/g18_5.png",
+    // ],
+    // features: [
     
-      {
-        name: "1-Way LED",
-        symbol: <TbArrowAutofitDown color="rgb(14, 146, 255)" />,
-        description: "",
-      },
-      {
-        name: "Waterproof",
-        symbol: <RiWaterFlashFill color="rgb(133, 255, 62)" />,
-        description: "",
-      },
-      {
-        name: "3 Year Warranty",
-        symbol: <BsAward color="rgb(133, 255, 62)" />,
-        description: "",
-      },
-    ],
-    range: "1000 M",
-    description: [
-      "Lock and start your vehicle with Compustar 1-Way remotes. Please note, 1-Way remotes do not send confimation if vehicle was successfully started.",
-      "The 1-Way G15 features a high-strength injection molded body that is water-resistand and withstands everyday impact.",
-    ],
-        name: "RS-02",
-        image: "/images/remotes/wg15.jpg",
-        includes: [
-        "Model: G15FM",
+    //   {
+    //     name: "1-Way LED",
+    //     symbol: <TbArrowAutofitDown color="rgb(14, 146, 255)" />,
+    //     description: "",
+    //   },
+    //   {
+    //     name: "Waterproof",
+    //     symbol: <RiWaterFlashFill color="rgb(133, 255, 62)" />,
+    //     description: "",
+    //   },
+    //   {
+    //     name: "3 Year Warranty",
+    //     symbol: <BsAward color="rgb(133, 255, 62)" />,
+    //     description: "",
+    //   },
+    // ],
+    // range: "1000 M",
+    // description: [
+    //   "Lock and start your vehicle with Compustar 1-Way remotes. Please note, 1-Way remotes do not send confimation if vehicle was successfully started.",
+    //   "The 1-Way G15 features a high-strength injection molded body that is water-resistand and withstands everyday impact.",
+    // ],
+    //     name: "RS-02",
+    //     image: "/images/remotes/wg15.jpg",
+    //     includes: [
+    //     "Model: G15FM",
 
-          "2-Way LED + 1-Way LED",
-          "Hardware & installation",
-          "3 year warranty",
-          "Range: up to 1000M"
+    //       "2-Way LED + 1-Way LED",
+    //       "Hardware & installation",
+    //       "3 year warranty",
+    //       "Range: up to 450M"
 
-        ],
-      ident: "g15fm",
-        remote: true,
-        dealerPriceCar: 550.00,
-        retailPriceCar: 890.00,
-      },
+    //     ],
+    //   ident: "g15fm",
+    //     remote: true,
+    //     dealerPriceCar: 550.00,
+    //     retailPriceCar: 890.00,
+    //   },
 
       {
         altname: "remote-start-wr3", 
@@ -481,12 +490,12 @@ export const packagesRemotes = [
         name: "RS-01",
         image: "/images/remotes/wr3.jpg",
         includes: [
-        "Model: WR3",
+        "Model: R3",
 
-          "1-Way LED",
+          "1-Way LED + 1-Way LED",
           "Hardware & installation",
           "3 year warranty",
-          "Range: up to 500M"
+          "Range: up to 450M"
 
         ],
       ident: "wr3",

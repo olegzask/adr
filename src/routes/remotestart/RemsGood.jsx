@@ -147,9 +147,9 @@ export const RemsGood = () => {
               <button name="2WG18" className="quick-link" onClick={scrollToModel}>
                 RS-02+
               </button>
-              <button name="G15FM" className="quick-link" onClick={scrollToModel}>
+              {/* <button name="G15FM" className="quick-link" onClick={scrollToModel}>
                 RS-02
-              </button>
+              </button> */}
               <button name="WR3" className="quick-link" onClick={scrollToModel}>
                 RS-01
               </button>
