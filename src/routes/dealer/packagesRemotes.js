@@ -324,7 +324,7 @@ export const packagesRemotes = [
         includes: [
         "Model: Q9FMX",
 
-          "2-Way LCD + 2-Way LED",
+          "2-Way LCD + 1-Way LED",
           "Hardware & installation",
           "3 year warranty",
           "Range: up to 1000M"
