@@ -378,7 +378,7 @@ export const packagesRemotes = [
     range: "1000 M",
     description: [
     "Remote start and unlock your car from up to 2-miles away and receive instant 2-way confirmation. Water-resistant remotes with durable, OEM-grade casing. Includes two 2-way remotes.",
-    "Whenever you successfully lock or remote start your vehicle with this FTX2200 remote, you'll receive instant 2-way audible and visual confirmation.",
+    "Whenever you successfully lock or remote start your vehicle with this FTX2600 remote, you'll receive instant 2-way audible and visual confirmation.",
     
      
     ],
