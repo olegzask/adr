@@ -158,11 +158,20 @@ font-size: 0.8rem;
 }
 
 .pack-info {
-  height: 26rem;
+  height: 27rem;
   margin-bottom: 1rem;
 
  
  
+}
+
+#subbutton {
+  color: rgb(128, 129, 128);
+
+}
+#subbutton:hover {
+  transition: 0.2s ease-in;
+  color: rgb(113, 255, 25)
 }
 
 .pack-list  {

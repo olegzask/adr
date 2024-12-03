@@ -25,7 +25,7 @@ export const packagesRemotes = [
       ],
       includes: [
         "Hardware & installation",
-        "1 Year Subscription",
+        "30-Days Subscription",
         "Range: Unlimited"
 
       ],
@@ -125,7 +125,7 @@ export const packagesRemotes = [
       includes: [
         "Model: T13",
         "2-Way LCD + 2-Way LED",
-        "Includes DRONE",
+        "Proximity Lock & Unlock",
         "Hardware & installation",
         "3 year warranty",
         "Range: up to 5000M",
@@ -140,7 +140,7 @@ export const packagesRemotes = [
 
     {
       altname: "remote-start-t12", 
-        model: "T12SS",
+        model: "R5",
         brand: "Compustar",
     brandLogo: "/logos/compustar_logo.png",
     imgColor:   "/images/remotes/r5_1.png",
@@ -183,12 +183,12 @@ export const packagesRemotes = [
       },
     ],
     description: [
-      "3-mile max range, USB rechargeable, IPX-7 waterproof remote kit. Includes one 2-way LCD and one 2-way LED remote. Works with all Compustar remote start and security systems.",
-      "The Compustar T12 remote kit now includes a 2-way LCD remote and a 2-Wat LED remote as a backup. So no matter what, you will receive instant command confirmation when you remote start and secure your vehicle",
-      "Lock and start your vehicle with confidence using Compustar 2-way remotes, which provide visual and audible confirmation when your commands are sent successfully.",
-      "The Compustar T12 utilizes Digital Spread Spectrum Technology to send lock and start commands to your vehicle from up to 3-miles away.",
-      "The T12 LCD remote has a built-in lithium-ion battery that you can recharge using a standard micro-USB cable.",
-      "The T12 is IPX-7 waterproof and fuatures a high-strength injection molded body to withstand everyday impact.",
+      "Don't let the size fool you. The PRO R5 is a premium remote packed with some of the best features Compustar offers, but its compact design makes it the perfect fit for every keychain.",
+      "Compustar's next generation of PRO 2-way remotes features built-in proximity sensors that automatically unlock the doors when you come within 3-6 feet of your vehicle.",
+      "The all-new PRO R5 includes Compustar's latest innovative features but with the classic 1-button design. This remote kit features Compustar's new Proximity Unlock feature for hands-free keyless entry.",
+      "This kit includes the powerful Drone X1 LTE module and a free 30-Day trial of DroneMobile Premium.",
+
+      
     ],
         name: "RS-05",
         image: "/images/remotes/r5_1.png",
@@ -196,7 +196,7 @@ export const packagesRemotes = [
         "Model: R5",
 
           "2-Way LED + 2-Way LED",
-        "Includes DRONE",
+          "Proximity Lock & Unlock",
           "Hardware & installation",
           "3 year warranty",
           "Range: up to 4500M",
@@ -212,7 +212,7 @@ export const packagesRemotes = [
 
       {
         altname: "remote-start-q9", 
-        model: "Q9SS",
+        model: "G18",
         brand: "Compustar",
         brandLogo: "/logos/compustar_logo.png",
         imgColor: "/images/remotes/g18_1.png",
@@ -243,19 +243,17 @@ export const packagesRemotes = [
         ],
         range: "3000 M",
         description: [
-          "3000-ft max range remote kit with 2-way interactive LCD. Includes additional backup 1-way remote. Works with all Compustar remote start and security systems.",
-          "Lock and start your vehivle with confidence using Compustar 2-Way remotes, which provide visual and audible confirmation when your commands are sent successfully.",
-          "Checking on your vehicle's safety and status is easier with the Q9. The Backlit, color LCD provides better visibility and animations to confirm every successful command.",
-          "Start and secure your vehicle in two different ways depending on what's most comfortable for your hand. Use the side buttons OR te 4-in-1 button on the front. Tap to lock, double tap to unlock, and hold to remote start/stop.",
+          "2-way, 3-button remote upgrade kit for adding up to 3,000-feet of range to your Compustar remote start. Includes two remotes (2-way and 1-way), both protected by 3-Year Compustar Pro Warranty.",
+          "Now bundled with an X2-LTE module for smartphone connectivity with DroneMobile! Free 30-day trial upon activation."
+          
         ],
             name: "RS-04",
             image: "/images/remotes/g18_1.png",
             includes: [
         "Model: G18",
 
-              "2-Way LED + 2-Way LED",
-        "Includes DRONE",
-
+              "2-Way LED + 1-Way LED",
+              "Proximity Lock & Unlock",
               "Hardware & installation",
               "3 year warranty",
               "Range: up to 1000M",
@@ -272,7 +270,7 @@ export const packagesRemotes = [
 
       {
         altname: "remote-start-t9", 
-        model: "T9SS",
+        model: "Q9FMX",
         brand: "Compustar",
     brandLogo: "/logos/compustar_logo.png",
     imgColor: "/images/remotes/q9.jpg",
@@ -340,8 +338,8 @@ export const packagesRemotes = [
 
       {
         altname: "remote-start-g15", 
-    model: "2WG18",
-    brand: "Compustar PRO",
+    model: "FTX2600",
+    brand: "OEM",
     brandLogo: "/logos/compustar_logo.png",
     imgColor: "/images/remotes/ftx2600_1.png",
     images: [
@@ -379,8 +377,10 @@ export const packagesRemotes = [
     ],
     range: "1000 M",
     description: [
-      "Lock and start your vehivle with confidence using Compustar 2-Way remotes, which provide visual and audible confirmation when your commands are sent successfully.",
-      "The 2-Way PRO G15 features a high-strength injection molded body that is water-resistand and withstands everyday impact.",
+    "Remote start and unlock your car from up to 2-miles away and receive instant 2-way confirmation. Water-resistant remotes with durable, OEM-grade casing. Includes two 2-way remotes.",
+    "Whenever you successfully lock or remote start your vehicle with this FTX2200 remote, you'll receive instant 2-way audible and visual confirmation.",
+    
+     
     ],
         name: "RS-02+",
         image: "/images/remotes/ftx2600_1.png",
@@ -455,7 +455,7 @@ export const packagesRemotes = [
 
       {
         altname: "remote-start-wr3", 
-    model: "WR3",
+    model: "R3",
     brand: "Compustar",
     brandLogo: "/logos/compustar_logo.png",
     imgColor: "/images/remotes/wr3.jpg",
@@ -485,7 +485,7 @@ export const packagesRemotes = [
     range: "500 M",
     description: [
       "Lock and start your vehicle with Compustar 1-Way remotes. Please note, 1-Way remotes do not send confimation if vehicle was successfully started.",
-      "The 1-Way WR3 has only START & STOP Engine functionality. Just a most basic remote start.",
+      "The 1-Way R3 has only START & STOP Engine functionality. Just a most basic remote start.",
     ],
         name: "RS-01",
         image: "/images/remotes/wr3.jpg",
