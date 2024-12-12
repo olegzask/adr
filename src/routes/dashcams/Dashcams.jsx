@@ -131,15 +131,23 @@ export default function Accessories() {
          
          <div className="quick-links ql-rm-ct">
             <div className="ql">
-              <button name="M6" className="quick-link" onClick={scrollToModel}>
-              M6
+            <button name="XC" className="quick-link" onClick={scrollToModel}>
+              DRONE XC
+              </button>
+              <button name="M8-8000" className="quick-link" onClick={scrollToModel}>
+              M8-8000
+              </button>
+              <button name="M8-8200" className="quick-link" onClick={scrollToModel}>
+              M8-8200
+              </button>
+              <button name="M8-8400" className="quick-link" onClick={scrollToModel}>
+              M8-8400
               </button>
               <button name="M7" className="quick-link" onClick={scrollToModel}>
               M7 Wi-Fi
               </button>
-              <button name="XC" className="quick-link" onClick={scrollToModel}>
-              DRONE XC
-              </button>
+            
+
             </div>
           </div>
           <div onClick={goUp} className={`scrollUp ${offset > 800 && "scrolledNah"}`}> <FaRegArrowAltCircleUp /><span className="scrollR">Return</span></div>
