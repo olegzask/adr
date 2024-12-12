@@ -35,7 +35,6 @@ export const dashcams = [
   ],
   includes: [
     "Hardware & installation",
-    "Dash Cam + Remote Start",
     "64GB SD Card",
     "Drive & Park Mode",
     "Live View (over LTE)",
