@@ -5,6 +5,394 @@ import { MdSpeed, MdLightMode } from "react-icons/md";
 import { TbPhotoSensor3 } from "react-icons/tb"
 
 export const dashcams = [
+  {
+    app: true,
+  appleLink:
+    "https://apps.apple.com/ca/app/dronemobile/id380549030",
+  googleLink:
+    "https://play.google.com/store/apps/details?id=com.whiz.droneapp&hl=en_CA&pli=1",
+  model: "XC",
+  name: "DRONE XC",
+  category: "DashCam",
+  type: ["2K QHD Dash Cam with LTE + GPS + Wi-Fi"],
+  brand: "DRONE",
+  brandLogo: "/logos/logo-momento-black.png",
+  price: 750,
+  imgBW: "",
+  imgColor: "/images/dashcams/XC/xc_1.png",
+  image: "/images/dashcams/XC/xc_1.png",
+
+  images: [
+    "/images/dashcams/XC/xc_1.png",
+    "/images/dashcams/XC/xc_2.png",
+    "/images/dashcams/XC/xc_3.png",
+    "/images/dashcams/XC/xc_4.png",
+    "/images/dashcams/XC/xc_5.png",
+
+
+
+ 
+  ],
+  includes: [
+    "Hardware & installation",
+    "Dash Cam + Remote Start",
+    "64GB SD Card",
+    "Manufacturer's Warranty"
+
+  ],
+  features: [
+    {
+      name: "Driving Mode",
+      symbol: <BsCameraVideo color="rgb(133, 255, 62)" />,
+      description:
+        "Continuously records the moment you start driving to the moment your ignition turns off.",
+    },
+    {
+      name: "Live View",
+      symbol: <FaCarCrash color="rgb(133, 255, 62)" />,
+      description:
+        "See what your car sees in real time over LTE.",
+    },
+    {
+      name: "Parking Mode",
+      symbol: <FaParking color="rgb(133, 255, 62)" />,
+      description:
+        "Recording activates when motion or impact is detected.",
+    },
+ 
+    {
+      name: "1 Year Warranty",
+      symbol: <BsAward color="rgb(133, 255, 62)" />,
+      description:
+        "The  DRONE XC is protected by a 2-Year manufacturer's Warranty. This warranty covers both front and rear cameras, and protects your purchase from defects or malfunctioning parts.",
+    },
+  ],
+  range: "Wi-Fi enabled Full HD",
+  description: [
+    "Equipped with a 2K front camera that features a Sony STARVIS sensor, Drone XC delivers 154 degrees of surveillance coverage for your vehicle. Double your coverage by adding a Drone XC rear or interior-facing camera (sold separately).",
+    "With its ultra sleek profile, the Drone XC Dash Camera requires only a small footprint when it’s mounted to your windshield, so you’ll always have an unobstructed view of the road.",
+    "Drone XC is the only dash cam that will connect to an aftermarket remote start or security system – giving you complete confidence and control over your vehicle’s safety",
+
+
+     
+  ],
+},
+  {
+    app: true,
+    appleLink:
+      "https://apps.apple.com/us/app/momento-m7-wi-fi-viewer/id6467044512",
+    googleLink:
+      "https://play.google.com/store/apps/details?id=com.momento.m7",
+      name: "M8-8400",
+    model: "M8-8400",
+    category: "DashCam",
+    type: ["Wi-Fi HD Dual Dash Camera"],
+    brand: "Momento",
+    brandLogo: "/logos/logo-momento-black.png",
+  
+    imgBW: "",
+    imgColor: "/images/dashcams/M8/m8400_1.jpg",
+    image: "/images/dashcams/M8/m8400_1.jpg",
+    images: [
+      "/images/dashcams/M8/m8400_1.jpg",
+      "/images/dashcams/M8/m8000_2.jpg",
+      "/images/dashcams/M8/m8000_3.jpg",
+      "/images/dashcams/M8/m8000_4.jpg",
+
+
+
+    ],
+
+    includes: [
+      "Hardware & installation",
+      "64GB SD Card",
+      "Manufacturer's Warranty"
+
+    ],
+    features: [
+      // {
+      //   name: "Built-In Wi-Fi",
+      //   symbol: <FaWifi color="rgb(133, 255, 62)" />,
+      //   description:
+      //     "",
+      // },
+      {
+        name: "4K UHD 2160p Resolution",
+        symbol: <VscScreenFull color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Front + Rear Camera",
+        symbol: <BsCameraVideo color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "3-Channel Camera",
+        symbol: <BsCameraVideo color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Enchanced Image Sensor",
+        symbol: <TbPhotoSensor3 color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Driving Mode",
+        symbol: <FaCar color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Parking Mode",
+        symbol: <FaParking color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Motion / Impact / Radar",
+        symbol: <FaCarCrash color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Built-In GPS / Speed Antenna",
+        symbol: <MdSpeed color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+    
+      {
+        name: "2 Year Warranty",
+        symbol: <BsAward color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+    ],
+    range: "Wi-Fi enabled Full HD",
+    description: [
+      "4K UHD (2160p) dash camera system including front and rear cameras. Supports one additional camera when front camera is in 2K mode. Featuring ECO battery saving technology for 90% current draw reduction while parked. Includes 64GB memory card and built-in GPS/speed antenna.",
+     
+
+
+    ],
+    dealerPriceCar: 750.95,
+    retailPriceCar: 990.95,
+  },
+  {
+    app: true,
+    appleLink:
+      "https://apps.apple.com/us/app/momento-m7-wi-fi-viewer/id6467044512",
+    googleLink:
+      "https://play.google.com/store/apps/details?id=com.momento.m7",
+      name: "M8-8200",
+    model: "M8-8200",
+    category: "DashCam",
+    type: ["Wi-Fi HD Dual Dash Camera"],
+    brand: "Momento",
+    brandLogo: "/logos/logo-momento-black.png",
+  
+    imgBW: "",
+    imgColor: "/images/dashcams/M8/m8200_1.jpg",
+    image: "/images/dashcams/M8/m8200_1.jpg",
+    images: [
+      "/images/dashcams/M8/m8200_1.jpg",
+      "/images/dashcams/M8/m8000_2.jpg",
+      "/images/dashcams/M8/m8000_3.jpg",
+      "/images/dashcams/M8/m8000_4.jpg",
+
+
+
+    ],
+
+    includes: [
+      "Hardware & installation",
+      "64GB SD Card",
+      "Manufacturer's Warranty"
+
+    ],
+    features: [
+      // {
+      //   name: "Built-In Wi-Fi",
+      //   symbol: <FaWifi color="rgb(133, 255, 62)" />,
+      //   description:
+      //     "",
+      // },
+      {
+        name: "2K UHD 1440p Resolution",
+        symbol: <VscScreenFull color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Front + Rear Camera",
+        symbol: <BsCameraVideo color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "3-Channel Camera",
+        symbol: <BsCameraVideo color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Enchanced Image Sensor",
+        symbol: <TbPhotoSensor3 color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Driving Mode",
+        symbol: <FaCar color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Parking Mode",
+        symbol: <FaParking color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Motion / Impact / Radar",
+        symbol: <FaCarCrash color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Built-In GPS / Speed Antenna",
+        symbol: <MdSpeed color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+    
+      {
+        name: "2 Year Warranty",
+        symbol: <BsAward color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+    ],
+    range: "Wi-Fi enabled Full HD",
+    description: [
+      "2K UHD (1440p) dash camera system including front and rear cameras. Supports one additional camera for a total of 3 video chanels. Featuring ECO battery saving technology for 90% current draw reduction while parked. Includes 64GB memory card and built-in GPS/speed antenna.",
+     
+
+
+    ],
+    dealerPriceCar: 750.95,
+    retailPriceCar: 990.95,
+  },
+  {
+    app: true,
+    appleLink:
+      "https://apps.apple.com/us/app/momento-m7-wi-fi-viewer/id6467044512",
+    googleLink:
+      "https://play.google.com/store/apps/details?id=com.momento.m7",
+      name: "M8-8000",
+    model: "M8-8000",
+    category: "DashCam",
+    type: ["Wi-Fi HD Dual Dash Camera"],
+    brand: "Momento",
+    brandLogo: "/logos/logo-momento-black.png",
+  
+    imgBW: "",
+    imgColor: "/images/dashcams/M8/m8000_1.jpg",
+    image: "/images/dashcams/M8/m8000_1.jpg",
+    images: [
+      "/images/dashcams/M8/m8000_1.jpg",
+      "/images/dashcams/M8/m8000_2.jpg",
+      "/images/dashcams/M8/m8000_3.jpg",
+      "/images/dashcams/M8/m8000_4.jpg",
+
+
+
+    ],
+
+    includes: [
+      "Hardware & installation",
+      "32GB SD Card",
+      "Manufacturer's Warranty"
+
+    ],
+    features: [
+      // {
+      //   name: "Built-In Wi-Fi",
+      //   symbol: <FaWifi color="rgb(133, 255, 62)" />,
+      //   description:
+      //     "",
+      // },
+      {
+        name: "Full HD 1080p Resolution",
+        symbol: <VscScreenFull color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Front + Rear Camera",
+        symbol: <BsCameraVideo color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "3-Channel Camera",
+        symbol: <BsCameraVideo color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Enchanced Image Sensor",
+        symbol: <TbPhotoSensor3 color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Driving Mode",
+        symbol: <FaCar color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Parking Mode",
+        symbol: <FaParking color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Motion / Impact / Radar",
+        symbol: <FaCarCrash color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+      {
+        name: "Built-In GPS / Speed Antenna",
+        symbol: <MdSpeed color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+    
+      {
+        name: "2 Year Warranty",
+        symbol: <BsAward color="rgb(133, 255, 62)" />,
+        description:
+          "",
+      },
+    ],
+    range: "Wi-Fi enabled Full HD",
+    description: [
+      "Full HD 1080p dash camera system including front and rear* cameras. Supports one additional camera for a total of 3 video chanels. Featuring ECO battery saving technology for 90% current draw reduction while parked. Includes 32GB memory card and built-in GPS / speed antenna.",
+     
+
+
+    ],
+    dealerPriceCar: 750.95,
+    retailPriceCar: 990.95,
+  },
+
   
     {
       app: true,
@@ -126,154 +514,8 @@ export const dashcams = [
     },
 
 
-    {
-      app: true,
-    appleLink:
-      "https://apps.apple.com/ca/app/dronemobile/id380549030",
-    googleLink:
-      "https://play.google.com/store/apps/details?id=com.whiz.droneapp&hl=en_CA&pli=1",
-    model: "XC",
-    name: "DRONE XC",
-    category: "DashCam",
-    type: ["2K QHD Dash Cam with LTE + GPS + Wi-Fi"],
-    brand: "DRONE",
-    brandLogo: "/logos/logo-momento-black.png",
-    price: 750,
-    imgBW: "",
-    imgColor: "/images/dashcams/XC/xc_1.png",
-    image: "/images/dashcams/XC/xc_1.png",
-
-    images: [
-      "/images/dashcams/XC/xc_1.png",
-      "/images/dashcams/XC/xc_2.png",
-      "/images/dashcams/XC/xc_3.png",
-      "/images/dashcams/XC/xc_4.png",
-      "/images/dashcams/XC/xc_5.png",
+ 
 
 
-
-   
-    ],
-    includes: [
-      "Hardware & installation",
-      "64GB SD Card",
-      "Manufacturer's Warranty"
-
-    ],
-    features: [
-      {
-        name: "Driving Mode",
-        symbol: <BsCameraVideo color="rgb(133, 255, 62)" />,
-        description:
-          "Continuously records the moment you start driving to the moment your ignition turns off.",
-      },
-      {
-        name: "Live View",
-        symbol: <FaCarCrash color="rgb(133, 255, 62)" />,
-        description:
-          "See what your car sees in real time over LTE.",
-      },
-      {
-        name: "Parking Mode",
-        symbol: <FaParking color="rgb(133, 255, 62)" />,
-        description:
-          "Recording activates when motion or impact is detected.",
-      },
-   
-      {
-        name: "1 Year Warranty",
-        symbol: <BsAward color="rgb(133, 255, 62)" />,
-        description:
-          "The  DRONE XC is protected by a 2-Year manufacturer's Warranty. This warranty covers both front and rear cameras, and protects your purchase from defects or malfunctioning parts.",
-      },
-    ],
-    range: "Wi-Fi enabled Full HD",
-    description: [
-      "Equipped with a 2K front camera that features a Sony STARVIS sensor, Drone XC delivers 154 degrees of surveillance coverage for your vehicle. Double your coverage by adding a Drone XC rear or interior-facing camera (sold separately).",
-      "With its ultra sleek profile, the Drone XC Dash Camera requires only a small footprint when it’s mounted to your windshield, so you’ll always have an unobstructed view of the road.",
-      "Drone XC is the only dash cam that will connect to an aftermarket remote start or security system – giving you complete confidence and control over your vehicle’s safety",
-
-
-       
-    ],
-  },
-
-
-
-    {
-      app: true,
-    appleLink:
-      "https://apps.apple.com/ca/app/momento-m6-dash-cam-viewer/id1447529243",
-    googleLink:
-      "https://play.google.com/store/apps/details?id=kr.e777.mcnex&hl=en_CA&gl=US&pli=1",
-    model: "M6",
-    name: "M6",
-    category: "DashCam",
-    type: ["Wi-Fi HD Dual Dash Camera"],
-    brand: "Momento",
-    brandLogo: "/logos/logo-momento-black.png",
-    price: 750,
-    imgBW: "",
-    imgColor: "/images/dashcams/M6/M6-angled.png",
-    image: "/images/dashcams/M6/M6-angled.png",
-
-    images: [
-      "/images/dashcams/M6/M6-angled.png",
-      "/images/dashcams/M6/M6-back.png",
-      "/images/dashcams/M6/M6-front.png",
-      "/images/dashcams/M6/M6-left-side.png",
-      "/images/dashcams/M6/M6-rearcam.png",
-      "/images/dashcams/M6/M6-top.png",
-      "/images/dashcams/M6/M6-with-rearcam.png",
-      "/images/dashcams/M6/32GB.png",
-    ],
-    includes: [
-      "Hardware & installation",
-      "32GB SD Card",
-      "Manufacturer's Warranty"
-
-    ],
-    features: [
-      {
-        name: "Driving Mode",
-        symbol: <BsCameraVideo color="rgb(133, 255, 62)" />,
-        description:
-          "Continuously records everything at the front and rear of your vehicle while driving.",
-      },
-      {
-        name: "Impact Sensors",
-        symbol: <FaCarCrash color="rgb(133, 255, 62)" />,
-        description:
-          "Stores 15 seconds before and after any impact or shock your vehicle experiences",
-      },
-      {
-        name: "Parking Mode",
-        symbol: <FaParking color="rgb(133, 255, 62)" />,
-        description:
-          "Even when you're parked, the M6 has motion sensors that trigger recordings.",
-      },
-      {
-        name: "Low-light Sensitivity",
-        symbol: <MdLightMode color="rgb(133, 255, 62)" />,
-        description:
-          "The M6 records in Full HD, giving you crystal clear footage in 1080p. Additionally, the M6 is equipped with a Sony Exmor-R image sensor that is enhanced with STARVIS, the industry-standard for surveillance applications, ensuring low-light performance.",
-      },
-      {
-        name: "2 Year Warranty",
-        symbol: <BsAward color="rgb(133, 255, 62)" />,
-        description:
-          "The M6 is protected by a 2-Year manufacturer's Warranty. This warranty covers both front and rear cameras, and protects your purchase from defects or malfunctioning parts.",
-      },
-    ],
-    range: "Wi-Fi enabled Full HD",
-    description: [
-      "The M6 is Momento's first dash cam that connects to your smartphone by creating a small and secure Wi-Fi hotspot inside your vehicle that only you can access through the Momento App. In addition to giving you easy access to your video files, the Momento App also provides additional driving insights such as speed, location and trip data.",
-      "Wi-Fi enabled Full HD (1080p) dash camera system including front camera, rear camera, GPS antenna, and 32GB micro-SD memory card. The Momento M6 is a smart dash cam that provides 270° of surveillance coverage  and records footage that you can view from the Momento smartphone app!",
-      "The Momento M6 is a smart dash cam that provides 270° of surveillance coverage – and records footage that you can view from the Momento smartphone app!",
-      "The M6 records in Full HD, giving you crystal clear footage in 1080p. Additionally, the M6 is equipped with a Sony Exmor-R image sensor that is enhanced with STARVIS, the industry-standard for surveillance applications, ensuring low-light performance.",
-      "The M6 includes a 32GB micro-SD card that can be upgraded to any Class 10 micro-SD card up to 256GB. That's twice as much as our leading competitors! Plus, its easy-to-use file management system best utilizes your storage while ensuring your most important videos stay saved.",
-      "The M6 is protected by a 2-Year manufacturer’s Warranty. This warranty covers both front and rear cameras, and protects your purchase from defects or malfunctioning parts*.",
-    ],
-  },
 
 ];

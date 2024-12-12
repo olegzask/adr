@@ -1,6 +1,6 @@
 import { RiGpsLine, RiWaterFlashFill } from "react-icons/ri";
-import { BsShare, BsAward } from "react-icons/bs";
-import { FaDigitalOcean, FaMobileAlt, FaUsb } from "react-icons/fa";
+import { BsShare, BsAward, BsCameraVideo } from "react-icons/bs";
+import { FaDigitalOcean, FaMobileAlt, FaUsb, FaCarCrash, FaParking} from "react-icons/fa";
 import { GiBrokenShield } from "react-icons/gi";
 import { MdNotificationsActive } from "react-icons/md";
 import { FcRefresh } from "react-icons/fc";
@@ -8,6 +8,68 @@ import { TbArrowAutofitDown } from "react-icons/tb";
 import { IoIosRadio } from "react-icons/io"
 
 export const packagesRemotes = [
+  {
+    altname: "remote-start-drone", 
+    model: "DRONE XC",
+    brand: "DRONE",
+    brandLogo: "/logos/1200x300-drone-logo-white.png",
+    name: "Drone XC",
+    image: "/images/dashcams/XC/xc_1.png",
+    imgColor: "/images/dashcams/XC/xc_1.png",
+    images: [
+     "/images/dashcams/XC/xc_1.png",
+     "/images/dashcams/XC/xc_2.png",
+     "/images/dashcams/XC/xc_3.png",
+     "/images/dashcams/XC/xc_4.png",
+     "/images/dashcams/XC/xc_5.png",
+    ],
+    includes: [
+      "Dash Cam + Remote Start",
+      "Hardware & installation",
+      "30-Days Subscription",
+      "Range: Unlimited"
+
+    ],
+    features: [
+      {
+        name: "Driving Mode",
+        symbol: <BsCameraVideo color="rgb(133, 255, 62)" />,
+        description:
+          "Continuously records the moment you start driving to the moment your ignition turns off.",
+      },
+      {
+        name: "Live View",
+        symbol: <FaCarCrash color="rgb(133, 255, 62)" />,
+        description:
+          "See what your car sees in real time over LTE.",
+      },
+      {
+        name: "Parking Mode",
+        symbol: <FaParking color="rgb(133, 255, 62)" />,
+        description:
+          "Recording activates when motion or impact is detected.",
+      },
+   
+      {
+        name: "1 Year Warranty",
+        symbol: <BsAward color="rgb(133, 255, 62)" />,
+        description:
+          "The  DRONE XC is protected by a 2-Year manufacturer's Warranty. This warranty covers both front and rear cameras, and protects your purchase from defects or malfunctioning parts.",
+      },
+    ],
+    
+    description: [
+     "Equipped with a 2K front camera that features a Sony STARVIS sensor, Drone XC delivers 154 degrees of surveillance coverage for your vehicle. Double your coverage by adding a Drone XC rear or interior-facing camera (sold separately).",
+    "With its ultra sleek profile, the Drone XC Dash Camera requires only a small footprint when it’s mounted to your windshield, so you’ll always have an unobstructed view of the road.",
+    "Drone XC is the only dash cam that will connect to an aftermarket remote start or security system – giving you complete confidence and control over your vehicle’s safety",
+
+    ],
+
+    ident: "drone",
+    remote: true,
+    dealerPriceCar: 700.00,
+    retailPriceCar: 870.00,
+  },
     {
       altname: "remote-start-drone", 
       model: "DRONE",

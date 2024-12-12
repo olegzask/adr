@@ -210,7 +210,7 @@ if(remote){
 
           ))}
 
-         {model === "DRONE" || model === "T13" || model === "R5" || model === "G18" ? 
+         {model === "DRONE" || model === "DRONE XC" || model === "T13" || model === "R5" || model === "G18" ? 
          <a id="subbutton" href="https://www.dronemobile.com/subscriptions?gad_source=1&gclid=CjwKCAiA9bq6BhAKEiwAH6bqoPSxCy7Cs0rj05Xn0sGfmoh8JbidKwBbHsqSj_8bzkXHYrBkmzMhGBoCFV8QAvD_BwE"  target="_blank">-DRONE PLANS HERE-</a>
          : null}
 
