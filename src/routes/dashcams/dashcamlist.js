@@ -37,7 +37,10 @@ export const dashcams = [
     "Hardware & installation",
     "Dash Cam + Remote Start",
     "64GB SD Card",
-    "Manufacturer's Warranty"
+    "Drive & Park Mode",
+    "Live View (over LTE)",
+    "Add Remote Start",
+    "Add Alarm"
 
   ],
   features: [
@@ -106,7 +109,12 @@ export const dashcams = [
     includes: [
       "Hardware & installation",
       "64GB SD Card",
-      "Manufacturer's Warranty"
+      "GPS / Speed Anthena",
+      "Motion Sensor",
+      "Impact Sensor",
+      "Parking Mode",
+
+
 
     ],
     features: [
@@ -211,7 +219,11 @@ export const dashcams = [
     includes: [
       "Hardware & installation",
       "64GB SD Card",
-      "Manufacturer's Warranty"
+      "GPS / Speed Anthena",
+      "Motion Sensor",
+      "Impact Sensor",
+      "Parking Mode",
+
 
     ],
     features: [
@@ -315,8 +327,11 @@ export const dashcams = [
 
     includes: [
       "Hardware & installation",
-      "32GB SD Card",
-      "Manufacturer's Warranty"
+      "64GB SD Card",
+      "GPS / Speed Anthena",
+      "Motion Sensor",
+      "Impact Sensor",
+      "Parking Mode",
 
     ],
     features: [

@@ -24,11 +24,13 @@ export const packagesRemotes = [
      "/images/dashcams/XC/xc_5.png",
     ],
     includes: [
-      "Dash Cam + Remote Start",
       "Hardware & installation",
-      "30-Days Subscription",
-      "Range: Unlimited"
-
+      "Dash Cam + Remote Start",
+      "64GB SD Card",
+      "Drive & Park Mode",
+      "Live View (over LTE)",
+      "Add Remote Start",
+      "Add Alarm"
     ],
     features: [
       {
