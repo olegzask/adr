@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { scrollToTop } from "../../components/helperFunctions/helpers";
 import { Helmet } from "react-helmet";
 import { packagesRemotes } from "../dealer/packagesRemotes";
 import { PackCardRemote } from "./PackCardRemote";
@@ -163,6 +165,10 @@ export const RemsGood = () => {
           <h2 className="rs-description-lower">
             NOT SURE WHAT KIND OF REMOTE START YOU NEED? EXPLORE OUR OPTIONS!
           </h2>
+          <Link onClick={scrollToTop} className="nav-link fin-link" to="/financing">
+            DO NOT PAY FOR 90 DAYS! CLICK TO APPLY NOW!
+          </Link>
+          
 
          <div className="rems-packs">
          

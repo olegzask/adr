@@ -9,6 +9,24 @@
   
 }
 
+.fin-link {
+  display: block;
+  margin: 0;
+  margin-bottom: 0.75rem;
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.2rem;
+  border: 0.1rem solid rgb(113, 255, 25);
+  border-radius: 0.2rem;
+}
+
+.fin-link:hover {
+  transition: 0.3s ease-in;
+  background-color: rgb(113, 255, 25);
+  color: black;
+}
+
 
 
 
@@ -241,6 +259,15 @@ height: 42rem;
     margin-bottom: 0;
   }
 
+  .fin-link {
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 0.2rem;
+    border: 0.1rem solid rgb(113, 255, 25);
+    background-color: rgb(113, 255, 25);
+    border-radius: 0.2rem;
+  }
   .ql-rm-ct {
     display: flex;
     flex-direction: row;

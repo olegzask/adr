@@ -1,4 +1,6 @@
 import React, {useState, useEffect} from "react";
+import { Link } from "react-router-dom";
+import { scrollToTop } from "../../components/helperFunctions/helpers";
 import { Helmet } from "react-helmet";
 import { dashcams } from "./dashcamlist";
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
@@ -155,6 +157,10 @@ export default function Accessories() {
           <h3 className="rs-description-lower">
             NOT SURE WHAT KIND OF DASH CAMERA YOU NEED? EXPLORE OUR OPTIONS!
           </h3>
+          <Link onClick={scrollToTop} className="nav-link fin-link" to="/financing">
+            DO NOT PAY FOR 90 DAYS! CLICK TO APPLY NOW!
+          </Link>
+
 
          <div className="ppf-packs tint-packs dashcam-cont">
          
