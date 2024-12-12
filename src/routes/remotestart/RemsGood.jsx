@@ -129,6 +129,9 @@ export const RemsGood = () => {
          
          <div className="ql-rm-ct">
             <div className="ql">
+            <button name="DRONE XC" className="quick-link" onClick={scrollToModel}>
+                DRONE XC
+              </button>
               <button name="DRONE" className="quick-link" onClick={scrollToModel}>
                 DRONE
               </button>
