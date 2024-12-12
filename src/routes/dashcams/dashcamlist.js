@@ -326,7 +326,7 @@ export const dashcams = [
 
     includes: [
       "Hardware & installation",
-      "64GB SD Card",
+      "32GB SD Card",
       "GPS / Speed Anthena",
       "Motion Sensor",
       "Impact Sensor",
