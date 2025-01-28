@@ -33,6 +33,16 @@ export const services = [
     link: "services/paint-protection-film-edmonton",
   },
 
+  {
+    altname: "Windshield Protection", 
+    name: "Windshield Protection",
+    id: "ppf",
+    description: ["CLEAR AS CRYSTAL, HARD AS DIAMOND", "Bump-free, bumper to bumper. Protect your windshield the same way you protect the rest of your vehicle with XPEL.", "Get unmatched durability and UV protection with the ultimate defense against chips, cracks, and road hazards."],
+    image: "images/services-images/windshieldfilm.jpg",
+    link: "services/windshield-protection-film-edmonton",
+  },
+
+
  
   {
     altname: "dash-camera", 

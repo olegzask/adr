@@ -12,6 +12,7 @@ import Services from "./routes/services/Services";
 import RemoteStart from "./routes/remotestart/RemoteStart";
 import { RemsGood } from "./routes/remotestart/RemsGood";
 import PaintProtection from "./routes/paintprotection/PaintProtection";
+import WindshieldProtection from "./routes/windshield-protection/WindshieldProtection";
 import Dashcams from "./routes/dashcams/Dashcams";
 import InfoCard from "./components/moreinfo/InfoCard";
 
@@ -27,6 +28,7 @@ import Accessories from "./routes/12voltaccessories/Accessories";
 import {CarAudio}from "./routes/car audio-video/CarAudio";
 import Marine from "./routes/marine/Marine";
 import { PpfPackages } from "./routes/paintprotection/PpfPacks";
+import { WsPackages } from "./routes/windshield-protection/WindshieldPacks";
 import SuccessPage from "./routes/successpage/SuccessPage";
 import { Dealer } from "./routes/dealer/Dealer";
 import { Financing } from "./routes/financing/Financing";
@@ -65,6 +67,7 @@ const App = () => {
           element={<PaintProtection />}
         />
         <Route path="services/dash-cams" element={<Dashcams />} />
+        <Route path="services/windshield-protection-film-edmonton" element={<WindshieldProtection />} />
         <Route path="services/12-volt-accessories" element={<Accessories />} />
         <Route path="services/marine-audio" element={<Marine />} />
         <Route path="services/car-audio-video" element={<CarAudio />} />
@@ -72,6 +75,8 @@ const App = () => {
 
 
         <Route path="services/paint-protection-film-edmonton/packages" element={<PpfPackages/>} />
+        <Route path="services/windshield-protection-film-edmonton/packages" element={<WsPackages/>} />
+
 
         <Route path="services/:service/:id" element={<InfoCard />} />
         <Route path="success-submit" element={<SuccessPage />} />

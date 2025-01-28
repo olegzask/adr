@@ -1,0 +1,277 @@
+.pack-name {
+  background-color: rgb(113, 255, 25);
+  color: black;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+
+.rs-main-container {
+  width: 100%;
+  margin-bottom: 8rem;
+  
+}
+
+.attachment-container {
+  /* border: 0.1rem solid red; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+}
+
+.attachment-header {
+  font-size: 0.8rem;
+  width: 50%;
+  color: black;
+  /* border: 0.1rem solid red; */
+
+}
+
+.attachment-input {
+  margin: 0;
+  width: 50%;
+  /* border: 0.1rem solid red; */
+  margin-left: 2rem;
+
+}
+
+.buts-cont {
+  margin: 0;
+ justify-content: space-around;
+ height: 4rem;
+ display: flex;
+ flex-direction: column;
+ padding-bottom: 1rem;
+ padding-top: 0.5rem;
+}
+
+
+
+
+.rmt-btn {
+  width: 100%;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin: 0;
+  border-radius: 0.5rem;
+  height: 1.7rem;
+  background-color: white;
+  border: 0.1rem solid rgb(146, 146, 146);
+}
+
+.rmt-btn:hover {
+  transition: 0.3s ease-in;
+  border: 0.1rem solid rgb(113, 255, 25);
+}
+
+
+
+.pack-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  max-width: 13rem;
+  border: 0.1rem solid lightgray;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 0.4rem;
+
+
+  
+}
+
+.droper-tint {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selector-cont {
+  width: 45%;
+}
+
+
+.droper{
+  width: auto;
+  height: auto;
+}
+
+.droper-head {
+  color: black;
+}
+
+.dropgovno{
+  color: black;
+  width: 100%;
+  height: 2rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+
+
+}
+
+
+
+.radiogroup {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controler {
+  color: black;
+  width: 30%;
+
+}
+
+.quarters-check {
+  margin: 0;
+  color: black;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.inpt-cont {
+  padding: 0;
+  margin: 0;
+height: 1.5rem;
+width: 100%;
+text-align: start;
+
+}
+
+#checkid {
+  width: 100%;
+font-size: 0.8rem;
+}
+
+#nah {
+  width: 100%;
+font-size: 0.8rem;
+}
+
+.price-cont {
+  margin: auto;
+}
+
+.pack-info {
+  height: 17rem;
+  margin-bottom: 1rem;
+
+ 
+ 
+}
+
+#subbutton {
+  color: rgb(128, 129, 128);
+
+}
+#subbutton:hover {
+  transition: 0.2s ease-in;
+  color: rgb(113, 255, 25)
+}
+
+.pack-list  {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 11rem;
+  
+
+}
+.pack-img {
+  width: 100%;
+}
+
+
+.pack-el {
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.custombuild {
+height: 16rem;
+}
+
+.hood-cont {
+  display: flex;
+  align-items: center;
+}
+
+.droper-hood {
+  margin-left: 0.5rem;
+  height: 1.5rem;
+  align-items: center;
+}
+
+.drophood {
+  font-size: 0.9rem;
+  height: 1.3rem;
+  border-radius: 0.2rem;
+}
+
+
+
+.price-dealer {
+  color: rgb(113, 255, 25);
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.price-retail {
+  color: rgb(107, 107, 107);
+  font-size: 1rem;
+  margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .pack-name {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .rmt-btn {
+    color: black;
+  border: 0.1rem solid rgb(146, 146, 146);
+
+
+  }
+
+  .rmt-btn:hover {
+    transition: 0.3s ease-in;
+    border: rgb(113, 255, 25)
+  }
+
+  .pack-info {
+    height: auto;
+  }
+
+  .pack-container {
+    min-width: 20rem;
+  }
+ 
+  #vehicles-select {
+    width: 100%;
+  }
+
+  #checkid {
+    width: 100%;
+  font-size: 1rem;
+  }
+  
+  #nah {
+    width: 100%;
+  font-size: 1rem;
+  }
+
+  
+
+}
