@@ -251,11 +251,13 @@ height: 16rem;
   }
 
   .pack-info {
-    height: auto;
+    height: 22rem;
   }
 
   .pack-container {
     min-width: 20rem;
+    height: auto
+  
   }
  
   #vehicles-select {
