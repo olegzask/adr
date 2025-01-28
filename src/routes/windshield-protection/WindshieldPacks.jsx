@@ -115,7 +115,7 @@ export const WsPackages = () => {
 
 
       <h2  id="ppf" className="packs-header tint-packs-hdr">Windshield Protection Packages Edmonton</h2>
-      <div className="ql-rm-ct">
+      {/* <div className="ql-rm-ct">
             
               <button  name="bronze" className="ql-ppf" onClick={scrollToModel}>
                 BRONZE
@@ -133,7 +133,7 @@ export const WsPackages = () => {
                 DIAMOND
               </button>
             
-          </div>
+          </div> */}
         <div className="ppf-packs">
          
         {packages.map((el, id) => (
