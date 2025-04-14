@@ -539,25 +539,25 @@ setShadeFront(value);
   };
 
   return (
-    <div className="pack-container packnah" id={ident} >
-      <div className={`pack-info ${name === "Custom" ? "custombuild" : null}`}>
+    <div className="pack-container-tint" id={ident} >
+      <div className={`pack-info-tint ${name === "Custom" ? "custombuild" : null}`}>
         <h3 className="pack-name">{name.toUpperCase()}</h3>
         <img className={!remote ? "pack-img" : " pack-img pack-img-remote" }src={ppfPic()} alt="tint-package-img" />
-        <div className="pack-list">
+        <div className="pack-list-tint">
           {includes.map((el, id) => (
             <span key={id} className="pack-el">- {el}</span>
           ))}
         </div>
       
       </div>
-      <div className="shadesoftint">
+      <div className="shadesoftint shades-tint">
         {quarters ?dropMenuTint() : null}
       </div>
       {DropMenu()}
       {/* {quarters ? DropMenu() : null} */}
        {checkPoint()}
-<div className="price-cont">
-<h4 className="price-dealer">From: $ <span id={`dp-${idNum}`}>{quarters ? getPrice() : getPrice()}</span> </h4>
+<div className="price-cont-tint">
+<h4 className="price-dealer-tint">From: $ <span id={`dp-${idNum}`}>{quarters ? getPrice() : getPrice()}</span> </h4>
 </div>
       
       {!modal ? null : (

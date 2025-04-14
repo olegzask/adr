@@ -13,10 +13,7 @@ export default function BookingTintPack({ opts }) {
     phone: "",
     comments: "",
     vehicle: "",
-    // poNumber: "",
-    dealerName: dName,
     price: dPrice,
-    // vin: "",
     
 
   });
@@ -57,6 +54,9 @@ export default function BookingTintPack({ opts }) {
         );
       setRequest(true);
       clearFields();
+      setTimeout(() => {
+        window.location.href = "https://adrenalinaudio.ca/success-submit"
+      }, 1500);
     } else {
       setMissing(missingFields);
       setErrorBooking(true);
@@ -69,21 +69,21 @@ export default function BookingTintPack({ opts }) {
     const phoneInput = document.getElementById("phone");
     const commentsInput = document.getElementById("comments");
     const vehicleInput = document.getElementById("vehicle");
-    const poInput = document.getElementById("poNumber");
+    // const poInput = document.getElementById("poNumber");
     const vinNumber = document.getElementById("vin");
     
 
 
 
 
-    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "", poNumber: "", dealerName: dName, price: dPrice, });
+    setFormInfo({ name: "", email: "", phone: "", comments: "", vehicle: "", poNumber: "",  price: dPrice, });
 
     nameInput.value = "";
     emailInput.value = "";
     phoneInput.value = "";
     commentsInput.value = "";
     vehicleInput.value = "";
-    poInput.value = "";
+    // poInput.value = "";
     vinNumber.value = "";
   };
 

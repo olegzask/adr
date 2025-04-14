@@ -201,10 +201,10 @@ if(remote){
 
   return (
     <div className="pack-container remote-card-container" id={model} >
-      <div className="pack-info">
+      
         <h3 className="pack-name">{name.toUpperCase()}</h3>
         <img className={!remote ? "pack-img" : " pack-img pack-img-remote" }src={ppfPic()} alt={altname} />
-        <div className="pack-list">
+        <div className="pack-listes">
           {includes.map((el, id) => (
             <span key={id} className="pack-el">- {el}</span>
 
@@ -216,11 +216,12 @@ if(remote){
 
          
         </div>
+        {DropMenu()}
+        {checkPoint()}
       
-      </div>
-      {DropMenu()}
+      
+
       {/* {quarters ? DropMenu() : null} */}
-       {checkPoint()}
 {/* <div className="price-cont">
 <h4 className="price-dealer">From: $ <span id={`dp-${idNum}`}>{quarters ? getPrice() : getPrice()}</span> </h4>
 </div> */}
@@ -229,6 +230,7 @@ if(remote){
             <BookingRemote  opts={{ rem: serviceDecider(), txt: "", reset: setModal, dName: dlr, filmType: filmec(), vehType: document.getElementById(`vehicles-select${idNum}`).value,  vBrow: brow ? "Add Brow" : "", secur: security ? "Add Security" : "" }} />
           )}
           <div className="buts-cont">
+          
           <button id="bookbutn"  onClick={showModal} className="rmt-btn">
            REQUEST QUOTE
           </button>

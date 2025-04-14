@@ -179,8 +179,8 @@ if(remote){
   };
 
   return (
-    <div className="pack-container" id={ident} >
-      <div className="pack-info">
+    <div className="pack-container-ppf" id={ident} >
+    
         <h3 className="pack-name">{name.toUpperCase()}</h3>
         <img className={!remote ? "pack-img" : " pack-img pack-img-remote" }src={ppfPic()} alt="package-img" />
         <div className="pack-list">
@@ -189,7 +189,7 @@ if(remote){
           ))}
         </div>
       
-      </div>
+     
       {DropMenu()}
       {/* {quarters ? DropMenu() : null} */}
        {checkPoint()}

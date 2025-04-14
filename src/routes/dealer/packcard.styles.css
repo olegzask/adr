@@ -34,15 +34,6 @@
 
 }
 
-.buts-cont {
-  margin: 0;
- justify-content: space-around;
- height: 4rem;
- display: flex;
- flex-direction: column;
- padding-bottom: 1rem;
- padding-top: 0.5rem;
-}
 
 
 
@@ -65,19 +56,6 @@
 
 
 
-.pack-container {
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-  max-width: 13rem;
-  border: 0.1rem solid lightgray;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  border-radius: 0.4rem;
-
-
-  
-}
 
 .droper-tint {
   display: flex;
@@ -157,13 +135,10 @@ font-size: 0.8rem;
   margin: auto;
 }
 
-.pack-info {
-  height: 27rem;
-  margin-bottom: 1rem;
-
- 
- 
+.price-cont-tint {
+  margin: auto;
 }
+
 
 #subbutton {
   color: rgb(128, 129, 128);
@@ -174,18 +149,111 @@ font-size: 0.8rem;
   color: rgb(113, 255, 25)
 }
 
-.pack-list  {
+.pack-container {
   display: flex;
   flex-direction: column;
+  justify-content:space-between;
+  max-width: 13rem;
+  border: 0.1rem solid lightgray;
+  height: 40rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+.pack-container-ppf {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  max-width: 13rem;
+  border: 0.1rem solid lightgray;
+  height: 33rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+.pack-container-tint{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  max-width: 13rem;
+  border: 0.1rem solid lightgray;
+  height: 37rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+
+
+
+.pack-list  {
+  display: flex;
   gap: 0.3rem;
+  flex-direction: column;
   text-align: left;
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 11rem;
   
 
 }
+
+.pack-list-tint  {
+  display: flex;
+  gap: 0.3rem;
+  flex-direction: column;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 5rem;
+  
+
+}
+
+.shades-tint {
+  margin: 0;
+  padding-top: 0;
+}
+
+
+.pack-listes {
+  display: flex;
+  gap: 0.3rem;
+  flex-direction: column;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 12rem;
+  
+
+}
+
+.pack-info {
+  margin: 0;
+  margin-bottom: 3rem;
+  height: 30rem;
+}
+
+.pack-info-tint {
+  margin: 0;
+}
+
+
+
+.buts-cont {
+  margin: 0;
+ justify-content: space-around;
+ display: flex;
+ flex-direction: column;
+}
+
+
+
+
 .pack-img {
   width: 100%;
 }
@@ -221,6 +289,12 @@ height: 16rem;
 
 
 .price-dealer {
+  color: rgb(113, 255, 25);
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.price-dealer-tint {
   color: rgb(113, 255, 25);
   font-size: 1.25rem;
   margin: 0;
